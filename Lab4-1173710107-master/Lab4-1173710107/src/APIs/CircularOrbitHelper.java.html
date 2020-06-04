@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="zh"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../../../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../../../jacoco-resources/report.gif" type="image/gif"/><title>CircularOrbitHelper.java</title><link rel="stylesheet" href="../../../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../../../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../../../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../../../index.html" class="el_report">test (3) (2019-5-19 15:10:37)</a> &gt; <a href="../../index.html" class="el_group">Lab4-1173710107</a> &gt; <a href="../index.html" class="el_bundle">src</a> &gt; <a href="index.source.html" class="el_package">APIs</a> &gt; <span class="el_source">CircularOrbitHelper.java</span></div><h1>CircularOrbitHelper.java</h1><pre class="source lang-java linenums">package APIs;
+
+import java.awt.List;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+
+import circularOrbit.CircularOrbit;
+import circularOrbit.FriendshipGraph;
+import circularOrbit.Pair;
+import circularOrbit.SocialNetworkCircle;
+
+<span class="nc" id="L15">public class CircularOrbitHelper {</span>
+	 /**
+     * 将系统可视化
+     * 
+     * @param 一个把每个track的数目的list nums 
+     */
+	public static void visualize(ArrayList&lt;Integer&gt; nums) 
+	{
+<span class="nc" id="L23">		int numOfTracks = nums.size();</span>
+<span class="nc" id="L24">		int k = 300/numOfTracks;</span>
+<span class="nc" id="L25">		double sitha=0;</span>
+<span class="nc" id="L26">		Picture pic = new Picture(900,800);</span>
+<span class="nc bnc" id="L27" title="All 2 branches missed.">		for(int i=1;i&lt;numOfTracks;i++)</span>
+		{
+<span class="nc" id="L29">			int r = 10+(i+1)*k;</span>
+<span class="nc" id="L30">			pic.add(new Circle(450,400,r));</span>
+<span class="nc" id="L31">			sitha = 2*Math.PI/nums.get(i);</span>
+<span class="nc bnc" id="L32" title="All 2 branches missed.">			for(int j=0;j&lt;nums.get(i);j++)</span>
+			{
+<span class="nc" id="L34">				pic.add(new Circle((int)(450+r*Math.cos(sitha*j)),(int)(400+r*Math.sin(sitha*j)),5));</span>
+			}
+		}
+<span class="nc" id="L37">		Circle c1 = new Circle(450,400,10);</span>
+<span class="nc" id="L38">		pic.add(c1);</span>
+<span class="nc" id="L39">		pic.draw();	</span>
+<span class="nc" id="L40">	}</span>
+	 /**
+     * 将一个系统可视化
+     * 
+     * @param 一个系统orbit
+     */
+	public static &lt;L,E&gt;void visualize(CircularOrbit&lt;L,E&gt; orbit)
+	{
+		class position
+		{
+			int x;
+			int y;
+<span class="nc" id="L52">			position(int x,int y)</span>
+			{
+<span class="nc" id="L54">				this.x=x;</span>
+<span class="nc" id="L55">				this.y=y;</span>
+<span class="nc" id="L56">			}</span>
+			@Override
+			public String toString() {
+<span class="nc" id="L59">				return &quot;position [x=&quot; + x + &quot;, y=&quot; + y + &quot;]&quot;;</span>
+			}
+		}
+<span class="nc" id="L62">		Map&lt;E,position&gt; pos= new HashMap&lt;E,position&gt;();</span>
+<span class="nc" id="L63">		ArrayList&lt;position&gt; track1 = new ArrayList&lt;position&gt;();</span>
+<span class="nc" id="L64">		ArrayList&lt;Integer&gt; nums = orbit.numOnEachTrack();</span>
+<span class="nc" id="L65">		Iterator&lt;E&gt; ite = orbit.iterator();</span>
+<span class="nc bnc" id="L66" title="All 2 branches missed.">		for(int i=1;i&lt;= nums.get(0);i++)</span>
+		{
+<span class="nc" id="L68">			ite.next();//忽略掉所有在track0的物体</span>
+		}
+<span class="nc" id="L70">		int numOfTracks = nums.size();</span>
+<span class="nc" id="L71">		int k = 300/numOfTracks;</span>
+<span class="nc" id="L72">		double sitha=0;</span>
+<span class="nc" id="L73">		Picture pic = new Picture(900,800);</span>
+<span class="nc bnc" id="L74" title="All 2 branches missed.">		for(int i=1;i&lt;numOfTracks;i++)</span>
+		{
+<span class="nc" id="L76">			int r = 10+(i+1)*k;</span>
+<span class="nc" id="L77">			pic.add(new Circle(450,400,r));//在图上添加轨道</span>
+<span class="nc" id="L78">			sitha = 2*Math.PI/nums.get(i);</span>
+<span class="nc bnc" id="L79" title="All 2 branches missed.">			for(int j=0;j&lt;nums.get(i);j++)//针对每一个物体</span>
+			{
+<span class="nc" id="L81">				pic.add(new Circle((int)(450+r*Math.cos(sitha*j)),(int)(400+r*Math.sin(sitha*j)),5));</span>
+<span class="nc bnc" id="L82" title="All 2 branches missed.">				if(i==1)</span>
+				{
+<span class="nc" id="L84">					track1.add(new position((int)(450+r*Math.cos(sitha*j)),(int)(400+r*Math.sin(sitha*j))));</span>
+				}
+<span class="nc" id="L86">				pos.put(ite.next(),new position((int)(450+r*Math.cos(sitha*j)),(int)(400+r*Math.sin(sitha*j))));</span>
+			}
+		}
+<span class="nc" id="L89">		ArrayList&lt;Pair&lt;E,E&gt;&gt; rel = orbit.getPair();</span>
+<span class="nc bnc" id="L90" title="All 2 branches missed.">		for(Pair&lt;E,E&gt; temp:rel)</span>
+		{
+<span class="nc" id="L92">			position pos1 = pos.get(temp.get1());</span>
+<span class="nc" id="L93">		    position pos2 = pos.get(temp.get2());</span>
+<span class="nc bnc" id="L94" title="All 4 branches missed.">		    if(pos1!=null&amp;&amp;pos2!=null)</span>
+		    {
+<span class="nc" id="L96">			Line a = new Line(pos1.x,pos1.y,pos2.x,pos2.y);</span>
+<span class="nc" id="L97">			pic.add(a);</span>
+		    }
+		}
+<span class="nc bnc" id="L100" title="All 2 branches missed.">		for(position temp:track1)</span>
+		{
+<span class="nc" id="L102">			Line a = new Line(450,400,temp.x,temp.y);</span>
+<span class="nc" id="L103">			pic.add(a);</span>
+		}
+<span class="nc" id="L105">		Circle c1 = new Circle(450,400,10);</span>
+<span class="nc" id="L106">		pic.add(c1);</span>
+<span class="nc" id="L107">		pic.draw();	</span>
+<span class="nc" id="L108">		System.out.println(pos);</span>
+<span class="nc" id="L109">	}</span>
+	/*public static void main(String[] args)
+	{
+		ArrayList&lt;Integer&gt; a = new ArrayList&lt;Integer&gt;(); 
+		a.add(9);
+		a.add(7);
+		a.add(11);
+		a.add(12);
+		a.add(18);
+		visualize(new SocialNetworkCircle(&quot;txt/SocialNetworkCircle_Medium.txt&quot;));
+	}*/
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.2.201808211720</span>test (3) (2019-5-19 15:10:37)</div></body></html>

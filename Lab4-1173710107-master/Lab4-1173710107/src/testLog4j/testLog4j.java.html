@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="zh"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../../../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../../../jacoco-resources/report.gif" type="image/gif"/><title>testLog4j.java</title><link rel="stylesheet" href="../../../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../../../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../../../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../../../index.html" class="el_report">test (3) (2019-5-19 15:10:37)</a> &gt; <a href="../../index.html" class="el_group">Lab4-1173710107</a> &gt; <a href="../index.html" class="el_bundle">src</a> &gt; <a href="index.source.html" class="el_package">testLog4j</a> &gt; <span class="el_source">testLog4j.java</span></div><h1>testLog4j.java</h1><pre class="source lang-java linenums">package testLog4j;
+
+import org.apache.log4j.Logger; 
+import org.apache.log4j.BasicConfigurator; 
+import org.apache.log4j.Level;
+
+<span class="nc" id="L7">public class testLog4j { </span>
+public static void main(String argv[]) {
+    // Create a logger by the name of class Log4jTest.
+    
+    // Use the default configuration.
+    //BasicConfigurator.configure();
+    // Set the logger level to Level.INFO
+<span class="nc" id="L14">	Logger logger = Logger.getLogger(testLog4j .class);</span>
+<span class="nc" id="L15">    logger.setLevel(Level.INFO);</span>
+    // This request will be disabled since Level.DEBUG &lt; Level.INFO.
+<span class="nc" id="L17">    logger.debug(&quot;This is debug.&quot;);</span>
+    // These requests will be enabled.
+<span class="nc" id="L19">    logger.info(&quot;This is an info.&quot;);</span>
+<span class="nc" id="L20">    logger.warn(&quot;This is a warning.&quot;);</span>
+<span class="nc" id="L21">    logger.error(&quot;This is an error.&quot;);</span>
+<span class="nc" id="L22">    logger.fatal(&quot;This is a fatal error.&quot;);</span>
+<span class="nc" id="L23">    return;</span>
+}
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.2.201808211720</span>test (3) (2019-5-19 15:10:37)</div></body></html>

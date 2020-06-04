@@ -1,0 +1,355 @@
+ [2019-05-15 19:32:04,034] INFO     0[main] - applications.Main.main(Main.java:32) - 选择trackgame应用
+ [2019-05-15 21:52:44,885] INFO     0[main] - applications.Main.main(Main.java:32) - 选择trackgame应用
+ [2019-05-15 21:52:44,963] INFO    78[main] - applications.Main.main(Main.java:36) - 读取trackgame.txt的信息
+ [2019-05-15 21:52:44,963] INFO    78[main] - applications.Main.main(Main.java:40) - 正在对读入文本进行正则表达式解析！
+ [2019-05-15 21:52:44,980]ERROR    95[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:377) - 文本中存在非法标签，重新输入文件
+ [2019-05-15 21:58:58,647] INFO     0[main] - applications.Main.main(Main.java:32) - 选择trackgame应用
+ [2019-05-15 21:58:58,679] INFO    32[main] - applications.Main.main(Main.java:36) - 读取trackgame.txt的信息
+ [2019-05-15 21:58:58,679] INFO    32[main] - applications.Main.main(Main.java:40) - 正在对读入文本进行正则表达式解析！
+ [2019-05-15 21:58:58,694]ERROR    47[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:377) - 文本中存在非法标签，重新输入文件
+ [2019-05-15 21:59:04,253]ERROR  5606[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:377) - 文本中存在非法标签，重新输入文件
+ [2019-05-15 21:59:14,861]ERROR 16214[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:377) - 文本中存在非法标签，重新输入文件
+ [2019-05-15 22:00:34,083] INFO     0[main] - applications.Main.main(Main.java:32) - 选择trackgame应用
+ [2019-05-15 22:00:34,099] INFO    16[main] - applications.Main.main(Main.java:36) - 读取trackgame.txt的信息
+ [2019-05-15 22:00:34,114] INFO    31[main] - applications.Main.main(Main.java:40) - 正在对读入文本进行正则表达式解析！
+ [2019-05-15 22:00:34,116]ERROR    33[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:377) - 文本中存在非法标签，重新输入文件
+ [2019-05-15 22:00:39,774]ERROR  5691[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:377) - 文本中存在非法标签，重新输入文件
+ [2019-05-15 22:00:58,940] INFO     0[main] - applications.Main.main(Main.java:112) - 读取 AtomicStructure.txt文件的信息
+ [2019-05-15 22:00:58,956] INFO    16[main] - applications.Main.main(Main.java:115) - 对应用二读入文本进行正则表达式匹配
+ [2019-05-15 22:00:58,972]ERROR    32[main] - circularOrbit.AtomStructure.Analysis(AtomStructure.java:152) - 应用2电子的轨道数超过了轨道数，重新输入文本
+ [2019-05-15 22:01:01,483] INFO  2543[main] - applications.Main.main(Main.java:119) - 输出应用二的功能菜单
+ [2019-05-15 22:01:07,908] INFO     0[main] - applications.Main.main(Main.java:173) - 读入SocialNetworkCircle.txt 文件
+ [2019-05-15 22:01:07,923] INFO    15[main] - applications.Main.main(Main.java:176) - 对应用三的文本进行正则表达式匹配
+ [2019-05-15 22:01:07,939]ERROR    31[main] - circularOrbit.SocialNetworkCircle.Analysis(SocialNetworkCircle.java:492) - 应用三输入文本的格式不对，重新输入文本
+ [2019-05-15 22:01:11,807]ERROR  3899[main] - circularOrbit.SocialNetworkCircle.Analysis(SocialNetworkCircle.java:492) - 应用三输入文本的格式不对，重新输入文本
+ [2019-05-15 22:03:04,028] INFO     0[main] - applications.Main.main(Main.java:32) - 选择trackgame应用
+ [2019-05-15 22:03:04,044] INFO    16[main] - applications.Main.main(Main.java:36) - 读取trackgame.txt的信息
+ [2019-05-15 22:03:04,044] INFO    16[main] - applications.Main.main(Main.java:40) - 正在对读入文本进行正则表达式解析！
+ [2019-05-15 22:03:04,044]ERROR    16[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:378) - 文本中存在非法标签，重新输入文件
+ [2019-05-15 22:03:08,604]ERROR  4576[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:378) - 文本中存在非法标签，重新输入文件
+ [2019-05-15 22:04:04,468] INFO     0[main] - applications.Main.main(Main.java:32) - 选择trackgame应用
+ [2019-05-15 22:04:04,499] INFO    31[main] - applications.Main.main(Main.java:36) - 读取trackgame.txt的信息
+ [2019-05-15 22:04:04,499] INFO    31[main] - applications.Main.main(Main.java:40) - 正在对读入文本进行正则表达式解析！
+ [2019-05-15 22:04:04,594]ERROR   126[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:379) - 文本中存在非法标签，重新输入文件
+ [2019-05-15 22:04:10,016]ERROR  5548[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:379) - 文本中存在非法标签，重新输入文件
+ [2019-05-15 22:06:03,658] INFO     0[main] - applications.Main.main(Main.java:32) - 选择trackgame应用
+ [2019-05-15 22:06:03,674] INFO    16[main] - applications.Main.main(Main.java:36) - 读取trackgame.txt的信息
+ [2019-05-15 22:06:03,674] INFO    16[main] - applications.Main.main(Main.java:40) - 正在对读入文本进行正则表达式解析！
+ [2019-05-15 22:06:03,689]ERROR    31[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:382) - 文本中存在非法标签，重新输入文件
+ [2019-05-15 22:06:08,300]ERROR  4642[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:382) - 文本中存在非法标签，重新输入文件
+ [2019-05-15 22:06:50,361] INFO     0[main] - applications.Main.main(Main.java:32) - 选择trackgame应用
+ [2019-05-15 22:06:50,392] INFO    31[main] - applications.Main.main(Main.java:36) - 读取trackgame.txt的信息
+ [2019-05-15 22:06:50,392] INFO    31[main] - applications.Main.main(Main.java:40) - 正在对读入文本进行正则表达式解析！
+ [2019-05-15 22:06:50,392]ERROR    31[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:383) - 文本中存在非法标签，重新输入文件
+ [2019-05-15 22:06:54,659]ERROR  4298[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:383) - 文本中存在非法标签，重新输入文件
+ [2019-05-15 22:07:32,655] INFO     0[main] - applications.Main.main(Main.java:32) - 选择trackgame应用
+ [2019-05-15 22:07:32,686] INFO    31[main] - applications.Main.main(Main.java:36) - 读取trackgame.txt的信息
+ [2019-05-15 22:07:32,686] INFO    31[main] - applications.Main.main(Main.java:40) - 正在对读入文本进行正则表达式解析！
+ [2019-05-15 22:07:32,686]ERROR    31[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:383) - 文本中存在非法标签，重新输入文件
+ [2019-05-15 22:07:37,038]ERROR  4383[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:383) - 文本中存在非法标签，重新输入文件
+ [2019-05-15 22:13:47,748] INFO     0[main] - applications.Main.main(Main.java:32) - 选择trackgame应用
+ [2019-05-15 22:13:47,779] INFO    31[main] - applications.Main.main(Main.java:36) - 读取trackgame.txt的信息
+ [2019-05-15 22:13:47,779] INFO    31[main] - applications.Main.main(Main.java:40) - 正在对读入文本进行正则表达式解析！
+ [2019-05-15 22:13:47,794]ERROR    46[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:146) - 运动员第二个参数不是纯数字，重新输入文件
+ [2019-05-15 22:13:52,652] INFO  4904[main] - applications.Main.main(Main.java:44) - 输出应用一的选择菜单
+ [2019-05-15 22:15:37,604] INFO     0[main] - applications.Main.main(Main.java:173) - 读入SocialNetworkCircle.txt 文件
+ [2019-05-15 22:15:37,604] INFO     0[main] - applications.Main.main(Main.java:176) - 对应用三的文本进行正则表达式匹配
+ [2019-05-15 22:15:37,635]ERROR    31[main] - circularOrbit.SocialNetworkCircle.Analysis(SocialNetworkCircle.java:493) - 应用三输入文本的格式不对，重新输入文本
+ [2019-05-15 22:15:43,579]ERROR  5975[main] - circularOrbit.SocialNetworkCircle.Analysis(SocialNetworkCircle.java:493) - 应用三输入文本的格式不对，重新输入文本
+ [2019-05-15 22:16:52,249] INFO     0[main] - applications.Main.main(Main.java:173) - 读入SocialNetworkCircle.txt 文件
+ [2019-05-15 22:16:52,265] INFO    16[main] - applications.Main.main(Main.java:176) - 对应用三的文本进行正则表达式匹配
+ [2019-05-15 22:16:52,281]ERROR    32[main] - circularOrbit.SocialNetworkCircle.Analysis(SocialNetworkCircle.java:494) - 应用三输入文本的格式不对，重新输入文本
+ [2019-05-15 22:17:01,386]ERROR  9137[main] - circularOrbit.SocialNetworkCircle.Analysis(SocialNetworkCircle.java:494) - 应用三输入文本的格式不对，重新输入文本
+ [2019-05-15 22:17:58,292] INFO     0[main] - applications.Main.main(Main.java:173) - 读入SocialNetworkCircle.txt 文件
+ [2019-05-15 22:17:58,302] INFO    10[main] - applications.Main.main(Main.java:176) - 对应用三的文本进行正则表达式匹配
+ [2019-05-15 22:17:58,320]ERROR    28[main] - circularOrbit.SocialNetworkCircle.Analysis(SocialNetworkCircle.java:259) - 应用三有关系没有对应该人名，或者有friends标签放在了socialtie之后，重新输入文本
+ [2019-05-15 22:18:02,880]ERROR  4588[main] - circularOrbit.SocialNetworkCircle.Analysis(SocialNetworkCircle.java:259) - 应用三有关系没有对应该人名，或者有friends标签放在了socialtie之后，重新输入文本
+ [2019-05-15 22:18:51,138] INFO     0[main] - applications.Main.main(Main.java:173) - 读入SocialNetworkCircle.txt 文件
+ [2019-05-15 22:18:51,154] INFO    16[main] - applications.Main.main(Main.java:176) - 对应用三的文本进行正则表达式匹配
+ [2019-05-15 22:18:51,169]ERROR    31[main] - circularOrbit.SocialNetworkCircle.Analysis(SocialNetworkCircle.java:259) - 应用三有关系没有对应该人名，或者有friends标签放在了socialtie之后，重新输入文本
+ [2019-05-15 22:18:55,484] INFO  4346[main] - applications.Main.main(Main.java:180) - 输出应用三菜单
+ [2019-05-15 22:25:14,907] INFO     0[main] - applications.Main.main(Main.java:32) - 选择trackgame应用
+ [2019-05-15 22:25:14,923] INFO    16[main] - applications.Main.main(Main.java:36) - 读取trackgame.txt的信息
+ [2019-05-15 22:25:14,923] INFO    16[main] - applications.Main.main(Main.java:40) - 正在对读入文本进行正则表达式解析！
+ [2019-05-15 22:25:14,938]ERROR    31[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:146) - 运动员第二个参数不是纯数字，重新输入文件
+ [2019-05-15 22:25:19,108] INFO  4201[main] - applications.Main.main(Main.java:44) - 输出应用一的选择菜单
+ [2019-05-15 22:25:24,837] INFO     0[main] - applications.Main.main(Main.java:112) - 读取 AtomicStructure.txt文件的信息
+ [2019-05-15 22:25:24,853] INFO    16[main] - applications.Main.main(Main.java:115) - 对应用二读入文本进行正则表达式匹配
+ [2019-05-15 22:25:24,869]ERROR    32[main] - circularOrbit.AtomStructure.Analysis(AtomStructure.java:152) - 应用2电子的轨道数超过了轨道数，重新输入文本
+ [2019-05-15 22:25:26,664] INFO  1827[main] - applications.Main.main(Main.java:119) - 输出应用二的功能菜单
+ [2019-05-15 22:25:30,375] INFO  5538[main] - applications.Main.main(Main.java:161) - 退出当前应用
+ [2019-05-15 22:25:30,375] INFO  5538[main] - applications.Main.main(Main.java:119) - 输出应用二的功能菜单
+ [2019-05-15 22:25:34,160] INFO  9323[main] - applications.Main.main(Main.java:161) - 退出当前应用
+ [2019-05-15 22:25:34,160] INFO  9323[main] - applications.Main.main(Main.java:119) - 输出应用二的功能菜单
+ [2019-05-15 22:25:45,874] INFO     0[main] - applications.Main.main(Main.java:173) - 读入SocialNetworkCircle.txt 文件
+ [2019-05-15 22:25:45,889] INFO    15[main] - applications.Main.main(Main.java:176) - 对应用三的文本进行正则表达式匹配
+ [2019-05-15 22:25:45,889]ERROR    15[main] - circularOrbit.SocialNetworkCircle.Analysis(SocialNetworkCircle.java:259) - 应用三有关系没有对应该人名，或者有friends标签放在了socialtie之后，重新输入文本
+ [2019-05-15 22:25:50,586] INFO  4712[main] - applications.Main.main(Main.java:180) - 输出应用三菜单
+ [2019-05-16 09:42:26,725] INFO     0[main] - applications.Main.main(Main.java:36) - 选择trackgame应用
+ [2019-05-16 09:42:26,819] INFO    94[main] - applications.Main.main(Main.java:40) - 读取trackgame.txt的信息
+ [2019-05-16 09:42:26,819] INFO    94[main] - applications.Main.main(Main.java:44) - 正在对读入文本进行正则表达式解析！
+ [2019-05-16 09:42:26,850]ERROR   125[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:146) - 运动员第二个参数不是纯数字，重新输入文件
+ [2019-05-16 09:42:34,854] INFO  8129[main] - applications.Main.main(Main.java:48) - 输出应用一的选择菜单
+ [2019-05-16 09:44:58,393] INFO     0[main] - applications.Main.main(Main.java:36) - 选择trackgame应用
+ [2019-05-16 09:44:58,425] INFO    32[main] - applications.Main.main(Main.java:40) - 读取trackgame.txt的信息
+ [2019-05-16 09:44:58,425] INFO    32[main] - applications.Main.main(Main.java:44) - 正在对读入文本进行正则表达式解析！
+ [2019-05-16 09:44:58,440]ERROR    47[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:146) - 运动员第二个参数不是纯数字，重新输入文件
+ [2019-05-16 09:45:02,395] INFO  4002[main] - applications.Main.main(Main.java:48) - 输出应用一的选择菜单
+ [2019-05-16 09:46:41,828] INFO     0[main] - applications.Main.main(Main.java:36) - 选择trackgame应用
+ [2019-05-16 09:46:41,843] INFO    15[main] - applications.Main.main(Main.java:40) - 读取trackgame.txt的信息
+ [2019-05-16 09:46:41,843] INFO    15[main] - applications.Main.main(Main.java:44) - 正在对读入文本进行正则表达式解析！
+ [2019-05-16 09:46:41,843]ERROR    15[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:146) - 运动员第二个参数不是纯数字，重新输入文件
+ [2019-05-16 09:46:45,986] INFO  4158[main] - applications.Main.main(Main.java:48) - 输出应用一的选择菜单
+ [2019-05-16 10:05:52,143] INFO     0[main] - applications.Main.main(Main.java:36) - 选择trackgame应用
+ [2019-05-16 10:05:52,174] INFO    31[main] - applications.Main.main(Main.java:40) - 读取trackgame.txt的信息
+ [2019-05-16 10:05:52,174] INFO    31[main] - applications.Main.main(Main.java:44) - 正在对读入文本进行正则表达式解析！
+ [2019-05-16 10:05:52,190]ERROR    47[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:146) - 运动员第二个参数不是纯数字，重新输入文件
+ [2019-05-16 10:05:57,139] INFO  4996[main] - applications.Main.main(Main.java:48) - 输出应用一的选择菜单
+ [2019-05-16 10:06:34,818] INFO     0[main] - applications.Main.main(Main.java:36) - 选择trackgame应用
+ [2019-05-16 10:06:34,833] INFO    15[main] - applications.Main.main(Main.java:40) - 读取trackgame.txt的信息
+ [2019-05-16 10:06:34,833] INFO    15[main] - applications.Main.main(Main.java:44) - 正在对读入文本进行正则表达式解析！
+ [2019-05-16 10:06:34,849]ERROR    31[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:146) - 运动员第二个参数不是纯数字，重新输入文件
+ [2019-05-16 10:06:38,989] INFO  4171[main] - applications.Main.main(Main.java:48) - 输出应用一的选择菜单
+ [2019-05-16 10:08:28,311] INFO     0[main] - applications.Main.main(Main.java:36) - 选择trackgame应用
+ [2019-05-16 10:08:28,340] INFO    29[main] - applications.Main.main(Main.java:40) - 读取trackgame.txt的信息
+ [2019-05-16 10:08:28,342] INFO    31[main] - applications.Main.main(Main.java:44) - 正在对读入文本进行正则表达式解析！
+ [2019-05-16 10:08:28,361]ERROR    50[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:146) - 运动员第二个参数不是纯数字，重新输入文件
+ [2019-05-16 10:08:31,724] INFO  3413[main] - applications.Main.main(Main.java:48) - 输出应用一的选择菜单
+ [2019-05-16 10:10:26,263] INFO     0[main] - applications.Main.main(Main.java:36) - 选择trackgame应用
+ [2019-05-16 10:10:26,286] INFO    23[main] - applications.Main.main(Main.java:40) - 读取trackgame.txt的信息
+ [2019-05-16 10:10:26,289] INFO    26[main] - applications.Main.main(Main.java:44) - 正在对读入文本进行正则表达式解析！
+ [2019-05-16 10:10:26,299]ERROR    36[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:146) - 运动员第二个参数不是纯数字，重新输入文件
+ [2019-05-16 10:10:31,406] INFO  5143[main] - applications.Main.main(Main.java:48) - 输出应用一的选择菜单
+ [2019-05-16 10:13:27,696] INFO     0[main] - applications.Main.main(Main.java:36) - 选择trackgame应用
+ [2019-05-16 10:13:27,727] INFO    31[main] - applications.Main.main(Main.java:40) - 读取trackgame.txt的信息
+ [2019-05-16 10:13:27,730] INFO    34[main] - applications.Main.main(Main.java:44) - 正在对读入文本进行正则表达式解析！
+ [2019-05-16 10:13:27,737]ERROR    41[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:146) - 运动员第二个参数不是纯数字，重新输入文件
+ [2019-05-16 10:13:31,963] INFO  4267[main] - applications.Main.main(Main.java:48) - 输出应用一的选择菜单
+ [2019-05-16 10:14:23,267] INFO     0[main] - applications.Main.main(Main.java:36) - 选择trackgame应用
+ [2019-05-16 10:14:23,308] INFO    41[main] - applications.Main.main(Main.java:40) - 读取trackgame.txt的信息
+ [2019-05-16 10:14:23,311] INFO    44[main] - applications.Main.main(Main.java:44) - 正在对读入文本进行正则表达式解析！
+ [2019-05-16 10:14:23,318]ERROR    51[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:146) - 运动员第二个参数不是纯数字，重新输入文件
+ [2019-05-16 10:14:27,584] INFO  4317[main] - applications.Main.main(Main.java:48) - 输出应用一的选择菜单
+ [2019-05-16 10:16:39,382] INFO     0[main] - applications.Main.main(Main.java:36) - 选择trackgame应用
+ [2019-05-16 10:16:39,392] INFO    10[main] - applications.Main.main(Main.java:40) - 读取trackgame.txt的信息
+ [2019-05-16 10:16:39,392] INFO    10[main] - applications.Main.main(Main.java:44) - 正在对读入文本进行正则表达式解析！
+ [2019-05-16 10:16:39,411]ERROR    29[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:146) - 运动员第二个参数不是纯数字，重新输入文件
+ [2019-05-16 10:16:43,485] INFO  4103[main] - applications.Main.main(Main.java:48) - 输出应用一的选择菜单
+ [2019-05-16 10:17:57,179] INFO     0[main] - applications.Main.main(Main.java:36) - 选择trackgame应用
+ [2019-05-16 10:17:57,209] INFO    30[main] - applications.Main.main(Main.java:40) - 读取trackgame.txt的信息
+ [2019-05-16 10:17:57,212] INFO    33[main] - applications.Main.main(Main.java:44) - 正在对读入文本进行正则表达式解析！
+ [2019-05-16 10:17:57,217]ERROR    38[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:146) - 运动员第二个参数不是纯数字，重新输入文件
+ [2019-05-16 10:18:01,764] INFO  4585[main] - applications.Main.main(Main.java:48) - 输出应用一的选择菜单
+ [2019-05-16 10:20:47,009] INFO     0[main] - applications.Main.main(Main.java:36) - 选择trackgame应用
+ [2019-05-16 10:20:47,043] INFO    34[main] - applications.Main.main(Main.java:40) - 读取trackgame.txt的信息
+ [2019-05-16 10:20:47,043] INFO    34[main] - applications.Main.main(Main.java:44) - 正在对读入文本进行正则表达式解析！
+ [2019-05-16 10:20:47,048]ERROR    39[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:146) - 运动员第二个参数不是纯数字，重新输入文件
+ [2019-05-16 10:20:51,565] INFO  4556[main] - applications.Main.main(Main.java:48) - 输出应用一的选择菜单
+ [2019-05-16 10:29:17,308] INFO     0[main] - applications.Main.main(Main.java:36) - 选择trackgame应用
+ [2019-05-16 10:29:17,340] INFO    32[main] - applications.Main.main(Main.java:40) - 读取trackgame.txt的信息
+ [2019-05-16 10:29:17,340] INFO    32[main] - applications.Main.main(Main.java:44) - 正在对读入文本进行正则表达式解析！
+ [2019-05-16 10:29:17,357]ERROR    49[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:146) - 运动员第二个参数不是纯数字，重新输入文件
+ [2019-05-16 10:29:22,278] INFO  4970[main] - applications.Main.main(Main.java:48) - 输出应用一的选择菜单
+ [2019-05-16 10:33:50,742] INFO     0[main] - applications.Main.main(Main.java:36) - 选择trackgame应用
+ [2019-05-16 10:33:50,773] INFO    31[main] - applications.Main.main(Main.java:40) - 读取trackgame.txt的信息
+ [2019-05-16 10:33:50,773] INFO    31[main] - applications.Main.main(Main.java:44) - 正在对读入文本进行正则表达式解析！
+ [2019-05-16 10:33:50,773]ERROR    31[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:146) - 运动员第二个参数不是纯数字，重新输入文件
+ [2019-05-16 10:33:55,343] INFO  4601[main] - applications.Main.main(Main.java:48) - 输出应用一的选择菜单
+ [2019-05-16 10:35:47,420] INFO     0[main] - applications.Main.main(Main.java:36) - 选择trackgame应用
+ [2019-05-16 10:35:47,443] INFO    23[main] - applications.Main.main(Main.java:40) - 读取trackgame.txt的信息
+ [2019-05-16 10:35:47,446] INFO    26[main] - applications.Main.main(Main.java:44) - 正在对读入文本进行正则表达式解析！
+ [2019-05-16 10:35:47,449]ERROR    29[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:146) - 运动员第二个参数不是纯数字，重新输入文件
+ [2019-05-16 10:35:52,167] INFO  4747[main] - applications.Main.main(Main.java:48) - 输出应用一的选择菜单
+ [2019-05-16 10:38:48,817] INFO     0[main] - applications.Main.main(Main.java:36) - 选择trackgame应用
+ [2019-05-16 10:38:48,848] INFO    31[main] - applications.Main.main(Main.java:40) - 读取trackgame.txt的信息
+ [2019-05-16 10:38:48,848] INFO    31[main] - applications.Main.main(Main.java:44) - 正在对读入文本进行正则表达式解析！
+ [2019-05-16 10:38:48,865]ERROR    48[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:146) - 运动员第二个参数不是纯数字，重新输入文件
+ [2019-05-16 10:38:53,533] INFO  4716[main] - applications.Main.main(Main.java:48) - 输出应用一的选择菜单
+ [2019-05-16 10:41:20,854] INFO     0[main] - applications.Main.main(Main.java:36) - 选择trackgame应用
+ [2019-05-16 10:41:20,885] INFO    31[main] - applications.Main.main(Main.java:40) - 读取trackgame.txt的信息
+ [2019-05-16 10:41:20,885] INFO    31[main] - applications.Main.main(Main.java:44) - 正在对读入文本进行正则表达式解析！
+ [2019-05-16 10:41:20,885]ERROR    31[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:146) - 运动员第二个参数不是纯数字，重新输入文件
+ [2019-05-16 10:41:25,115] INFO  4261[main] - applications.Main.main(Main.java:48) - 输出应用一的选择菜单
+ [2019-05-16 11:14:59,099] INFO    15[main] - applications.Main.main(Main.java:39) - 选择trackgame应用
+ [2019-05-16 11:14:59,115] INFO    31[main] - applications.Main.main(Main.java:43) - 读取trackgame.txt的信息
+ [2019-05-16 11:14:59,115] INFO    31[main] - applications.Main.main(Main.java:47) - 正在对读入文本进行正则表达式解析！
+ [2019-05-16 11:14:59,132]ERROR    48[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:146) - 运动员第二个参数不是纯数字，重新输入文件
+ [2019-05-16 11:15:03,876] INFO  4792[main] - applications.Main.main(Main.java:51) - 输出应用一的选择菜单
+ [2019-05-16 11:15:37,145] INFO     0[main] - applications.Main.main(Main.java:39) - 选择trackgame应用
+ [2019-05-16 11:15:37,180] INFO    35[main] - applications.Main.main(Main.java:43) - 读取trackgame.txt的信息
+ [2019-05-16 11:15:37,181] INFO    36[main] - applications.Main.main(Main.java:47) - 正在对读入文本进行正则表达式解析！
+ [2019-05-16 11:15:37,186]ERROR    41[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:146) - 运动员第二个参数不是纯数字，重新输入文件
+ [2019-05-16 11:15:42,049] INFO  4904[main] - applications.Main.main(Main.java:51) - 输出应用一的选择菜单
+ [2019-05-16 11:16:14,547] INFO     0[main] - applications.Main.main(Main.java:39) - 选择trackgame应用
+ [2019-05-16 11:16:14,563] INFO    16[main] - applications.Main.main(Main.java:43) - 读取trackgame.txt的信息
+ [2019-05-16 11:16:14,563] INFO    16[main] - applications.Main.main(Main.java:47) - 正在对读入文本进行正则表达式解析！
+ [2019-05-16 11:16:14,579]ERROR    32[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:146) - 运动员第二个参数不是纯数字，重新输入文件
+ [2019-05-16 11:16:18,487] INFO  3940[main] - applications.Main.main(Main.java:51) - 输出应用一的选择菜单
+ [2019-05-16 15:26:37,366] INFO     0[main] - applications.Main.main(Main.java:39) - 选择trackgame应用
+ [2019-05-16 15:26:37,428] INFO    62[main] - applications.Main.main(Main.java:43) - 读取trackgame.txt的信息
+ [2019-05-16 15:26:37,428] INFO    62[main] - applications.Main.main(Main.java:47) - 正在对读入文本进行正则表达式解析！
+ [2019-05-16 15:26:37,445]ERROR    79[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:147) - 运动员第二个参数不是纯数字，重新输入文件
+ [2019-05-16 15:26:43,296] INFO  5930[main] - applications.Main.main(Main.java:51) - 输出应用一的选择菜单
+ [2019-05-16 15:26:47,119] INFO  9753[main] - applications.Main.main(Main.java:85) - 应用一对当前信息进行随机排序
+ [2019-05-16 15:26:56,917] INFO 19551[main] - applications.Main.main(Main.java:51) - 输出应用一的选择菜单
+ [2019-05-16 15:28:35,922] INFO     0[main] - applications.Main.main(Main.java:39) - 选择trackgame应用
+ [2019-05-16 15:28:35,953] INFO    31[main] - applications.Main.main(Main.java:43) - 读取trackgame.txt的信息
+ [2019-05-16 15:28:35,953] INFO    31[main] - applications.Main.main(Main.java:47) - 正在对读入文本进行正则表达式解析！
+ [2019-05-16 15:28:35,968]ERROR    46[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:147) - 运动员第二个参数不是纯数字，重新输入文件
+ [2019-05-16 15:28:40,853] INFO  4931[main] - applications.Main.main(Main.java:51) - 输出应用一的选择菜单
+ [2019-05-16 15:28:43,647] INFO  7725[main] - applications.Main.main(Main.java:85) - 应用一对当前信息进行随机排序
+ [2019-05-16 15:28:43,662] INFO  7740[main] - applications.Main.main(Main.java:51) - 输出应用一的选择菜单
+ [2019-05-16 15:50:25,040]ERROR     0[main] - circularOrbit.SocialNetworkCircle.Analysis(SocialNetworkCircle.java:259) - 应用三有关系没有对应该人名，或者有friends标签放在了socialtie之后，重新输入文本
+ [2019-05-16 15:50:42,542]ERROR     0[main] - circularOrbit.SocialNetworkCircle.Analysis(SocialNetworkCircle.java:259) - 应用三有关系没有对应该人名，或者有friends标签放在了socialtie之后，重新输入文本
+ [2019-05-16 16:00:22,872] INFO     0[main] - applications.Main.main(Main.java:39) - 选择trackgame应用
+ [2019-05-16 16:00:22,929] INFO    57[main] - applications.Main.main(Main.java:43) - 读取trackgame.txt的信息
+ [2019-05-16 16:00:22,930] INFO    58[main] - applications.Main.main(Main.java:47) - 正在对读入文本进行正则表达式解析！
+ [2019-05-16 16:00:22,934]ERROR    62[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:147) - 运动员第二个参数不是纯数字，重新输入文件
+ [2019-05-16 16:00:28,718]ERROR  5846[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:259) - 运动员标签成绩不符合规则，重新输入文件
+ [2019-05-16 16:00:50,565]ERROR 27693[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:259) - 运动员标签成绩不符合规则，重新输入文件
+ [2019-05-16 16:01:04,553] INFO 41681[main] - applications.Main.main(Main.java:51) - 输出应用一的选择菜单
+ [2019-05-16 16:01:06,991] INFO 44119[main] - applications.Main.main(Main.java:68) - 应用一选择可视化功能
+ [2019-05-16 16:01:07,047] INFO 44175[main] - applications.Main.main(Main.java:51) - 输出应用一的选择菜单
+ [2019-05-16 16:02:08,469] INFO     0[main] - applications.Main.main(Main.java:39) - 选择trackgame应用
+ [2019-05-16 16:02:08,498] INFO    29[main] - applications.Main.main(Main.java:43) - 读取trackgame.txt的信息
+ [2019-05-16 16:02:08,500] INFO    31[main] - applications.Main.main(Main.java:47) - 正在对读入文本进行正则表达式解析！
+ [2019-05-16 16:02:08,510]ERROR    41[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:147) - 运动员第二个参数不是纯数字，重新输入文件
+ [2019-05-16 16:02:12,967] INFO  4498[main] - applications.Main.main(Main.java:51) - 输出应用一的选择菜单
+ [2019-05-16 16:02:15,938] INFO  7469[main] - applications.Main.main(Main.java:85) - 应用一对当前信息进行随机排序
+ [2019-05-16 16:02:15,947] INFO  7478[main] - applications.Main.main(Main.java:51) - 输出应用一的选择菜单
+ [2019-05-16 16:02:23,386] INFO 14917[main] - applications.Main.main(Main.java:68) - 应用一选择可视化功能
+ [2019-05-16 16:02:23,424] INFO 14955[main] - applications.Main.main(Main.java:51) - 输出应用一的选择菜单
+ [2019-05-16 16:03:01,321] INFO     0[main] - applications.Main.main(Main.java:39) - 选择trackgame应用
+ [2019-05-16 16:03:01,376] INFO    55[main] - applications.Main.main(Main.java:43) - 读取trackgame.txt的信息
+ [2019-05-16 16:03:01,376] INFO    55[main] - applications.Main.main(Main.java:47) - 正在对读入文本进行正则表达式解析！
+ [2019-05-16 16:03:01,381]ERROR    60[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:147) - 运动员第二个参数不是纯数字，重新输入文件
+ [2019-05-16 16:03:05,787] INFO  4466[main] - applications.Main.main(Main.java:51) - 输出应用一的选择菜单
+ [2019-05-16 16:03:10,003] INFO  8682[main] - applications.Main.main(Main.java:68) - 应用一选择可视化功能
+ [2019-05-16 16:03:10,044] INFO  8723[main] - applications.Main.main(Main.java:51) - 输出应用一的选择菜单
+ [2019-05-16 16:04:02,890] INFO     0[main] - applications.Main.main(Main.java:39) - 选择trackgame应用
+ [2019-05-16 16:04:02,941] INFO    51[main] - applications.Main.main(Main.java:43) - 读取trackgame.txt的信息
+ [2019-05-16 16:04:02,942] INFO    52[main] - applications.Main.main(Main.java:47) - 正在对读入文本进行正则表达式解析！
+ [2019-05-16 16:04:02,947]ERROR    57[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:147) - 运动员第二个参数不是纯数字，重新输入文件
+ [2019-05-16 16:04:08,389] INFO  5499[main] - applications.Main.main(Main.java:51) - 输出应用一的选择菜单
+ [2019-05-16 16:04:14,319] INFO 11429[main] - applications.Main.main(Main.java:86) - 应用一对当前信息进行随机排序
+ [2019-05-16 16:04:14,326] INFO 11436[main] - applications.Main.main(Main.java:51) - 输出应用一的选择菜单
+ [2019-05-16 16:04:18,303] INFO 15413[main] - applications.Main.main(Main.java:92) - 应用一按照成绩对当前信息进行排序
+ [2019-05-16 16:04:18,312] INFO 15422[main] - applications.Main.main(Main.java:51) - 输出应用一的选择菜单
+ [2019-05-16 16:04:21,274] INFO 18384[main] - applications.Main.main(Main.java:69) - 应用一选择可视化功能
+ [2019-05-16 16:04:21,303] INFO 18413[main] - applications.Main.main(Main.java:51) - 输出应用一的选择菜单
+ [2019-05-19 08:34:59,735] INFO     0[main] - applications.Main.main(Main.java:39) - 选择trackgame应用
+ [2019-05-19 08:34:59,865] INFO   130[main] - applications.Main.main(Main.java:43) - 读取trackgame.txt的信息
+ [2019-05-19 08:34:59,866] INFO   131[main] - applications.Main.main(Main.java:47) - 正在对读入文本进行正则表达式解析！
+ [2019-05-19 08:34:59,885]ERROR   150[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:147) - 运动员第二个参数不是纯数字，重新输入文件
+ [2019-05-19 08:35:33,931] INFO     0[main] - applications.Main.main(Main.java:39) - 选择trackgame应用
+ [2019-05-19 08:35:33,959] INFO    28[main] - applications.Main.main(Main.java:43) - 读取trackgame.txt的信息
+ [2019-05-19 08:35:33,960] INFO    29[main] - applications.Main.main(Main.java:47) - 正在对读入文本进行正则表达式解析！
+ [2019-05-19 08:35:33,970]ERROR    39[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:147) - 运动员第二个参数不是纯数字，重新输入文件
+ [2019-05-19 08:36:11,356] INFO     0[main] - applications.Main.main(Main.java:39) - 选择trackgame应用
+ [2019-05-19 08:36:11,382] INFO    26[main] - applications.Main.main(Main.java:43) - 读取trackgame.txt的信息
+ [2019-05-19 08:36:11,383] INFO    27[main] - applications.Main.main(Main.java:47) - 正在对读入文本进行正则表达式解析！
+ [2019-05-19 08:36:11,388]ERROR    32[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:259) - 运动员标签成绩不符合规则，重新输入文件
+ [2019-05-19 08:36:42,825] INFO     0[main] - applications.Main.main(Main.java:39) - 选择trackgame应用
+ [2019-05-19 08:36:42,850] INFO    25[main] - applications.Main.main(Main.java:43) - 读取trackgame.txt的信息
+ [2019-05-19 08:36:42,850] INFO    25[main] - applications.Main.main(Main.java:47) - 正在对读入文本进行正则表达式解析！
+ [2019-05-19 08:36:42,856]ERROR    31[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:259) - 运动员标签成绩不符合规则，重新输入文件
+ [2019-05-19 08:37:19,344] INFO     0[main] - applications.Main.main(Main.java:39) - 选择trackgame应用
+ [2019-05-19 08:37:19,367] INFO    23[main] - applications.Main.main(Main.java:43) - 读取trackgame.txt的信息
+ [2019-05-19 08:37:19,368] INFO    24[main] - applications.Main.main(Main.java:47) - 正在对读入文本进行正则表达式解析！
+ [2019-05-19 08:37:19,374]ERROR    30[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:259) - 运动员标签成绩不符合规则，重新输入文件
+ [2019-05-19 08:38:02,599] INFO     0[main] - applications.Main.main(Main.java:39) - 选择trackgame应用
+ [2019-05-19 08:38:02,623] INFO    24[main] - applications.Main.main(Main.java:43) - 读取trackgame.txt的信息
+ [2019-05-19 08:38:02,624] INFO    25[main] - applications.Main.main(Main.java:47) - 正在对读入文本进行正则表达式解析！
+ [2019-05-19 08:38:02,628]ERROR    29[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:265) - 运动员标签字符串不符合规则，重新输入文件
+ [2019-05-19 08:38:39,956] INFO     0[main] - applications.Main.main(Main.java:39) - 选择trackgame应用
+ [2019-05-19 08:38:39,976] INFO    20[main] - applications.Main.main(Main.java:43) - 读取trackgame.txt的信息
+ [2019-05-19 08:38:39,977] INFO    21[main] - applications.Main.main(Main.java:47) - 正在对读入文本进行正则表达式解析！
+ [2019-05-19 08:38:40,010] INFO    54[main] - applications.Main.main(Main.java:51) - 输出应用一的选择菜单
+ [2019-05-19 08:39:09,094] INFO     0[main] - applications.Main.main(Main.java:39) - 选择trackgame应用
+ [2019-05-19 08:39:09,122] INFO    28[main] - applications.Main.main(Main.java:43) - 读取trackgame.txt的信息
+ [2019-05-19 08:39:09,124] INFO    30[main] - applications.Main.main(Main.java:47) - 正在对读入文本进行正则表达式解析！
+ [2019-05-19 08:39:09,131]ERROR    37[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:101) - game或者track的标签出现了多个，重新输入文件
+ [2019-05-19 08:39:58,288] INFO     0[main] - applications.Main.main(Main.java:39) - 选择trackgame应用
+ [2019-05-19 08:39:58,310] INFO    22[main] - applications.Main.main(Main.java:43) - 读取trackgame.txt的信息
+ [2019-05-19 08:39:58,311] INFO    23[main] - applications.Main.main(Main.java:47) - 正在对读入文本进行正则表达式解析！
+ [2019-05-19 08:39:58,319]ERROR    31[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:265) - 运动员标签字符串不符合规则，重新输入文件
+ [2019-05-19 08:48:39,017] INFO     0[main] - applications.Main.main(Main.java:124) - 读取 AtomicStructure.txt文件的信息
+ [2019-05-19 08:48:39,027] INFO    10[main] - applications.Main.main(Main.java:127) - 对应用二读入文本进行正则表达式匹配
+ [2019-05-19 08:48:39,046]ERROR    29[main] - circularOrbit.AtomStructure.Analysis(AtomStructure.java:152) - 应用2电子的轨道数超过了轨道数，重新输入文本
+ [2019-05-19 08:48:42,216] INFO  3199[main] - applications.Main.main(Main.java:131) - 输出应用二的功能菜单
+ [2019-05-19 08:48:49,220] INFO 10203[main] - applications.Main.main(Main.java:159) - 应用二计算熵值
+ [2019-05-19 08:48:49,246] INFO 10229[main] - applications.Main.main(Main.java:131) - 输出应用二的功能菜单
+ [2019-05-19 08:49:27,276] INFO     0[main] - applications.Main.main(Main.java:124) - 读取 AtomicStructure.txt文件的信息
+ [2019-05-19 08:49:27,285] INFO     9[main] - applications.Main.main(Main.java:127) - 对应用二读入文本进行正则表达式匹配
+ [2019-05-19 08:49:27,310] INFO    34[main] - applications.Main.main(Main.java:131) - 输出应用二的功能菜单
+ [2019-05-19 08:52:37,191] INFO     0[main] - applications.Main.main(Main.java:124) - 读取 AtomicStructure.txt文件的信息
+ [2019-05-19 08:52:37,200] INFO     9[main] - applications.Main.main(Main.java:127) - 对应用二读入文本进行正则表达式匹配
+ [2019-05-19 08:53:40,095] INFO     0[main] - applications.Main.main(Main.java:124) - 读取 AtomicStructure.txt文件的信息
+ [2019-05-19 08:53:40,100] INFO     5[main] - applications.Main.main(Main.java:127) - 对应用二读入文本进行正则表达式匹配
+ [2019-05-19 08:53:40,112] INFO    17[main] - applications.Main.main(Main.java:131) - 输出应用二的功能菜单
+ [2019-05-19 08:54:29,493] INFO     0[main] - applications.Main.main(Main.java:124) - 读取 AtomicStructure.txt文件的信息
+ [2019-05-19 08:54:29,502] INFO     9[main] - applications.Main.main(Main.java:127) - 对应用二读入文本进行正则表达式匹配
+ [2019-05-19 08:54:29,526] INFO    33[main] - applications.Main.main(Main.java:131) - 输出应用二的功能菜单
+ [2019-05-19 08:55:12,845] INFO     0[main] - applications.Main.main(Main.java:124) - 读取 AtomicStructure.txt文件的信息
+ [2019-05-19 08:55:12,853] INFO     8[main] - applications.Main.main(Main.java:127) - 对应用二读入文本进行正则表达式匹配
+ [2019-05-19 08:55:12,869] INFO    24[main] - applications.Main.main(Main.java:131) - 输出应用二的功能菜单
+ [2019-05-19 08:55:50,680] INFO     0[main] - applications.Main.main(Main.java:124) - 读取 AtomicStructure.txt文件的信息
+ [2019-05-19 08:55:50,703] INFO    23[main] - applications.Main.main(Main.java:127) - 对应用二读入文本进行正则表达式匹配
+ [2019-05-19 08:55:50,749] INFO    69[main] - applications.Main.main(Main.java:131) - 输出应用二的功能菜单
+ [2019-05-19 09:03:50,029] INFO     0[main] - applications.Main.main(Main.java:124) - 读取 AtomicStructure.txt文件的信息
+ [2019-05-19 09:03:50,044] INFO    15[main] - applications.Main.main(Main.java:127) - 对应用二读入文本进行正则表达式匹配
+ [2019-05-19 09:03:50,044] INFO    15[main] - applications.Main.main(Main.java:131) - 输出应用二的功能菜单
+ [2019-05-19 09:04:08,240] INFO     0[main] - applications.Main.main(Main.java:124) - 读取 AtomicStructure.txt文件的信息
+ [2019-05-19 09:04:08,240] INFO     0[main] - applications.Main.main(Main.java:127) - 对应用二读入文本进行正则表达式匹配
+ [2019-05-19 09:04:08,256] INFO    16[main] - applications.Main.main(Main.java:131) - 输出应用二的功能菜单
+ [2019-05-19 09:12:14,093] INFO     0[main] - applications.Main.main(Main.java:124) - 读取 AtomicStructure.txt文件的信息
+ [2019-05-19 09:12:14,093] INFO     0[main] - applications.Main.main(Main.java:127) - 对应用二读入文本进行正则表达式匹配
+ [2019-05-19 09:13:58,197] INFO     0[main] - applications.Main.main(Main.java:124) - 读取 AtomicStructure.txt文件的信息
+ [2019-05-19 09:13:58,197] INFO     0[main] - applications.Main.main(Main.java:127) - 对应用二读入文本进行正则表达式匹配
+ [2019-05-19 09:15:35,124] INFO     0[main] - applications.Main.main(Main.java:124) - 读取 AtomicStructure.txt文件的信息
+ [2019-05-19 09:15:35,140] INFO    16[main] - applications.Main.main(Main.java:127) - 对应用二读入文本进行正则表达式匹配
+ [2019-05-19 09:16:07,316] INFO     0[main] - applications.Main.main(Main.java:124) - 读取 AtomicStructure.txt文件的信息
+ [2019-05-19 09:16:07,316] INFO     0[main] - applications.Main.main(Main.java:127) - 对应用二读入文本进行正则表达式匹配
+ [2019-05-19 09:16:42,486] INFO     0[main] - applications.Main.main(Main.java:124) - 读取 AtomicStructure.txt文件的信息
+ [2019-05-19 09:16:42,501] INFO    15[main] - applications.Main.main(Main.java:127) - 对应用二读入文本进行正则表达式匹配
+ [2019-05-19 09:17:40,800] INFO     0[main] - applications.Main.main(Main.java:124) - 读取 AtomicStructure.txt文件的信息
+ [2019-05-19 09:17:40,800] INFO     0[main] - applications.Main.main(Main.java:127) - 对应用二读入文本进行正则表达式匹配
+ [2019-05-19 09:18:00,120] INFO     0[main] - applications.Main.main(Main.java:124) - 读取 AtomicStructure.txt文件的信息
+ [2019-05-19 09:18:00,120] INFO     0[main] - applications.Main.main(Main.java:127) - 对应用二读入文本进行正则表达式匹配
+ [2019-05-19 09:19:21,135] INFO     0[main] - applications.Main.main(Main.java:124) - 读取 AtomicStructure.txt文件的信息
+ [2019-05-19 09:19:21,135] INFO     0[main] - applications.Main.main(Main.java:127) - 对应用二读入文本进行正则表达式匹配
+ [2019-05-19 09:19:53,186] INFO     0[main] - applications.Main.main(Main.java:124) - 读取 AtomicStructure.txt文件的信息
+ [2019-05-19 09:19:53,186] INFO     0[main] - applications.Main.main(Main.java:127) - 对应用二读入文本进行正则表达式匹配
+ [2019-05-19 09:19:53,201]ERROR    15[main] - circularOrbit.AtomStructure.Analysis(AtomStructure.java:148) - 应用三缺少轨道数目的标签，重新输入文本
+ [2019-05-19 09:20:49,959] INFO     0[main] - applications.Main.main(Main.java:124) - 读取 AtomicStructure.txt文件的信息
+ [2019-05-19 09:20:49,959] INFO     0[main] - applications.Main.main(Main.java:127) - 对应用二读入文本进行正则表达式匹配
+ [2019-05-19 09:20:49,975]ERROR    16[main] - circularOrbit.AtomStructure.Analysis(AtomStructure.java:156) - 应用2电子的轨道数超过了轨道数，重新输入文本
+ [2019-05-19 09:21:40,167] INFO     0[main] - applications.Main.main(Main.java:39) - 选择trackgame应用
+ [2019-05-19 09:21:40,183] INFO    16[main] - applications.Main.main(Main.java:43) - 读取trackgame.txt的信息
+ [2019-05-19 09:21:40,183] INFO    16[main] - applications.Main.main(Main.java:47) - 正在对读入文本进行正则表达式解析！
+ [2019-05-19 09:21:40,183]ERROR    16[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:265) - 运动员标签字符串不符合规则，重新输入文件
+ [2019-05-19 09:21:47,006] INFO     0[main] - applications.Main.main(Main.java:124) - 读取 AtomicStructure.txt文件的信息
+ [2019-05-19 09:21:47,006] INFO     0[main] - applications.Main.main(Main.java:127) - 对应用二读入文本进行正则表达式匹配
+ [2019-05-19 09:21:47,021]ERROR    15[main] - circularOrbit.AtomStructure.Analysis(AtomStructure.java:156) - 应用2电子的轨道数超过了轨道数，重新输入文本
+ [2019-05-19 09:22:15,617] INFO 28611[main] - applications.Main.main(Main.java:131) - 输出应用二的功能菜单
+ [2019-05-19 09:22:18,348] INFO 31342[main] - applications.Main.main(Main.java:159) - 应用二计算熵值
+ [2019-05-19 09:22:18,348] INFO 31342[main] - applications.Main.main(Main.java:131) - 输出应用二的功能菜单
+ [2019-05-19 09:37:52,508] INFO     0[main] - applications.Main.main(Main.java:189) - 读入SocialNetworkCircle.txt 文件
+ [2019-05-19 09:37:52,508] INFO     0[main] - applications.Main.main(Main.java:192) - 对应用三的文本进行正则表达式匹配
+ [2019-05-19 09:37:52,572]ERROR    64[main] - circularOrbit.SocialNetworkCircle.Analysis(SocialNetworkCircle.java:259) - 应用三有关系没有对应该人名，或者有friends标签放在了socialtie之后，重新输入文本
+ [2019-05-19 09:37:58,314] INFO  5806[main] - applications.Main.main(Main.java:196) - 输出应用三菜单
+ [2019-05-19 09:42:08,416] INFO     0[main] - applications.Main.main(Main.java:189) - 读入SocialNetworkCircle.txt 文件
+ [2019-05-19 09:42:08,416] INFO     0[main] - applications.Main.main(Main.java:192) - 对应用三的文本进行正则表达式匹配
+ [2019-05-19 09:42:08,432]ERROR    16[main] - circularOrbit.SocialNetworkCircle.Analysis(SocialNetworkCircle.java:259) - 应用三有关系没有对应该人名，或者有friends标签放在了socialtie之后，重新输入文本
+ [2019-05-19 09:42:46,024] INFO     0[main] - applications.Main.main(Main.java:189) - 读入SocialNetworkCircle.txt 文件
+ [2019-05-19 09:42:46,024] INFO     0[main] - applications.Main.main(Main.java:192) - 对应用三的文本进行正则表达式匹配
+ [2019-05-19 09:42:46,040]ERROR    16[main] - circularOrbit.SocialNetworkCircle.Analysis(SocialNetworkCircle.java:234) - 应用三中心点标签出现了两次，重新输入文本
+ [2019-05-19 09:43:33,040] INFO     0[main] - applications.Main.main(Main.java:189) - 读入SocialNetworkCircle.txt 文件
+ [2019-05-19 09:43:33,040] INFO     0[main] - applications.Main.main(Main.java:192) - 对应用三的文本进行正则表达式匹配
+ [2019-05-19 09:43:33,056]ERROR    16[main] - circularOrbit.SocialNetworkCircle.Analysis(SocialNetworkCircle.java:481) - 应用三文本有非法标签的存在，重新输入文本
+ [2019-05-19 15:37:36,806] INFO     0[main] - applications.Main.main(Main.java:39) - 选择trackgame应用
+ [2019-05-19 15:37:36,848] INFO    42[main] - applications.Main.main(Main.java:43) - 读取trackgame.txt的信息
+ [2019-05-19 15:37:36,859] INFO    53[main] - applications.Main.main(Main.java:47) - 正在对读入文本进行正则表达式解析！
+ [2019-05-19 15:37:36,869]ERROR    63[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:265) - 运动员标签字符串不符合规则，重新输入文件
+ [2019-05-19 15:38:04,430] INFO 27624[main] - applications.Main.main(Main.java:51) - 输出应用一的选择菜单
+ 

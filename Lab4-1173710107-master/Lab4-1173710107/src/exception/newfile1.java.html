@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="zh"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../../../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../../../jacoco-resources/report.gif" type="image/gif"/><title>newfile1.java</title><link rel="stylesheet" href="../../../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../../../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../../../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../../../index.html" class="el_report">test (3) (2019-5-19 15:10:37)</a> &gt; <a href="../../index.html" class="el_group">Lab4-1173710107</a> &gt; <a href="../index.html" class="el_bundle">src</a> &gt; <a href="index.source.html" class="el_package">exception</a> &gt; <span class="el_source">newfile1.java</span></div><h1>newfile1.java</h1><pre class="source lang-java linenums">package exception;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+import circularOrbit.ConcreteCircularOrbit;
+
+<span class="nc" id="L8">public class newfile1  extends RuntimeException implements newfile {</span>
+	@Override
+	public void newfile2(ConcreteCircularOrbit m,int num)
+	{
+		try
+		{
+<span class="nc bnc" id="L14" title="All 2 branches missed.">			if(num==1)</span>
+			{
+<span class="nc" id="L16">				System.out.println(&quot;请添加新的文本，具体路径为txt/TrackGame1.txt&quot;);</span>
+				
+<span class="nc" id="L18">			       System.out.println(&quot;新文本输入完成后输入yes&quot;);</span>
+<span class="nc" id="L19">			       Scanner in6 = new Scanner(System.in);</span>
+			     //  System.out.println(&quot;新文本输入完成后输入yes&quot;);
+<span class="nc" id="L21">			       String s1 = in6.nextLine();</span>
+<span class="nc bnc" id="L22" title="All 2 branches missed.">			       if(s1.equals(&quot;yes&quot;))</span>
+			       {
+<span class="nc" id="L24">			    	   ArrayList&lt;String&gt; info = m.readFile(&quot;txt/TrackGame1.txt&quot;);</span>
+<span class="nc" id="L25">			    	   m.initarraylist();</span>
+<span class="nc" id="L26">			    	   m.setinfoall(info);</span>
+<span class="nc" id="L27">			    	   m.Analysis();</span>
+<span class="nc" id="L28">			       }</span>
+			       else
+			       {
+<span class="nc" id="L31">			    	   System.out.println(&quot;输入不是yes！！！&quot;);</span>
+<span class="nc" id="L32">			    	   System.exit(0);</span>
+			       }
+			     //  in6.close();
+<span class="nc" id="L35">			}</span>
+<span class="nc bnc" id="L36" title="All 2 branches missed.">			else if(num==2)</span>
+			{
+<span class="nc" id="L38">				System.out.println(&quot;请添加新的文本，具体路径为txt/AtomicStructure1.txt&quot;);</span>
+				
+<span class="nc" id="L40">			       System.out.println(&quot;新文本输入完成后输入yes&quot;);</span>
+<span class="nc" id="L41">			       Scanner in6 = new Scanner(System.in);</span>
+			     //  System.out.println(&quot;新文本输入完成后输入yes&quot;);
+<span class="nc" id="L43">			       String s1 = in6.nextLine();</span>
+<span class="nc bnc" id="L44" title="All 2 branches missed.">			       if(s1.equals(&quot;yes&quot;))</span>
+			       {
+<span class="nc" id="L46">			    	   ArrayList&lt;String&gt; info = m.readFile(&quot;txt/AtomicStructure1.txt&quot;);</span>
+<span class="nc" id="L47">			    	   m.initarraylist();</span>
+<span class="nc" id="L48">			    	   m.setinfoall(info);</span>
+<span class="nc" id="L49">			    	   m.Analysis();</span>
+<span class="nc" id="L50">			       }</span>
+			       else
+			       {
+<span class="nc" id="L53">			    	   System.out.println(&quot;输入不是yes！！！&quot;);</span>
+<span class="nc" id="L54">			    	   System.exit(0);</span>
+			       }
+<span class="nc" id="L56">			}</span>
+<span class="nc bnc" id="L57" title="All 2 branches missed.">			else if(num==3)</span>
+			{
+<span class="nc" id="L59">				System.out.println(&quot;请添加新的文本，具体路径为txt/SocialNetworkCircle1.txt&quot;);</span>
+				
+<span class="nc" id="L61">			       System.out.println(&quot;新文本输入完成后输入yes&quot;);</span>
+<span class="nc" id="L62">			       Scanner in6 = new Scanner(System.in);</span>
+			     //  System.out.println(&quot;新文本输入完成后输入yes&quot;);
+<span class="nc" id="L64">			       String s1 = in6.nextLine();</span>
+<span class="nc bnc" id="L65" title="All 2 branches missed.">			       if(s1.equals(&quot;yes&quot;))</span>
+			       {
+<span class="nc" id="L67">			    	   ArrayList&lt;String&gt; info = m.readFile(&quot;txt/SocialNetworkCircle1.txt&quot;);</span>
+<span class="nc" id="L68">			    	   m.initarraylist();</span>
+<span class="nc" id="L69">			    	   m.setinfoall(info);</span>
+<span class="nc" id="L70">			    	   m.Analysis();</span>
+<span class="nc" id="L71">			       }</span>
+			       else
+			       {
+<span class="nc" id="L74">			    	   System.out.println(&quot;输入不是yes！！！&quot;);</span>
+<span class="nc" id="L75">			    	   System.exit(0);</span>
+			       }
+<span class="nc" id="L77">			}</span>
+			else
+			{
+<span class="nc" id="L80">				throw new notfoundnewfile();</span>
+			}
+		}
+<span class="nc" id="L83">		catch(notfoundnewfile e)</span>
+		{
+<span class="nc" id="L85">			e.exit();</span>
+		}
+		
+<span class="nc" id="L88">	}</span>
+		
+	
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.2.201808211720</span>test (3) (2019-5-19 15:10:37)</div></body></html>

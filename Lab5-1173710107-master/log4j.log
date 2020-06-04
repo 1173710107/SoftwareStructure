@@ -1,0 +1,568 @@
+ [2019-05-15 19:32:04,034] INFO     0[main] - applications.Main.main(Main.java:32) - Ñ¡ÔñtrackgameÓ¦ÓÃ
+ [2019-05-15 21:52:44,885] INFO     0[main] - applications.Main.main(Main.java:32) - Ñ¡ÔñtrackgameÓ¦ÓÃ
+ [2019-05-15 21:52:44,963] INFO    78[main] - applications.Main.main(Main.java:36) - ¶ÁÈ¡trackgame.txtµÄĞÅÏ¢
+ [2019-05-15 21:52:44,963] INFO    78[main] - applications.Main.main(Main.java:40) - ÕıÔÚ¶Ô¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½½âÎö£¡
+ [2019-05-15 21:52:44,980]ERROR    95[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:377) - ÎÄ±¾ÖĞ´æÔÚ·Ç·¨±êÇ©£¬ÖØĞÂÊäÈëÎÄ¼ş
+ [2019-05-15 21:58:58,647] INFO     0[main] - applications.Main.main(Main.java:32) - Ñ¡ÔñtrackgameÓ¦ÓÃ
+ [2019-05-15 21:58:58,679] INFO    32[main] - applications.Main.main(Main.java:36) - ¶ÁÈ¡trackgame.txtµÄĞÅÏ¢
+ [2019-05-15 21:58:58,679] INFO    32[main] - applications.Main.main(Main.java:40) - ÕıÔÚ¶Ô¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½½âÎö£¡
+ [2019-05-15 21:58:58,694]ERROR    47[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:377) - ÎÄ±¾ÖĞ´æÔÚ·Ç·¨±êÇ©£¬ÖØĞÂÊäÈëÎÄ¼ş
+ [2019-05-15 21:59:04,253]ERROR  5606[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:377) - ÎÄ±¾ÖĞ´æÔÚ·Ç·¨±êÇ©£¬ÖØĞÂÊäÈëÎÄ¼ş
+ [2019-05-15 21:59:14,861]ERROR 16214[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:377) - ÎÄ±¾ÖĞ´æÔÚ·Ç·¨±êÇ©£¬ÖØĞÂÊäÈëÎÄ¼ş
+ [2019-05-15 22:00:34,083] INFO     0[main] - applications.Main.main(Main.java:32) - Ñ¡ÔñtrackgameÓ¦ÓÃ
+ [2019-05-15 22:00:34,099] INFO    16[main] - applications.Main.main(Main.java:36) - ¶ÁÈ¡trackgame.txtµÄĞÅÏ¢
+ [2019-05-15 22:00:34,114] INFO    31[main] - applications.Main.main(Main.java:40) - ÕıÔÚ¶Ô¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½½âÎö£¡
+ [2019-05-15 22:00:34,116]ERROR    33[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:377) - ÎÄ±¾ÖĞ´æÔÚ·Ç·¨±êÇ©£¬ÖØĞÂÊäÈëÎÄ¼ş
+ [2019-05-15 22:00:39,774]ERROR  5691[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:377) - ÎÄ±¾ÖĞ´æÔÚ·Ç·¨±êÇ©£¬ÖØĞÂÊäÈëÎÄ¼ş
+ [2019-05-15 22:00:58,940] INFO     0[main] - applications.Main.main(Main.java:112) - ¶ÁÈ¡ AtomicStructure.txtÎÄ¼şµÄĞÅÏ¢
+ [2019-05-15 22:00:58,956] INFO    16[main] - applications.Main.main(Main.java:115) - ¶ÔÓ¦ÓÃ¶ş¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½Æ¥Åä
+ [2019-05-15 22:00:58,972]ERROR    32[main] - circularOrbit.AtomStructure.Analysis(AtomStructure.java:152) - Ó¦ÓÃ2µç×ÓµÄ¹ìµÀÊı³¬¹ıÁË¹ìµÀÊı£¬ÖØĞÂÊäÈëÎÄ±¾
+ [2019-05-15 22:01:01,483] INFO  2543[main] - applications.Main.main(Main.java:119) - Êä³öÓ¦ÓÃ¶şµÄ¹¦ÄÜ²Ëµ¥
+ [2019-05-15 22:01:07,908] INFO     0[main] - applications.Main.main(Main.java:173) - ¶ÁÈëSocialNetworkCircle.txt ÎÄ¼ş
+ [2019-05-15 22:01:07,923] INFO    15[main] - applications.Main.main(Main.java:176) - ¶ÔÓ¦ÓÃÈıµÄÎÄ±¾½øĞĞÕıÔò±í´ïÊ½Æ¥Åä
+ [2019-05-15 22:01:07,939]ERROR    31[main] - circularOrbit.SocialNetworkCircle.Analysis(SocialNetworkCircle.java:492) - Ó¦ÓÃÈıÊäÈëÎÄ±¾µÄ¸ñÊ½²»¶Ô£¬ÖØĞÂÊäÈëÎÄ±¾
+ [2019-05-15 22:01:11,807]ERROR  3899[main] - circularOrbit.SocialNetworkCircle.Analysis(SocialNetworkCircle.java:492) - Ó¦ÓÃÈıÊäÈëÎÄ±¾µÄ¸ñÊ½²»¶Ô£¬ÖØĞÂÊäÈëÎÄ±¾
+ [2019-05-15 22:03:04,028] INFO     0[main] - applications.Main.main(Main.java:32) - Ñ¡ÔñtrackgameÓ¦ÓÃ
+ [2019-05-15 22:03:04,044] INFO    16[main] - applications.Main.main(Main.java:36) - ¶ÁÈ¡trackgame.txtµÄĞÅÏ¢
+ [2019-05-15 22:03:04,044] INFO    16[main] - applications.Main.main(Main.java:40) - ÕıÔÚ¶Ô¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½½âÎö£¡
+ [2019-05-15 22:03:04,044]ERROR    16[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:378) - ÎÄ±¾ÖĞ´æÔÚ·Ç·¨±êÇ©£¬ÖØĞÂÊäÈëÎÄ¼ş
+ [2019-05-15 22:03:08,604]ERROR  4576[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:378) - ÎÄ±¾ÖĞ´æÔÚ·Ç·¨±êÇ©£¬ÖØĞÂÊäÈëÎÄ¼ş
+ [2019-05-15 22:04:04,468] INFO     0[main] - applications.Main.main(Main.java:32) - Ñ¡ÔñtrackgameÓ¦ÓÃ
+ [2019-05-15 22:04:04,499] INFO    31[main] - applications.Main.main(Main.java:36) - ¶ÁÈ¡trackgame.txtµÄĞÅÏ¢
+ [2019-05-15 22:04:04,499] INFO    31[main] - applications.Main.main(Main.java:40) - ÕıÔÚ¶Ô¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½½âÎö£¡
+ [2019-05-15 22:04:04,594]ERROR   126[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:379) - ÎÄ±¾ÖĞ´æÔÚ·Ç·¨±êÇ©£¬ÖØĞÂÊäÈëÎÄ¼ş
+ [2019-05-15 22:04:10,016]ERROR  5548[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:379) - ÎÄ±¾ÖĞ´æÔÚ·Ç·¨±êÇ©£¬ÖØĞÂÊäÈëÎÄ¼ş
+ [2019-05-15 22:06:03,658] INFO     0[main] - applications.Main.main(Main.java:32) - Ñ¡ÔñtrackgameÓ¦ÓÃ
+ [2019-05-15 22:06:03,674] INFO    16[main] - applications.Main.main(Main.java:36) - ¶ÁÈ¡trackgame.txtµÄĞÅÏ¢
+ [2019-05-15 22:06:03,674] INFO    16[main] - applications.Main.main(Main.java:40) - ÕıÔÚ¶Ô¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½½âÎö£¡
+ [2019-05-15 22:06:03,689]ERROR    31[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:382) - ÎÄ±¾ÖĞ´æÔÚ·Ç·¨±êÇ©£¬ÖØĞÂÊäÈëÎÄ¼ş
+ [2019-05-15 22:06:08,300]ERROR  4642[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:382) - ÎÄ±¾ÖĞ´æÔÚ·Ç·¨±êÇ©£¬ÖØĞÂÊäÈëÎÄ¼ş
+ [2019-05-15 22:06:50,361] INFO     0[main] - applications.Main.main(Main.java:32) - Ñ¡ÔñtrackgameÓ¦ÓÃ
+ [2019-05-15 22:06:50,392] INFO    31[main] - applications.Main.main(Main.java:36) - ¶ÁÈ¡trackgame.txtµÄĞÅÏ¢
+ [2019-05-15 22:06:50,392] INFO    31[main] - applications.Main.main(Main.java:40) - ÕıÔÚ¶Ô¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½½âÎö£¡
+ [2019-05-15 22:06:50,392]ERROR    31[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:383) - ÎÄ±¾ÖĞ´æÔÚ·Ç·¨±êÇ©£¬ÖØĞÂÊäÈëÎÄ¼ş
+ [2019-05-15 22:06:54,659]ERROR  4298[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:383) - ÎÄ±¾ÖĞ´æÔÚ·Ç·¨±êÇ©£¬ÖØĞÂÊäÈëÎÄ¼ş
+ [2019-05-15 22:07:32,655] INFO     0[main] - applications.Main.main(Main.java:32) - Ñ¡ÔñtrackgameÓ¦ÓÃ
+ [2019-05-15 22:07:32,686] INFO    31[main] - applications.Main.main(Main.java:36) - ¶ÁÈ¡trackgame.txtµÄĞÅÏ¢
+ [2019-05-15 22:07:32,686] INFO    31[main] - applications.Main.main(Main.java:40) - ÕıÔÚ¶Ô¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½½âÎö£¡
+ [2019-05-15 22:07:32,686]ERROR    31[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:383) - ÎÄ±¾ÖĞ´æÔÚ·Ç·¨±êÇ©£¬ÖØĞÂÊäÈëÎÄ¼ş
+ [2019-05-15 22:07:37,038]ERROR  4383[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:383) - ÎÄ±¾ÖĞ´æÔÚ·Ç·¨±êÇ©£¬ÖØĞÂÊäÈëÎÄ¼ş
+ [2019-05-15 22:13:47,748] INFO     0[main] - applications.Main.main(Main.java:32) - Ñ¡ÔñtrackgameÓ¦ÓÃ
+ [2019-05-15 22:13:47,779] INFO    31[main] - applications.Main.main(Main.java:36) - ¶ÁÈ¡trackgame.txtµÄĞÅÏ¢
+ [2019-05-15 22:13:47,779] INFO    31[main] - applications.Main.main(Main.java:40) - ÕıÔÚ¶Ô¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½½âÎö£¡
+ [2019-05-15 22:13:47,794]ERROR    46[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:146) - ÔË¶¯Ô±µÚ¶ş¸ö²ÎÊı²»ÊÇ´¿Êı×Ö£¬ÖØĞÂÊäÈëÎÄ¼ş
+ [2019-05-15 22:13:52,652] INFO  4904[main] - applications.Main.main(Main.java:44) - Êä³öÓ¦ÓÃÒ»µÄÑ¡Ôñ²Ëµ¥
+ [2019-05-15 22:15:37,604] INFO     0[main] - applications.Main.main(Main.java:173) - ¶ÁÈëSocialNetworkCircle.txt ÎÄ¼ş
+ [2019-05-15 22:15:37,604] INFO     0[main] - applications.Main.main(Main.java:176) - ¶ÔÓ¦ÓÃÈıµÄÎÄ±¾½øĞĞÕıÔò±í´ïÊ½Æ¥Åä
+ [2019-05-15 22:15:37,635]ERROR    31[main] - circularOrbit.SocialNetworkCircle.Analysis(SocialNetworkCircle.java:493) - Ó¦ÓÃÈıÊäÈëÎÄ±¾µÄ¸ñÊ½²»¶Ô£¬ÖØĞÂÊäÈëÎÄ±¾
+ [2019-05-15 22:15:43,579]ERROR  5975[main] - circularOrbit.SocialNetworkCircle.Analysis(SocialNetworkCircle.java:493) - Ó¦ÓÃÈıÊäÈëÎÄ±¾µÄ¸ñÊ½²»¶Ô£¬ÖØĞÂÊäÈëÎÄ±¾
+ [2019-05-15 22:16:52,249] INFO     0[main] - applications.Main.main(Main.java:173) - ¶ÁÈëSocialNetworkCircle.txt ÎÄ¼ş
+ [2019-05-15 22:16:52,265] INFO    16[main] - applications.Main.main(Main.java:176) - ¶ÔÓ¦ÓÃÈıµÄÎÄ±¾½øĞĞÕıÔò±í´ïÊ½Æ¥Åä
+ [2019-05-15 22:16:52,281]ERROR    32[main] - circularOrbit.SocialNetworkCircle.Analysis(SocialNetworkCircle.java:494) - Ó¦ÓÃÈıÊäÈëÎÄ±¾µÄ¸ñÊ½²»¶Ô£¬ÖØĞÂÊäÈëÎÄ±¾
+ [2019-05-15 22:17:01,386]ERROR  9137[main] - circularOrbit.SocialNetworkCircle.Analysis(SocialNetworkCircle.java:494) - Ó¦ÓÃÈıÊäÈëÎÄ±¾µÄ¸ñÊ½²»¶Ô£¬ÖØĞÂÊäÈëÎÄ±¾
+ [2019-05-15 22:17:58,292] INFO     0[main] - applications.Main.main(Main.java:173) - ¶ÁÈëSocialNetworkCircle.txt ÎÄ¼ş
+ [2019-05-15 22:17:58,302] INFO    10[main] - applications.Main.main(Main.java:176) - ¶ÔÓ¦ÓÃÈıµÄÎÄ±¾½øĞĞÕıÔò±í´ïÊ½Æ¥Åä
+ [2019-05-15 22:17:58,320]ERROR    28[main] - circularOrbit.SocialNetworkCircle.Analysis(SocialNetworkCircle.java:259) - Ó¦ÓÃÈıÓĞ¹ØÏµÃ»ÓĞ¶ÔÓ¦¸ÃÈËÃû£¬»òÕßÓĞfriends±êÇ©·ÅÔÚÁËsocialtieÖ®ºó£¬ÖØĞÂÊäÈëÎÄ±¾
+ [2019-05-15 22:18:02,880]ERROR  4588[main] - circularOrbit.SocialNetworkCircle.Analysis(SocialNetworkCircle.java:259) - Ó¦ÓÃÈıÓĞ¹ØÏµÃ»ÓĞ¶ÔÓ¦¸ÃÈËÃû£¬»òÕßÓĞfriends±êÇ©·ÅÔÚÁËsocialtieÖ®ºó£¬ÖØĞÂÊäÈëÎÄ±¾
+ [2019-05-15 22:18:51,138] INFO     0[main] - applications.Main.main(Main.java:173) - ¶ÁÈëSocialNetworkCircle.txt ÎÄ¼ş
+ [2019-05-15 22:18:51,154] INFO    16[main] - applications.Main.main(Main.java:176) - ¶ÔÓ¦ÓÃÈıµÄÎÄ±¾½øĞĞÕıÔò±í´ïÊ½Æ¥Åä
+ [2019-05-15 22:18:51,169]ERROR    31[main] - circularOrbit.SocialNetworkCircle.Analysis(SocialNetworkCircle.java:259) - Ó¦ÓÃÈıÓĞ¹ØÏµÃ»ÓĞ¶ÔÓ¦¸ÃÈËÃû£¬»òÕßÓĞfriends±êÇ©·ÅÔÚÁËsocialtieÖ®ºó£¬ÖØĞÂÊäÈëÎÄ±¾
+ [2019-05-15 22:18:55,484] INFO  4346[main] - applications.Main.main(Main.java:180) - Êä³öÓ¦ÓÃÈı²Ëµ¥
+ [2019-05-15 22:25:14,907] INFO     0[main] - applications.Main.main(Main.java:32) - Ñ¡ÔñtrackgameÓ¦ÓÃ
+ [2019-05-15 22:25:14,923] INFO    16[main] - applications.Main.main(Main.java:36) - ¶ÁÈ¡trackgame.txtµÄĞÅÏ¢
+ [2019-05-15 22:25:14,923] INFO    16[main] - applications.Main.main(Main.java:40) - ÕıÔÚ¶Ô¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½½âÎö£¡
+ [2019-05-15 22:25:14,938]ERROR    31[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:146) - ÔË¶¯Ô±µÚ¶ş¸ö²ÎÊı²»ÊÇ´¿Êı×Ö£¬ÖØĞÂÊäÈëÎÄ¼ş
+ [2019-05-15 22:25:19,108] INFO  4201[main] - applications.Main.main(Main.java:44) - Êä³öÓ¦ÓÃÒ»µÄÑ¡Ôñ²Ëµ¥
+ [2019-05-15 22:25:24,837] INFO     0[main] - applications.Main.main(Main.java:112) - ¶ÁÈ¡ AtomicStructure.txtÎÄ¼şµÄĞÅÏ¢
+ [2019-05-15 22:25:24,853] INFO    16[main] - applications.Main.main(Main.java:115) - ¶ÔÓ¦ÓÃ¶ş¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½Æ¥Åä
+ [2019-05-15 22:25:24,869]ERROR    32[main] - circularOrbit.AtomStructure.Analysis(AtomStructure.java:152) - Ó¦ÓÃ2µç×ÓµÄ¹ìµÀÊı³¬¹ıÁË¹ìµÀÊı£¬ÖØĞÂÊäÈëÎÄ±¾
+ [2019-05-15 22:25:26,664] INFO  1827[main] - applications.Main.main(Main.java:119) - Êä³öÓ¦ÓÃ¶şµÄ¹¦ÄÜ²Ëµ¥
+ [2019-05-15 22:25:30,375] INFO  5538[main] - applications.Main.main(Main.java:161) - ÍË³öµ±Ç°Ó¦ÓÃ
+ [2019-05-15 22:25:30,375] INFO  5538[main] - applications.Main.main(Main.java:119) - Êä³öÓ¦ÓÃ¶şµÄ¹¦ÄÜ²Ëµ¥
+ [2019-05-15 22:25:34,160] INFO  9323[main] - applications.Main.main(Main.java:161) - ÍË³öµ±Ç°Ó¦ÓÃ
+ [2019-05-15 22:25:34,160] INFO  9323[main] - applications.Main.main(Main.java:119) - Êä³öÓ¦ÓÃ¶şµÄ¹¦ÄÜ²Ëµ¥
+ [2019-05-15 22:25:45,874] INFO     0[main] - applications.Main.main(Main.java:173) - ¶ÁÈëSocialNetworkCircle.txt ÎÄ¼ş
+ [2019-05-15 22:25:45,889] INFO    15[main] - applications.Main.main(Main.java:176) - ¶ÔÓ¦ÓÃÈıµÄÎÄ±¾½øĞĞÕıÔò±í´ïÊ½Æ¥Åä
+ [2019-05-15 22:25:45,889]ERROR    15[main] - circularOrbit.SocialNetworkCircle.Analysis(SocialNetworkCircle.java:259) - Ó¦ÓÃÈıÓĞ¹ØÏµÃ»ÓĞ¶ÔÓ¦¸ÃÈËÃû£¬»òÕßÓĞfriends±êÇ©·ÅÔÚÁËsocialtieÖ®ºó£¬ÖØĞÂÊäÈëÎÄ±¾
+ [2019-05-15 22:25:50,586] INFO  4712[main] - applications.Main.main(Main.java:180) - Êä³öÓ¦ÓÃÈı²Ëµ¥
+ [2019-05-16 09:42:26,725] INFO     0[main] - applications.Main.main(Main.java:36) - Ñ¡ÔñtrackgameÓ¦ÓÃ
+ [2019-05-16 09:42:26,819] INFO    94[main] - applications.Main.main(Main.java:40) - ¶ÁÈ¡trackgame.txtµÄĞÅÏ¢
+ [2019-05-16 09:42:26,819] INFO    94[main] - applications.Main.main(Main.java:44) - ÕıÔÚ¶Ô¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½½âÎö£¡
+ [2019-05-16 09:42:26,850]ERROR   125[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:146) - ÔË¶¯Ô±µÚ¶ş¸ö²ÎÊı²»ÊÇ´¿Êı×Ö£¬ÖØĞÂÊäÈëÎÄ¼ş
+ [2019-05-16 09:42:34,854] INFO  8129[main] - applications.Main.main(Main.java:48) - Êä³öÓ¦ÓÃÒ»µÄÑ¡Ôñ²Ëµ¥
+ [2019-05-16 09:44:58,393] INFO     0[main] - applications.Main.main(Main.java:36) - Ñ¡ÔñtrackgameÓ¦ÓÃ
+ [2019-05-16 09:44:58,425] INFO    32[main] - applications.Main.main(Main.java:40) - ¶ÁÈ¡trackgame.txtµÄĞÅÏ¢
+ [2019-05-16 09:44:58,425] INFO    32[main] - applications.Main.main(Main.java:44) - ÕıÔÚ¶Ô¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½½âÎö£¡
+ [2019-05-16 09:44:58,440]ERROR    47[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:146) - ÔË¶¯Ô±µÚ¶ş¸ö²ÎÊı²»ÊÇ´¿Êı×Ö£¬ÖØĞÂÊäÈëÎÄ¼ş
+ [2019-05-16 09:45:02,395] INFO  4002[main] - applications.Main.main(Main.java:48) - Êä³öÓ¦ÓÃÒ»µÄÑ¡Ôñ²Ëµ¥
+ [2019-05-16 09:46:41,828] INFO     0[main] - applications.Main.main(Main.java:36) - Ñ¡ÔñtrackgameÓ¦ÓÃ
+ [2019-05-16 09:46:41,843] INFO    15[main] - applications.Main.main(Main.java:40) - ¶ÁÈ¡trackgame.txtµÄĞÅÏ¢
+ [2019-05-16 09:46:41,843] INFO    15[main] - applications.Main.main(Main.java:44) - ÕıÔÚ¶Ô¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½½âÎö£¡
+ [2019-05-16 09:46:41,843]ERROR    15[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:146) - ÔË¶¯Ô±µÚ¶ş¸ö²ÎÊı²»ÊÇ´¿Êı×Ö£¬ÖØĞÂÊäÈëÎÄ¼ş
+ [2019-05-16 09:46:45,986] INFO  4158[main] - applications.Main.main(Main.java:48) - Êä³öÓ¦ÓÃÒ»µÄÑ¡Ôñ²Ëµ¥
+ [2019-05-16 10:05:52,143] INFO     0[main] - applications.Main.main(Main.java:36) - Ñ¡ÔñtrackgameÓ¦ÓÃ
+ [2019-05-16 10:05:52,174] INFO    31[main] - applications.Main.main(Main.java:40) - ¶ÁÈ¡trackgame.txtµÄĞÅÏ¢
+ [2019-05-16 10:05:52,174] INFO    31[main] - applications.Main.main(Main.java:44) - ÕıÔÚ¶Ô¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½½âÎö£¡
+ [2019-05-16 10:05:52,190]ERROR    47[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:146) - ÔË¶¯Ô±µÚ¶ş¸ö²ÎÊı²»ÊÇ´¿Êı×Ö£¬ÖØĞÂÊäÈëÎÄ¼ş
+ [2019-05-16 10:05:57,139] INFO  4996[main] - applications.Main.main(Main.java:48) - Êä³öÓ¦ÓÃÒ»µÄÑ¡Ôñ²Ëµ¥
+ [2019-05-16 10:06:34,818] INFO     0[main] - applications.Main.main(Main.java:36) - Ñ¡ÔñtrackgameÓ¦ÓÃ
+ [2019-05-16 10:06:34,833] INFO    15[main] - applications.Main.main(Main.java:40) - ¶ÁÈ¡trackgame.txtµÄĞÅÏ¢
+ [2019-05-16 10:06:34,833] INFO    15[main] - applications.Main.main(Main.java:44) - ÕıÔÚ¶Ô¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½½âÎö£¡
+ [2019-05-16 10:06:34,849]ERROR    31[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:146) - ÔË¶¯Ô±µÚ¶ş¸ö²ÎÊı²»ÊÇ´¿Êı×Ö£¬ÖØĞÂÊäÈëÎÄ¼ş
+ [2019-05-16 10:06:38,989] INFO  4171[main] - applications.Main.main(Main.java:48) - Êä³öÓ¦ÓÃÒ»µÄÑ¡Ôñ²Ëµ¥
+ [2019-05-16 10:08:28,311] INFO     0[main] - applications.Main.main(Main.java:36) - Ñ¡ÔñtrackgameÓ¦ÓÃ
+ [2019-05-16 10:08:28,340] INFO    29[main] - applications.Main.main(Main.java:40) - ¶ÁÈ¡trackgame.txtµÄĞÅÏ¢
+ [2019-05-16 10:08:28,342] INFO    31[main] - applications.Main.main(Main.java:44) - ÕıÔÚ¶Ô¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½½âÎö£¡
+ [2019-05-16 10:08:28,361]ERROR    50[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:146) - ÔË¶¯Ô±µÚ¶ş¸ö²ÎÊı²»ÊÇ´¿Êı×Ö£¬ÖØĞÂÊäÈëÎÄ¼ş
+ [2019-05-16 10:08:31,724] INFO  3413[main] - applications.Main.main(Main.java:48) - Êä³öÓ¦ÓÃÒ»µÄÑ¡Ôñ²Ëµ¥
+ [2019-05-16 10:10:26,263] INFO     0[main] - applications.Main.main(Main.java:36) - Ñ¡ÔñtrackgameÓ¦ÓÃ
+ [2019-05-16 10:10:26,286] INFO    23[main] - applications.Main.main(Main.java:40) - ¶ÁÈ¡trackgame.txtµÄĞÅÏ¢
+ [2019-05-16 10:10:26,289] INFO    26[main] - applications.Main.main(Main.java:44) - ÕıÔÚ¶Ô¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½½âÎö£¡
+ [2019-05-16 10:10:26,299]ERROR    36[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:146) - ÔË¶¯Ô±µÚ¶ş¸ö²ÎÊı²»ÊÇ´¿Êı×Ö£¬ÖØĞÂÊäÈëÎÄ¼ş
+ [2019-05-16 10:10:31,406] INFO  5143[main] - applications.Main.main(Main.java:48) - Êä³öÓ¦ÓÃÒ»µÄÑ¡Ôñ²Ëµ¥
+ [2019-05-16 10:13:27,696] INFO     0[main] - applications.Main.main(Main.java:36) - Ñ¡ÔñtrackgameÓ¦ÓÃ
+ [2019-05-16 10:13:27,727] INFO    31[main] - applications.Main.main(Main.java:40) - ¶ÁÈ¡trackgame.txtµÄĞÅÏ¢
+ [2019-05-16 10:13:27,730] INFO    34[main] - applications.Main.main(Main.java:44) - ÕıÔÚ¶Ô¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½½âÎö£¡
+ [2019-05-16 10:13:27,737]ERROR    41[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:146) - ÔË¶¯Ô±µÚ¶ş¸ö²ÎÊı²»ÊÇ´¿Êı×Ö£¬ÖØĞÂÊäÈëÎÄ¼ş
+ [2019-05-16 10:13:31,963] INFO  4267[main] - applications.Main.main(Main.java:48) - Êä³öÓ¦ÓÃÒ»µÄÑ¡Ôñ²Ëµ¥
+ [2019-05-16 10:14:23,267] INFO     0[main] - applications.Main.main(Main.java:36) - Ñ¡ÔñtrackgameÓ¦ÓÃ
+ [2019-05-16 10:14:23,308] INFO    41[main] - applications.Main.main(Main.java:40) - ¶ÁÈ¡trackgame.txtµÄĞÅÏ¢
+ [2019-05-16 10:14:23,311] INFO    44[main] - applications.Main.main(Main.java:44) - ÕıÔÚ¶Ô¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½½âÎö£¡
+ [2019-05-16 10:14:23,318]ERROR    51[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:146) - ÔË¶¯Ô±µÚ¶ş¸ö²ÎÊı²»ÊÇ´¿Êı×Ö£¬ÖØĞÂÊäÈëÎÄ¼ş
+ [2019-05-16 10:14:27,584] INFO  4317[main] - applications.Main.main(Main.java:48) - Êä³öÓ¦ÓÃÒ»µÄÑ¡Ôñ²Ëµ¥
+ [2019-05-16 10:16:39,382] INFO     0[main] - applications.Main.main(Main.java:36) - Ñ¡ÔñtrackgameÓ¦ÓÃ
+ [2019-05-16 10:16:39,392] INFO    10[main] - applications.Main.main(Main.java:40) - ¶ÁÈ¡trackgame.txtµÄĞÅÏ¢
+ [2019-05-16 10:16:39,392] INFO    10[main] - applications.Main.main(Main.java:44) - ÕıÔÚ¶Ô¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½½âÎö£¡
+ [2019-05-16 10:16:39,411]ERROR    29[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:146) - ÔË¶¯Ô±µÚ¶ş¸ö²ÎÊı²»ÊÇ´¿Êı×Ö£¬ÖØĞÂÊäÈëÎÄ¼ş
+ [2019-05-16 10:16:43,485] INFO  4103[main] - applications.Main.main(Main.java:48) - Êä³öÓ¦ÓÃÒ»µÄÑ¡Ôñ²Ëµ¥
+ [2019-05-16 10:17:57,179] INFO     0[main] - applications.Main.main(Main.java:36) - Ñ¡ÔñtrackgameÓ¦ÓÃ
+ [2019-05-16 10:17:57,209] INFO    30[main] - applications.Main.main(Main.java:40) - ¶ÁÈ¡trackgame.txtµÄĞÅÏ¢
+ [2019-05-16 10:17:57,212] INFO    33[main] - applications.Main.main(Main.java:44) - ÕıÔÚ¶Ô¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½½âÎö£¡
+ [2019-05-16 10:17:57,217]ERROR    38[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:146) - ÔË¶¯Ô±µÚ¶ş¸ö²ÎÊı²»ÊÇ´¿Êı×Ö£¬ÖØĞÂÊäÈëÎÄ¼ş
+ [2019-05-16 10:18:01,764] INFO  4585[main] - applications.Main.main(Main.java:48) - Êä³öÓ¦ÓÃÒ»µÄÑ¡Ôñ²Ëµ¥
+ [2019-05-16 10:20:47,009] INFO     0[main] - applications.Main.main(Main.java:36) - Ñ¡ÔñtrackgameÓ¦ÓÃ
+ [2019-05-16 10:20:47,043] INFO    34[main] - applications.Main.main(Main.java:40) - ¶ÁÈ¡trackgame.txtµÄĞÅÏ¢
+ [2019-05-16 10:20:47,043] INFO    34[main] - applications.Main.main(Main.java:44) - ÕıÔÚ¶Ô¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½½âÎö£¡
+ [2019-05-16 10:20:47,048]ERROR    39[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:146) - ÔË¶¯Ô±µÚ¶ş¸ö²ÎÊı²»ÊÇ´¿Êı×Ö£¬ÖØĞÂÊäÈëÎÄ¼ş
+ [2019-05-16 10:20:51,565] INFO  4556[main] - applications.Main.main(Main.java:48) - Êä³öÓ¦ÓÃÒ»µÄÑ¡Ôñ²Ëµ¥
+ [2019-05-16 10:29:17,308] INFO     0[main] - applications.Main.main(Main.java:36) - Ñ¡ÔñtrackgameÓ¦ÓÃ
+ [2019-05-16 10:29:17,340] INFO    32[main] - applications.Main.main(Main.java:40) - ¶ÁÈ¡trackgame.txtµÄĞÅÏ¢
+ [2019-05-16 10:29:17,340] INFO    32[main] - applications.Main.main(Main.java:44) - ÕıÔÚ¶Ô¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½½âÎö£¡
+ [2019-05-16 10:29:17,357]ERROR    49[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:146) - ÔË¶¯Ô±µÚ¶ş¸ö²ÎÊı²»ÊÇ´¿Êı×Ö£¬ÖØĞÂÊäÈëÎÄ¼ş
+ [2019-05-16 10:29:22,278] INFO  4970[main] - applications.Main.main(Main.java:48) - Êä³öÓ¦ÓÃÒ»µÄÑ¡Ôñ²Ëµ¥
+ [2019-05-16 10:33:50,742] INFO     0[main] - applications.Main.main(Main.java:36) - Ñ¡ÔñtrackgameÓ¦ÓÃ
+ [2019-05-16 10:33:50,773] INFO    31[main] - applications.Main.main(Main.java:40) - ¶ÁÈ¡trackgame.txtµÄĞÅÏ¢
+ [2019-05-16 10:33:50,773] INFO    31[main] - applications.Main.main(Main.java:44) - ÕıÔÚ¶Ô¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½½âÎö£¡
+ [2019-05-16 10:33:50,773]ERROR    31[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:146) - ÔË¶¯Ô±µÚ¶ş¸ö²ÎÊı²»ÊÇ´¿Êı×Ö£¬ÖØĞÂÊäÈëÎÄ¼ş
+ [2019-05-16 10:33:55,343] INFO  4601[main] - applications.Main.main(Main.java:48) - Êä³öÓ¦ÓÃÒ»µÄÑ¡Ôñ²Ëµ¥
+ [2019-05-16 10:35:47,420] INFO     0[main] - applications.Main.main(Main.java:36) - Ñ¡ÔñtrackgameÓ¦ÓÃ
+ [2019-05-16 10:35:47,443] INFO    23[main] - applications.Main.main(Main.java:40) - ¶ÁÈ¡trackgame.txtµÄĞÅÏ¢
+ [2019-05-16 10:35:47,446] INFO    26[main] - applications.Main.main(Main.java:44) - ÕıÔÚ¶Ô¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½½âÎö£¡
+ [2019-05-16 10:35:47,449]ERROR    29[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:146) - ÔË¶¯Ô±µÚ¶ş¸ö²ÎÊı²»ÊÇ´¿Êı×Ö£¬ÖØĞÂÊäÈëÎÄ¼ş
+ [2019-05-16 10:35:52,167] INFO  4747[main] - applications.Main.main(Main.java:48) - Êä³öÓ¦ÓÃÒ»µÄÑ¡Ôñ²Ëµ¥
+ [2019-05-16 10:38:48,817] INFO     0[main] - applications.Main.main(Main.java:36) - Ñ¡ÔñtrackgameÓ¦ÓÃ
+ [2019-05-16 10:38:48,848] INFO    31[main] - applications.Main.main(Main.java:40) - ¶ÁÈ¡trackgame.txtµÄĞÅÏ¢
+ [2019-05-16 10:38:48,848] INFO    31[main] - applications.Main.main(Main.java:44) - ÕıÔÚ¶Ô¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½½âÎö£¡
+ [2019-05-16 10:38:48,865]ERROR    48[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:146) - ÔË¶¯Ô±µÚ¶ş¸ö²ÎÊı²»ÊÇ´¿Êı×Ö£¬ÖØĞÂÊäÈëÎÄ¼ş
+ [2019-05-16 10:38:53,533] INFO  4716[main] - applications.Main.main(Main.java:48) - Êä³öÓ¦ÓÃÒ»µÄÑ¡Ôñ²Ëµ¥
+ [2019-05-16 10:41:20,854] INFO     0[main] - applications.Main.main(Main.java:36) - Ñ¡ÔñtrackgameÓ¦ÓÃ
+ [2019-05-16 10:41:20,885] INFO    31[main] - applications.Main.main(Main.java:40) - ¶ÁÈ¡trackgame.txtµÄĞÅÏ¢
+ [2019-05-16 10:41:20,885] INFO    31[main] - applications.Main.main(Main.java:44) - ÕıÔÚ¶Ô¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½½âÎö£¡
+ [2019-05-16 10:41:20,885]ERROR    31[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:146) - ÔË¶¯Ô±µÚ¶ş¸ö²ÎÊı²»ÊÇ´¿Êı×Ö£¬ÖØĞÂÊäÈëÎÄ¼ş
+ [2019-05-16 10:41:25,115] INFO  4261[main] - applications.Main.main(Main.java:48) - Êä³öÓ¦ÓÃÒ»µÄÑ¡Ôñ²Ëµ¥
+ [2019-05-16 11:14:59,099] INFO    15[main] - applications.Main.main(Main.java:39) - Ñ¡ÔñtrackgameÓ¦ÓÃ
+ [2019-05-16 11:14:59,115] INFO    31[main] - applications.Main.main(Main.java:43) - ¶ÁÈ¡trackgame.txtµÄĞÅÏ¢
+ [2019-05-16 11:14:59,115] INFO    31[main] - applications.Main.main(Main.java:47) - ÕıÔÚ¶Ô¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½½âÎö£¡
+ [2019-05-16 11:14:59,132]ERROR    48[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:146) - ÔË¶¯Ô±µÚ¶ş¸ö²ÎÊı²»ÊÇ´¿Êı×Ö£¬ÖØĞÂÊäÈëÎÄ¼ş
+ [2019-05-16 11:15:03,876] INFO  4792[main] - applications.Main.main(Main.java:51) - Êä³öÓ¦ÓÃÒ»µÄÑ¡Ôñ²Ëµ¥
+ [2019-05-16 11:15:37,145] INFO     0[main] - applications.Main.main(Main.java:39) - Ñ¡ÔñtrackgameÓ¦ÓÃ
+ [2019-05-16 11:15:37,180] INFO    35[main] - applications.Main.main(Main.java:43) - ¶ÁÈ¡trackgame.txtµÄĞÅÏ¢
+ [2019-05-16 11:15:37,181] INFO    36[main] - applications.Main.main(Main.java:47) - ÕıÔÚ¶Ô¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½½âÎö£¡
+ [2019-05-16 11:15:37,186]ERROR    41[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:146) - ÔË¶¯Ô±µÚ¶ş¸ö²ÎÊı²»ÊÇ´¿Êı×Ö£¬ÖØĞÂÊäÈëÎÄ¼ş
+ [2019-05-16 11:15:42,049] INFO  4904[main] - applications.Main.main(Main.java:51) - Êä³öÓ¦ÓÃÒ»µÄÑ¡Ôñ²Ëµ¥
+ [2019-05-16 11:16:14,547] INFO     0[main] - applications.Main.main(Main.java:39) - Ñ¡ÔñtrackgameÓ¦ÓÃ
+ [2019-05-16 11:16:14,563] INFO    16[main] - applications.Main.main(Main.java:43) - ¶ÁÈ¡trackgame.txtµÄĞÅÏ¢
+ [2019-05-16 11:16:14,563] INFO    16[main] - applications.Main.main(Main.java:47) - ÕıÔÚ¶Ô¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½½âÎö£¡
+ [2019-05-16 11:16:14,579]ERROR    32[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:146) - ÔË¶¯Ô±µÚ¶ş¸ö²ÎÊı²»ÊÇ´¿Êı×Ö£¬ÖØĞÂÊäÈëÎÄ¼ş
+ [2019-05-16 11:16:18,487] INFO  3940[main] - applications.Main.main(Main.java:51) - Êä³öÓ¦ÓÃÒ»µÄÑ¡Ôñ²Ëµ¥
+ [2019-05-16 15:26:37,366] INFO     0[main] - applications.Main.main(Main.java:39) - Ñ¡ÔñtrackgameÓ¦ÓÃ
+ [2019-05-16 15:26:37,428] INFO    62[main] - applications.Main.main(Main.java:43) - ¶ÁÈ¡trackgame.txtµÄĞÅÏ¢
+ [2019-05-16 15:26:37,428] INFO    62[main] - applications.Main.main(Main.java:47) - ÕıÔÚ¶Ô¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½½âÎö£¡
+ [2019-05-16 15:26:37,445]ERROR    79[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:147) - ÔË¶¯Ô±µÚ¶ş¸ö²ÎÊı²»ÊÇ´¿Êı×Ö£¬ÖØĞÂÊäÈëÎÄ¼ş
+ [2019-05-16 15:26:43,296] INFO  5930[main] - applications.Main.main(Main.java:51) - Êä³öÓ¦ÓÃÒ»µÄÑ¡Ôñ²Ëµ¥
+ [2019-05-16 15:26:47,119] INFO  9753[main] - applications.Main.main(Main.java:85) - Ó¦ÓÃÒ»¶Ôµ±Ç°ĞÅÏ¢½øĞĞËæ»úÅÅĞò
+ [2019-05-16 15:26:56,917] INFO 19551[main] - applications.Main.main(Main.java:51) - Êä³öÓ¦ÓÃÒ»µÄÑ¡Ôñ²Ëµ¥
+ [2019-05-16 15:28:35,922] INFO     0[main] - applications.Main.main(Main.java:39) - Ñ¡ÔñtrackgameÓ¦ÓÃ
+ [2019-05-16 15:28:35,953] INFO    31[main] - applications.Main.main(Main.java:43) - ¶ÁÈ¡trackgame.txtµÄĞÅÏ¢
+ [2019-05-16 15:28:35,953] INFO    31[main] - applications.Main.main(Main.java:47) - ÕıÔÚ¶Ô¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½½âÎö£¡
+ [2019-05-16 15:28:35,968]ERROR    46[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:147) - ÔË¶¯Ô±µÚ¶ş¸ö²ÎÊı²»ÊÇ´¿Êı×Ö£¬ÖØĞÂÊäÈëÎÄ¼ş
+ [2019-05-16 15:28:40,853] INFO  4931[main] - applications.Main.main(Main.java:51) - Êä³öÓ¦ÓÃÒ»µÄÑ¡Ôñ²Ëµ¥
+ [2019-05-16 15:28:43,647] INFO  7725[main] - applications.Main.main(Main.java:85) - Ó¦ÓÃÒ»¶Ôµ±Ç°ĞÅÏ¢½øĞĞËæ»úÅÅĞò
+ [2019-05-16 15:28:43,662] INFO  7740[main] - applications.Main.main(Main.java:51) - Êä³öÓ¦ÓÃÒ»µÄÑ¡Ôñ²Ëµ¥
+ [2019-05-16 15:50:25,040]ERROR     0[main] - circularOrbit.SocialNetworkCircle.Analysis(SocialNetworkCircle.java:259) - Ó¦ÓÃÈıÓĞ¹ØÏµÃ»ÓĞ¶ÔÓ¦¸ÃÈËÃû£¬»òÕßÓĞfriends±êÇ©·ÅÔÚÁËsocialtieÖ®ºó£¬ÖØĞÂÊäÈëÎÄ±¾
+ [2019-05-16 15:50:42,542]ERROR     0[main] - circularOrbit.SocialNetworkCircle.Analysis(SocialNetworkCircle.java:259) - Ó¦ÓÃÈıÓĞ¹ØÏµÃ»ÓĞ¶ÔÓ¦¸ÃÈËÃû£¬»òÕßÓĞfriends±êÇ©·ÅÔÚÁËsocialtieÖ®ºó£¬ÖØĞÂÊäÈëÎÄ±¾
+ [2019-05-16 16:00:22,872] INFO     0[main] - applications.Main.main(Main.java:39) - Ñ¡ÔñtrackgameÓ¦ÓÃ
+ [2019-05-16 16:00:22,929] INFO    57[main] - applications.Main.main(Main.java:43) - ¶ÁÈ¡trackgame.txtµÄĞÅÏ¢
+ [2019-05-16 16:00:22,930] INFO    58[main] - applications.Main.main(Main.java:47) - ÕıÔÚ¶Ô¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½½âÎö£¡
+ [2019-05-16 16:00:22,934]ERROR    62[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:147) - ÔË¶¯Ô±µÚ¶ş¸ö²ÎÊı²»ÊÇ´¿Êı×Ö£¬ÖØĞÂÊäÈëÎÄ¼ş
+ [2019-05-16 16:00:28,718]ERROR  5846[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:259) - ÔË¶¯Ô±±êÇ©³É¼¨²»·ûºÏ¹æÔò£¬ÖØĞÂÊäÈëÎÄ¼ş
+ [2019-05-16 16:00:50,565]ERROR 27693[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:259) - ÔË¶¯Ô±±êÇ©³É¼¨²»·ûºÏ¹æÔò£¬ÖØĞÂÊäÈëÎÄ¼ş
+ [2019-05-16 16:01:04,553] INFO 41681[main] - applications.Main.main(Main.java:51) - Êä³öÓ¦ÓÃÒ»µÄÑ¡Ôñ²Ëµ¥
+ [2019-05-16 16:01:06,991] INFO 44119[main] - applications.Main.main(Main.java:68) - Ó¦ÓÃÒ»Ñ¡Ôñ¿ÉÊÓ»¯¹¦ÄÜ
+ [2019-05-16 16:01:07,047] INFO 44175[main] - applications.Main.main(Main.java:51) - Êä³öÓ¦ÓÃÒ»µÄÑ¡Ôñ²Ëµ¥
+ [2019-05-16 16:02:08,469] INFO     0[main] - applications.Main.main(Main.java:39) - Ñ¡ÔñtrackgameÓ¦ÓÃ
+ [2019-05-16 16:02:08,498] INFO    29[main] - applications.Main.main(Main.java:43) - ¶ÁÈ¡trackgame.txtµÄĞÅÏ¢
+ [2019-05-16 16:02:08,500] INFO    31[main] - applications.Main.main(Main.java:47) - ÕıÔÚ¶Ô¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½½âÎö£¡
+ [2019-05-16 16:02:08,510]ERROR    41[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:147) - ÔË¶¯Ô±µÚ¶ş¸ö²ÎÊı²»ÊÇ´¿Êı×Ö£¬ÖØĞÂÊäÈëÎÄ¼ş
+ [2019-05-16 16:02:12,967] INFO  4498[main] - applications.Main.main(Main.java:51) - Êä³öÓ¦ÓÃÒ»µÄÑ¡Ôñ²Ëµ¥
+ [2019-05-16 16:02:15,938] INFO  7469[main] - applications.Main.main(Main.java:85) - Ó¦ÓÃÒ»¶Ôµ±Ç°ĞÅÏ¢½øĞĞËæ»úÅÅĞò
+ [2019-05-16 16:02:15,947] INFO  7478[main] - applications.Main.main(Main.java:51) - Êä³öÓ¦ÓÃÒ»µÄÑ¡Ôñ²Ëµ¥
+ [2019-05-16 16:02:23,386] INFO 14917[main] - applications.Main.main(Main.java:68) - Ó¦ÓÃÒ»Ñ¡Ôñ¿ÉÊÓ»¯¹¦ÄÜ
+ [2019-05-16 16:02:23,424] INFO 14955[main] - applications.Main.main(Main.java:51) - Êä³öÓ¦ÓÃÒ»µÄÑ¡Ôñ²Ëµ¥
+ [2019-05-16 16:03:01,321] INFO     0[main] - applications.Main.main(Main.java:39) - Ñ¡ÔñtrackgameÓ¦ÓÃ
+ [2019-05-16 16:03:01,376] INFO    55[main] - applications.Main.main(Main.java:43) - ¶ÁÈ¡trackgame.txtµÄĞÅÏ¢
+ [2019-05-16 16:03:01,376] INFO    55[main] - applications.Main.main(Main.java:47) - ÕıÔÚ¶Ô¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½½âÎö£¡
+ [2019-05-16 16:03:01,381]ERROR    60[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:147) - ÔË¶¯Ô±µÚ¶ş¸ö²ÎÊı²»ÊÇ´¿Êı×Ö£¬ÖØĞÂÊäÈëÎÄ¼ş
+ [2019-05-16 16:03:05,787] INFO  4466[main] - applications.Main.main(Main.java:51) - Êä³öÓ¦ÓÃÒ»µÄÑ¡Ôñ²Ëµ¥
+ [2019-05-16 16:03:10,003] INFO  8682[main] - applications.Main.main(Main.java:68) - Ó¦ÓÃÒ»Ñ¡Ôñ¿ÉÊÓ»¯¹¦ÄÜ
+ [2019-05-16 16:03:10,044] INFO  8723[main] - applications.Main.main(Main.java:51) - Êä³öÓ¦ÓÃÒ»µÄÑ¡Ôñ²Ëµ¥
+ [2019-05-16 16:04:02,890] INFO     0[main] - applications.Main.main(Main.java:39) - Ñ¡ÔñtrackgameÓ¦ÓÃ
+ [2019-05-16 16:04:02,941] INFO    51[main] - applications.Main.main(Main.java:43) - ¶ÁÈ¡trackgame.txtµÄĞÅÏ¢
+ [2019-05-16 16:04:02,942] INFO    52[main] - applications.Main.main(Main.java:47) - ÕıÔÚ¶Ô¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½½âÎö£¡
+ [2019-05-16 16:04:02,947]ERROR    57[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:147) - ÔË¶¯Ô±µÚ¶ş¸ö²ÎÊı²»ÊÇ´¿Êı×Ö£¬ÖØĞÂÊäÈëÎÄ¼ş
+ [2019-05-16 16:04:08,389] INFO  5499[main] - applications.Main.main(Main.java:51) - Êä³öÓ¦ÓÃÒ»µÄÑ¡Ôñ²Ëµ¥
+ [2019-05-16 16:04:14,319] INFO 11429[main] - applications.Main.main(Main.java:86) - Ó¦ÓÃÒ»¶Ôµ±Ç°ĞÅÏ¢½øĞĞËæ»úÅÅĞò
+ [2019-05-16 16:04:14,326] INFO 11436[main] - applications.Main.main(Main.java:51) - Êä³öÓ¦ÓÃÒ»µÄÑ¡Ôñ²Ëµ¥
+ [2019-05-16 16:04:18,303] INFO 15413[main] - applications.Main.main(Main.java:92) - Ó¦ÓÃÒ»°´ÕÕ³É¼¨¶Ôµ±Ç°ĞÅÏ¢½øĞĞÅÅĞò
+ [2019-05-16 16:04:18,312] INFO 15422[main] - applications.Main.main(Main.java:51) - Êä³öÓ¦ÓÃÒ»µÄÑ¡Ôñ²Ëµ¥
+ [2019-05-16 16:04:21,274] INFO 18384[main] - applications.Main.main(Main.java:69) - Ó¦ÓÃÒ»Ñ¡Ôñ¿ÉÊÓ»¯¹¦ÄÜ
+ [2019-05-16 16:04:21,303] INFO 18413[main] - applications.Main.main(Main.java:51) - Êä³öÓ¦ÓÃÒ»µÄÑ¡Ôñ²Ëµ¥
+ [2019-05-19 08:34:59,735] INFO     0[main] - applications.Main.main(Main.java:39) - Ñ¡ÔñtrackgameÓ¦ÓÃ
+ [2019-05-19 08:34:59,865] INFO   130[main] - applications.Main.main(Main.java:43) - ¶ÁÈ¡trackgame.txtµÄĞÅÏ¢
+ [2019-05-19 08:34:59,866] INFO   131[main] - applications.Main.main(Main.java:47) - ÕıÔÚ¶Ô¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½½âÎö£¡
+ [2019-05-19 08:34:59,885]ERROR   150[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:147) - ÔË¶¯Ô±µÚ¶ş¸ö²ÎÊı²»ÊÇ´¿Êı×Ö£¬ÖØĞÂÊäÈëÎÄ¼ş
+ [2019-05-19 08:35:33,931] INFO     0[main] - applications.Main.main(Main.java:39) - Ñ¡ÔñtrackgameÓ¦ÓÃ
+ [2019-05-19 08:35:33,959] INFO    28[main] - applications.Main.main(Main.java:43) - ¶ÁÈ¡trackgame.txtµÄĞÅÏ¢
+ [2019-05-19 08:35:33,960] INFO    29[main] - applications.Main.main(Main.java:47) - ÕıÔÚ¶Ô¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½½âÎö£¡
+ [2019-05-19 08:35:33,970]ERROR    39[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:147) - ÔË¶¯Ô±µÚ¶ş¸ö²ÎÊı²»ÊÇ´¿Êı×Ö£¬ÖØĞÂÊäÈëÎÄ¼ş
+ [2019-05-19 08:36:11,356] INFO     0[main] - applications.Main.main(Main.java:39) - Ñ¡ÔñtrackgameÓ¦ÓÃ
+ [2019-05-19 08:36:11,382] INFO    26[main] - applications.Main.main(Main.java:43) - ¶ÁÈ¡trackgame.txtµÄĞÅÏ¢
+ [2019-05-19 08:36:11,383] INFO    27[main] - applications.Main.main(Main.java:47) - ÕıÔÚ¶Ô¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½½âÎö£¡
+ [2019-05-19 08:36:11,388]ERROR    32[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:259) - ÔË¶¯Ô±±êÇ©³É¼¨²»·ûºÏ¹æÔò£¬ÖØĞÂÊäÈëÎÄ¼ş
+ [2019-05-19 08:36:42,825] INFO     0[main] - applications.Main.main(Main.java:39) - Ñ¡ÔñtrackgameÓ¦ÓÃ
+ [2019-05-19 08:36:42,850] INFO    25[main] - applications.Main.main(Main.java:43) - ¶ÁÈ¡trackgame.txtµÄĞÅÏ¢
+ [2019-05-19 08:36:42,850] INFO    25[main] - applications.Main.main(Main.java:47) - ÕıÔÚ¶Ô¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½½âÎö£¡
+ [2019-05-19 08:36:42,856]ERROR    31[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:259) - ÔË¶¯Ô±±êÇ©³É¼¨²»·ûºÏ¹æÔò£¬ÖØĞÂÊäÈëÎÄ¼ş
+ [2019-05-19 08:37:19,344] INFO     0[main] - applications.Main.main(Main.java:39) - Ñ¡ÔñtrackgameÓ¦ÓÃ
+ [2019-05-19 08:37:19,367] INFO    23[main] - applications.Main.main(Main.java:43) - ¶ÁÈ¡trackgame.txtµÄĞÅÏ¢
+ [2019-05-19 08:37:19,368] INFO    24[main] - applications.Main.main(Main.java:47) - ÕıÔÚ¶Ô¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½½âÎö£¡
+ [2019-05-19 08:37:19,374]ERROR    30[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:259) - ÔË¶¯Ô±±êÇ©³É¼¨²»·ûºÏ¹æÔò£¬ÖØĞÂÊäÈëÎÄ¼ş
+ [2019-05-19 08:38:02,599] INFO     0[main] - applications.Main.main(Main.java:39) - Ñ¡ÔñtrackgameÓ¦ÓÃ
+ [2019-05-19 08:38:02,623] INFO    24[main] - applications.Main.main(Main.java:43) - ¶ÁÈ¡trackgame.txtµÄĞÅÏ¢
+ [2019-05-19 08:38:02,624] INFO    25[main] - applications.Main.main(Main.java:47) - ÕıÔÚ¶Ô¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½½âÎö£¡
+ [2019-05-19 08:38:02,628]ERROR    29[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:265) - ÔË¶¯Ô±±êÇ©×Ö·û´®²»·ûºÏ¹æÔò£¬ÖØĞÂÊäÈëÎÄ¼ş
+ [2019-05-19 08:38:39,956] INFO     0[main] - applications.Main.main(Main.java:39) - Ñ¡ÔñtrackgameÓ¦ÓÃ
+ [2019-05-19 08:38:39,976] INFO    20[main] - applications.Main.main(Main.java:43) - ¶ÁÈ¡trackgame.txtµÄĞÅÏ¢
+ [2019-05-19 08:38:39,977] INFO    21[main] - applications.Main.main(Main.java:47) - ÕıÔÚ¶Ô¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½½âÎö£¡
+ [2019-05-19 08:38:40,010] INFO    54[main] - applications.Main.main(Main.java:51) - Êä³öÓ¦ÓÃÒ»µÄÑ¡Ôñ²Ëµ¥
+ [2019-05-19 08:39:09,094] INFO     0[main] - applications.Main.main(Main.java:39) - Ñ¡ÔñtrackgameÓ¦ÓÃ
+ [2019-05-19 08:39:09,122] INFO    28[main] - applications.Main.main(Main.java:43) - ¶ÁÈ¡trackgame.txtµÄĞÅÏ¢
+ [2019-05-19 08:39:09,124] INFO    30[main] - applications.Main.main(Main.java:47) - ÕıÔÚ¶Ô¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½½âÎö£¡
+ [2019-05-19 08:39:09,131]ERROR    37[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:101) - game»òÕßtrackµÄ±êÇ©³öÏÖÁË¶à¸ö£¬ÖØĞÂÊäÈëÎÄ¼ş
+ [2019-05-19 08:39:58,288] INFO     0[main] - applications.Main.main(Main.java:39) - Ñ¡ÔñtrackgameÓ¦ÓÃ
+ [2019-05-19 08:39:58,310] INFO    22[main] - applications.Main.main(Main.java:43) - ¶ÁÈ¡trackgame.txtµÄĞÅÏ¢
+ [2019-05-19 08:39:58,311] INFO    23[main] - applications.Main.main(Main.java:47) - ÕıÔÚ¶Ô¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½½âÎö£¡
+ [2019-05-19 08:39:58,319]ERROR    31[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:265) - ÔË¶¯Ô±±êÇ©×Ö·û´®²»·ûºÏ¹æÔò£¬ÖØĞÂÊäÈëÎÄ¼ş
+ [2019-05-19 08:48:39,017] INFO     0[main] - applications.Main.main(Main.java:124) - ¶ÁÈ¡ AtomicStructure.txtÎÄ¼şµÄĞÅÏ¢
+ [2019-05-19 08:48:39,027] INFO    10[main] - applications.Main.main(Main.java:127) - ¶ÔÓ¦ÓÃ¶ş¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½Æ¥Åä
+ [2019-05-19 08:48:39,046]ERROR    29[main] - circularOrbit.AtomStructure.Analysis(AtomStructure.java:152) - Ó¦ÓÃ2µç×ÓµÄ¹ìµÀÊı³¬¹ıÁË¹ìµÀÊı£¬ÖØĞÂÊäÈëÎÄ±¾
+ [2019-05-19 08:48:42,216] INFO  3199[main] - applications.Main.main(Main.java:131) - Êä³öÓ¦ÓÃ¶şµÄ¹¦ÄÜ²Ëµ¥
+ [2019-05-19 08:48:49,220] INFO 10203[main] - applications.Main.main(Main.java:159) - Ó¦ÓÃ¶ş¼ÆËãìØÖµ
+ [2019-05-19 08:48:49,246] INFO 10229[main] - applications.Main.main(Main.java:131) - Êä³öÓ¦ÓÃ¶şµÄ¹¦ÄÜ²Ëµ¥
+ [2019-05-19 08:49:27,276] INFO     0[main] - applications.Main.main(Main.java:124) - ¶ÁÈ¡ AtomicStructure.txtÎÄ¼şµÄĞÅÏ¢
+ [2019-05-19 08:49:27,285] INFO     9[main] - applications.Main.main(Main.java:127) - ¶ÔÓ¦ÓÃ¶ş¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½Æ¥Åä
+ [2019-05-19 08:49:27,310] INFO    34[main] - applications.Main.main(Main.java:131) - Êä³öÓ¦ÓÃ¶şµÄ¹¦ÄÜ²Ëµ¥
+ [2019-05-19 08:52:37,191] INFO     0[main] - applications.Main.main(Main.java:124) - ¶ÁÈ¡ AtomicStructure.txtÎÄ¼şµÄĞÅÏ¢
+ [2019-05-19 08:52:37,200] INFO     9[main] - applications.Main.main(Main.java:127) - ¶ÔÓ¦ÓÃ¶ş¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½Æ¥Åä
+ [2019-05-19 08:53:40,095] INFO     0[main] - applications.Main.main(Main.java:124) - ¶ÁÈ¡ AtomicStructure.txtÎÄ¼şµÄĞÅÏ¢
+ [2019-05-19 08:53:40,100] INFO     5[main] - applications.Main.main(Main.java:127) - ¶ÔÓ¦ÓÃ¶ş¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½Æ¥Åä
+ [2019-05-19 08:53:40,112] INFO    17[main] - applications.Main.main(Main.java:131) - Êä³öÓ¦ÓÃ¶şµÄ¹¦ÄÜ²Ëµ¥
+ [2019-05-19 08:54:29,493] INFO     0[main] - applications.Main.main(Main.java:124) - ¶ÁÈ¡ AtomicStructure.txtÎÄ¼şµÄĞÅÏ¢
+ [2019-05-19 08:54:29,502] INFO     9[main] - applications.Main.main(Main.java:127) - ¶ÔÓ¦ÓÃ¶ş¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½Æ¥Åä
+ [2019-05-19 08:54:29,526] INFO    33[main] - applications.Main.main(Main.java:131) - Êä³öÓ¦ÓÃ¶şµÄ¹¦ÄÜ²Ëµ¥
+ [2019-05-19 08:55:12,845] INFO     0[main] - applications.Main.main(Main.java:124) - ¶ÁÈ¡ AtomicStructure.txtÎÄ¼şµÄĞÅÏ¢
+ [2019-05-19 08:55:12,853] INFO     8[main] - applications.Main.main(Main.java:127) - ¶ÔÓ¦ÓÃ¶ş¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½Æ¥Åä
+ [2019-05-19 08:55:12,869] INFO    24[main] - applications.Main.main(Main.java:131) - Êä³öÓ¦ÓÃ¶şµÄ¹¦ÄÜ²Ëµ¥
+ [2019-05-19 08:55:50,680] INFO     0[main] - applications.Main.main(Main.java:124) - ¶ÁÈ¡ AtomicStructure.txtÎÄ¼şµÄĞÅÏ¢
+ [2019-05-19 08:55:50,703] INFO    23[main] - applications.Main.main(Main.java:127) - ¶ÔÓ¦ÓÃ¶ş¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½Æ¥Åä
+ [2019-05-19 08:55:50,749] INFO    69[main] - applications.Main.main(Main.java:131) - Êä³öÓ¦ÓÃ¶şµÄ¹¦ÄÜ²Ëµ¥
+ [2019-05-19 09:03:50,029] INFO     0[main] - applications.Main.main(Main.java:124) - ¶ÁÈ¡ AtomicStructure.txtÎÄ¼şµÄĞÅÏ¢
+ [2019-05-19 09:03:50,044] INFO    15[main] - applications.Main.main(Main.java:127) - ¶ÔÓ¦ÓÃ¶ş¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½Æ¥Åä
+ [2019-05-19 09:03:50,044] INFO    15[main] - applications.Main.main(Main.java:131) - Êä³öÓ¦ÓÃ¶şµÄ¹¦ÄÜ²Ëµ¥
+ [2019-05-19 09:04:08,240] INFO     0[main] - applications.Main.main(Main.java:124) - ¶ÁÈ¡ AtomicStructure.txtÎÄ¼şµÄĞÅÏ¢
+ [2019-05-19 09:04:08,240] INFO     0[main] - applications.Main.main(Main.java:127) - ¶ÔÓ¦ÓÃ¶ş¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½Æ¥Åä
+ [2019-05-19 09:04:08,256] INFO    16[main] - applications.Main.main(Main.java:131) - Êä³öÓ¦ÓÃ¶şµÄ¹¦ÄÜ²Ëµ¥
+ [2019-05-19 09:12:14,093] INFO     0[main] - applications.Main.main(Main.java:124) - ¶ÁÈ¡ AtomicStructure.txtÎÄ¼şµÄĞÅÏ¢
+ [2019-05-19 09:12:14,093] INFO     0[main] - applications.Main.main(Main.java:127) - ¶ÔÓ¦ÓÃ¶ş¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½Æ¥Åä
+ [2019-05-19 09:13:58,197] INFO     0[main] - applications.Main.main(Main.java:124) - ¶ÁÈ¡ AtomicStructure.txtÎÄ¼şµÄĞÅÏ¢
+ [2019-05-19 09:13:58,197] INFO     0[main] - applications.Main.main(Main.java:127) - ¶ÔÓ¦ÓÃ¶ş¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½Æ¥Åä
+ [2019-05-19 09:15:35,124] INFO     0[main] - applications.Main.main(Main.java:124) - ¶ÁÈ¡ AtomicStructure.txtÎÄ¼şµÄĞÅÏ¢
+ [2019-05-19 09:15:35,140] INFO    16[main] - applications.Main.main(Main.java:127) - ¶ÔÓ¦ÓÃ¶ş¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½Æ¥Åä
+ [2019-05-19 09:16:07,316] INFO     0[main] - applications.Main.main(Main.java:124) - ¶ÁÈ¡ AtomicStructure.txtÎÄ¼şµÄĞÅÏ¢
+ [2019-05-19 09:16:07,316] INFO     0[main] - applications.Main.main(Main.java:127) - ¶ÔÓ¦ÓÃ¶ş¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½Æ¥Åä
+ [2019-05-19 09:16:42,486] INFO     0[main] - applications.Main.main(Main.java:124) - ¶ÁÈ¡ AtomicStructure.txtÎÄ¼şµÄĞÅÏ¢
+ [2019-05-19 09:16:42,501] INFO    15[main] - applications.Main.main(Main.java:127) - ¶ÔÓ¦ÓÃ¶ş¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½Æ¥Åä
+ [2019-05-19 09:17:40,800] INFO     0[main] - applications.Main.main(Main.java:124) - ¶ÁÈ¡ AtomicStructure.txtÎÄ¼şµÄĞÅÏ¢
+ [2019-05-19 09:17:40,800] INFO     0[main] - applications.Main.main(Main.java:127) - ¶ÔÓ¦ÓÃ¶ş¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½Æ¥Åä
+ [2019-05-19 09:18:00,120] INFO     0[main] - applications.Main.main(Main.java:124) - ¶ÁÈ¡ AtomicStructure.txtÎÄ¼şµÄĞÅÏ¢
+ [2019-05-19 09:18:00,120] INFO     0[main] - applications.Main.main(Main.java:127) - ¶ÔÓ¦ÓÃ¶ş¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½Æ¥Åä
+ [2019-05-19 09:19:21,135] INFO     0[main] - applications.Main.main(Main.java:124) - ¶ÁÈ¡ AtomicStructure.txtÎÄ¼şµÄĞÅÏ¢
+ [2019-05-19 09:19:21,135] INFO     0[main] - applications.Main.main(Main.java:127) - ¶ÔÓ¦ÓÃ¶ş¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½Æ¥Åä
+ [2019-05-19 09:19:53,186] INFO     0[main] - applications.Main.main(Main.java:124) - ¶ÁÈ¡ AtomicStructure.txtÎÄ¼şµÄĞÅÏ¢
+ [2019-05-19 09:19:53,186] INFO     0[main] - applications.Main.main(Main.java:127) - ¶ÔÓ¦ÓÃ¶ş¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½Æ¥Åä
+ [2019-05-19 09:19:53,201]ERROR    15[main] - circularOrbit.AtomStructure.Analysis(AtomStructure.java:148) - Ó¦ÓÃÈıÈ±ÉÙ¹ìµÀÊıÄ¿µÄ±êÇ©£¬ÖØĞÂÊäÈëÎÄ±¾
+ [2019-05-19 09:20:49,959] INFO     0[main] - applications.Main.main(Main.java:124) - ¶ÁÈ¡ AtomicStructure.txtÎÄ¼şµÄĞÅÏ¢
+ [2019-05-19 09:20:49,959] INFO     0[main] - applications.Main.main(Main.java:127) - ¶ÔÓ¦ÓÃ¶ş¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½Æ¥Åä
+ [2019-05-19 09:20:49,975]ERROR    16[main] - circularOrbit.AtomStructure.Analysis(AtomStructure.java:156) - Ó¦ÓÃ2µç×ÓµÄ¹ìµÀÊı³¬¹ıÁË¹ìµÀÊı£¬ÖØĞÂÊäÈëÎÄ±¾
+ [2019-05-19 09:21:40,167] INFO     0[main] - applications.Main.main(Main.java:39) - Ñ¡ÔñtrackgameÓ¦ÓÃ
+ [2019-05-19 09:21:40,183] INFO    16[main] - applications.Main.main(Main.java:43) - ¶ÁÈ¡trackgame.txtµÄĞÅÏ¢
+ [2019-05-19 09:21:40,183] INFO    16[main] - applications.Main.main(Main.java:47) - ÕıÔÚ¶Ô¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½½âÎö£¡
+ [2019-05-19 09:21:40,183]ERROR    16[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:265) - ÔË¶¯Ô±±êÇ©×Ö·û´®²»·ûºÏ¹æÔò£¬ÖØĞÂÊäÈëÎÄ¼ş
+ [2019-05-19 09:21:47,006] INFO     0[main] - applications.Main.main(Main.java:124) - ¶ÁÈ¡ AtomicStructure.txtÎÄ¼şµÄĞÅÏ¢
+ [2019-05-19 09:21:47,006] INFO     0[main] - applications.Main.main(Main.java:127) - ¶ÔÓ¦ÓÃ¶ş¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½Æ¥Åä
+ [2019-05-19 09:21:47,021]ERROR    15[main] - circularOrbit.AtomStructure.Analysis(AtomStructure.java:156) - Ó¦ÓÃ2µç×ÓµÄ¹ìµÀÊı³¬¹ıÁË¹ìµÀÊı£¬ÖØĞÂÊäÈëÎÄ±¾
+ [2019-05-19 09:22:15,617] INFO 28611[main] - applications.Main.main(Main.java:131) - Êä³öÓ¦ÓÃ¶şµÄ¹¦ÄÜ²Ëµ¥
+ [2019-05-19 09:22:18,348] INFO 31342[main] - applications.Main.main(Main.java:159) - Ó¦ÓÃ¶ş¼ÆËãìØÖµ
+ [2019-05-19 09:22:18,348] INFO 31342[main] - applications.Main.main(Main.java:131) - Êä³öÓ¦ÓÃ¶şµÄ¹¦ÄÜ²Ëµ¥
+ [2019-05-19 09:37:52,508] INFO     0[main] - applications.Main.main(Main.java:189) - ¶ÁÈëSocialNetworkCircle.txt ÎÄ¼ş
+ [2019-05-19 09:37:52,508] INFO     0[main] - applications.Main.main(Main.java:192) - ¶ÔÓ¦ÓÃÈıµÄÎÄ±¾½øĞĞÕıÔò±í´ïÊ½Æ¥Åä
+ [2019-05-19 09:37:52,572]ERROR    64[main] - circularOrbit.SocialNetworkCircle.Analysis(SocialNetworkCircle.java:259) - Ó¦ÓÃÈıÓĞ¹ØÏµÃ»ÓĞ¶ÔÓ¦¸ÃÈËÃû£¬»òÕßÓĞfriends±êÇ©·ÅÔÚÁËsocialtieÖ®ºó£¬ÖØĞÂÊäÈëÎÄ±¾
+ [2019-05-19 09:37:58,314] INFO  5806[main] - applications.Main.main(Main.java:196) - Êä³öÓ¦ÓÃÈı²Ëµ¥
+ [2019-05-19 09:42:08,416] INFO     0[main] - applications.Main.main(Main.java:189) - ¶ÁÈëSocialNetworkCircle.txt ÎÄ¼ş
+ [2019-05-19 09:42:08,416] INFO     0[main] - applications.Main.main(Main.java:192) - ¶ÔÓ¦ÓÃÈıµÄÎÄ±¾½øĞĞÕıÔò±í´ïÊ½Æ¥Åä
+ [2019-05-19 09:42:08,432]ERROR    16[main] - circularOrbit.SocialNetworkCircle.Analysis(SocialNetworkCircle.java:259) - Ó¦ÓÃÈıÓĞ¹ØÏµÃ»ÓĞ¶ÔÓ¦¸ÃÈËÃû£¬»òÕßÓĞfriends±êÇ©·ÅÔÚÁËsocialtieÖ®ºó£¬ÖØĞÂÊäÈëÎÄ±¾
+ [2019-05-19 09:42:46,024] INFO     0[main] - applications.Main.main(Main.java:189) - ¶ÁÈëSocialNetworkCircle.txt ÎÄ¼ş
+ [2019-05-19 09:42:46,024] INFO     0[main] - applications.Main.main(Main.java:192) - ¶ÔÓ¦ÓÃÈıµÄÎÄ±¾½øĞĞÕıÔò±í´ïÊ½Æ¥Åä
+ [2019-05-19 09:42:46,040]ERROR    16[main] - circularOrbit.SocialNetworkCircle.Analysis(SocialNetworkCircle.java:234) - Ó¦ÓÃÈıÖĞĞÄµã±êÇ©³öÏÖÁËÁ½´Î£¬ÖØĞÂÊäÈëÎÄ±¾
+ [2019-05-19 09:43:33,040] INFO     0[main] - applications.Main.main(Main.java:189) - ¶ÁÈëSocialNetworkCircle.txt ÎÄ¼ş
+ [2019-05-19 09:43:33,040] INFO     0[main] - applications.Main.main(Main.java:192) - ¶ÔÓ¦ÓÃÈıµÄÎÄ±¾½øĞĞÕıÔò±í´ïÊ½Æ¥Åä
+ [2019-05-19 09:43:33,056]ERROR    16[main] - circularOrbit.SocialNetworkCircle.Analysis(SocialNetworkCircle.java:481) - Ó¦ÓÃÈıÎÄ±¾ÓĞ·Ç·¨±êÇ©µÄ´æÔÚ£¬ÖØĞÂÊäÈëÎÄ±¾
+ [2019-05-19 15:37:36,806] INFO     0[main] - applications.Main.main(Main.java:39) - Ñ¡ÔñtrackgameÓ¦ÓÃ
+ [2019-05-19 15:37:36,848] INFO    42[main] - applications.Main.main(Main.java:43) - ¶ÁÈ¡trackgame.txtµÄĞÅÏ¢
+ [2019-05-19 15:37:36,859] INFO    53[main] - applications.Main.main(Main.java:47) - ÕıÔÚ¶Ô¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½½âÎö£¡
+ [2019-05-19 15:37:36,869]ERROR    63[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:265) - ÔË¶¯Ô±±êÇ©×Ö·û´®²»·ûºÏ¹æÔò£¬ÖØĞÂÊäÈëÎÄ¼ş
+ [2019-05-19 15:38:04,430] INFO 27624[main] - applications.Main.main(Main.java:51) - Êä³öÓ¦ÓÃÒ»µÄÑ¡Ôñ²Ëµ¥
+ [2019-05-27 15:09:41,507] INFO     0[main] - applications.Main.main(Main.java:39) - Ñ¡ÔñtrackgameÓ¦ÓÃ
+ [2019-05-27 15:09:41,569] INFO    62[main] - applications.Main.main(Main.java:43) - ¶ÁÈ¡trackgame.txtµÄĞÅÏ¢
+ [2019-05-27 15:09:41,569] INFO    62[main] - applications.Main.main(Main.java:47) - ÕıÔÚ¶Ô¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½½âÎö£¡
+ [2019-05-27 15:09:41,586]ERROR    79[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:265) - ÔË¶¯Ô±±êÇ©×Ö·û´®²»·ûºÏ¹æÔò£¬ÖØĞÂÊäÈëÎÄ¼ş
+ [2019-05-27 15:10:10,933] INFO     0[main] - applications.Main.main(Main.java:39) - Ñ¡ÔñtrackgameÓ¦ÓÃ
+ [2019-05-27 15:10:10,964] INFO    31[main] - applications.Main.main(Main.java:43) - ¶ÁÈ¡trackgame.txtµÄĞÅÏ¢
+ [2019-05-27 15:10:10,964] INFO    31[main] - applications.Main.main(Main.java:47) - ÕıÔÚ¶Ô¶ÁÈëÎÄ±¾½øĞĞÕıÔò±í´ïÊ½½âÎö£¡
+ [2019-05-27 15:10:10,980]ERROR    47[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:265) - ÔË¶¯Ô±±êÇ©×Ö·û´®²»·ûºÏ¹æÔò£¬ÖØĞÂÊäÈëÎÄ¼ş
+ [2019-06-02 14:57:43,079] INFO     0[main] - applications.Main.main(Main.java:41) - é€‰æ‹©trackgameåº”ç”¨
+ [2019-06-02 14:57:43,121] INFO    42[main] - applications.Main.main(Main.java:43) - è¯»å–trackgame.txtçš„ä¿¡æ¯
+ [2019-06-02 14:57:43,144] INFO    65[main] - applications.Main.main(Main.java:49) - æ­£åœ¨å¯¹è¯»å…¥æ–‡æœ¬è¿›è¡Œæ­£åˆ™è¡¨è¾¾å¼è§£æï¼
+ [2019-06-02 14:57:43,164]ERROR    85[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:237) - è¿åŠ¨å‘˜æ ‡ç­¾å­—ç¬¦ä¸²ä¸ç¬¦åˆè§„åˆ™ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-02 14:58:01,494] INFO 18415[main] - applications.Main.main(Main.java:52) - è¾“å‡ºåº”ç”¨ä¸€çš„é€‰æ‹©èœå•
+ [2019-06-02 14:58:04,785] INFO 21706[main] - applications.Main.main(Main.java:52) - è¾“å‡ºåº”ç”¨ä¸€çš„é€‰æ‹©èœå•
+ [2019-06-02 14:59:39,244] INFO     0[main] - applications.Main.main(Main.java:41) - é€‰æ‹©trackgameåº”ç”¨
+ [2019-06-02 14:59:39,257] INFO    13[main] - applications.Main.main(Main.java:43) - è¯»å–trackgame.txtçš„ä¿¡æ¯
+ [2019-06-02 14:59:39,273] INFO    29[main] - applications.Main.main(Main.java:49) - æ­£åœ¨å¯¹è¯»å…¥æ–‡æœ¬è¿›è¡Œæ­£åˆ™è¡¨è¾¾å¼è§£æï¼
+ [2019-06-02 14:59:39,273] INFO    29[main] - applications.Main.main(Main.java:52) - è¾“å‡ºåº”ç”¨ä¸€çš„é€‰æ‹©èœå•
+ [2019-06-02 15:00:21,463] INFO     0[main] - applications.Main.main(Main.java:41) - é€‰æ‹©trackgameåº”ç”¨
+ [2019-06-02 15:00:21,469] INFO     6[main] - applications.Main.main(Main.java:43) - è¯»å–trackgame.txtçš„ä¿¡æ¯
+ [2019-06-02 15:00:22,037] INFO   574[main] - applications.Main.main(Main.java:49) - æ­£åœ¨å¯¹è¯»å…¥æ–‡æœ¬è¿›è¡Œæ­£åˆ™è¡¨è¾¾å¼è§£æï¼
+ [2019-06-02 15:00:30,458]ERROR  8995[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:313) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-02 15:01:25,212] INFO     0[main] - applications.Main.main(Main.java:41) - é€‰æ‹©trackgameåº”ç”¨
+ [2019-06-02 15:01:25,224] INFO    12[main] - applications.Main.main(Main.java:43) - è¯»å–trackgame.txtçš„ä¿¡æ¯
+ [2019-06-02 15:01:25,673] INFO   461[main] - applications.Main.main(Main.java:49) - æ­£åœ¨å¯¹è¯»å…¥æ–‡æœ¬è¿›è¡Œæ­£åˆ™è¡¨è¾¾å¼è§£æï¼
+ [2019-06-02 15:01:34,123]ERROR  8911[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:313) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-02 15:02:12,070] INFO     0[main] - applications.Main.main(Main.java:41) - é€‰æ‹©trackgameåº”ç”¨
+ [2019-06-02 15:02:12,074] INFO     4[main] - applications.Main.main(Main.java:43) - è¯»å–trackgame.txtçš„ä¿¡æ¯
+ [2019-06-02 15:02:12,412] INFO   342[main] - applications.Main.main(Main.java:49) - æ­£åœ¨å¯¹è¯»å…¥æ–‡æœ¬è¿›è¡Œæ­£åˆ™è¡¨è¾¾å¼è§£æï¼
+ [2019-06-02 15:02:20,320]ERROR  8250[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:313) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-02 15:05:15,660] INFO     0[main] - applications.Main.main(Main.java:41) - é€‰æ‹©trackgameåº”ç”¨
+ [2019-06-02 15:05:15,667] INFO     7[main] - applications.Main.main(Main.java:43) - è¯»å–trackgame.txtçš„ä¿¡æ¯
+ [2019-06-02 15:05:15,990] INFO   330[main] - applications.Main.main(Main.java:49) - æ­£åœ¨å¯¹è¯»å…¥æ–‡æœ¬è¿›è¡Œæ­£åˆ™è¡¨è¾¾å¼è§£æï¼
+ [2019-06-02 15:05:23,897]ERROR  8237[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:313) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-02 15:05:46,911]ERROR 31251[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:313) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-02 15:06:25,660]ERROR 70000[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:313) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-02 15:07:19,832]ERROR124172[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:313) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-02 15:08:28,826]ERROR193166[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:313) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-02 15:09:54,597]ERROR278937[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:313) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-02 15:11:33,661]ERROR378001[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:313) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-02 15:13:16,511] INFO     0[main] - applications.Main.main(Main.java:188) - è¯»å…¥SocialNetworkCircle.txt æ–‡ä»¶
+ [2019-06-02 15:13:16,515] INFO     4[main] - applications.Main.main(Main.java:191) - å¯¹åº”ç”¨ä¸‰çš„æ–‡æœ¬è¿›è¡Œæ­£åˆ™è¡¨è¾¾å¼åŒ¹é…
+ [2019-06-02 15:13:16,527]ERROR    16[main] - circularOrbit.SocialNetworkCircle.Analysis(SocialNetworkCircle.java:226) - åº”ç”¨ä¸‰ä¸­å¿ƒç‚¹æ ‡ç­¾å‡ºç°äº†ä¸¤æ¬¡ï¼Œé‡æ–°è¾“å…¥æ–‡æœ¬
+ [2019-06-02 15:13:21,679] INFO  5168[main] - applications.Main.main(Main.java:194) - è¾“å‡ºåº”ç”¨ä¸‰èœå•
+ [2019-06-02 15:13:24,521] INFO  8010[main] - applications.Main.main(Main.java:194) - è¾“å‡ºåº”ç”¨ä¸‰èœå•
+ [2019-06-02 15:13:54,129] INFO     0[main] - applications.Main.main(Main.java:41) - é€‰æ‹©trackgameåº”ç”¨
+ [2019-06-02 15:13:54,137] INFO     8[main] - applications.Main.main(Main.java:43) - è¯»å–trackgame.txtçš„ä¿¡æ¯
+ [2019-06-02 15:13:54,458] INFO   329[main] - applications.Main.main(Main.java:49) - æ­£åœ¨å¯¹è¯»å…¥æ–‡æœ¬è¿›è¡Œæ­£åˆ™è¡¨è¾¾å¼è§£æï¼
+ [2019-06-02 15:14:02,665]ERROR  8536[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:313) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-02 15:29:23,692] INFO     0[main] - applications.Main.main(Main.java:42) - é€‰æ‹©trackgameåº”ç”¨
+ [2019-06-02 15:29:23,709] INFO    17[main] - applications.Main.main(Main.java:44) - è¯»å–trackgame.txtçš„ä¿¡æ¯
+ [2019-06-02 15:29:23,719] INFO    27[main] - applications.Main.main(Main.java:50) - æ­£åœ¨å¯¹è¯»å…¥æ–‡æœ¬è¿›è¡Œæ­£åˆ™è¡¨è¾¾å¼è§£æï¼
+ [2019-06-02 15:29:23,755]ERROR    63[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:218) - è¿åŠ¨å‘˜æ ‡ç­¾å­—ç¬¦ä¸²ä¸ç¬¦åˆè§„åˆ™ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-02 15:32:03,359] INFO     0[main] - applications.Main.main(Main.java:42) - é€‰æ‹©trackgameåº”ç”¨
+ [2019-06-02 15:32:03,363] INFO     4[main] - applications.Main.main(Main.java:44) - è¯»å–trackgame.txtçš„ä¿¡æ¯
+ [2019-06-02 15:32:04,126] INFO   767[main] - applications.Main.main(Main.java:50) - æ­£åœ¨å¯¹è¯»å…¥æ–‡æœ¬è¿›è¡Œæ­£åˆ™è¡¨è¾¾å¼è§£æï¼
+ [2019-06-02 15:32:12,054]ERROR  8695[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:294) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-02 15:32:36,837] INFO     0[main] - applications.Main.main(Main.java:42) - é€‰æ‹©trackgameåº”ç”¨
+ [2019-06-02 15:32:36,841] INFO     4[main] - applications.Main.main(Main.java:44) - è¯»å–trackgame.txtçš„ä¿¡æ¯
+ [2019-06-02 15:32:37,205] INFO   368[main] - applications.Main.main(Main.java:50) - æ­£åœ¨å¯¹è¯»å…¥æ–‡æœ¬è¿›è¡Œæ­£åˆ™è¡¨è¾¾å¼è§£æï¼
+ [2019-06-02 15:32:46,205]ERROR  9368[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:294) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-02 15:33:09,351]ERROR 32514[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:294) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-02 15:33:47,524]ERROR 70687[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:294) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-02 15:38:28,015] INFO     0[main] - applications.Main.main(Main.java:42) - é€‰æ‹©trackgameåº”ç”¨
+ [2019-06-02 15:38:28,019] INFO     4[main] - applications.Main.main(Main.java:44) - è¯»å–trackgame.txtçš„ä¿¡æ¯
+ [2019-06-02 15:38:28,356] INFO   341[main] - applications.Main.main(Main.java:50) - æ­£åœ¨å¯¹è¯»å…¥æ–‡æœ¬è¿›è¡Œæ­£åˆ™è¡¨è¾¾å¼è§£æï¼
+ [2019-06-02 15:38:28,399] INFO   384[main] - applications.Main.main(Main.java:66) - è¾“å‡ºåº”ç”¨ä¸€çš„é€‰æ‹©èœå•
+ [2019-06-02 15:39:46,474] INFO     0[main] - applications.Main.main(Main.java:42) - é€‰æ‹©trackgameåº”ç”¨
+ [2019-06-02 15:39:46,482] INFO     8[main] - applications.Main.main(Main.java:44) - è¯»å–trackgame.txtçš„ä¿¡æ¯
+ [2019-06-02 15:39:46,967] INFO   493[main] - applications.Main.main(Main.java:50) - æ­£åœ¨å¯¹è¯»å…¥æ–‡æœ¬è¿›è¡Œæ­£åˆ™è¡¨è¾¾å¼è§£æï¼
+ [2019-06-02 15:39:46,998] INFO   524[main] - applications.Main.main(Main.java:67) - è¾“å‡ºåº”ç”¨ä¸€çš„é€‰æ‹©èœå•
+ [2019-06-02 15:40:14,073] INFO     0[main] - applications.Main.main(Main.java:42) - é€‰æ‹©trackgameåº”ç”¨
+ [2019-06-02 15:40:14,077] INFO     4[main] - applications.Main.main(Main.java:44) - è¯»å–trackgame.txtçš„ä¿¡æ¯
+ [2019-06-02 15:40:14,427] INFO   354[main] - applications.Main.main(Main.java:50) - æ­£åœ¨å¯¹è¯»å…¥æ–‡æœ¬è¿›è¡Œæ­£åˆ™è¡¨è¾¾å¼è§£æï¼
+ [2019-06-02 15:40:14,431] INFO   358[main] - applications.Main.main(Main.java:68) - è¾“å‡ºåº”ç”¨ä¸€çš„é€‰æ‹©èœå•
+ [2019-06-02 15:46:24,574] INFO     0[main] - applications.Main.main(Main.java:41) - é€‰æ‹©trackgameåº”ç”¨
+ [2019-06-02 15:46:24,579] INFO     5[main] - applications.Main.main(Main.java:43) - è¯»å–trackgame.txtçš„ä¿¡æ¯
+ [2019-06-02 15:46:24,953] INFO   379[main] - applications.Main.main(Main.java:49) - æ­£åœ¨å¯¹è¯»å…¥æ–‡æœ¬è¿›è¡Œæ­£åˆ™è¡¨è¾¾å¼è§£æï¼
+ [2019-06-02 15:46:32,963]ERROR  8389[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:294) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-02 15:46:55,969]ERROR 31395[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:294) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-02 15:47:33,467]ERROR 68893[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:294) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-02 15:48:25,777]ERROR121203[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:294) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-02 15:49:32,964]ERROR188390[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:294) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-02 15:50:54,743]ERROR270169[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:294) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-02 15:52:40,043]ERROR375469[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:294) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-02 15:54:48,825]ERROR504251[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:294) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-02 15:57:12,530]ERROR647956[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:294) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-02 15:59:53,936]ERROR809362[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:294) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-02 16:02:51,139]ERROR986565[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:294) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-02 16:06:05,216]ERROR180642[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:294) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-02 16:09:36,180]ERROR391606[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:294) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-02 16:13:23,147]ERROR618573[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:294) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-02 16:17:26,475]ERROR861901[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:294) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-02 16:18:12,703] INFO     0[main] - applications.Main.main(Main.java:41) - é€‰æ‹©trackgameåº”ç”¨
+ [2019-06-02 16:18:12,709] INFO     6[main] - applications.Main.main(Main.java:43) - è¯»å–trackgame.txtçš„ä¿¡æ¯
+ [2019-06-02 16:18:13,174] INFO   471[main] - applications.Main.main(Main.java:49) - æ­£åœ¨å¯¹è¯»å…¥æ–‡æœ¬è¿›è¡Œæ­£åˆ™è¡¨è¾¾å¼è§£æï¼
+ [2019-06-02 16:18:23,230]ERROR 10527[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:294) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-02 16:18:50,782]ERROR 38079[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:294) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-02 16:19:26,239] INFO     0[main] - applications.Main.main(Main.java:41) - é€‰æ‹©trackgameåº”ç”¨
+ [2019-06-02 16:19:26,246] INFO     7[main] - applications.Main.main(Main.java:43) - è¯»å–trackgame.txtçš„ä¿¡æ¯
+ [2019-06-02 16:19:26,261] INFO    22[main] - applications.Main.main(Main.java:49) - æ­£åœ¨å¯¹è¯»å…¥æ–‡æœ¬è¿›è¡Œæ­£åˆ™è¡¨è¾¾å¼è§£æï¼
+ [2019-06-02 16:19:26,290] INFO    51[main] - applications.Main.main(Main.java:63) - è¾“å‡ºåº”ç”¨ä¸€çš„é€‰æ‹©èœå•
+ [2019-06-02 16:19:39,508]ERROR 86805[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:294) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-02 16:21:15,940]ERROR183237[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:294) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-02 16:21:21,997] INFO     0[main] - applications.Main.main(Main.java:41) - é€‰æ‹©trackgameåº”ç”¨
+ [2019-06-02 16:21:22,003] INFO     6[main] - applications.Main.main(Main.java:43) - è¯»å–trackgame.txtçš„ä¿¡æ¯
+ [2019-06-02 16:21:22,555] INFO   558[main] - applications.Main.main(Main.java:49) - æ­£åœ¨å¯¹è¯»å…¥æ–‡æœ¬è¿›è¡Œæ­£åˆ™è¡¨è¾¾å¼è§£æï¼
+ [2019-06-02 16:21:36,698]ERROR 14701[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:294) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-02 16:22:17,105]ERROR 55108[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:294) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-02 16:22:59,501]ERROR194927[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:294) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-02 16:23:13,952]ERROR301249[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:294) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-03 07:21:55,552] INFO     0[main] - applications.Main.main(Main.java:41) - é€‰æ‹©trackgameåº”ç”¨
+ [2019-06-03 07:21:55,604] INFO    52[main] - applications.Main.main(Main.java:43) - è¯»å–trackgame.txtçš„ä¿¡æ¯
+ [2019-06-03 07:21:56,182] INFO   630[main] - applications.Main.main(Main.java:49) - æ­£åœ¨å¯¹è¯»å…¥æ–‡æœ¬è¿›è¡Œæ­£åˆ™è¡¨è¾¾å¼è§£æï¼
+ [2019-06-03 07:22:04,381]ERROR  8829[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:295) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-03 07:22:27,152]ERROR 31600[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:295) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-03 07:23:05,794]ERROR 70242[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:295) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-03 07:24:00,350]ERROR124798[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:295) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-03 07:25:10,317]ERROR194765[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:295) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-03 07:26:35,311]ERROR279759[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:295) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-03 07:28:15,291]ERROR379739[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:295) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-03 07:30:10,537]ERROR494985[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:295) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-03 07:32:17,575]ERROR622023[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:295) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-03 07:34:46,437]ERROR770885[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:295) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-03 07:41:33,523] INFO     0[main] - applications.Main.main(Main.java:41) - é€‰æ‹©trackgameåº”ç”¨
+ [2019-06-03 07:41:33,532] INFO     9[main] - applications.Main.main(Main.java:43) - è¯»å–trackgame.txtçš„ä¿¡æ¯
+ [2019-06-03 07:41:33,922] INFO   399[main] - applications.Main.main(Main.java:49) - æ­£åœ¨å¯¹è¯»å…¥æ–‡æœ¬è¿›è¡Œæ­£åˆ™è¡¨è¾¾å¼è§£æï¼
+ [2019-06-03 07:41:42,142]ERROR  8619[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:295) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-03 07:42:15,987] INFO     0[main] - applications.Main.main(Main.java:41) - é€‰æ‹©trackgameåº”ç”¨
+ [2019-06-03 07:42:15,997] INFO    10[main] - applications.Main.main(Main.java:43) - è¯»å–trackgame.txtçš„ä¿¡æ¯
+ [2019-06-03 07:42:16,428] INFO   441[main] - applications.Main.main(Main.java:49) - æ­£åœ¨å¯¹è¯»å…¥æ–‡æœ¬è¿›è¡Œæ­£åˆ™è¡¨è¾¾å¼è§£æï¼
+ [2019-06-03 07:42:24,083]ERROR  8096[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:296) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-03 07:45:10,689] INFO     0[main] - applications.Main.main(Main.java:41) - é€‰æ‹©trackgameåº”ç”¨
+ [2019-06-03 07:45:10,702] INFO    13[main] - applications.Main.main(Main.java:43) - è¯»å–trackgame.txtçš„ä¿¡æ¯
+ [2019-06-03 07:45:11,110] INFO   421[main] - applications.Main.main(Main.java:49) - æ­£åœ¨å¯¹è¯»å…¥æ–‡æœ¬è¿›è¡Œæ­£åˆ™è¡¨è¾¾å¼è§£æï¼
+ [2019-06-03 07:45:19,341]ERROR  8652[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:298) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-03 07:45:42,724]ERROR 32035[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:298) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-03 07:46:22,217]ERROR 71528[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:298) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-03 07:47:17,657]ERROR126968[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:298) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-03 07:48:28,344]ERROR197655[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:298) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-03 07:49:53,521]ERROR282832[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:298) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-03 07:51:34,505]ERROR383816[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:298) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-03 07:53:28,975]ERROR498286[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:298) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-03 07:55:36,404]ERROR625715[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:298) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-03 07:57:58,322]ERROR767633[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:298) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-03 08:00:34,432]ERROR923743[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:298) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-03 08:03:21,508]ERROR090819[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:298) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-03 08:06:25,635]ERROR274946[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:298) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-03 08:09:43,963]ERROR473274[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:298) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-03 08:13:17,660]ERROR686971[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:298) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-03 08:17:02,131]ERROR911442[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:298) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-03 08:21:01,151]ERROR150462[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:298) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-03 08:25:13,844]ERROR403155[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:298) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-03 08:30:07,472]ERROR696783[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:298) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-03 08:34:48,533]ERROR977844[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:298) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-03 08:39:53,249]ERROR282560[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:298) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-03 08:45:01,731]ERROR591042[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:298) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-03 08:50:23,675]ERROR912986[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:298) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-03 08:56:00,497]ERROR249808[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:298) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-03 09:02:03,320]ERROR612631[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:298) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-03 09:08:56,778]ERROR026089[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:298) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-03 09:15:39,105]ERROR428416[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:298) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-03 09:23:20,808]ERROR890119[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:298) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-03 09:30:03,648]ERROR292959[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:298) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-03 09:37:30,220]ERROR739531[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:298) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-03 09:44:41,103]ERROR170414[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:298) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-03 09:52:13,036]ERROR622347[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:298) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-03 09:59:55,275]ERROR084586[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:298) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-03 10:07:47,464]ERROR556775[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:298) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-04 16:51:03,344] INFO     0[main] - applications.Main.main(Main.java:41) - é€‰æ‹©trackgameåº”ç”¨
+ [2019-06-04 16:51:03,406] INFO    62[main] - applications.Main.main(Main.java:43) - è¯»å–trackgame.txtçš„ä¿¡æ¯
+ [2019-06-04 16:51:03,438] INFO    94[main] - applications.Main.main(Main.java:48) - æ­£åœ¨å¯¹è¯»å…¥æ–‡æœ¬è¿›è¡Œæ­£åˆ™è¡¨è¾¾å¼è§£æï¼
+ [2019-06-04 16:51:12,619]ERROR  9275[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:298) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-04 16:51:36,461]ERROR 33117[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:298) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-04 16:52:41,272] INFO     0[main] - applications.Main.main(Main.java:41) - é€‰æ‹©trackgameåº”ç”¨
+ [2019-06-04 16:52:41,288] INFO    16[main] - applications.Main.main(Main.java:43) - è¯»å–trackgame.txtçš„ä¿¡æ¯
+ [2019-06-04 16:52:41,303] INFO    31[main] - applications.Main.main(Main.java:48) - æ­£åœ¨å¯¹è¯»å…¥æ–‡æœ¬è¿›è¡Œæ­£åˆ™è¡¨è¾¾å¼è§£æï¼
+ [2019-06-04 16:52:49,559]ERROR  8287[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:298) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-04 16:53:12,252]ERROR 30980[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:298) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-04 16:53:50,419]ERROR 69147[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:298) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-04 16:54:45,252]ERROR123980[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:298) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-04 16:55:55,025]ERROR193753[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:298) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-04 16:57:20,682]ERROR279410[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:298) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-04 16:59:00,838]ERROR379566[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:298) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-04 16:59:48,503] INFO     0[main] - applications.Main.main(Main.java:214) - è¯»å…¥SocialNetworkCircle.txt æ–‡ä»¶
+ [2019-06-04 16:59:48,503] INFO     0[main] - applications.Main.main(Main.java:217) - å¯¹åº”ç”¨ä¸‰çš„æ–‡æœ¬è¿›è¡Œæ­£åˆ™è¡¨è¾¾å¼åŒ¹é…
+ [2019-06-04 16:59:48,519]ERROR    16[main] - circularOrbit.SocialNetworkCircle.Analysis(SocialNetworkCircle.java:220) - åº”ç”¨ä¸‰ä¸­å¿ƒç‚¹æ ‡ç­¾å‡ºç°äº†ä¸¤æ¬¡ï¼Œé‡æ–°è¾“å…¥æ–‡æœ¬
+ [2019-06-04 16:59:54,287] INFO  5784[main] - applications.Main.main(Main.java:220) - è¾“å‡ºåº”ç”¨ä¸‰èœå•
+ [2019-06-04 16:59:57,059] INFO  8556[main] - applications.Main.main(Main.java:220) - è¾“å‡ºåº”ç”¨ä¸‰èœå•
+ [2019-06-04 17:00:56,812]ERROR495540[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:298) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-04 17:03:13,529]ERROR632257[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:298) - æ–‡æœ¬ä¸­å­˜åœ¨éæ³•æ ‡ç­¾ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-04 17:46:18,516] INFO     0[main] - applications.Main.main(Main.java:41) - é€‰æ‹©trackgameåº”ç”¨
+ [2019-06-04 17:46:18,527] INFO    11[main] - applications.Main.main(Main.java:43) - è¯»å–trackgame.txtçš„ä¿¡æ¯
+ [2019-06-04 17:46:18,547] INFO    31[main] - applications.Main.main(Main.java:48) - æ­£åœ¨å¯¹è¯»å…¥æ–‡æœ¬è¿›è¡Œæ­£åˆ™è¡¨è¾¾å¼è§£æï¼
+ [2019-06-04 17:46:18,561] INFO    45[main] - applications.Main.main(Main.java:64) - è¾“å‡ºåº”ç”¨ä¸€çš„é€‰æ‹©èœå•
+ [2019-06-04 17:52:45,624] INFO     0[main] - applications.Main.main(Main.java:41) - é€‰æ‹©trackgameåº”ç”¨
+ [2019-06-04 17:52:45,632] INFO     8[main] - applications.Main.main(Main.java:43) - è¯»å–trackgame.txtçš„ä¿¡æ¯
+ [2019-06-04 17:52:45,647] INFO    23[main] - applications.Main.main(Main.java:48) - æ­£åœ¨å¯¹è¯»å…¥æ–‡æœ¬è¿›è¡Œæ­£åˆ™è¡¨è¾¾å¼è§£æï¼
+ [2019-06-04 17:52:45,659] INFO    35[main] - applications.Main.main(Main.java:64) - è¾“å‡ºåº”ç”¨ä¸€çš„é€‰æ‹©èœå•
+ [2019-06-04 17:52:48,348] INFO  2724[main] - applications.Main.main(Main.java:64) - è¾“å‡ºåº”ç”¨ä¸€çš„é€‰æ‹©èœå•
+ [2019-06-04 19:01:45,656] INFO     0[main] - applications.Main.main(Main.java:41) - é€‰æ‹©trackgameåº”ç”¨
+ [2019-06-04 19:01:45,667] INFO    11[main] - applications.Main.main(Main.java:43) - è¯»å–trackgame.txtçš„ä¿¡æ¯
+ [2019-06-04 19:01:45,679] INFO    23[main] - applications.Main.main(Main.java:49) - æ­£åœ¨å¯¹è¯»å…¥æ–‡æœ¬è¿›è¡Œæ­£åˆ™è¡¨è¾¾å¼è§£æï¼
+ [2019-06-04 19:01:45,765]ERROR   109[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:218) - è¿åŠ¨å‘˜æ ‡ç­¾å­—ç¬¦ä¸²ä¸ç¬¦åˆè§„åˆ™ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-04 19:04:43,060] INFO     0[main] - applications.Main.main(Main.java:41) - é€‰æ‹©trackgameåº”ç”¨
+ [2019-06-04 19:04:43,064] INFO     4[main] - applications.Main.main(Main.java:43) - è¯»å–trackgame.txtçš„ä¿¡æ¯
+ [2019-06-04 19:04:43,074] INFO    14[main] - applications.Main.main(Main.java:49) - æ­£åœ¨å¯¹è¯»å…¥æ–‡æœ¬è¿›è¡Œæ­£åˆ™è¡¨è¾¾å¼è§£æï¼
+ [2019-06-04 19:04:43,079]ERROR    19[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:218) - è¿åŠ¨å‘˜æ ‡ç­¾å­—ç¬¦ä¸²ä¸ç¬¦åˆè§„åˆ™ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-04 19:06:12,700] INFO     0[main] - applications.Main.main(Main.java:41) - é€‰æ‹©trackgameåº”ç”¨
+ [2019-06-04 19:06:12,709] INFO     9[main] - applications.Main.main(Main.java:43) - è¯»å–trackgame.txtçš„ä¿¡æ¯
+ [2019-06-04 19:06:12,720] INFO    20[main] - applications.Main.main(Main.java:49) - æ­£åœ¨å¯¹è¯»å…¥æ–‡æœ¬è¿›è¡Œæ­£åˆ™è¡¨è¾¾å¼è§£æï¼
+ [2019-06-04 19:06:12,725]ERROR    25[main] - circularOrbit.TrackGame.Analysis(TrackGame.java:218) - è¿åŠ¨å‘˜æ ‡ç­¾å­—ç¬¦ä¸²ä¸ç¬¦åˆè§„åˆ™ï¼Œé‡æ–°è¾“å…¥æ–‡ä»¶
+ [2019-06-04 19:06:16,539] INFO  3839[main] - applications.Main.main(Main.java:52) - è¾“å‡ºåº”ç”¨ä¸€çš„é€‰æ‹©èœå•
+ 

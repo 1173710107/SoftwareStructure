@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="zh"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../../../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../../../jacoco-resources/report.gif" type="image/gif"/><title>TrackGame.java</title><link rel="stylesheet" href="../../../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../../../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../../../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../../../index.html" class="el_report">test (3) (2019-5-19 15:10:37)</a> &gt; <a href="../../index.html" class="el_group">Lab4-1173710107</a> &gt; <a href="../index.html" class="el_bundle">src</a> &gt; <a href="index.source.html" class="el_package">circularOrbit</a> &gt; <span class="el_source">TrackGame.java</span></div><h1>TrackGame.java</h1><pre class="source lang-java linenums">package circularOrbit;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Scanner;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+import exception.InvalidTag;
+import exception.NumOrder;
+import exception.SyntaxSpec;
+import exception.sameele;
+import exception.sametag;
+import exception.wrongformat;
+import exception.wrongrely;
+import physicalObject.Athlete;
+import org.apache.log4j.Logger;
+
+import applications.Main;
+
+import org.apache.log4j.BasicConfigurator; 
+import org.apache.log4j.Level;
+<span class="fc" id="L22">public class TrackGame extends ConcreteCircularOrbit&lt;Athlete,Athlete&gt;{</span>
+<span class="fc" id="L23">	Logger logger = Logger.getLogger(TrackGame .class);</span>
+   
+<span class="fc" id="L25">	int length = 0; </span>
+<span class="fc" id="L26">	int Tracknum = 0;</span>
+<span class="fc" id="L27">	ArrayList&lt;Athlete&gt; athletes = new ArrayList&lt;Athlete&gt;();</span>
+<span class="fc" id="L28">	ArrayList&lt;String&gt; infoall = new ArrayList&lt;String&gt;();</span>
+	public void initarraylist()
+	{
+<span class="fc" id="L31">		this.athletes.removeAll(athletes);</span>
+<span class="fc" id="L32">	} </span>
+	 /**
+     * 增加一个新的轨道
+     * AF:新建一个轨道，对应于一个跑道
+     * RI：true
+     * immutable
+     */
+	public void setinfoall(ArrayList&lt;String&gt; info)
+	{
+<span class="fc" id="L41">		this.infoall = info;</span>
+<span class="fc" id="L42">	}</span>
+	public void newTrack()
+	{
+<span class="fc" id="L45">		Tracknum++;</span>
+<span class="fc" id="L46">		this.addTrack(&quot;track&quot;+Tracknum , Tracknum );</span>
+<span class="fc" id="L47">	}</span>
+	 /**
+     * 删除掉最外层的轨道
+     * AF:删除最外层的一个轨道，对应于体育场上的跑道
+     * RI：true
+     * immutable
+     */
+	public void clearTrack()
+	{
+<span class="fc" id="L56">		this.removeTrack(Tracknum);</span>
+<span class="fc" id="L57">		Tracknum--;</span>
+<span class="fc" id="L58">	}</span>
+	 /**
+     * 通过读取的文本信息构建track
+     * @param string类型的文本信息
+     * AF:将文件内容string进行分析转化成的是具体各个数据类型的数据
+     * RI：true
+     * immutable
+     */
+	public void Analysis()
+     {
+<span class="fc" id="L68">		 logger.setLevel(Level.INFO);</span>
+<span class="fc" id="L69">	   int gamenum = 0;</span>
+<span class="fc" id="L70">	   int tracknum = 0;</span>
+<span class="fc" id="L71">	   boolean visited  = false;</span>
+	   try {
+<span class="fc bfc" id="L73" title="All 2 branches covered.">		   for(String info:infoall)</span>
+		   {
+<span class="fc" id="L75">			   visited = false;</span>
+<span class="fc" id="L76">			   Pattern p1 = Pattern.compile(&quot;Game ::= (100|200|400)&quot;);</span>
+<span class="fc" id="L77">		         Matcher m1 = p1.matcher(info);</span>
+<span class="fc bfc" id="L78" title="All 2 branches covered.">		         if(m1.find())</span>
+		         {
+<span class="fc" id="L80">			         this.length = Integer.valueOf(m1.group(1));</span>
+<span class="fc" id="L81">			         System.out.println(&quot;length = &quot;+this.length);</span>
+<span class="fc" id="L82">			         gamenum++;</span>
+<span class="fc" id="L83">			         visited = true;</span>
+		         }
+<span class="fc" id="L85">		         Pattern p2 = Pattern.compile(&quot;NumOfTracks ::= (4|5|6|7|8|9|10)&quot;);</span>
+<span class="fc" id="L86">		         Matcher m2 = p2.matcher(info);</span>
+<span class="fc bfc" id="L87" title="All 2 branches covered.">		         if(m2.find())</span>
+		         {
+<span class="fc" id="L89">		        	 this.Tracknum = Integer.valueOf(m2.group(1));</span>
+<span class="fc" id="L90">			         System.out.println(&quot;NumOfTracks = &quot;+ this.Tracknum);</span>
+<span class="fc bfc" id="L91" title="All 2 branches covered.">			         for(int i=0;i&lt;=this.Tracknum;i++)</span>
+			         {
+<span class="fc" id="L93">			        	 this.addTrack(&quot;track&quot;+i, i);</span>
+			         }
+<span class="fc" id="L95">			         tracknum++;</span>
+<span class="fc" id="L96">			         visited = true;</span>
+		         }
+<span class="pc bpc" id="L98" title="2 of 4 branches missed.">		         if(gamenum==2||tracknum==2)</span>
+		         {
+<span class="nc" id="L100">		        	 int x = 0;</span>
+<span class="nc" id="L101">		        	 logger.error(&quot;game或者track的标签出现了多个，重新输入文件&quot;);</span>
+<span class="nc" id="L102">		        	 throw new sametag();</span>
+		         }
+<span class="fc" id="L104">		         Pattern p3 = Pattern.compile(&quot;Athlete ::= &lt;([a-zA-z]+),(\\d+),([A-Z]{3}),(\\d+),(\\d{1,2}.\\d{2})&gt;&quot;);</span>
+<span class="fc" id="L105">		         Matcher m3 = p3.matcher(info);</span>
+<span class="fc bfc" id="L106" title="All 2 branches covered.">		         if(m3.find())</span>
+		         {
+<span class="pc bpc" id="L108" title="1 of 2 branches missed.">		        	 if(m3.groupCount()!=5)</span>
+		        	 {
+<span class="nc" id="L110">		        		 int x =0;</span>
+		        		// System.out.println(&quot;!!!&quot;);
+<span class="nc" id="L112">		        		 logger.error(&quot;运动员标签所给参数不是5个，重新输入文件&quot;);</span>
+<span class="nc" id="L113">		        		 throw new NumOrder(x);</span>
+		        	 }
+<span class="fc bfc" id="L115" title="All 2 branches covered.">		        	 for(Athlete s:athletes)</span>
+		        	 {
+<span class="pc bpc" id="L117" title="1 of 2 branches missed.">		        		 if(m3.group(1).equals(s.getname()))</span>
+		        		 {
+<span class="nc" id="L119">		        			 logger.error(&quot;运动员有两个名字相同的,重新输入文件&quot;);</span>
+<span class="nc" id="L120">		        			 throw new sameele();</span>
+		        		 }
+		        	 }
+<span class="fc" id="L123">		         athletes.add(new Athlete(m3.group(1),Integer.valueOf(m3.group(2)),m3.group(3),Integer.valueOf(m3.group(4)),Double.valueOf(m3.group(5))));</span>
+<span class="fc" id="L124">		         visited = true;</span>
+		         }
+<span class="pc bpc" id="L126" title="1 of 2 branches missed.">		         if(!visited)//未匹配到正则表达式</span>
+		         {
+<span class="nc" id="L128">		        	 String [] line = info.split(&quot;,&quot;);</span>
+		        	// System.out.println(line.length);
+<span class="nc bnc" id="L130" title="All 2 branches missed.">		        	 if(line.length==5)//运动员</span>
+		        	 {
+		        		// System.out.println(&quot;1&quot;);
+<span class="nc" id="L133">		        		 String [] line1 = line[0].split(&quot;&lt;&quot;);</span>
+<span class="nc bnc" id="L134" title="All 2 branches missed.">		        		 if(line1.length==2)</span>
+		        		 {
+		        			 //System.out.println(&quot;2&quot;);
+<span class="nc bnc" id="L137" title="All 2 branches missed.">		        			 if(line1[0].equals(&quot;Athlete ::= &quot;))</span>
+		        			 {
+		        				// System.out.println(&quot;3&quot;);
+<span class="nc bnc" id="L140" title="All 2 branches missed.">		        				 for(int i = 0; i &lt; line[1].length(); i++)//第二位是纯数字</span>
+		        				 {
+		        					// System.out.println(line[1].charAt(i));
+<span class="nc bnc" id="L143" title="All 2 branches missed.">			        				if (!Character.isDigit(line[1].charAt(i)))</span>
+			        				{
+<span class="nc" id="L145">			        					int x =1;</span>
+			        				//	System.out.println(line[1]);
+<span class="nc" id="L147">			        					logger.error(&quot;运动员第二个参数不是纯数字，重新输入文件&quot;);</span>
+<span class="nc" id="L148">			        					throw new NumOrder(x);</span>
+			        				}
+			        			
+		        				 }
+<span class="nc bnc" id="L152" title="All 2 branches missed.">		        				 if(line[2].length()==3)//检查国家是否正确</span>
+		        				 {
+<span class="nc bnc" id="L154" title="All 2 branches missed.">		        					 for(int i = 0; i &lt; line[2].length(); i++) </span>
+		        					 { 
+<span class="nc" id="L156">		        					 char c = line[2].charAt(i); </span>
+<span class="nc bnc" id="L157" title="All 2 branches missed.">		        					 if (Character.isUpperCase(c)) </span>
+		        					 {
+		        						 
+		        					 }
+		        					 else
+		        					 {
+<span class="nc" id="L163">		        						 logger.error(&quot;运动员标签国家不是三个大写的字母，重新输入文件&quot;);</span>
+<span class="nc" id="L164">		        						 throw new SyntaxSpec();</span>
+		        					 }
+		        					 }
+<span class="nc" id="L167">		        				 }</span>
+		        				 else
+		        				 {
+<span class="nc" id="L170">		        					 logger.error(&quot;运动员标签国家不是三个字符，重新输入文件&quot;);</span>
+<span class="nc" id="L171">		        					 throw new SyntaxSpec();</span>
+		        				 }
+<span class="nc bnc" id="L173" title="All 2 branches missed.">		        				 for(int i = 0; i &lt; line[3].length(); i++)//第四位是纯数字</span>
+		        				 {
+		        					// System.out.println(line[1].charAt(i));
+<span class="nc bnc" id="L176" title="All 2 branches missed.">			        				if (!Character.isDigit(line[3].charAt(i)))</span>
+			        				{
+<span class="nc" id="L178">			        					int x =1;</span>
+<span class="nc" id="L179">			        					System.out.println(line[3]);</span>
+<span class="nc" id="L180">			        					logger.error(&quot;运动员标签第四个参数不是纯数字，重新输入文件&quot;);</span>
+<span class="nc" id="L181">			        					throw new NumOrder(x);</span>
+			        				}
+		        				 }
+<span class="nc" id="L184">		        				 String [] sp = line[4].split(&quot;&gt;&quot;);//检查成绩</span>
+<span class="nc bnc" id="L185" title="All 2 branches missed.">		        				 if(sp.length==1)</span>
+		        				 {
+<span class="nc" id="L187">		        					 String [] sp1 = sp[0].split(&quot;\\.&quot;);</span>
+<span class="nc bnc" id="L188" title="All 4 branches missed.">		        					 if(sp1.length==2&amp;&amp;sp1[1].length()==2)</span>
+		        					 {
+		        						 //真的找不到哪里错了。。
+		        					 }
+<span class="nc bnc" id="L192" title="All 2 branches missed.">		        					 else if(sp1.length==2)</span>
+		        					 {
+<span class="nc bnc" id="L194" title="All 2 branches missed.">		        						for (int i = 0; i &lt; sp1[1].length(); i++)</span>
+		        						{
+<span class="nc" id="L196">		        							System.out.println(sp1[1].charAt(i));</span>
+<span class="nc bnc" id="L197" title="All 2 branches missed.">		        							if (!Character.isDigit(sp1[1].charAt(i)))</span>
+		        							{
+<span class="nc" id="L199">		        								logger.error(&quot;运动员成绩标签不是纯数字，重新输入文件&quot;);</span>
+<span class="nc" id="L200">		        								throw new SyntaxSpec();</span>
+		        							}
+		        						}
+		        					 }
+<span class="nc bnc" id="L204" title="All 2 branches missed.">		        						if(sp1.length==1)//不够两位自动补0</span>
+		        						{
+<span class="nc" id="L206">		        							String newinfo1 = line[0]+&quot;,&quot;+line[1]+&quot;,&quot;+line[2]+&quot;,&quot;+line[3]+&quot;,&quot;+sp1[0]+&quot;.&quot;+sp1[1]+&quot;0&gt;&quot;;</span>
+<span class="nc" id="L207">		        							 Pattern p7 = Pattern.compile(&quot;Athlete ::= &lt;([a-zA-z]+),(\\d+),([A-Z]{3}),(\\d+),(\\d{1,2}.\\d{2})&gt;&quot;);</span>
+<span class="nc" id="L208">		        					         Matcher m7 = p7.matcher(newinfo1);</span>
+<span class="nc bnc" id="L209" title="All 2 branches missed.">		        					         if(m7.find())</span>
+		        					         {
+<span class="nc bnc" id="L211" title="All 2 branches missed.">		        					        	 if(m7.groupCount()!=5)</span>
+		        					        	 {
+<span class="nc" id="L213">		        					        		 int x =0;</span>
+		        					        		// System.out.println(&quot;!!!&quot;);
+<span class="nc" id="L215">		        					        		 logger.error(&quot;运动员标签参数不够，重新输入文件&quot;);</span>
+<span class="nc" id="L216">		        					        		 throw new NumOrder(x);</span>
+		        					        	 }
+<span class="nc bnc" id="L218" title="All 2 branches missed.">		        					        	 for(Athlete s:athletes)</span>
+		        					        	 {
+<span class="nc bnc" id="L220" title="All 2 branches missed.">		        					        		 if(m7.group(1).equals(s.getname()))</span>
+		        					        		 {
+<span class="nc" id="L222">		        					        			 throw new sametag();</span>
+		        					        		 }
+		        					        	 }
+<span class="nc" id="L225">		        					         athletes.add(new Athlete(m7.group(1),Integer.valueOf(m7.group(2)),m7.group(3),Integer.valueOf(m7.group(4)),Double.valueOf(m7.group(5))));</span>
+<span class="nc" id="L226">		        					         visited = true;</span>
+<span class="nc" id="L227">		        					         logger.error(&quot;运动员标签成绩小于两位小数，自动补零&quot;);</span>
+		        					         }
+<span class="nc" id="L229">		        						}</span>
+		        						else
+		        						{
+<span class="nc" id="L232">		        							String newinfo1 = line[0]+&quot;,&quot;+line[1]+&quot;,&quot;+line[2]+&quot;,&quot;+line[3]+&quot;,&quot;+sp1[0]+&quot;.&quot;+sp1[1]+&quot;0&gt;&quot;;</span>
+<span class="nc" id="L233">		        							 Pattern p7 = Pattern.compile(&quot;Athlete ::= &lt;([a-zA-z]+),(\\d+),([A-Z]{3}),(\\d+),(\\d{1,2}.\\d{2})&gt;&quot;);</span>
+<span class="nc" id="L234">		        					         Matcher m7 = p7.matcher(newinfo1);</span>
+<span class="nc bnc" id="L235" title="All 2 branches missed.">		        					         if(m7.find())</span>
+		        					         {
+<span class="nc bnc" id="L237" title="All 2 branches missed.">		        					        	 if(m7.groupCount()!=5)</span>
+		        					        	 {
+<span class="nc" id="L239">		        					        		 int x =0;</span>
+		        					        		// System.out.println(&quot;!!!&quot;);
+<span class="nc" id="L241">		        					        		 logger.error(&quot;运动员标签参数错误，重新输入文件&quot;);</span>
+<span class="nc" id="L242">		        					        		 throw new NumOrder(x);</span>
+		        					        	 }
+<span class="nc bnc" id="L244" title="All 2 branches missed.">		        					        	 for(Athlete s:athletes)</span>
+		        					        	 {
+<span class="nc bnc" id="L246" title="All 2 branches missed.">		        					        		 if(m7.group(1).equals(s.getname()))</span>
+		        					        		 {
+<span class="nc" id="L248">		        					        			 logger.error(&quot;运动员标签有相同名字，重新输入文件&quot;);</span>
+<span class="nc" id="L249">		        					        			 throw new sameele();</span>
+		        					        		 }
+		        					        	 }
+<span class="nc" id="L252">		        					         athletes.add(new Athlete(m7.group(1),Integer.valueOf(m7.group(2)),m7.group(3),Integer.valueOf(m7.group(4)),Double.valueOf(m7.group(5))));</span>
+<span class="nc" id="L253">		        					         visited = true;</span>
+		        					         }
+		        						}
+<span class="nc" id="L256">		        					 }</span>
+		        					 else
+		        					 {
+<span class="nc" id="L259">		        						 logger.error(&quot;运动员标签成绩不符合规则，重新输入文件&quot;);</span>
+<span class="nc" id="L260">		        						 throw new SyntaxSpec();</span>
+		        					 }
+		        				 }
+		        				 else
+		        				 {
+<span class="nc" id="L265">		        					 logger.error(&quot;运动员标签字符串不符合规则，重新输入文件&quot;);</span>
+<span class="nc" id="L266">		        					 throw new wrongformat();</span>
+		        				 }
+		        			 }
+		        			 else
+		        			 {
+		        				// System.out.println(line1[0]);
+<span class="nc" id="L272">		        				 logger.error(&quot;运动员标签字符串不符合规则，重新输入文件&quot;);</span>
+<span class="nc" id="L273">		        				 throw new wrongformat();</span>
+		        			 }
+		        		 }
+		        		
+		        	 else
+		        	 {
+<span class="nc" id="L279">		        		 String [] line1 = info.split(&quot;::&quot;);</span>
+<span class="nc bnc" id="L280" title="All 2 branches missed.">		        			 if(line1[0].equals(&quot;Game &quot;))//是game类型的</span>
+			        		 {
+<span class="nc bnc" id="L282" title="All 2 branches missed.">		        				 if(line1.length==2)</span>
+		        				 {
+<span class="nc" id="L284">		        					 String [] line2 = line1[1].split(&quot;= &quot;);</span>
+<span class="nc bnc" id="L285" title="All 2 branches missed.">				        			 if(line2.length==1)</span>
+				        			 {
+<span class="nc bnc" id="L287" title="All 2 branches missed.">				        				 for (int i = 0; i &lt; line2[0].length(); i++)</span>
+					        			 {
+					        				// System.out.println(line2[0].charAt(i));
+<span class="nc bnc" id="L290" title="All 2 branches missed.">					        				 if (!Character.isDigit(line2[0].charAt(i)))//数字地方出现其他字符</span>
+					        				 {
+<span class="nc" id="L292">					        					 logger.error(&quot;运动员标签game出现其他不是数字字符，重新输入文件&quot;);</span>
+<span class="nc" id="L293">					        					 throw new SyntaxSpec();</span>
+					        				 }
+<span class="nc" id="L295">					        			 } String newinfo = null;</span>
+<span class="nc" id="L296">				        					    int p = Integer.valueOf(line2[0]).intValue();//自动改变跑道length</span>
+<span class="nc bnc" id="L297" title="All 2 branches missed.">				        					    if(p&lt;=100)</span>
+				        					    {
+<span class="nc" id="L299">				        					    	 newinfo = &quot;Game ::= &quot;+&quot;100&quot;;</span>
+<span class="nc" id="L300">				        					    }</span>
+<span class="nc bnc" id="L301" title="All 2 branches missed.">				        					    else if(p&lt;=200)</span>
+				        					    {
+<span class="nc" id="L303">				        					    	newinfo = &quot;Game ::= &quot;+&quot;200&quot;;</span>
+<span class="nc" id="L304">				        					    }</span>
+<span class="nc bnc" id="L305" title="All 2 branches missed.">				        					    else if(p&lt;=400)</span>
+				        					    {
+<span class="nc" id="L307">				        					    	newinfo = &quot;Game ::= &quot;+&quot;400&quot;;</span>
+<span class="nc" id="L308">				        					    }</span>
+				        					    else
+				        					    {
+<span class="nc" id="L311">				        					    	newinfo = &quot;Game ::= &quot;+&quot;800&quot;;</span>
+				        					    }
+<span class="nc" id="L313">				        					    Pattern p5 = Pattern.compile(&quot;Game ::= (100|200|400)&quot;);</span>
+<span class="nc" id="L314">				        				         Matcher m5 = p1.matcher(newinfo);</span>
+<span class="nc bnc" id="L315" title="All 2 branches missed.">				        				         if(m5.find())</span>
+				        				         {
+<span class="nc" id="L317">				        					         this.length = Integer.valueOf(m5.group(1));</span>
+<span class="nc" id="L318">				        					         System.out.println(&quot;length = &quot;+this.length);</span>
+<span class="nc" id="L319">				        					         gamenum++;</span>
+<span class="nc" id="L320">				        					         visited = true;</span>
+				        				         }
+<span class="nc" id="L322">				        			 }</span>
+				        			 else
+				        			 {
+<span class="nc" id="L325">				        				 logger.error(&quot;game标签字符串不符合规则，重新输入文件&quot;);</span>
+<span class="nc" id="L326">				        				 throw new wrongformat();</span>
+				        			 }
+		        				 }
+		        				 else//格式完全不对
+				        		 {
+<span class="nc" id="L331">		        					 logger.error(&quot;game标签字符串不符合规则，重新输入文件&quot;);</span>
+<span class="nc" id="L332">				        			 throw new wrongformat();</span>
+				        		 }
+				        		
+			        			 
+			        			
+			        		 }
+<span class="nc bnc" id="L338" title="All 2 branches missed.">		        		 else if(line1[0].equals(&quot;NumOfTracks &quot;))//是track</span>
+		        		 {
+		        			// System.out.println(info);
+<span class="nc bnc" id="L341" title="All 2 branches missed.">		        			 if(line1.length==2)</span>
+		        			 {
+<span class="nc" id="L343">		        				 String [] line3 = line1[1].split(&quot;= &quot;);</span>
+<span class="nc bnc" id="L344" title="All 2 branches missed.">		        				 if(line3.length==1)</span>
+		        				 {
+<span class="nc bnc" id="L346" title="All 2 branches missed.">		        					 for (int i = 0; i &lt; line3[0].length(); i++)</span>
+		        					{
+<span class="nc bnc" id="L348" title="All 2 branches missed.">		        						 if (!Character.isDigit(line3[0].charAt(i)))</span>
+		        						 {
+<span class="nc" id="L350">		        							 logger.error(&quot;track标签不是纯数字，重新输入文件&quot;);</span>
+<span class="nc" id="L351">		        							 throw new SyntaxSpec();</span>
+		        						 }
+		        							
+		        					}
+<span class="nc" id="L355">		        				 }</span>
+		        				 else
+		        				 {
+<span class="nc" id="L358">		        					 logger.error(&quot;track标签格式不对，重新输入文件&quot;);</span>
+<span class="nc" id="L359">		        					 throw new SyntaxSpec();</span>
+		        				 }
+		        			 }
+		        			 else
+		        			 {
+<span class="nc" id="L364">		        				 logger.error(&quot;track标签格式不对，重新输入文件&quot;);</span>
+<span class="nc" id="L365">		        				 throw new SyntaxSpec();</span>
+		        			 }
+		        			
+		        		 }
+		        		 else//标签不对
+		        		 {
+		        			 //System.out.println(info);
+<span class="nc" id="L372">		        			 logger.error(&quot;文本中存在非法标签，重新输入文件&quot;);</span>
+<span class="nc" id="L373">		        			 throw new InvalidTag();</span>
+		        			
+		        		 }
+		        	 }
+		         
+		         
+		   }
+		   }
+<span class="pc" id="L381">	   }catch(NumOrder e)</span>
+	   {
+<span class="nc" id="L383">			  e.newfile2(this,1);</span>
+	   }
+<span class="nc" id="L385">	   catch(sametag e)</span>
+	   {
+<span class="nc" id="L387">		  e.newfile2(this,1);</span>
+	   }
+<span class="nc" id="L389">	   catch(sameele e)</span>
+	   {
+<span class="nc" id="L391">		   e.newfile2(this,1);</span>
+	   }
+<span class="nc" id="L393">	   catch(InvalidTag e)</span>
+	   {
+<span class="nc" id="L395">		   e.newfile2(this,1);</span>
+	   }
+<span class="nc" id="L397">	   catch(SyntaxSpec e)</span>
+	   {
+<span class="nc" id="L399">		   e.newfile2(this,1);</span>
+	   }
+<span class="nc" id="L401">	   catch(wrongformat e)</span>
+	   {
+<span class="nc" id="L403">		   e.newfile2(this,1);</span>
+	   }
+	  
+       
+<span class="fc" id="L407">     }</span>
+   /**
+    * 进行随机的排序
+    * AF：对应于对轨道上的运动员进行分配跑道
+    * RI：true
+    * immutable
+    */
+   public void shuffleArrange()
+   {
+	   
+<span class="nc" id="L417">	   Collections.shuffle(athletes);</span>
+<span class="nc" id="L418">	   int i=1;</span>
+<span class="nc bnc" id="L419" title="All 2 branches missed.">	   for(Athlete temp:athletes)</span>
+	   {
+<span class="nc" id="L421">		   this.addObject(i, temp);</span>
+<span class="nc" id="L422">		   i++;</span>
+<span class="nc bnc" id="L423" title="All 2 branches missed.">		   if(i&gt;Tracknum)</span>
+<span class="nc" id="L424">			   i=1;</span>
+	   }
+<span class="nc" id="L426">   }</span>
+   /**
+    * 按照成绩进行排序
+    * AF:对应于对跑道上的运动员进行分配跑道
+    * RI：true
+    * immutable
+    */
+   public void sortedArrange()
+   {
+	  
+<span class="fc" id="L436">	   Collections.sort(athletes);</span>
+<span class="fc" id="L437">	   int i=1;</span>
+<span class="fc bfc" id="L438" title="All 2 branches covered.">	   for(Athlete temp:athletes)</span>
+	   {
+<span class="fc" id="L440">		   this.addObject(i, temp);</span>
+<span class="fc" id="L441">		   i++;</span>
+<span class="fc bfc" id="L442" title="All 2 branches covered.">		   if(i&gt;Tracknum)</span>
+<span class="fc" id="L443">			   i=1;</span>
+	   }
+<span class="fc" id="L445">   }</span>
+   /**
+    * 检查比赛人数不超过轨道数
+    * 否则抛出异常
+    */
+   public void checkRep()
+   {
+	   try
+	   {
+<span class="nc bnc" id="L454" title="All 2 branches missed.">		   if(athletes.size()&gt;Tracknum)</span>
+		   {
+<span class="nc" id="L456">			   throw new wrongrely();</span>
+		   }
+	   }
+<span class="nc" id="L459">	  catch(wrongrely e)</span>
+	  {
+<span class="nc" id="L461">		  e.wrongrely1();;</span>
+	  }
+<span class="nc" id="L463">   }</span>
+   @Override
+     public String toString() {
+<span class="nc" id="L466"> 		return tracks.toString();</span>
+ 	}
+     public static void main(String[] args)
+     {
+<span class="nc" id="L470">    	 TrackGame x = new TrackGame();</span>
+<span class="nc" id="L471">         ArrayList&lt;String&gt; info = x.readFile(&quot;txt/TrackGame.txt&quot;);</span>
+<span class="nc" id="L472">         System.out.println(info);</span>
+<span class="nc" id="L473">         x.Analysis();</span>
+<span class="nc" id="L474">         x.sortedArrange();</span>
+<span class="nc" id="L475">         System.out.println(x);</span>
+<span class="nc" id="L476">     }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.2.201808211720</span>test (3) (2019-5-19 15:10:37)</div></body></html>

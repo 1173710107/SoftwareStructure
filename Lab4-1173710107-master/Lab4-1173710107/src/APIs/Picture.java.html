@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="zh"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../../../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../../../jacoco-resources/report.gif" type="image/gif"/><title>Picture.java</title><link rel="stylesheet" href="../../../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../../../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../../../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../../../index.html" class="el_report">test (3) (2019-5-19 15:10:37)</a> &gt; <a href="../../index.html" class="el_group">Lab4-1173710107</a> &gt; <a href="../index.html" class="el_bundle">src</a> &gt; <a href="index.source.html" class="el_package">APIs</a> &gt; <span class="el_source">Picture.java</span></div><h1>Picture.java</h1><pre class="source lang-java linenums">package APIs;
+
+import java.awt.Graphics;
+import java.util.ArrayList;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+public class Picture extends JFrame {
+	private static final long serialVersionUID = 1L;
+	private int width;
+	private int height;
+	
+<span class="nc" id="L14">	private ArrayList&lt;Shape&gt; listShape = new ArrayList&lt;Shape&gt;();</span>
+	
+<span class="nc" id="L16">	private class ShapesPanel extends JPanel {</span>
+		private static final long serialVersionUID = 1L;
+
+		@Override
+		protected void paintComponent(Graphics g) {
+<span class="nc" id="L21">			super.paintComponent(g);</span>
+<span class="nc bnc" id="L22" title="All 2 branches missed.">			for ( Shape s : listShape )</span>
+			{
+<span class="nc" id="L24">				s.draw(g);</span>
+			}			
+<span class="nc" id="L26">		}</span>
+		
+	}
+	
+	public void add(Shape s)
+	{
+<span class="nc" id="L32">		listShape.add(s);</span>
+<span class="nc" id="L33">	}</span>
+
+<span class="nc" id="L35">	public Picture(int width, int height)</span>
+	{
+<span class="nc" id="L37">		add(new ShapesPanel());</span>
+<span class="nc" id="L38">		this.setDefaultCloseOperation(EXIT_ON_CLOSE);</span>
+<span class="nc" id="L39">		this.width = width;</span>
+<span class="nc" id="L40">		this.height = height;</span>
+<span class="nc" id="L41">	}</span>
+	
+	public void draw()
+	{
+<span class="nc" id="L45">		setLocationRelativeTo(null);</span>
+		//setSize(width, height);
+<span class="nc" id="L47">		setVisible(true);</span>
+<span class="nc" id="L48">	}</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.2.201808211720</span>test (3) (2019-5-19 15:10:37)</div></body></html>

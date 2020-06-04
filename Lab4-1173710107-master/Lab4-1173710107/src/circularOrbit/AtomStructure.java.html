@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="zh"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../../../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../../../jacoco-resources/report.gif" type="image/gif"/><title>AtomStructure.java</title><link rel="stylesheet" href="../../../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../../../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../../../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../../../index.html" class="el_report">test (3) (2019-5-19 15:10:37)</a> &gt; <a href="../../index.html" class="el_group">Lab4-1173710107</a> &gt; <a href="../index.html" class="el_bundle">src</a> &gt; <a href="index.source.html" class="el_package">circularOrbit</a> &gt; <span class="el_source">AtomStructure.java</span></div><h1>AtomStructure.java</h1><pre class="source lang-java linenums">package circularOrbit;
+import java.util.ArrayList;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+import track.Track;
+import centralObject.Nucleus;
+import exception.InvalidTag;
+import exception.NumOrder;
+import exception.SyntaxSpec;
+import exception.lacktag;
+import exception.sameele;
+import exception.sametag;
+import exception.wrongformat;
+import exception.wrongrely;
+import physicalObject.Electron;
+import org.apache.log4j.Logger; 
+import org.apache.log4j.BasicConfigurator; 
+import org.apache.log4j.Level;
+public class AtomStructure extends ConcreteCircularOrbit&lt;Nucleus,Electron&gt;{
+<span class="fc" id="L20">	ArrayList&lt;String&gt; infoall = new ArrayList&lt;String&gt;();</span>
+	String elementName;
+<span class="fc" id="L22">	int trackNum=0;</span>
+	 /**
+     * 增加一个新轨道
+     * AF:新建一个轨道，对应于一个电子的轨道
+     * RI：true
+     * immutable
+     */
+	public void setinfoall(ArrayList&lt;String&gt; info)
+	{
+<span class="nc" id="L31">		this.infoall = info;</span>
+<span class="nc" id="L32">	}</span>
+	public void newTrack()
+	{
+<span class="fc" id="L35">		trackNum++;</span>
+<span class="fc" id="L36">		this.addTrack(&quot;track&quot;+trackNum, trackNum);</span>
+<span class="fc" id="L37">	}</span>
+	 /**
+     * 删除掉最外层的轨道
+     * AF:删除最外层的一个轨道，对应原子上的轨道
+     * RI：true
+     * immutable
+     */
+	public void clearTrack()
+	{
+<span class="fc" id="L46">		this.removeTrack(trackNum);</span>
+<span class="fc" id="L47">		trackNum--;</span>
+<span class="fc" id="L48">	}</span>
+	 /**
+     * 获取现在轨道的数量
+     * @return 轨道数量int类型
+     * AF：获取原子轨道的个数
+     * RI：true
+     * immutable
+     */
+	public int getTrackNumbers()
+	{
+<span class="fc" id="L58">		return this.trackNum;</span>
+	}
+	 /**
+     * 移动电子
+     * 
+     * @param 移动电子的source
+     * @param 移动电子的target
+     * AF:两个数代表两个原子轨道
+     * RI：0&lt;source&lt;tracknum   0&lt;target&lt;tracknum
+     * mutable
+     */
+	public void transitElectron(int source,int target)
+	{
+<span class="pc bpc" id="L71" title="5 of 10 branches missed.">		if(source&gt;trackNum||target&gt;trackNum||source&lt;=0||target&lt;=0||source==target)//判断参数是否符合规则</span>
+		{
+<span class="nc" id="L73">			System.out.println(&quot;输入不合法!&quot;);</span>
+<span class="nc" id="L74">			return;</span>
+		}
+		else
+		{
+<span class="fc" id="L78">			Track&lt;Electron&gt; a = this.tracks.get(source);</span>
+<span class="fc" id="L79">			Track&lt;Electron&gt; b = this.tracks.get(target);</span>
+<span class="fc" id="L80">			a.remove(new Electron(source));</span>
+<span class="fc" id="L81">			b.add(new Electron(target));</span>
+		}
+<span class="fc" id="L83">		return;</span>
+	}
+	 /**
+     * 分析从文件中读取的信息
+     * RI：true
+     * AF:将文件中的信息保存到对应的数据类型中
+     * immutable
+     */
+	public final void Analysis()
+	{
+<span class="fc" id="L93">		Logger logger = Logger.getLogger(AtomStructure .class);</span>
+<span class="fc" id="L94">		logger.setLevel(Level.INFO);</span>
+<span class="fc" id="L95">		boolean visited = false;</span>
+<span class="fc" id="L96">		int elenum =0;</span>
+<span class="fc" id="L97">		int tracknum = 0;</span>
+		try
+		{
+<span class="fc bfc" id="L100" title="All 2 branches covered.">		for(String info:infoall)</span>
+		{
+<span class="fc" id="L102">			Pattern p2 = Pattern.compile(&quot;NumberOfTracks ::= (\\d+)&quot;);</span>
+<span class="fc" id="L103">			Matcher m2 = p2.matcher(info);</span>
+<span class="fc bfc" id="L104" title="All 2 branches covered.">			if(	m2.find())</span>
+			{
+				
+<span class="fc" id="L107">				this.trackNum = Integer.valueOf(m2.group(1));</span>
+<span class="fc" id="L108">				this.autoAddTrack(trackNum);</span>
+<span class="fc" id="L109">				visited = true;</span>
+<span class="fc" id="L110">				tracknum++;</span>
+			}
+		}
+<span class="pc bpc" id="L113" title="1 of 2 branches missed.">		if(tracknum==0)</span>
+		{
+<span class="nc" id="L115">			throw new lacktag();</span>
+		}
+<span class="pc bpc" id="L117" title="1 of 2 branches missed.">		else if(tracknum&gt;1)</span>
+		{
+<span class="nc" id="L119">			throw new sametag();</span>
+		}
+<span class="fc bfc" id="L121" title="All 2 branches covered.">		for(String info:infoall)</span>
+		{	
+<span class="fc" id="L123">			visited = false;</span>
+<span class="fc" id="L124">			Pattern p1 = Pattern.compile(&quot;ElementName ::= ([a-zA-Z]{1,2})&quot;);</span>
+<span class="fc" id="L125">			Matcher m1 = p1.matcher(info);</span>
+<span class="fc" id="L126">			Pattern p2 = Pattern.compile(&quot;NumberOfTracks ::= (\\d+)&quot;);</span>
+<span class="fc" id="L127">			Matcher m2 = p2.matcher(info);</span>
+<span class="fc bfc" id="L128" title="All 2 branches covered.">			if(m1.find()) {</span>
+				
+				
+				
+<span class="fc" id="L132">				this.elementName = m1.group(1);</span>
+<span class="fc" id="L133">				visited = true;</span>
+<span class="fc" id="L134">				elenum++;</span>
+<span class="fc" id="L135">			}</span>
+<span class="fc bfc" id="L136" title="All 2 branches covered.">			else if(m2.find())</span>
+			{
+<span class="fc" id="L138">				visited = true;</span>
+<span class="fc" id="L139">			}</span>
+			else//匹配电子
+			{
+<span class="fc" id="L142">				Pattern p3 = Pattern.compile(&quot;(\\d+)/(\\d+)&quot;);</span>
+<span class="fc" id="L143">				Matcher m3 = p3.matcher(info);</span>
+<span class="fc" id="L144">				Pattern p4 = Pattern.compile(&quot;NumberOfElectron ::=&quot;);</span>
+<span class="fc" id="L145">				Matcher m4 = p4.matcher(info);</span>
+<span class="pc bpc" id="L146" title="1 of 2 branches missed.">				if(!m4.find())</span>
+				{
+<span class="nc" id="L148">					logger.error(&quot;应用三缺少轨道数目的标签，重新输入文本&quot;);</span>
+<span class="nc" id="L149">					throw new lacktag();</span>
+				}
+<span class="fc bfc" id="L151" title="All 2 branches covered.">				while(m3.find())</span>
+				{
+<span class="fc" id="L153">					int layer = Integer.valueOf(m3.group(1));</span>
+<span class="pc bpc" id="L154" title="2 of 4 branches missed.">					if(layer&gt;trackNum||layer&lt;1)</span>
+					{
+<span class="nc" id="L156">						logger.error(&quot;应用2电子的轨道数超过了轨道数，重新输入文本&quot;);</span>
+<span class="nc" id="L157">						throw new wrongrely();</span>
+					}
+<span class="fc" id="L159">					int num = Integer.valueOf(m3.group(2));</span>
+					
+<span class="fc bfc" id="L161" title="All 2 branches covered.">					for(int i=1;i&lt;=num;i++)</span>
+					{
+<span class="fc" id="L163">						this.addObject(layer, new Electron(layer));</span>
+					}
+<span class="fc" id="L165">					visited = true;</span>
+				}
+			}
+<span class="pc bpc" id="L168" title="1 of 2 branches missed.">			if(!visited)</span>
+			{
+<span class="nc bnc" id="L170" title="All 2 branches missed.">				if(info.indexOf(&quot; ::= &quot;)!=-1)</span>
+				{
+<span class="nc" id="L172">					String [] line = info.split(&quot; ::= &quot;);</span>
+<span class="nc bnc" id="L173" title="All 2 branches missed.">					if(line.length==2)</span>
+					{
+<span class="nc bnc" id="L175" title="All 2 branches missed.">						if(line[0].equals(&quot;ElementName&quot;))</span>
+						{
+<span class="nc bnc" id="L177" title="All 2 branches missed.">							if(line[1].length()==2)</span>
+							{
+<span class="nc" id="L179">								char a = line[1].charAt(0);</span>
+<span class="nc" id="L180">								char b = line[1].charAt(1);</span>
+<span class="nc bnc" id="L181" title="All 2 branches missed.">								if(Character.isLowerCase(a))</span>
+								{
+<span class="nc" id="L183">									String newinfo = null;</span>
+<span class="nc bnc" id="L184" title="All 2 branches missed.">									if(Character.isLowerCase(b))</span>
+									{
+<span class="nc" id="L186">										String x = line[1].toUpperCase();</span>
+<span class="nc" id="L187">										 newinfo = &quot;ElementName ::= &quot;+x.charAt(0)+b;</span>
+<span class="nc" id="L188">									}</span>
+<span class="nc bnc" id="L189" title="All 2 branches missed.">									else if(Character.isUpperCase(b))</span>
+									{
+<span class="nc" id="L191">										String x = line[1].toUpperCase();</span>
+<span class="nc" id="L192">										String y = line[1].toUpperCase();</span>
+<span class="nc" id="L193">										 newinfo = &quot;ElementName ::= &quot;+x.charAt(0)+y.charAt(1);</span>
+<span class="nc" id="L194">									}</span>
+									else
+									{
+<span class="nc" id="L197">										logger.error(&quot;应用2元素的名字不符合要求，重新输入文本&quot;);</span>
+<span class="nc" id="L198">										throw new SyntaxSpec();</span>
+									}
+<span class="nc" id="L200">								Pattern p5 = Pattern.compile(&quot;ElementName ::= ([a-zA-Z]{1,2})&quot;);</span>
+<span class="nc" id="L201">								Matcher m5 = p5.matcher(newinfo);</span>
+<span class="nc bnc" id="L202" title="All 2 branches missed.">								if(m5.find()) {</span>
+<span class="nc bnc" id="L203" title="All 2 branches missed.">									if(Character.isUpperCase(a))</span>
+									{
+<span class="nc" id="L205">										String newinfo1 = null;</span>
+<span class="nc bnc" id="L206" title="All 2 branches missed.">										if(Character.isLowerCase(b))</span>
+										{
+											//正确
+<span class="nc" id="L209">											this.elementName = m5.group(1);</span>
+<span class="nc" id="L210">											visited = true;</span>
+<span class="nc" id="L211">											elenum++;</span>
+<span class="nc" id="L212">											System.out.println(elementName);</span>
+<span class="nc" id="L213">										}</span>
+<span class="nc bnc" id="L214" title="All 2 branches missed.">										else if(Character.isUpperCase(b))</span>
+										{
+<span class="nc" id="L216">											String y = line[1].toLowerCase();</span>
+<span class="nc" id="L217">											newinfo1 =  &quot;ElementName ::= &quot;+a+y.charAt(1);</span>
+<span class="nc" id="L218">										}</span>
+										else
+										{
+<span class="nc" id="L221">											throw new SyntaxSpec();</span>
+										}
+<span class="nc bnc" id="L223" title="All 2 branches missed.">										if(Character.isUpperCase(a))</span>
+										{
+<span class="nc" id="L225">											String newinfo11 = null;</span>
+<span class="nc bnc" id="L226" title="All 2 branches missed.">											if(Character.isLowerCase(b))</span>
+											{
+												//正确
+											}
+<span class="nc bnc" id="L230" title="All 2 branches missed.">											else if(Character.isUpperCase(b))</span>
+											{
+<span class="nc" id="L232">												String y = line[1].toLowerCase();</span>
+<span class="nc" id="L233">												newinfo11 =  &quot;ElementName ::= &quot;+a+y.charAt(1);</span>
+<span class="nc" id="L234">											}</span>
+											else
+											{
+<span class="nc" id="L237">												throw new SyntaxSpec();</span>
+											}
+<span class="nc" id="L239">											Pattern p511 = Pattern.compile(&quot;ElementName ::= ([a-zA-Z]{1,2})&quot;);</span>
+<span class="nc" id="L240">											Matcher m511 = p5.matcher(newinfo11);</span>
+<span class="nc bnc" id="L241" title="All 2 branches missed.">											if(m511.find()) {</span>
+<span class="nc" id="L242">												this.elementName = m511.group(1);</span>
+<span class="nc" id="L243">												visited = true;</span>
+<span class="nc" id="L244">												elenum++;</span>
+<span class="nc" id="L245">												logger.info(&quot;元素名称大小写不正确，修改成功&quot;);</span>
+<span class="nc" id="L246">												System.out.println(&quot;元素名称大小写不正确，修改成功&quot;);</span>
+											}
+										}
+									}
+								
+								}
+<span class="nc" id="L252">								}</span>
+<span class="nc bnc" id="L253" title="All 2 branches missed.">								else if(Character.isUpperCase(a))</span>
+								{
+<span class="nc" id="L255">									String newinfo = null;</span>
+<span class="nc bnc" id="L256" title="All 2 branches missed.">									if(Character.isLowerCase(b))</span>
+									{
+										//正确
+									}
+<span class="nc bnc" id="L260" title="All 2 branches missed.">									else if(Character.isUpperCase(b))</span>
+									{
+<span class="nc" id="L262">										String y = line[1].toLowerCase();</span>
+<span class="nc" id="L263">										newinfo =  &quot;ElementName ::= &quot;+a+y.charAt(1);</span>
+<span class="nc" id="L264">									}</span>
+									else
+									{
+<span class="nc" id="L267">										throw new SyntaxSpec();</span>
+									}
+<span class="nc" id="L269">									Pattern p5 = Pattern.compile(&quot;ElementName ::= ([a-zA-Z]{1,2})&quot;);</span>
+<span class="nc" id="L270">									Matcher m5 = p5.matcher(newinfo);</span>
+<span class="nc bnc" id="L271" title="All 2 branches missed.">									if(m5.find()) {</span>
+<span class="nc" id="L272">										this.elementName = m5.group(1);</span>
+<span class="nc" id="L273">										visited = true;</span>
+<span class="nc" id="L274">										elenum++;</span>
+									}
+<span class="nc" id="L276">								}</span>
+								else
+								{
+<span class="nc" id="L279">									logger.error(&quot;应用2元素的名字不符合要求，重新输入文本&quot;);</span>
+<span class="nc" id="L280">									throw new SyntaxSpec();</span>
+								}
+							}
+<span class="nc bnc" id="L283" title="All 2 branches missed.">							else if(line[1].length()==1)</span>
+							{
+<span class="nc" id="L285">								char c = line[1].charAt(0);</span>
+<span class="nc bnc" id="L286" title="All 2 branches missed.">								if(Character.isUpperCase(c))</span>
+								{
+									//好像莫得错误
+								}
+<span class="nc bnc" id="L290" title="All 2 branches missed.">								else if(Character.isLowerCase(c))</span>
+								{
+<span class="nc" id="L292">									String x = line[1].toUpperCase();</span>
+<span class="nc" id="L293">									String newinfo = &quot;ElementName ::= &quot;+x;</span>
+<span class="nc" id="L294">									Pattern p5 = Pattern.compile(&quot;ElementName ::= ([a-zA-Z]{1,2})&quot;);</span>
+<span class="nc" id="L295">									Matcher m5 = p5.matcher(newinfo);</span>
+<span class="nc bnc" id="L296" title="All 2 branches missed.">									if(m5.find()) {</span>
+<span class="nc" id="L297">										this.elementName = m5.group(1);</span>
+<span class="nc" id="L298">										visited = true;</span>
+<span class="nc" id="L299">										elenum++;</span>
+									}
+<span class="nc" id="L301">								}</span>
+								else
+								{
+<span class="nc" id="L304">									logger.error(&quot;应用2元素的名字不符合要求，重新输入文本&quot;);</span>
+<span class="nc" id="L305">									throw new SyntaxSpec();</span>
+								}
+							}
+							else
+							{
+<span class="nc" id="L310">								logger.error(&quot;应用2元素的名字不符合要求，重新输入文本&quot;);</span>
+<span class="nc" id="L311">								throw new SyntaxSpec();</span>
+							}
+							
+						}
+<span class="nc bnc" id="L315" title="All 2 branches missed.">						else if(line[0].equals(&quot;NumberOfElectron&quot;))</span>
+						{
+							
+<span class="nc bnc" id="L318" title="All 2 branches missed.">							for (int i = 0; i &lt; line[1].length(); i++)</span>
+							{
+<span class="nc" id="L320">							System.out.println(line[1].charAt(i));</span>
+<span class="nc bnc" id="L321" title="All 2 branches missed.">							if (!Character.isDigit(line[1].charAt(i)))</span>
+							{
+<span class="nc" id="L323">								logger.error(&quot;应用2轨道数不是纯数字，重新输入文本&quot;);</span>
+<span class="nc" id="L324">							    throw new SyntaxSpec();</span>
+							   
+							}
+							}
+<span class="nc" id="L328">						}</span>
+						else
+						{
+<span class="nc" id="L331">							logger.error(&quot;应用2文本有非法标签，重新输入文本&quot;);</span>
+<span class="nc" id="L332">							throw new lacktag();</span>
+							
+						}
+					}
+					else
+					{
+<span class="nc" id="L338">						logger.error(&quot;应用2文本的格式不正确，重新输入文本&quot;);</span>
+<span class="nc" id="L339">						throw new wrongformat();</span>
+					}
+				}
+				else
+				{
+<span class="nc" id="L344">					logger.error(&quot;应用2文本的格式不正确，重新输入文本&quot;);</span>
+<span class="nc" id="L345">					throw new wrongformat();</span>
+				}
+			
+			}
+			
+		}
+<span class="pc bpc" id="L351" title="2 of 4 branches missed.">		if(elenum==2||tracknum==2)</span>
+		{
+<span class="nc" id="L353">			logger.error(&quot;应用2文本有不应该出现多次的标签出现，重新输入文本&quot;);</span>
+<span class="nc" id="L354">			throw new sametag();</span>
+		}
+		
+		}
+<span class="nc" id="L358">		catch(sameele e)</span>
+		{
+<span class="nc" id="L360">			e.newfile2(this, 2);</span>
+		}
+<span class="nc" id="L362">		catch(NumOrder e)</span>
+	   {
+<span class="nc" id="L364">			  e.newfile2(this,2);</span>
+	   }
+<span class="nc" id="L366">	   catch(sametag e)</span>
+	   {
+<span class="nc" id="L368">		  e.newfile2(this,2);</span>
+	   }
+<span class="nc" id="L370">	   catch(InvalidTag e)</span>
+	   {
+<span class="nc" id="L372">		   e.newfile2(this,2);</span>
+	   }
+<span class="nc" id="L374">	   catch(SyntaxSpec e)</span>
+	   {
+<span class="nc" id="L376">		   e.newfile2(this,2);</span>
+	   }
+<span class="nc" id="L378">	   catch(wrongformat e)</span>
+	   {
+<span class="nc" id="L380">		   e.newfile2(this,2);</span>
+	   }
+<span class="nc" id="L382">		catch(wrongrely e)</span>
+		{
+<span class="nc" id="L384">			e.newfile2(this, 2);</span>
+		}
+<span class="nc" id="L386">		catch(lacktag e)</span>
+		{
+<span class="nc" id="L388">			e.newfile2(this, 2);</span>
+		}
+<span class="fc" id="L390">	}</span>
+	 /**
+     * 构建track
+     */
+<span class="fc" id="L394">	public AtomStructure(String path) {</span>
+<span class="fc" id="L395">		this.infoall = this.readFile(path);</span>
+<span class="fc" id="L396">		Analysis();</span>
+<span class="fc" id="L397">	}</span>
+    public void checkRep()
+    {
+    	try
+    	{
+<span class="nc bnc" id="L402" title="All 2 branches missed.">    		if(trackNum&lt;0)</span>
+        	{
+<span class="nc" id="L404">        		throw new SyntaxSpec();</span>
+        	}
+    	}
+<span class="nc" id="L407">    	catch(SyntaxSpec e)</span>
+    	{
+<span class="nc" id="L409">    		e.newfile2(this, 2);</span>
+    	}
+    	
+<span class="nc" id="L412">    }</span>
+	@Override
+	public String toString() {
+<span class="fc" id="L415">		StringBuilder a = new StringBuilder();</span>
+<span class="fc" id="L416">		a.append(&quot;Element Name:&quot;+ this.elementName);</span>
+<span class="fc" id="L417">		a.append(&quot;\nTrack Numbers:&quot; + this.trackNum);</span>
+<span class="fc" id="L418">		a.append(&quot;\n&quot;);</span>
+<span class="fc bfc" id="L419" title="All 2 branches covered.">		for(Track&lt;Electron&gt; temp:this.tracks)</span>
+		{
+<span class="fc" id="L421">			a.append(temp.singleLinetoString());</span>
+		}
+<span class="fc" id="L423">		return a.toString();</span>
+	}
+	public static void main(String[] args) {
+<span class="nc" id="L426">		AtomStructure test= new AtomStructure(&quot;txt/AtomicStructure_Medium.txt&quot;);</span>
+<span class="nc" id="L427">		System.out.println(test);</span>
+
+<span class="nc" id="L429">	}</span>
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.2.201808211720</span>test (3) (2019-5-19 15:10:37)</div></body></html>

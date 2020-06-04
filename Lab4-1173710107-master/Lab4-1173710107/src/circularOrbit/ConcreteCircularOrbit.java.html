@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="zh"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../../../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../../../jacoco-resources/report.gif" type="image/gif"/><title>ConcreteCircularOrbit.java</title><link rel="stylesheet" href="../../../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../../../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../../../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../../../index.html" class="el_report">test (3) (2019-5-19 15:10:37)</a> &gt; <a href="../../index.html" class="el_group">Lab4-1173710107</a> &gt; <a href="../index.html" class="el_bundle">src</a> &gt; <a href="index.source.html" class="el_package">circularOrbit</a> &gt; <span class="el_source">ConcreteCircularOrbit.java</span></div><h1>ConcreteCircularOrbit.java</h1><pre class="source lang-java linenums">package circularOrbit;
+import java.util.List;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Iterator;
+
+import track.Track;
+<span class="fc" id="L11">public class ConcreteCircularOrbit&lt;L,E&gt; implements CircularOrbit&lt;L,E&gt;{</span>
+<span class="fc" id="L12">    List&lt;L&gt; centers = new ArrayList&lt;L&gt;();</span>
+<span class="fc" id="L13">    public FriendshipGraph&lt;E&gt; relations= new FriendshipGraph&lt;E&gt;();</span>
+<span class="fc" id="L14">    List&lt;Track&lt;E&gt;&gt; tracks = new ArrayList&lt;Track&lt;E&gt;&gt;();</span>
+    @Override
+    public void initarraylist()
+    {
+    	
+<span class="nc" id="L19">    }</span>
+    @Override
+    public void setinfoall(ArrayList&lt;String&gt; info)
+    {
+    	
+<span class="nc" id="L24">    }</span>
+    @Override
+    public void Analysis()//子类重写
+    {
+    	
+<span class="nc" id="L29">    }</span>
+	@Override
+	public String toString() {
+<span class="fc" id="L32">		return &quot;centers=&quot; + centers + &quot;\nrelations=&quot; + relations + &quot;\n&quot; + tracks;</span>
+	}
+    @Override
+	public boolean addTrack(String name,double size) {
+<span class="fc" id="L36">	    Track&lt;E&gt; a = new Track&lt;E&gt;(name,size);</span>
+<span class="fc" id="L37">	    return tracks.add(a);</span>
+	}
+	@Override
+	public void removeTrack(int index) {
+<span class="fc" id="L41">		tracks.remove(index);</span>
+<span class="fc" id="L42">	}</span>
+
+	@Override
+	public boolean addCenter(L center) {
+<span class="fc" id="L46">		centers.add(center);</span>
+<span class="fc" id="L47">		return false;</span>
+	}
+	
+	@Override
+	public boolean addObject(int index, E Obj) {
+		try {
+<span class="fc" id="L53">		Track&lt;E&gt; dispose = (Track&lt;E&gt;)tracks.get(index);</span>
+<span class="fc" id="L54">		dispose.add(Obj);</span>
+<span class="pc" id="L55">		}catch(java.lang.IndexOutOfBoundsException e)</span>
+		{
+<span class="nc" id="L57">			System.out.println(&quot;the track number doesn't exist!&quot;);</span>
+		}
+<span class="fc" id="L59">		return false;</span>
+	}
+	@Override
+	public boolean addObject(int index, E Obj,double pos) {
+		try {
+<span class="fc" id="L64">		Track&lt;E&gt; dispose = (Track&lt;E&gt;)tracks.get(index);</span>
+<span class="fc" id="L65">		dispose.add(Obj,pos);</span>
+<span class="pc" id="L66">	}catch(java.lang.IndexOutOfBoundsException e)</span>
+	{
+<span class="nc" id="L68">		System.out.println(&quot;the track number doesn't exist!&quot;);</span>
+	}
+<span class="fc" id="L70">		return false;</span>
+	}
+    @Override
+	public int getLogicalDistance(E source,E target)
+	{
+<span class="fc" id="L75">		return relations.getDistance(source, target);</span>
+	}
+	
+	@Override
+	public double getPhysicalDistance(E source,E target)
+	{
+<span class="fc" id="L81">		int track1 = whichTrack(source);</span>
+<span class="pc bpc" id="L82" title="1 of 2 branches missed.">		if(track1&lt;0)</span>
+		{
+<span class="nc" id="L84">			return -1;</span>
+		}
+<span class="fc" id="L86">		int track2 = whichTrack(target);</span>
+<span class="pc bpc" id="L87" title="1 of 2 branches missed.">		if(track2&lt;0)</span>
+		{
+<span class="nc" id="L89">			return -1;</span>
+		}
+<span class="fc" id="L91">		double r1 = tracks.get(track1).getsize();</span>
+<span class="fc" id="L92">		double a1 = tracks.get(track1).angleOf(source);</span>
+<span class="fc" id="L93">		double sitha1 = Math.toRadians(a1);</span>
+<span class="fc" id="L94">		double r2 = tracks.get(track2).getsize();</span>
+<span class="fc" id="L95">		double a2 = tracks.get(track2).angleOf(target);</span>
+<span class="fc" id="L96">		double sitha2 = Math.toRadians(a2);</span>
+<span class="fc" id="L97">		double x1 = r1*Math.cos(sitha1);</span>
+<span class="fc" id="L98">		double y1 = r1*Math.sin(sitha1);</span>
+<span class="fc" id="L99">		double x2 = r2*Math.cos(sitha2);</span>
+<span class="fc" id="L100">		double y2 = r2*Math.sin(sitha2);</span>
+<span class="fc" id="L101">		return Math.sqrt((x1-x2)*(x1-x2)+(y1-y2)*(y1-y2));</span>
+	}
+/*
+ * 
+ * 
+ */
+	@Override
+	public boolean addRelation(E source, E target) {
+<span class="fc" id="L109">		relations.addEdge(source,target);</span>
+<span class="fc" id="L110">		return false;</span>
+	}
+	@Override
+	public E transit(E object, int index) {
+<span class="fc bfc" id="L114" title="All 2 branches covered.">		for (Track&lt;E&gt; temp:tracks)</span>
+		{
+<span class="pc bpc" id="L116" title="1 of 2 branches missed.">			if(temp.contains(object))</span>
+			{
+<span class="nc" id="L118">				E prev = temp.remove(object);</span>
+<span class="nc" id="L119">				tracks.get(index).add(prev);</span>
+<span class="nc" id="L120">				return prev;</span>
+			}
+		}
+<span class="fc" id="L123">		return null;</span>
+	}
+	@Override
+	public boolean move(E object, double x) {
+<span class="fc bfc" id="L127" title="All 2 branches covered.">		for (Track&lt;E&gt; temp:tracks)</span>
+		{
+<span class="pc bpc" id="L129" title="1 of 2 branches missed.">			if(temp.contains(object))</span>
+			{
+<span class="nc" id="L131">				temp.changePos(object, x);</span>
+<span class="nc" id="L132">				return true;</span>
+			}
+		}
+<span class="fc" id="L135">		return false;</span>
+	}
+	 /**
+     * 
+     * 计算给出的物体是在第几个轨道上，返回轨道的级数
+     * @param 想要知道的物体
+     * @return 返回是在第几个轨道，返回值是int
+     */
+	int whichTrack(E object)
+	{
+<span class="pc bpc" id="L145" title="1 of 2 branches missed.">		for(Track&lt;E&gt; temp:tracks)</span>
+		{
+<span class="fc bfc" id="L147" title="All 2 branches covered.">			if(temp.contains(object))</span>
+<span class="fc" id="L148">				return tracks.indexOf(temp);</span>
+		}
+<span class="nc" id="L150">		return -1;</span>
+	}
+	
+	public ArrayList&lt;Integer&gt; numOnEachTrack()
+	{
+<span class="fc" id="L155">		ArrayList&lt;Integer&gt; ret = new ArrayList&lt;Integer&gt;();</span>
+<span class="fc bfc" id="L156" title="All 2 branches covered.">		for(Track&lt;E&gt; temp :tracks)</span>
+		{
+<span class="fc" id="L158">			ret.add(temp.howMany());</span>
+		}
+<span class="fc" id="L160">		return ret;</span>
+	}
+	/**
+	 * 将该物体移到index层
+	 *  @Param 物体object，要移动到的层数index
+	 *  @return 移动失败返回null，移动成功返回要移动的object
+	 */
+	public E transit2(E object, int index) {
+<span class="nc bnc" id="L168" title="All 2 branches missed.">		for (Track&lt;E&gt; temp:tracks)</span>
+		{
+<span class="nc bnc" id="L170" title="All 2 branches missed.">			if(temp.contains(object))</span>
+			{
+<span class="nc" id="L172">				E prev = temp.remove(object);</span>
+<span class="nc" id="L173">				tracks.get(index).add(object);</span>
+<span class="nc" id="L174">				return prev;</span>
+			}
+		}
+<span class="nc" id="L177">		return null;</span>
+	}
+	
+	 /**
+     * 增加轨道（数量是给定的n）
+     * 
+     * @param n是要增加的轨道的数量
+     */
+	public void autoAddTrack(int n) {
+<span class="fc bfc" id="L186" title="All 2 branches covered.">		for(int i=tracks.size();i&lt;=n;i++)</span>
+<span class="fc" id="L187">			addTrack(&quot;Track&quot;+i,i);</span>
+<span class="fc" id="L188">	}</span>
+	 /**
+     * 清空轨道的所有
+     */
+	public void emptyAll()
+	{
+<span class="nc bnc" id="L194" title="All 2 branches missed.">		for(Track&lt;E&gt; temp : tracks)</span>
+<span class="nc" id="L195">		   temp.emptyAll();</span>
+<span class="nc" id="L196">	}</span>
+	 /**
+     * 读取文件把内容转换成string
+     * 
+     * @param 文件的读取路径
+     * @return 从文件中读取的字符串
+     */
+	public static ArrayList&lt;String&gt; readFile(String filename) {
+<span class="fc" id="L204">		ArrayList&lt;String&gt; l = new ArrayList&lt;String&gt;(); </span>
+<span class="fc" id="L205">		 File file = new File(filename);</span>
+<span class="fc" id="L206">		 BufferedReader reader=null;</span>
+	     try {  
+<span class="fc" id="L208">	         reader = new BufferedReader(new FileReader(file));  </span>
+<span class="fc" id="L209">	         String tempString = null;   </span>
+<span class="fc bfc" id="L210" title="All 2 branches covered.">	         while ((tempString = reader.readLine()) != null) {  </span>
+<span class="fc" id="L211">	             l.add(tempString);</span>
+	         }  
+<span class="fc" id="L213">	         reader.close();  </span>
+<span class="pc" id="L214">	     } catch (IOException e) {  </span>
+<span class="nc" id="L215">	         e.printStackTrace();  </span>
+	     } finally {  
+<span class="pc bpc" id="L217" title="1 of 2 branches missed.">	         if (reader != null) {  </span>
+	             try {  
+<span class="fc" id="L219">	                 reader.close();  </span>
+<span class="pc" id="L220">	             } catch (IOException e1) {  </span>
+	             }  
+	         }  
+	     }  
+<span class="fc" id="L224">		return l;</span>
+	}
+	
+
+	 /**
+     * 用于返回所有的元素
+     * 
+     * @return 所有元素构成的一个list
+     */
+	ArrayList&lt;E&gt; allElements()
+	{
+<span class="fc" id="L235">		ArrayList&lt;E&gt; res = new ArrayList&lt;E&gt;();</span>
+<span class="fc bfc" id="L236" title="All 2 branches covered.">		for(Track&lt;E&gt; temp:this.tracks)</span>
+		{
+<span class="fc" id="L238">			 res.addAll(temp.allElements());</span>
+		}
+<span class="fc" id="L240">		return res;</span>
+	}
+	 /**
+     * 返回所有元素构成的关系
+     * 
+     * @return 所有关系的一个list
+     */
+   public ArrayList&lt;Pair&lt;E,E&gt;&gt; getPair()
+   {
+<span class="nc" id="L249">	   return this.relations.graph.getPair();</span>
+   }
+
+<span class="fc" id="L252">	class iterator implements Iterator&lt;E&gt;</span>
+	{
+<span class="fc" id="L254">        ArrayList&lt;E&gt; allElement = allElements();</span>
+<span class="fc" id="L255">        int index = 0;</span>
+		@Override
+		public boolean hasNext() {
+<span class="nc bnc" id="L258" title="All 2 branches missed.">			return index&lt;allElement.size();</span>
+		}
+
+		@Override
+		public E next() {
+<span class="fc" id="L263">			return allElement.get(index++);</span>
+		}
+		
+	}
+	 /**
+     * 返回iterator
+     */
+	public Iterator&lt;E&gt; iterator() {
+<span class="fc" id="L271">		return new iterator();</span>
+	}
+	/*public static void main(String[] args)
+	{
+		ConcreteCircularOrbit&lt;String,String&gt; test= new ConcreteCircularOrbit&lt;String,String&gt;();
+		test.addCenter(&quot;central&quot;);
+		test.addCenter(&quot;star&quot;);
+		test.addTrack(&quot;track0&quot;, 0.5);
+		test.addTrack(&quot;track1&quot;, 1);
+		test.addTrack(&quot;track2&quot;, 2);
+		test.addObject(0, &quot;something on 0&quot;,0);
+		test.addObject(0,&quot;something on 90&quot;,90);
+		test.addObject(1, &quot;another thing on 90&quot;,90);
+		test.addObject(2,&quot;something on 1&quot;,1);
+		test.addRelation(&quot;track1&quot;, &quot;track2&quot;);
+		test.addRelation(&quot;track2&quot;,&quot;track3&quot;);
+		test.addRelation(&quot;track3&quot;,&quot;track4&quot;);
+		test.addRelation(&quot;track2&quot;,&quot;track4&quot;);
+		System.out.println(test.getLogicalDistance(&quot;track1&quot;, &quot;track4&quot;));
+		System.out.println(test.getPhysicalDistance(&quot;something on 0&quot;, &quot;another thing on 90&quot;));
+		System.out.println(test.numOnEachTrack());
+	   System.out.println(test);
+	   System.out.println(test.allElements());
+	   Iterator&lt;String&gt; ite = test.iterator();
+	   while(ite.hasNext())
+	   {
+		   System.out.println(ite.next());
+	   }
+	}*/
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.2.201808211720</span>test (3) (2019-5-19 15:10:37)</div></body></html>

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="zh"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../../../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../../../jacoco-resources/report.gif" type="image/gif"/><title>ConcreteVerticesGraph.java</title><link rel="stylesheet" href="../../../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../../../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../../../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../../../index.html" class="el_report">test (3) (2019-5-19 15:10:37)</a> &gt; <a href="../../index.html" class="el_group">Lab4-1173710107</a> &gt; <a href="../index.html" class="el_bundle">src</a> &gt; <a href="index.source.html" class="el_package">circularOrbit</a> &gt; <span class="el_source">ConcreteVerticesGraph.java</span></div><h1>ConcreteVerticesGraph.java</h1><pre class="source lang-java linenums">package circularOrbit;
+
+/* Copyright (c) 2015-2016 MIT 6.005 course staff, all rights reserved.
+ * Redistribution of original or derived work requires permission of course staff.
+ */
+
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
+/**
+ * An implementation of Graph.
+ * 
+ * &lt;p&gt;PS2 instructions: you MUST use the provided rep.
+ */
+<span class="fc" id="L20">public class ConcreteVerticesGraph&lt;L&gt; implements Graph&lt;L&gt; {</span>
+    
+<span class="fc" id="L22">    private final List&lt;Vertex&lt;L&gt;&gt; vertices = new ArrayList&lt;&gt;();</span>
+
+    @Override public boolean add(L vertex) {
+<span class="fc bfc" id="L25" title="All 2 branches covered.">    	for (Vertex&lt;L&gt; x:vertices)</span>
+    	{
+<span class="fc bfc" id="L27" title="All 2 branches covered.">    		if(x.getName().equals(vertex))</span>
+<span class="fc" id="L28">    			return false;</span>
+    	}
+<span class="fc" id="L30">    	vertices.add(new Vertex&lt;L&gt;(vertex));</span>
+<span class="fc" id="L31">        return true;</span>
+    }
+    
+    @Override public int set(L source, L target, int weight) {
+<span class="fc" id="L35">    	int count=0;</span>
+<span class="fc bfc" id="L36" title="All 2 branches covered.">    	if(weight!=0)</span>
+    	{
+<span class="fc" id="L38">    		boolean flag = false;</span>
+<span class="fc bfc" id="L39" title="All 2 branches covered.">    		for(Vertex&lt;L&gt; temp:vertices)</span>
+    		{
+<span class="fc bfc" id="L41" title="All 2 branches covered.">    			if(temp.getName().equals(source))</span>
+    			{
+<span class="fc" id="L43">    				flag = true;</span>
+<span class="fc" id="L44">    				count = temp.addTarget(target, weight);</span>
+<span class="fc" id="L45">    				break;</span>
+    			}
+    		}
+<span class="fc bfc" id="L48" title="All 2 branches covered.">    		if(flag == false)</span>
+    		{
+<span class="fc" id="L50">    			Vertex&lt;L&gt; temp1 = new Vertex&lt;L&gt;(source);</span>
+<span class="fc" id="L51">    			temp1.addTarget(target, weight);</span>
+<span class="fc" id="L52">    			vertices.add(temp1);</span>
+    		}
+<span class="fc" id="L54">    	}</span>
+    	else
+    	{
+<span class="pc bpc" id="L57" title="1 of 2 branches missed.">    		for(Vertex&lt;L&gt; temp:vertices)</span>
+    		{
+<span class="pc bpc" id="L59" title="1 of 2 branches missed.">    			if(temp.getName().equals(source))</span>
+    			{
+<span class="pc bpc" id="L61" title="1 of 2 branches missed.">    				if(temp.containTarget(target))</span>
+    				{
+<span class="fc" id="L63">    					count = temp.removeTarget(target);</span>
+    				}
+<span class="fc" id="L65">    				break;</span>
+    			}
+    		}
+    	}
+<span class="fc" id="L69">    	boolean flag2 = false;</span>
+<span class="fc bfc" id="L70" title="All 2 branches covered.">    	for(Vertex&lt;L&gt; temp:vertices)</span>
+		{
+<span class="fc bfc" id="L72" title="All 2 branches covered.">			if(temp.getName().equals(target))</span>
+			{
+<span class="fc" id="L74">				flag2 = true;</span>
+<span class="fc" id="L75">				break;</span>
+			}
+		}
+<span class="fc bfc" id="L78" title="All 2 branches covered.">    	if(flag2 == false)</span>
+    	{
+<span class="fc" id="L80">    		vertices.add(new Vertex&lt;L&gt;(target));</span>
+    	}
+<span class="fc" id="L82">    	return count;</span>
+    }
+    @Override public boolean remove(L vertex) {
+<span class="fc" id="L85">  		boolean flag = false;</span>
+<span class="fc" id="L86">  		Vertex&lt;L&gt; dispose=null;</span>
+<span class="fc bfc" id="L87" title="All 2 branches covered.">		for(Vertex&lt;L&gt; temp:vertices)</span>
+		{
+<span class="fc bfc" id="L89" title="All 2 branches covered.">			if(temp.getName().equals(vertex))</span>
+			{
+<span class="fc" id="L91">				flag = true;</span>
+<span class="fc" id="L92">				dispose=temp;</span>
+<span class="fc" id="L93">				break;</span>
+			}
+		}
+<span class="fc" id="L96">		vertices.remove(dispose);</span>
+<span class="fc" id="L97">		return flag;</span>
+    }
+    public ArrayList&lt;Pair&lt;L,L&gt;&gt; getPair()
+    {
+<span class="nc" id="L101">    	ArrayList&lt;Pair&lt;L,L&gt;&gt; ret = new ArrayList&lt;Pair&lt;L,L&gt;&gt;();</span>
+<span class="nc bnc" id="L102" title="All 2 branches missed.">    	for(Vertex&lt;L&gt; temp:vertices)</span>
+    	{
+<span class="nc bnc" id="L104" title="All 2 branches missed.">    		for(L templ:temp.getTargetList())</span>
+    		{
+<span class="nc" id="L106">    			ret.add(new Pair&lt;L,L&gt;(temp.name,templ));</span>
+    		}
+    	}
+<span class="nc" id="L109">    	return ret;</span>
+    }
+    @Override public Set&lt;L&gt; vertices() {
+<span class="fc" id="L112">        Set&lt;L&gt; ret = new HashSet&lt;&gt;();</span>
+<span class="fc bfc" id="L113" title="All 2 branches covered.">        for(Vertex&lt;L&gt; temp:vertices)</span>
+        {
+<span class="fc" id="L115">        	ret.add(temp.getName());</span>
+        }
+<span class="fc" id="L117">        return ret;</span>
+    }
+    
+    @Override public Map&lt;L, Integer&gt; sources(L target) {
+<span class="fc" id="L121">        Map&lt;L,Integer&gt; ret = new HashMap&lt;&gt;();</span>
+<span class="fc bfc" id="L122" title="All 2 branches covered.">        for(Vertex&lt;L&gt; temp:vertices)</span>
+        {
+<span class="fc bfc" id="L124" title="All 2 branches covered.">        	if(temp.containTarget(target))</span>
+        	{
+<span class="fc" id="L126">        		ret.put(temp.getName(),temp.getTargets().get(target));</span>
+        	}
+        }
+<span class="fc" id="L129">        return ret;</span>
+    }
+    
+    @Override public Map&lt;L, Integer&gt; targets(L source) {
+<span class="fc" id="L133">        Map&lt;L,Integer&gt; ret = new HashMap&lt;&gt;();</span>
+<span class="pc bpc" id="L134" title="1 of 2 branches missed.">        for(Vertex&lt;L&gt; temp:vertices)</span>
+        {
+<span class="fc bfc" id="L136" title="All 2 branches covered.">        	if(temp.getName().equals(source))</span>
+        	{
+<span class="fc" id="L138">        		return temp.getTargets();</span>
+        	}
+        }
+<span class="nc" id="L141">        return ret;</span>
+    }
+    
+	@Override
+	public String toString() {
+<span class="fc" id="L146">		StringBuilder ret = new StringBuilder();</span>
+<span class="fc bfc" id="L147" title="All 2 branches covered.">		for(Vertex&lt;L&gt; temp:vertices)</span>
+		{
+<span class="fc" id="L149">			ret.append(temp.getName()+&quot;:&quot;);</span>
+<span class="fc" id="L150">	        ret.append(temp.getTargets());</span>
+<span class="fc" id="L151">	        ret.append(&quot;\n&quot;);</span>
+		}
+<span class="fc" id="L153">		return ret.toString();</span>
+	}
+    
+    // TODO toString()
+	/*public static void main(String[] args)
+	{
+		ConcreteVerticesGraph&lt;String&gt; test = new ConcreteVerticesGraph&lt;String&gt;();
+		test.add(&quot;first&quot;);
+		test.add(&quot;second&quot;);
+		test.add(&quot;third&quot;);
+		test.add(&quot;fourth&quot;);
+		System.out.println(&quot;&gt;&gt;After add four things.&quot;);
+		System.out.println(test);
+		test.set(&quot;first&quot;, &quot;second&quot;, 1);
+		test.set(&quot;first&quot;, &quot;third&quot;, 3);
+		test.set(&quot;first&quot;, &quot;fourth&quot;, 4);
+		test.set(&quot;second&quot;, &quot;third&quot;, 2);
+		System.out.println(&quot;&gt;&gt;After add four edges.&quot;);
+		System.out.println(test);
+		test.remove(&quot;first&quot;);
+		System.out.println(&quot;&gt;&gt;remove the first.&quot;);
+		System.out.println(test);
+		test.set(&quot;fifth&quot;, &quot;sixth&quot;, 5);
+		System.out.println(&quot;&gt;&gt;Add two vertexs while add edge.&quot;);
+		System.out.println(test);
+		test.set(&quot;second&quot;, &quot;third&quot;, 0);
+		System.out.println(&quot;&gt;&gt;Remove a edge using set.&quot;);
+		System.out.println(test);
+		System.out.println(test.getPair());
+	}*/
+}
+
+/**
+ * TODO specification
+ * Mutable.
+ * This class is internal to the rep of ConcreteVerticesGraph.
+ * 
+ * &lt;p&gt;PS2 instructions: the specification and implementation of this class is
+ * up to you.
+ */
+class Vertex&lt;L&gt; {
+    
+     L name;
+<span class="fc" id="L196">     HashMap&lt;L,Integer&gt; targets = new HashMap&lt;L,Integer&gt;();</span>
+    
+    
+    public L getName()
+    {
+<span class="fc" id="L201">    	return name;</span>
+    }
+    public Set&lt;L&gt; getTargetList()
+    {
+<span class="nc" id="L205">    	return this.targets.keySet();</span>
+    }
+    public Map&lt;L,Integer&gt; getTargets()
+    {
+<span class="fc" id="L209">    	return targets;</span>
+    }
+<span class="fc" id="L211">    public Vertex(L name)</span>
+    {
+<span class="fc" id="L213">    	this.name = name;</span>
+<span class="fc" id="L214">    }</span>
+    public int addTarget(L b,int value)
+    {
+<span class="fc" id="L217">    	targets.put(b, value);</span>
+<span class="fc" id="L218">    	return value;</span>
+    }
+    public boolean containTarget(L target)
+    {
+<span class="fc" id="L222">    	return targets.containsKey(target);</span>
+    }
+   
+    public int removeTarget(L target)
+    {
+<span class="fc" id="L227">    	return targets.remove(target);</span>
+    }
+	@Override
+	public String toString() {
+<span class="nc" id="L231">		return &quot;Vertex :name=&quot; + name + &quot;, targets=&quot; + targets;</span>
+	}
+    
+    
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.2.201808211720</span>test (3) (2019-5-19 15:10:37)</div></body></html>

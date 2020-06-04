@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="zh"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../../../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../../../jacoco-resources/report.gif" type="image/gif"/><title>CircularOrbitAPIs.java</title><link rel="stylesheet" href="../../../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../../../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../../../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../../../index.html" class="el_report">test (3) (2019-5-19 15:10:37)</a> &gt; <a href="../../index.html" class="el_group">Lab4-1173710107</a> &gt; <a href="../index.html" class="el_bundle">src</a> &gt; <a href="index.source.html" class="el_package">APIs</a> &gt; <span class="el_source">CircularOrbitAPIs.java</span></div><h1>CircularOrbitAPIs.java</h1><pre class="source lang-java linenums">package APIs;
+import java.util.ArrayList;
+
+import circularOrbit.CircularOrbit;
+<span class="nc" id="L5">public class CircularOrbitAPIs&lt;L,E&gt; {</span>
+	 /**
+     * 获取合法的距离
+     * 
+     * @param 一个具体的系统c
+     * @param 开始物体e1
+     * @param 终结点物体e2
+     * @return 返回合法的距离，如果未获取到距离，返回-1
+     * AF:逻辑距离在系统中是相隔几个轨道
+     * RI：true
+     * mutable
+     */
+	public static &lt;L,E&gt;int getLogicalDistance (CircularOrbit&lt;L,E&gt; c, E e1, E e2)
+	{
+<span class="nc" id="L19">		return c.getLogicalDistance(e1, e2);</span>
+	}
+	 /**
+     * 获取实际的距离
+     * 
+     * @param 一个具体的系统c
+     * @param 开始点的物体e1
+     * @param 终结点的物体e2
+     * @return 返回距离，如果不符合要求，返回-1
+     * AF:利用两点距离公式计算对应的物理距离
+     * RI：true
+     * mutable
+     */
+	public static &lt;L,E&gt;double getPhysicalDistance (CircularOrbit&lt;L,E&gt; c, E e1, E e2)
+	{
+<span class="nc" id="L34">		return c.getPhysicalDistance(e1, e2);</span>
+	}
+	 /**
+     * 获取两个系统的不同之处
+     * 
+     * @param 第一个系统c1 
+     * @param 第二个系统c2
+     * @return 包括每个轨道数目不同的一个list
+     * AF:两个参数对于各个数据的不同
+     * RI：true
+     * mutable
+     */
+	ArrayList&lt;Integer&gt; getDifference (CircularOrbit&lt;L,E&gt; c1, CircularOrbit&lt;L,E&gt; c2)
+	{
+<span class="nc" id="L48">		ArrayList&lt;Integer&gt; num1 = c1.numOnEachTrack();</span>
+<span class="nc" id="L49">		ArrayList&lt;Integer&gt; num2 = c2.numOnEachTrack();</span>
+<span class="nc" id="L50">		ArrayList&lt;Integer&gt; ret = new ArrayList&lt;Integer&gt;();</span>
+<span class="nc bnc" id="L51" title="All 2 branches missed.">		if(num1.size()!=num2.size())</span>
+		{
+<span class="nc" id="L53">			System.out.println(&quot;大小不合法!&quot;);</span>
+<span class="nc" id="L54">			return ret;</span>
+		}
+<span class="nc bnc" id="L56" title="All 2 branches missed.">		for(int i=0;i&lt;num1.size();i++)</span>
+		{
+<span class="nc" id="L58">			ret.add(num1.get(i)-num2.get(i));</span>
+		}
+<span class="nc" id="L60">		return ret;</span>
+	}
+	 /**
+     * 获取整个系统的熵值
+     * @param 每个轨道上分布物体的数量
+     * @return 整个的熵
+     * AF:计算熵值
+     * RI：true
+     * mutable
+     */
+	public static double getObjectDistributionEntropy(ArrayList&lt;Integer&gt; nums) 
+	{
+<span class="nc" id="L72">		double H = .0;</span>
+<span class="nc" id="L73">		int sum = 0;</span>
+<span class="nc bnc" id="L74" title="All 2 branches missed.">		for(Integer temp:nums)</span>
+		{
+<span class="nc" id="L76">			sum+=temp;</span>
+		}
+<span class="nc bnc" id="L78" title="All 2 branches missed.">        for (Integer temp:nums){   </span>
+<span class="nc" id="L79">            double p = 1.0*temp/sum;   </span>
+<span class="nc bnc" id="L80" title="All 2 branches missed.">            if(p&gt;0)</span>
+<span class="nc" id="L81">            	H += -(p*Math.log(p)/Math.log(2));</span>
+        }   
+<span class="nc" id="L83">        return H;</span>
+	}
+	 /**
+     * 获取整个系统的熵值
+     * @param 一个系统a
+     * @return 该系统的熵
+     * AF:计算整个系统熵值
+     * RI：true
+     * mutable
+     */
+	public static &lt;L,E&gt;double getObjectDistributionEntropy(CircularOrbit&lt;L,E&gt; a) 
+	{
+<span class="nc" id="L95">		ArrayList&lt;Integer&gt; nums = a.numOnEachTrack();</span>
+<span class="nc" id="L96">        return getObjectDistributionEntropy(nums);</span>
+	}
+	public static void main(String[] args)
+	{
+<span class="nc" id="L100">		ArrayList&lt;Integer&gt; test = new ArrayList&lt;Integer&gt;();</span>
+<span class="nc" id="L101">		test.add(0);</span>
+<span class="nc" id="L102">		test.add(0);</span>
+<span class="nc" id="L103">		test.add(3);</span>
+<span class="nc" id="L104">		System.out.println(getObjectDistributionEntropy(test));</span>
+<span class="nc" id="L105">	}</span>
+}
+
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.2.201808211720</span>test (3) (2019-5-19 15:10:37)</div></body></html>

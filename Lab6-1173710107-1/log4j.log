@@ -1,0 +1,112 @@
+[2019-06-18 20:12:36,493] INFO     6[Thread-1] - lab6.monkey.run(monkey.java:135) - Direction: L->R
+ [2019-06-18 20:12:36,493] INFO     6[Thread-1] - lab6.monkey.run(monkey.java:139) - , speed: 3
+ [2019-06-18 20:12:36,495] INFO     8[Thread-1] - lab6.monkey.run(monkey.java:146) - 猴子 1 在等待在 
+ [2019-06-18 20:12:36,495] INFO     8[Thread-1] - lab6.monkey.run(monkey.java:148) - 左边
+ [2019-06-18 20:12:36,496] INFO     9[Thread-1] - lab6.monkey.run(monkey.java:153) - 0 秒过去出生后
+ [2019-06-18 20:12:37,497] INFO  1010[Thread-1] - lab6.monkey.run(monkey.java:178) - 猴子     1 在 第1 个踏板上面10号梯子上面移动方向左到右
+ [2019-06-18 20:12:38,499] INFO  2012[Thread-1] - lab6.monkey.run(monkey.java:178) - 猴子     1 在 第1 个踏板上面10号梯子上面移动方向左到右
+ [2019-06-18 20:12:39,501] INFO  3014[Thread-1] - lab6.monkey.run(monkey.java:178) - 猴子     1 在 第1 个踏板上面10号梯子上面移动方向左到右
+ [2019-06-18 20:12:40,501] INFO  4014[Thread-1] - lab6.monkey.run(monkey.java:178) - 猴子     1 在 第1 个踏板上面10号梯子上面移动方向左到右
+ [2019-06-18 20:12:41,501] INFO  5014[Thread-1] - lab6.monkey.run(monkey.java:178) - 猴子     1 在 第1 个踏板上面10号梯子上面移动方向左到右
+ [2019-06-18 20:12:42,501] INFO  6014[Thread-1] - lab6.monkey.run(monkey.java:178) - 猴子     1 在 第1 个踏板上面10号梯子上面移动方向左到右
+ [2019-06-18 20:12:43,502] INFO  7015[Thread-1] - lab6.monkey.run(monkey.java:178) - 猴子     1 在 第1 个踏板上面10号梯子上面移动方向左到右
+ [2019-06-18 20:14:42,569] INFO     0[Thread-1] - lab6.monkey.run(monkey.java:133) - 产生一只猴子， number: 1, 
+ [2019-06-18 20:14:42,569] INFO     0[Thread-1] - lab6.monkey.run(monkey.java:135) - Direction: L->R
+ [2019-06-18 20:14:42,569] INFO     0[Thread-1] - lab6.monkey.run(monkey.java:139) - , speed: 7
+ [2019-06-18 20:14:42,569] INFO     0[Thread-1] - lab6.monkey.run(monkey.java:146) - 猴子 1 在等待在 
+ [2019-06-18 20:14:42,569] INFO     0[Thread-1] - lab6.monkey.run(monkey.java:148) - 左边
+ [2019-06-18 20:14:42,569] INFO     0[Thread-1] - lab6.monkey.run(monkey.java:153) - 0 秒过去出生后
+ [2019-06-18 20:14:43,598] INFO  1029[Thread-1] - lab6.monkey.run(monkey.java:146) - 猴子 1 在等待在 
+ [2019-06-18 20:14:43,598] INFO  1029[Thread-1] - lab6.monkey.run(monkey.java:148) - 左边
+ [2019-06-18 20:14:43,598] INFO  1029[Thread-1] - lab6.monkey.run(monkey.java:153) - 1 秒过去出生后
+ [2019-06-18 20:14:44,613] INFO  2044[Thread-1] - lab6.monkey.run(monkey.java:178) - 猴子     1 在 第1 个踏板上面1号梯子上面移动方向左到右
+ [2019-06-18 20:14:45,628] INFO  3059[Thread-1] - lab6.monkey.run(monkey.java:178) - 猴子     1 在 第1 个踏板上面1号梯子上面移动方向左到右
+ [2019-06-18 20:14:46,643] INFO  4074[Thread-1] - lab6.monkey.run(monkey.java:178) - 猴子     1 在 第1 个踏板上面1号梯子上面移动方向左到右
+ [2019-06-18 20:14:47,658] INFO  5089[Thread-1] - lab6.monkey.run(monkey.java:178) - 猴子     1 在 第1 个踏板上面1号梯子上面移动方向左到右
+ [2019-06-18 20:14:48,673] INFO  6104[Thread-1] - lab6.monkey.run(monkey.java:178) - 猴子     1 在 第1 个踏板上面1号梯子上面移动方向左到右
+ [2019-06-18 20:14:49,688] INFO  7119[Thread-1] - lab6.monkey.run(monkey.java:178) - 猴子     1 在 第1 个踏板上面1号梯子上面移动方向左到右
+ [2019-06-18 20:14:50,703] INFO  8134[Thread-1] - lab6.monkey.run(monkey.java:178) - 猴子     1 在 第1 个踏板上面1号梯子上面移动方向左到右
+ [2019-06-18 20:14:51,718] INFO  9149[Thread-1] - lab6.monkey.run(monkey.java:178) - 猴子     1 在 第1 个踏板上面1号梯子上面移动方向左到右
+ [2019-06-18 20:16:22,755] INFO     0[Thread-1] - lab6.monkey.run(monkey.java:133) - 产生一只猴子， number: 1, 
+ [2019-06-18 20:16:22,755] INFO     0[Thread-1] - lab6.monkey.run(monkey.java:135) - Direction: L->R
+ [2019-06-18 20:16:22,755] INFO     0[Thread-1] - lab6.monkey.run(monkey.java:139) - , speed: 7
+ [2019-06-18 20:16:22,755] INFO     0[Thread-1] - lab6.monkey.run(monkey.java:146) - 猴子 1 在等待在 
+ [2019-06-18 20:16:22,755] INFO     0[Thread-1] - lab6.monkey.run(monkey.java:148) - 左边
+ [2019-06-18 20:16:22,755] INFO     0[Thread-1] - lab6.monkey.run(monkey.java:153) - 0 秒过去出生后
+ [2019-06-18 20:16:23,769] INFO  1014[Thread-1] - lab6.monkey.run(monkey.java:146) - 猴子 1 在等待在 
+ [2019-06-18 20:16:23,769] INFO  1014[Thread-1] - lab6.monkey.run(monkey.java:148) - 左边
+ [2019-06-18 20:16:23,769] INFO  1014[Thread-1] - lab6.monkey.run(monkey.java:153) - 1 秒过去出生后
+ [2019-06-18 20:16:24,784] INFO  2029[Thread-1] - lab6.monkey.run(monkey.java:178) - 猴子     1 在 第1 个踏板上面1号梯子上面移动方向左到右
+ [2019-06-18 20:16:25,799] INFO  3044[Thread-1] - lab6.monkey.run(monkey.java:178) - 猴子     1 在 第1 个踏板上面1号梯子上面移动方向左到右
+ [2019-06-18 20:16:26,814] INFO  4059[Thread-1] - lab6.monkey.run(monkey.java:178) - 猴子     1 在 第1 个踏板上面1号梯子上面移动方向左到右
+ [2019-06-18 20:16:27,829] INFO  5074[Thread-1] - lab6.monkey.run(monkey.java:178) - 猴子     1 在 第1 个踏板上面1号梯子上面移动方向左到右
+ [2019-06-18 20:16:28,844] INFO  6089[Thread-1] - lab6.monkey.run(monkey.java:178) - 猴子     1 在 第1 个踏板上面1号梯子上面移动方向左到右
+ [2019-06-18 20:16:29,859] INFO  7104[Thread-1] - lab6.monkey.run(monkey.java:178) - 猴子     1 在 第1 个踏板上面1号梯子上面移动方向左到右
+ [2019-06-18 20:16:30,874] INFO  8119[Thread-1] - lab6.monkey.run(monkey.java:178) - 猴子     1 在 第1 个踏板上面1号梯子上面移动方向左到右
+ [2019-06-18 20:22:16,792] INFO     0[Thread-1] - lab6.monkey.run(monkey.java:133) - 产生一只猴子， number: 1, 
+ [2019-06-18 20:22:16,807] INFO    15[Thread-1] - lab6.monkey.run(monkey.java:135) - Direction: L->R
+ [2019-06-18 20:22:16,807] INFO    15[Thread-1] - lab6.monkey.run(monkey.java:139) - , speed: 3
+ [2019-06-18 20:22:16,807] INFO    15[Thread-1] - lab6.monkey.run(monkey.java:146) - 猴子 1 在等待在 
+ [2019-06-18 20:22:16,807] INFO    15[Thread-1] - lab6.monkey.run(monkey.java:148) - 左边
+ [2019-06-18 20:22:16,807] INFO    15[Thread-1] - lab6.monkey.run(monkey.java:153) - 0 秒过去出生后
+ [2019-06-18 20:22:17,821] INFO  1029[Thread-1] - lab6.monkey.run(monkey.java:146) - 猴子 1 在等待在 
+ [2019-06-18 20:22:17,821] INFO  1029[Thread-1] - lab6.monkey.run(monkey.java:148) - 左边
+ [2019-06-18 20:22:17,821] INFO  1029[Thread-1] - lab6.monkey.run(monkey.java:153) - 1 秒过去出生后
+ [2019-06-18 20:22:18,836] INFO  2044[Thread-1] - lab6.monkey.run(monkey.java:178) - 猴子     1 在 第1 个踏板上面1号梯子上面移动方向左到右
+ [2019-06-18 20:22:19,851] INFO  3059[Thread-1] - lab6.monkey.run(monkey.java:178) - 猴子     1 在 第4 个踏板上面1号梯子上面移动方向左到右
+ [2019-06-18 20:22:20,866] INFO  4074[Thread-1] - lab6.monkey.run(monkey.java:178) - 猴子     1 在 第7 个踏板上面1号梯子上面移动方向左到右
+ [2019-06-18 20:22:21,881] INFO  5089[Thread-1] - lab6.monkey.run(monkey.java:178) - 猴子     1 在 第10 个踏板上面1号梯子上面移动方向左到右
+ [2019-06-18 20:22:22,896] INFO  6104[Thread-1] - lab6.monkey.run(monkey.java:178) - 猴子     1 在 第13 个踏板上面1号梯子上面移动方向左到右
+ [2019-06-18 20:22:23,911] INFO  7119[Thread-1] - lab6.monkey.run(monkey.java:178) - 猴子     1 在 第16 个踏板上面1号梯子上面移动方向左到右
+ [2019-06-18 20:22:24,926] INFO  8134[Thread-1] - lab6.monkey.run(monkey.java:178) - 猴子     1 在 第19 个踏板上面1号梯子上面移动方向左到右
+ [2019-06-18 20:22:25,941] INFO  9149[Thread-1] - lab6.monkey.run(monkey.java:206) - 猴子 1 到达 right
+ [2019-06-18 20:22:26,831] INFO 10039[Thread-2] - lab6.keepfair.run(keepfair.java:77) - 吞吐率是 0.1n/s
+ [2019-06-18 20:22:26,831] INFO 10039[Thread-2] - lab6.keepfair.run(keepfair.java:97) - The justification of the system is NaN.
+ [2019-06-18 20:26:16,062] INFO     0[Thread-1] - lab6.monkey.run(monkey.java:133) - 产生一只猴子， number: 1, 
+ [2019-06-18 20:26:16,062] INFO     0[Thread-1] - lab6.monkey.run(monkey.java:135) - Direction: L->R
+ [2019-06-18 20:26:16,062] INFO     0[Thread-1] - lab6.monkey.run(monkey.java:139) - , speed: 8
+ [2019-06-18 20:26:16,062] INFO     0[Thread-1] - lab6.monkey.run(monkey.java:146) - 猴子 1 在等待在 
+ [2019-06-18 20:26:16,062] INFO     0[Thread-1] - lab6.monkey.run(monkey.java:148) - 左边
+ [2019-06-18 20:26:16,062] INFO     0[Thread-1] - lab6.monkey.run(monkey.java:153) - 0 秒过去出生后
+ [2019-06-18 20:26:17,092] INFO  1030[Thread-1] - lab6.monkey.run(monkey.java:146) - 猴子 1 在等待在 
+ [2019-06-18 20:26:17,092] INFO  1030[Thread-1] - lab6.monkey.run(monkey.java:148) - 左边
+ [2019-06-18 20:26:17,092] INFO  1030[Thread-1] - lab6.monkey.run(monkey.java:153) - 1 秒过去出生后
+ [2019-06-18 20:26:18,107] INFO  2045[Thread-1] - lab6.monkey.run(monkey.java:178) - 猴子     1 在 第1 个踏板上面1号梯子上面移动方向左到右
+ [2019-06-18 20:26:19,122] INFO  3060[Thread-1] - lab6.monkey.run(monkey.java:178) - 猴子     1 在 第9 个踏板上面1号梯子上面移动方向左到右
+ [2019-06-18 20:26:20,137] INFO  4075[Thread-1] - lab6.monkey.run(monkey.java:178) - 猴子     1 在 第17 个踏板上面1号梯子上面移动方向左到右
+ [2019-06-18 20:26:21,152] INFO  5090[Thread-1] - lab6.monkey.run(monkey.java:206) - 猴子 1 到达 right
+ [2019-06-18 20:26:22,260] INFO  6198[Thread-2] - lab6.keepfair.run(keepfair.java:77) - 吞吐率是 0.16666666666666666n/s
+ [2019-06-18 20:26:22,260] INFO  6198[Thread-2] - lab6.keepfair.run(keepfair.java:97) -  NaN.
+ [2019-06-18 20:31:26,404] INFO     0[Thread-2] - lab6.monkey.run(monkey.java:133) - 产生一只猴子， number: 1, 
+ [2019-06-18 20:31:26,404] INFO     0[Thread-3] - lab6.monkey.run(monkey.java:133) - 产生一只猴子， number: 2, 
+ [2019-06-18 20:31:26,404] INFO     0[Thread-3] - lab6.monkey.run(monkey.java:137) - Direction: R->L
+ [2019-06-18 20:31:26,404] INFO     0[Thread-3] - lab6.monkey.run(monkey.java:139) - , speed: 8
+ [2019-06-18 20:31:26,404] INFO     0[Thread-2] - lab6.monkey.run(monkey.java:135) - Direction: L->R
+ [2019-06-18 20:31:26,419] INFO    15[Thread-2] - lab6.monkey.run(monkey.java:139) - , speed: 5
+ [2019-06-18 20:31:26,419] INFO    15[Thread-2] - lab6.monkey.run(monkey.java:146) - 猴子 1 在等待在 
+ [2019-06-18 20:31:26,419] INFO    15[Thread-3] - lab6.monkey.run(monkey.java:146) - 猴子 2 在等待在 
+ [2019-06-18 20:31:26,419] INFO    15[Thread-3] - lab6.monkey.run(monkey.java:150) - 右边
+ [2019-06-18 20:31:26,419] INFO    15[Thread-3] - lab6.monkey.run(monkey.java:153) - 0 秒过去出生后
+ [2019-06-18 20:31:26,419] INFO    15[Thread-2] - lab6.monkey.run(monkey.java:148) - 左边
+ [2019-06-18 20:31:26,419] INFO    15[Thread-2] - lab6.monkey.run(monkey.java:153) - 0 秒过去出生后
+ [2019-06-18 20:31:27,433] INFO  1029[Thread-2] - lab6.monkey.run(monkey.java:146) - 猴子 1 在等待在 
+ [2019-06-18 20:31:27,433] INFO  1029[Thread-2] - lab6.monkey.run(monkey.java:148) - 左边
+ [2019-06-18 20:31:27,433] INFO  1029[Thread-2] - lab6.monkey.run(monkey.java:153) - 1 秒过去出生后
+ [2019-06-18 20:31:27,433] INFO  1029[Thread-3] - lab6.monkey.run(monkey.java:146) - 猴子 2 在等待在 
+ [2019-06-18 20:31:27,433] INFO  1029[Thread-3] - lab6.monkey.run(monkey.java:150) - 右边
+ [2019-06-18 20:31:27,433] INFO  1029[Thread-3] - lab6.monkey.run(monkey.java:153) - 1 秒过去出生后
+ [2019-06-18 20:31:28,448] INFO  2044[Thread-2] - lab6.monkey.run(monkey.java:178) - 猴子     1 在 第1 个踏板上面1号梯子上面移动方向左到右
+ [2019-06-18 20:31:28,448] INFO  2044[Thread-3] - lab6.monkey.run(monkey.java:146) - 猴子 2 在等待在 
+ [2019-06-18 20:31:28,448] INFO  2044[Thread-3] - lab6.monkey.run(monkey.java:150) - 右边
+ [2019-06-18 20:31:28,448] INFO  2044[Thread-3] - lab6.monkey.run(monkey.java:155) - 2 秒过去出生后
+ [2019-06-18 20:31:29,463] INFO  3059[Thread-2] - lab6.monkey.run(monkey.java:178) - 猴子     1 在 第6 个踏板上面1号梯子上面移动方向左到右
+ [2019-06-18 20:31:29,463] INFO  3059[Thread-3] - lab6.monkey.run(monkey.java:181) - 猴子     2 在 第1 个踏板上面2号梯子上面移动方向右到左
+ [2019-06-18 20:31:30,478] INFO  4074[Thread-2] - lab6.monkey.run(monkey.java:178) - 猴子     1 在 第11 个踏板上面1号梯子上面移动方向左到右
+ [2019-06-18 20:31:30,478] INFO  4074[Thread-3] - lab6.monkey.run(monkey.java:181) - 猴子     2 在 第9 个踏板上面2号梯子上面移动方向右到左
+ [2019-06-18 20:31:31,493] INFO  5089[Thread-2] - lab6.monkey.run(monkey.java:178) - 猴子     1 在 第16 个踏板上面1号梯子上面移动方向左到右
+ [2019-06-18 20:31:31,493] INFO  5089[Thread-3] - lab6.monkey.run(monkey.java:181) - 猴子     2 在 第17 个踏板上面2号梯子上面移动方向右到左
+ [2019-06-18 20:31:32,508] INFO  6104[Thread-2] - lab6.monkey.run(monkey.java:206) - 猴子 1 到达 right
+ [2019-06-18 20:31:32,508] INFO  6104[Thread-3] - lab6.monkey.run(monkey.java:208) - 猴子 2 到达 left
+ [2019-06-18 20:31:33,398] INFO  6994[Thread-4] - lab6.keepfair.run(keepfair.java:77) - 吞吐率是 0.2857142857142857n/s
+ [2019-06-18 20:31:33,398] INFO  6994[Thread-4] - lab6.keepfair.run(keepfair.java:97) -  1.0.
+ 

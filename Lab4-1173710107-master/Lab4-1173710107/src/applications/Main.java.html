@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="zh"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../../../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../../../jacoco-resources/report.gif" type="image/gif"/><title>Main.java</title><link rel="stylesheet" href="../../../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../../../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../../../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../../../index.html" class="el_report">test (3) (2019-5-19 15:10:37)</a> &gt; <a href="../../index.html" class="el_group">Lab4-1173710107</a> &gt; <a href="../index.html" class="el_bundle">src</a> &gt; <a href="index.source.html" class="el_package">applications</a> &gt; <span class="el_source">Main.java</span></div><h1>Main.java</h1><pre class="source lang-java linenums">package applications;
+import circularOrbit.*;
+import exception.errorinfile;
+import physicalObject.*;
+import testLog4j.testLog4j;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.Scanner;
+
+import APIs.*;
+import org.apache.log4j.Logger; 
+import org.apache.log4j.BasicConfigurator; 
+import org.apache.log4j.Level;
+<span class="nc" id="L20">public class Main {</span>
+	
+<span class="nc" id="L22">	 static Scanner in = new Scanner(System.in);</span>
+	public static void main(String[] args) {
+<span class="nc" id="L24">		Logger logger = Logger.getLogger(Main .class);</span>
+<span class="nc" id="L25">	    logger.setLevel(Level.INFO);</span>
+		int type;
+		int choice;
+		String path;
+		
+<span class="nc" id="L30">		System.out.println(&quot;请选择应用?&quot;);</span>
+<span class="nc" id="L31">		System.out.println(&quot;1.TrackGame&quot;);</span>
+<span class="nc" id="L32">		System.out.println(&quot;2.AtomStructure&quot;);</span>
+<span class="nc" id="L33">		System.out.println(&quot;3.SocialNetworkCircle&quot;);</span>
+<span class="nc" id="L34">		type = in.nextInt();</span>
+<span class="nc" id="L35">		in.nextLine();</span>
+		
+<span class="nc bnc" id="L37" title="All 2 branches missed.">		if(type==1)</span>
+		{
+<span class="nc" id="L39">			logger.info(&quot;选择trackgame应用&quot;);</span>
+			
+<span class="nc" id="L41">			TrackGame game = new TrackGame();</span>
+<span class="nc" id="L42">			System.out.println(&quot;正在读取 TrackGame.txt 中的信息&quot;);</span>
+<span class="nc" id="L43">			logger.info(&quot;读取trackgame.txt的信息&quot;);</span>
+<span class="nc" id="L44">			path = (&quot;txt/TrackGame.txt&quot;);</span>
+<span class="nc" id="L45">			ArrayList&lt;String&gt; info = ConcreteCircularOrbit.readFile(path);</span>
+<span class="nc" id="L46">			game.setinfoall(info);</span>
+<span class="nc" id="L47">			logger.info(&quot;正在对读入文本进行正则表达式解析！&quot;);</span>
+<span class="nc" id="L48">			game.Analysis();</span>
+<span class="nc" id="L49">			while(true)</span>
+			{
+<span class="nc" id="L51">				logger.info(&quot;输出应用一的选择菜单&quot;);</span>
+<span class="nc" id="L52">				System.out.println(&quot;请选择下面功能?&quot;);</span>
+<span class="nc" id="L53">				System.out.println(&quot;1.可视化&quot;);</span>
+<span class="nc" id="L54">				System.out.println(&quot;2.增加轨道&quot;);</span>
+<span class="nc" id="L55">				System.out.println(&quot;3.删除轨道&quot;);</span>
+<span class="nc" id="L56">				System.out.println(&quot;4.熵值&quot;);</span>
+<span class="nc" id="L57">				System.out.println(&quot;5.随机排序&quot;);</span>
+<span class="nc" id="L58">				System.out.println(&quot;6.按照成绩排序&quot;);</span>
+<span class="nc" id="L59">				System.out.println(&quot;7.改变轨道&quot;);</span>
+<span class="nc" id="L60">				System.out.println(&quot;8.退出&quot;);</span>
+<span class="nc" id="L61">				System.out.println(&quot;9.查询logger&quot;);</span>
+			//	in.nextLine();
+<span class="nc" id="L63">				choice = in.nextInt();</span>
+<span class="nc" id="L64">				in.nextLine();</span>
+<span class="nc" id="L65">				System.out.println(&quot;!!!&quot;);</span>
+<span class="nc bnc" id="L66" title="All 10 branches missed.">				switch(choice)</span>
+				{
+ 					case 1:
+<span class="nc" id="L69">						logger.info(&quot;应用一选择可视化功能&quot;);</span>
+<span class="nc" id="L70">						System.out.println(game);</span>
+<span class="nc" id="L71">						CircularOrbitHelper.visualize(game.numOnEachTrack());</span>
+<span class="nc" id="L72">						break;</span>
+					case 2:
+<span class="nc" id="L74">						logger.info(&quot;应用一增加一个新的轨道&quot;);</span>
+<span class="nc" id="L75">						game.newTrack();</span>
+<span class="nc" id="L76">						break;</span>
+					case 3:
+<span class="nc" id="L78">						logger.info(&quot;应用一删除最外层的轨道&quot;);</span>
+<span class="nc" id="L79">						game.clearTrack();</span>
+<span class="nc" id="L80">						break;</span>
+					case 4:
+<span class="nc" id="L82">						logger.info(&quot;应用一计算熵值&quot;);</span>
+<span class="nc" id="L83">						System.out.println(CircularOrbitAPIs.getObjectDistributionEntropy(game.numOnEachTrack()));</span>
+<span class="nc" id="L84">						break;</span>
+					case 5:
+<span class="nc" id="L86">						logger.info(&quot;应用一对当前信息进行随机排序&quot;);</span>
+<span class="nc" id="L87">						game.emptyAll();</span>
+<span class="nc" id="L88">						game.shuffleArrange();</span>
+<span class="nc" id="L89">						System.out.println(game);</span>
+<span class="nc" id="L90">						break;</span>
+					case 6:
+<span class="nc" id="L92">						logger.info(&quot;应用一按照成绩对当前信息进行排序&quot;);</span>
+<span class="nc" id="L93">						game.emptyAll();</span>
+<span class="nc" id="L94">						game.sortedArrange();</span>
+<span class="nc" id="L95">						System.out.println(game);</span>
+<span class="nc" id="L96">						break;</span>
+					case 7:
+						
+<span class="nc" id="L99">						System.out.println(&quot;请输入需要移动的运动员的名字&quot;);</span>
+<span class="nc" id="L100">						String name = in.nextLine();</span>
+<span class="nc" id="L101">						Athlete temp = new Athlete(name,0,&quot;CHN&quot;,0,0.00);</span>
+<span class="nc" id="L102">						System.out.println(&quot;请输入需要移动到的位置?&quot;);</span>
+<span class="nc" id="L103">						int tar = in.nextInt();</span>
+<span class="nc" id="L104">						in.nextLine();</span>
+<span class="nc" id="L105">						game.transit(temp, tar);</span>
+<span class="nc" id="L106">						logger.info(&quot;应用一将运动员&quot;+name+&quot;移动到&quot;+tar+&quot;轨道上&quot;);</span>
+<span class="nc" id="L107">						break;</span>
+					case 8:
+<span class="nc" id="L109">						logger.info(&quot;退出当前的应用&quot;);</span>
+<span class="nc" id="L110">						break;</span>
+					case 9:
+<span class="nc" id="L112">						searchlog();</span>
+<span class="nc" id="L113">						break;</span>
+					default:
+<span class="nc" id="L115">						logger.error(&quot;应用一选择输入出错，请重新输入&quot;);</span>
+<span class="nc" id="L116">						System.out.println(&quot;请按格式输入！！&quot;);</span>
+				}
+				
+				
+			}	
+		}
+<span class="nc bnc" id="L122" title="All 2 branches missed.">		else if(type==2)</span>
+		{
+<span class="nc" id="L124">			logger.info(&quot;读取 AtomicStructure.txt文件的信息&quot;);</span>
+<span class="nc" id="L125">			System.out.println(&quot;正在读取 AtomicStructure.txt 文件的信息&quot;);</span>
+<span class="nc" id="L126">			path = (&quot;txt/AtomicStructure.txt&quot;);</span>
+<span class="nc" id="L127">			logger.info(&quot;对应用二读入文本进行正则表达式匹配&quot;);</span>
+<span class="nc" id="L128">			AtomStructure atom = new AtomStructure(path);</span>
+<span class="nc" id="L129">			while(true)</span>
+			{
+<span class="nc" id="L131">				logger.info(&quot;输出应用二的功能菜单&quot;);</span>
+<span class="nc" id="L132">				System.out.println(&quot;请选择下面的功能?&quot;);</span>
+<span class="nc" id="L133">				System.out.println(&quot;1.可视化&quot;);</span>
+<span class="nc" id="L134">				System.out.println(&quot;2.增加轨道&quot;);</span>
+<span class="nc" id="L135">				System.out.println(&quot;3.删除轨道&quot;);</span>
+<span class="nc" id="L136">				System.out.println(&quot;4.计算熵值&quot;);</span>
+<span class="nc" id="L137">				System.out.println(&quot;5.改变轨道&quot;);</span>
+<span class="nc" id="L138">				System.out.println(&quot;6.退出&quot;);</span>
+<span class="nc" id="L139">				System.out.println(&quot;7.查询logger&quot;);</span>
+				
+<span class="nc" id="L141">				choice = in.nextInt();</span>
+<span class="nc" id="L142">				in.nextLine();</span>
+<span class="nc bnc" id="L143" title="All 8 branches missed.">				switch(choice)</span>
+				{
+				case 1:
+<span class="nc" id="L146">					logger.info(&quot;进行应用二的可视化&quot;);</span>
+<span class="nc" id="L147">					System.out.println(atom);</span>
+<span class="nc" id="L148">					CircularOrbitHelper.visualize(atom.numOnEachTrack());</span>
+<span class="nc" id="L149">					break;</span>
+				case 2:
+<span class="nc" id="L151">					logger.info(&quot;应用二增加一个轨道&quot;);</span>
+<span class="nc" id="L152">					atom.newTrack();</span>
+<span class="nc" id="L153">					break;</span>
+				case 3:
+<span class="nc" id="L155">					logger.info(&quot;应用二删除最外层轨道&quot;);</span>
+<span class="nc" id="L156">					atom.clearTrack();</span>
+<span class="nc" id="L157">					break;</span>
+				case 4:
+<span class="nc" id="L159">					logger.info(&quot;应用二计算熵值&quot;);</span>
+<span class="nc" id="L160">					System.out.println(CircularOrbitAPIs.getObjectDistributionEntropy(atom.numOnEachTrack()));</span>
+<span class="nc" id="L161">					break;</span>
+				case 5:
+					
+<span class="nc" id="L164">					System.out.println(&quot;从哪个轨道开始移动?&quot;);</span>
+<span class="nc" id="L165">					int source = in.nextInt();</span>
+<span class="nc" id="L166">					in.nextLine();</span>
+<span class="nc" id="L167">					System.out.println(&quot;移动到那个轨道？?&quot;);</span>
+<span class="nc" id="L168">					int tar = in.nextInt();</span>
+<span class="nc" id="L169">					in.nextLine();</span>
+<span class="nc" id="L170">					atom.transitElectron(source, tar);</span>
+<span class="nc" id="L171">					logger.info(&quot;应用二从&quot;+source+&quot;轨道移动到&quot;+tar+&quot;轨道&quot;);</span>
+<span class="nc" id="L172">					break;</span>
+				case 6:
+<span class="nc" id="L174">					logger.info(&quot;退出当前应用&quot;);</span>
+<span class="nc" id="L175">					break;</span>
+				case 7:
+<span class="nc" id="L177">					searchlog();</span>
+<span class="nc" id="L178">					break;</span>
+				default:
+<span class="nc" id="L180">					logger.error(&quot;应用二的输入有错误，请重新输入&quot;);</span>
+<span class="nc" id="L181">					System.out.println(&quot;请按格式输入！！&quot;);</span>
+				}
+			
+				
+			}	
+		}
+<span class="nc bnc" id="L187" title="All 2 branches missed.">		else if (type == 3)</span>
+		{
+<span class="nc" id="L189">			logger.info(&quot;读入SocialNetworkCircle.txt 文件&quot;);</span>
+<span class="nc" id="L190">			System.out.println(&quot;正在读入  SocialNetworkCircle.txt 文件&quot;);</span>
+<span class="nc" id="L191">			path = (&quot;txt/SocialNetworkCircle.txt&quot;);</span>
+<span class="nc" id="L192">			logger.info(&quot;对应用三的文本进行正则表达式匹配&quot;);</span>
+<span class="nc" id="L193">			SocialNetworkCircle circle = new SocialNetworkCircle(path);</span>
+<span class="nc" id="L194">			while(true)</span>
+			{
+<span class="nc" id="L196">				logger.info(&quot;输出应用三菜单&quot;);</span>
+<span class="nc" id="L197">				System.out.println(&quot;请选择下面功能：&quot;);</span>
+<span class="nc" id="L198">				System.out.println(&quot;1.可视化&quot;);</span>
+<span class="nc" id="L199">				System.out.println(&quot;2.增加轨道&quot;);</span>
+<span class="nc" id="L200">				System.out.println(&quot;3.删除轨道&quot;);</span>
+<span class="nc" id="L201">				System.out.println(&quot;4.计算熵值&quot;);</span>
+<span class="nc" id="L202">				System.out.println(&quot;5.查找某个用户在哪个轨道&quot;);</span>
+<span class="nc" id="L203">				System.out.println(&quot;6.查看某个用户具体有多少朋友&quot;);</span>
+<span class="nc" id="L204">				System.out.println(&quot;7.增加关系&quot;);</span>
+<span class="nc" id="L205">				System.out.println(&quot;8.删除关系&quot;);</span>
+<span class="nc" id="L206">				System.out.println(&quot;9.刷新&quot;);</span>
+<span class="nc" id="L207">				System.out.println(&quot;10.计算两个用户之间的距离&quot;);</span>
+<span class="nc" id="L208">				System.out.println(&quot;11.退出&quot;);</span>
+<span class="nc" id="L209">				System.out.println(&quot;12.查询logger&quot;);</span>
+<span class="nc" id="L210">				Scanner in3 = new Scanner(System.in);</span>
+<span class="nc" id="L211">				choice = in3.nextInt();</span>
+<span class="nc" id="L212">				in3.nextLine();</span>
+<span class="nc bnc" id="L213" title="All 13 branches missed.">				switch(choice)</span>
+				{
+					case 1:
+<span class="nc" id="L216">						logger.info(&quot;对应用三进行可视化操作&quot;);</span>
+<span class="nc" id="L217">						System.out.println(circle);</span>
+<span class="nc" id="L218">						CircularOrbitHelper.visualize(circle);</span>
+<span class="nc" id="L219">						break;</span>
+					case 2:
+<span class="nc" id="L221">						logger.info(&quot;应用三添加新轨道&quot;);</span>
+<span class="nc" id="L222">						circle.newTrack();</span>
+<span class="nc" id="L223">						break;</span>
+					case 3:
+<span class="nc" id="L225">						logger.info(&quot;应用三清除最外层轨道&quot;);</span>
+<span class="nc" id="L226">						circle.clearTrack();</span>
+<span class="nc" id="L227">						break;</span>
+					case 4:
+<span class="nc" id="L229">						logger.info(&quot;计算应用三的熵值&quot;);</span>
+<span class="nc" id="L230">						System.out.println(CircularOrbitAPIs.getObjectDistributionEntropy(circle.numOnEachTrack()));</span>
+<span class="nc" id="L231">						break;</span>
+					case 5:
+						
+<span class="nc" id="L234">						System.out.println(&quot;请输入需要查看的用户的名字：&quot;);</span>
+<span class="nc" id="L235">						String source = in.nextLine();</span>
+<span class="nc" id="L236">						System.out.println(circle.onWhichTrack(source));</span>
+<span class="nc" id="L237">						logger.info(&quot;应用三查询到&quot;+source+&quot;用户在&quot;+circle.onWhichTrack(source)+&quot;轨道上&quot;);</span>
+<span class="nc" id="L238">						break;</span>
+					case 6:
+<span class="nc" id="L240">						System.out.println(&quot;请输入需要查看的用户的名字：&quot;);</span>
+<span class="nc" id="L241">						String source1 = in.nextLine();</span>
+<span class="nc" id="L242">						System.out.println(circle.expansion(source1));</span>
+<span class="nc" id="L243">						logger.info(&quot;应用三查询&quot;+source1+&quot;有&quot;+circle.expansion(source1)+&quot;朋友&quot;);</span>
+<span class="nc" id="L244">						break;</span>
+					case 7:
+<span class="nc" id="L246">						System.out.println(&quot;请输入需要建立关系的起始用户&quot;);</span>
+<span class="nc" id="L247">						String source2 = in.nextLine();</span>
+<span class="nc" id="L248">						System.out.println(&quot;请输入需要建立关系的终点用户&quot;);</span>
+<span class="nc" id="L249">						String target = in.nextLine();</span>
+<span class="nc" id="L250">						System.out.println(&quot;权重是?&quot;);</span>
+<span class="nc" id="L251">						Double val = in.nextDouble();</span>
+<span class="nc" id="L252">						in.nextLine();</span>
+<span class="nc" id="L253">						int ival = (int)(val*1000);</span>
+<span class="nc" id="L254">						circle.addEdge(source2, target, ival);</span>
+<span class="nc" id="L255">						logger.info(&quot;应用三建立用户&quot;+source2+&quot;和&quot;+target+&quot;的关系，权值为&quot;+val);</span>
+<span class="nc" id="L256">						break;</span>
+					case 8:
+<span class="nc" id="L258">						System.out.println(&quot;请输入需要删除关系的起始用户&quot;);</span>
+<span class="nc" id="L259">						String source3 = in.nextLine();</span>
+<span class="nc" id="L260">						System.out.println(&quot;请输入需要删除关系的终点用户&quot;);</span>
+<span class="nc" id="L261">						String target1 = in.nextLine();</span>
+<span class="nc" id="L262">						circle.removeEdge(source3, target1);</span>
+<span class="nc" id="L263">						logger.info(&quot;应用三删除用户&quot;+source3+&quot;和用户&quot;+target1+&quot;的关系&quot;);</span>
+<span class="nc" id="L264">						break;</span>
+					case 9:
+<span class="nc" id="L266">						circle.refresh();</span>
+<span class="nc" id="L267">						logger.info(&quot;应用三刷新&quot;);</span>
+<span class="nc" id="L268">						break;</span>
+					case 10:
+<span class="nc" id="L270">						System.out.println(&quot;请输入需要获取距离的起始用户&quot;);</span>
+<span class="nc" id="L271">						String source4= in.nextLine();</span>
+<span class="nc" id="L272">						System.out.println(&quot;请输入需要获取距离的终点用户&quot;);</span>
+<span class="nc" id="L273">						String target2 = in.nextLine();</span>
+<span class="nc" id="L274">						System.out.println(circle.getLogicalDistance(source4, target2));</span>
+<span class="nc" id="L275">						logger.info(&quot;应用三获取用户&quot;+source4+&quot;和用户&quot;+target2+&quot;的距离，距离是&quot;+circle.getLogicalDistance(source4, target2));</span>
+<span class="nc" id="L276">						break;</span>
+					case 11:
+<span class="nc" id="L278">						logger.info(&quot;应用三退出当前应用&quot;);</span>
+<span class="nc" id="L279">						break;</span>
+					case 12:
+<span class="nc" id="L281">						searchlog();</span>
+<span class="nc" id="L282">						break;</span>
+					default:
+<span class="nc" id="L284">						logger.error(&quot;应用三的输入不合法，需要重新输入&quot;);</span>
+<span class="nc" id="L285">						System.out.println(&quot;请按格式输入！！&quot;);</span>
+				}
+				
+			
+			}	
+<span class="nc" id="L290">		}in.close();</span>
+<span class="nc" id="L291">	}</span>
+
+	public static void searchlog()
+	{
+<span class="nc" id="L295">		System.out.println(&quot;1.按时间查询&quot;);</span>
+<span class="nc" id="L296">		System.out.println(&quot;2.按类型查询&quot;);</span>
+<span class="nc" id="L297">		System.out.println(&quot;3.按类查询&quot;);</span>
+<span class="nc" id="L298">		System.out.println(&quot;4.按方法查询&quot;);</span>
+<span class="nc" id="L299">		System.out.println(&quot;5.按操作类型查询&quot;);</span>
+		//Scanner in = new Scanner(System.in);
+		try
+		{
+<span class="nc" id="L303">			BufferedReader br = new BufferedReader(new FileReader(&quot;log4j.log&quot;));//读取文件</span>
+<span class="nc" id="L304">			int choice = in.nextInt();</span>
+<span class="nc" id="L305">			in.nextLine();</span>
+<span class="nc" id="L306">			String line = null;</span>
+<span class="nc" id="L307">			int year =0;</span>
+<span class="nc" id="L308">			int month =0;</span>
+<span class="nc" id="L309">			int day =0;</span>
+<span class="nc" id="L310">			int hour = 0;</span>
+<span class="nc" id="L311">			int minite = 0;</span>
+<span class="nc" id="L312">			int miao =0;</span>
+<span class="nc" id="L313">			String time =null;</span>
+<span class="nc" id="L314">			String input = null;</span>
+<span class="nc" id="L315">			String input1 = null;</span>
+<span class="nc" id="L316">			String input2 = null;</span>
+<span class="nc" id="L317">			String input3 = null;</span>
+<span class="nc bnc" id="L318" title="All 2 branches missed.">			if(choice==1)</span>
+			{
+<span class="nc" id="L320">				System.out.println(&quot;请输入查询log的时间段，格式：年 月 日 小时 分钟 秒    eg:2019 05 15 19 02 04 2019 06 29 10 30 03&quot;);</span>
+				
+<span class="nc" id="L322">			}</span>
+<span class="nc bnc" id="L323" title="All 2 branches missed.">			else if(choice==2)</span>
+			{
+<span class="nc" id="L325">				System.out.println(&quot;请输入查询log的类型(INFO/ERROR)&quot;);</span>
+				 
+<span class="nc" id="L327">			}</span>
+<span class="nc bnc" id="L328" title="All 2 branches missed.">			else if(choice==3)</span>
+			{
+<span class="nc" id="L330">				System.out.println(&quot;请输入查询log的类&quot;);</span>
+				 
+<span class="nc" id="L332">			}</span>
+<span class="nc bnc" id="L333" title="All 2 branches missed.">			else if(choice==4)</span>
+			{
+<span class="nc" id="L335">				System.out.println(&quot;请输入查询log的方法&quot;);</span>
+				
+<span class="nc" id="L337">			}</span>
+<span class="nc bnc" id="L338" title="All 2 branches missed.">			else if(choice==5)</span>
+			{
+<span class="nc" id="L340">				System.out.println(&quot;请输入查询log的操作类型eg:选择trackgame应用&quot;);</span>
+				
+			}
+<span class="nc" id="L343">			String input0 = in.nextLine();</span>
+<span class="nc bnc" id="L344" title="All 2 branches missed.">			if(choice==1)</span>
+			{
+				//System.out.println(&quot;请输入查询log的时间段，格式：年 月 日 小时 分钟 秒    eg:2019 05 15 19 02 04 2019 06 29 10 30 03&quot;);
+<span class="nc" id="L347">				time = input0;</span>
+<span class="nc" id="L348">			}</span>
+<span class="nc bnc" id="L349" title="All 2 branches missed.">			else if(choice==2)</span>
+			{
+				//System.out.println(&quot;请输入查询log的类型(INFO/ERROR)&quot;);
+<span class="nc" id="L352">				 input = input0;</span>
+<span class="nc" id="L353">			}</span>
+<span class="nc bnc" id="L354" title="All 2 branches missed.">			else if(choice==3)</span>
+			{
+				//System.out.println(&quot;请输入查询log的类&quot;);
+<span class="nc" id="L357">				 input1 = input0;</span>
+<span class="nc" id="L358">			}</span>
+<span class="nc bnc" id="L359" title="All 2 branches missed.">			else if(choice==4)</span>
+			{
+				//System.out.println(&quot;请输入查询log的方法&quot;);
+<span class="nc" id="L362">				 input2 = input0;</span>
+<span class="nc" id="L363">			}</span>
+<span class="nc bnc" id="L364" title="All 2 branches missed.">			else if(choice==5)</span>
+			{
+				//System.out.println(&quot;请输入查询log的操作类型eg:选择trackgame应用&quot;);
+<span class="nc" id="L367">				input3 = input0;</span>
+			}
+<span class="nc bnc" id="L369" title="All 2 branches missed.">			while((line = br.readLine())!=null)</span>
+			{
+				//时间
+<span class="nc" id="L372">				String [] line1 = line.split(&quot;\\]&quot;);</span>
+				//System.out.println(line1[0]);
+<span class="nc" id="L374">				String [] line2 = line1[0].split(&quot;\\[&quot;);</span>
+<span class="nc" id="L375">				String file = null;</span>
+<span class="nc bnc" id="L376" title="All 2 branches missed.">				if(line2.length==1)</span>
+				{
+<span class="nc" id="L378">					file = line2[0];</span>
+<span class="nc" id="L379">				}</span>
+<span class="nc bnc" id="L380" title="All 2 branches missed.">				else if(line2.length==2)</span>
+				{
+<span class="nc" id="L382">					file = line2[1];</span>
+<span class="nc" id="L383">				}</span>
+				else
+				{
+<span class="nc" id="L386">					System.out.println(&quot;@&quot;);</span>
+<span class="nc" id="L387">					throw new IOException();</span>
+				}
+<span class="nc" id="L389">				String [] num = file.split(&quot; &quot;);</span>
+<span class="nc bnc" id="L390" title="All 2 branches missed.">				if(num.length==2)</span>
+				{
+<span class="nc" id="L392">					String [] file1 = num[0].split(&quot;-&quot;);</span>
+<span class="nc bnc" id="L393" title="All 2 branches missed.">					if(file1.length==3)</span>
+					{
+<span class="nc" id="L395">						String [] file2 = num[1].split(&quot;:&quot;);</span>
+<span class="nc bnc" id="L396" title="All 2 branches missed.">						if(file2.length==3)</span>
+						{//file1年月日file2时分秒
+							try {
+<span class="nc" id="L399">								String [] x= file2[2].split(&quot;,&quot;);</span>
+								
+<span class="nc" id="L401">							    year = Integer.parseInt(file1[0]);</span>
+<span class="nc" id="L402">							    month = Integer.parseInt(file1[1]);</span>
+<span class="nc" id="L403">							    day = Integer.parseInt(file1[2]);</span>
+<span class="nc" id="L404">							    hour = Integer.parseInt(file2[0]);</span>
+<span class="nc" id="L405">							    minite = Integer.parseInt(file2[1]);</span>
+<span class="nc" id="L406">							    miao = Integer.parseInt(x[0]);</span>
+<span class="nc" id="L407">							} catch (NumberFormatException e) {</span>
+<span class="nc" id="L408">								System.out.println(&quot;!&quot;);</span>
+<span class="nc" id="L409">								IOException x = new IOException();</span>
+<span class="nc" id="L410">								x.initCause(e);</span>
+<span class="nc" id="L411">							    throw x;</span>
+							}
+								
+						}
+						else
+						{
+<span class="nc" id="L417">							System.out.println(&quot;$&quot;);</span>
+<span class="nc" id="L418">							throw new IOException();</span>
+						}
+					}
+					else
+					{
+<span class="nc" id="L423">						System.out.println(&quot;5&quot;);</span>
+<span class="nc" id="L424">						throw new IOException();</span>
+					}
+				}
+				else
+				{
+					//System.out.println(&quot;p&quot;);
+<span class="nc" id="L430">					throw new IOException();</span>
+				}
+				// 操作结果
+<span class="nc" id="L433">				String [] l = line.split(&quot;-&quot;);</span>
+<span class="nc" id="L434">				String infomation = null;</span>
+<span class="nc" id="L435">				String classfun =null;</span>
+<span class="nc bnc" id="L436" title="All 2 branches missed.">				if(l.length==5)</span>
+				{
+<span class="nc" id="L438">					infomation = l[4];</span>
+<span class="nc" id="L439">					classfun = l[3];</span>
+				}
+				//class&amp;function
+				//类型
+<span class="nc" id="L443">				String type = null;</span>
+<span class="nc bnc" id="L444" title="All 2 branches missed.">				if(line.contains(&quot;INFO&quot;))</span>
+				{
+<span class="nc" id="L446">					type =&quot;INFO&quot;;</span>
+<span class="nc" id="L447">				}</span>
+<span class="nc bnc" id="L448" title="All 2 branches missed.">				else if(line.contains(&quot;ERROR&quot;))</span>
+				{
+<span class="nc" id="L450">					type =&quot;ERROR&quot;;</span>
+<span class="nc" id="L451">				}</span>
+				
+				else
+				{
+<span class="nc" id="L455">					System.out.println(&quot;j&quot;);</span>
+<span class="nc" id="L456">					System.out.println(line);</span>
+<span class="nc" id="L457">					throw new IOException();</span>
+				}
+<span class="nc bnc" id="L459" title="All 6 branches missed.">				switch(choice)</span>
+				{
+				case 1:
+<span class="nc" id="L462">					String [] time1 = time.split(&quot; &quot;);</span>
+<span class="nc bnc" id="L463" title="All 2 branches missed.">					if(time1.length==12)</span>
+					{
+						try {
+<span class="nc" id="L466">							String [] y = time1[5].split(&quot;,&quot;);</span>
+<span class="nc" id="L467">							String [] z = time1[11].split(&quot;,&quot;);</span>
+<span class="nc" id="L468">							int byear = Integer.parseInt(time1[0]);</span>
+<span class="nc" id="L469">						    int bmonth = Integer.parseInt(time1[1]);</span>
+<span class="nc" id="L470">						    int bday = Integer.parseInt(time1[2]);</span>
+<span class="nc" id="L471">						    int bhour = Integer.parseInt(time1[3]);</span>
+<span class="nc" id="L472">						    int bminite = Integer.parseInt(time1[4]);</span>
+<span class="nc" id="L473">						    int bmiao = Integer.parseInt(y[0]);</span>
+<span class="nc" id="L474">						    int eyear = Integer.parseInt(time1[6]);</span>
+<span class="nc" id="L475">						    int emonth = Integer.parseInt(time1[7]);</span>
+<span class="nc" id="L476">						    int eday = Integer.parseInt(time1[8]);</span>
+<span class="nc" id="L477">						    int ehour = Integer.parseInt(time1[9]);</span>
+<span class="nc" id="L478">						    int eminite = Integer.parseInt(time1[10]);</span>
+<span class="nc" id="L479">						    int emiao = Integer.parseInt(z[0]);</span>
+						  //  int flag =0;
+						  /*  if(byear&lt;=year&amp;&amp;bmonth&lt;=month&amp;&amp;bday&lt;=day&amp;&amp;bhour&lt;=hour&amp;&amp;bminite&lt;=minite&amp;&amp;bmiao&lt;=miao)
+						    {
+						    	if(year&lt;=eyear&amp;&amp;month&lt;=emonth&amp;&amp;day&lt;=eday&amp;&amp;hour&lt;=ehour&amp;&amp;minite&lt;=eminite&amp;&amp;miao&lt;=emiao)
+						    	{
+						    		System.out.println(&quot;时间为&quot;+year+&quot; &quot;+month+&quot; &quot;+day+&quot; &quot;+hour+&quot; &quot;+minite+&quot; &quot;+miao+
+						    				&quot;类型&quot;+type+&quot;类方法为&quot;+classfun+&quot;具体操作为&quot;+infomation);
+						    	}
+						    	
+						    }*/
+<span class="nc" id="L490">						    String beginTime=new String(byear+&quot;-&quot;+bmonth+&quot;-&quot;+bday+&quot; &quot;+bhour+&quot;:&quot;+bminite+&quot;:&quot;+bmiao);</span>
+<span class="nc" id="L491">						    String endTime=new String(eyear+&quot;-&quot;+emonth+&quot;-&quot;+eday+&quot; &quot;+ehour+&quot;:&quot;+eminite+&quot;:&quot;+emiao); </span>
+<span class="nc" id="L492">						    String nowtime = new String(year+&quot;-&quot;+month+&quot;-&quot;+day+&quot; &quot;+hour+&quot;:&quot;+minite+&quot;:&quot;+miao);</span>
+<span class="nc" id="L493">						    SimpleDateFormat df = new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss&quot;);</span>
+						    try
+						    {
+<span class="nc" id="L496">						    	Date sd1=df.parse(beginTime);</span>
+<span class="nc" id="L497">						    	Date sd2=df.parse(endTime);</span>
+<span class="nc" id="L498">						    	Date sd3 = df.parse(nowtime);</span>
+<span class="nc bnc" id="L499" title="All 4 branches missed.">						    	if(sd1.before(sd3)&amp;&amp;sd2.after(sd3))</span>
+						    	{
+<span class="nc" id="L501">						    		System.out.println(&quot;时间为&quot;+year+&quot; &quot;+month+&quot; &quot;+day+&quot; &quot;+hour+&quot; &quot;+minite+&quot; &quot;+miao+</span>
+<span class="nc" id="L502">						    				&quot; 类型&quot;+type+&quot; 类方法为&quot;+classfun+&quot; 具体操作为&quot;+infomation);</span>
+						    	}
+<span class="nc" id="L504">						    }</span>
+<span class="nc" id="L505">						    catch(ParseException e)</span>
+						    {
+<span class="nc" id="L507">						    	errorinfile ex = new errorinfile();</span>
+<span class="nc" id="L508">						    	ex.errorinfile1();</span>
+						    }
+						    
+						    
+						   
+<span class="nc" id="L513">						} catch (NumberFormatException e) {</span>
+<span class="nc" id="L514">							System.out.println(&quot;m&quot;);</span>
+<span class="nc" id="L515">							IOException y  =new IOException();</span>
+<span class="nc" id="L516">							y.initCause(e);</span>
+<span class="nc" id="L517">						    throw y;</span>
+						}
+							
+						
+					}
+					else
+					{
+<span class="nc" id="L524">						System.out.println(&quot;未按照格式输入&quot;);</span>
+<span class="nc" id="L525">						throw new IOException();</span>
+					}
+					break;
+				case 2:
+<span class="nc bnc" id="L529" title="All 2 branches missed.">					if(line.contains(input))</span>
+					{
+<span class="nc" id="L531">						System.out.println(&quot;时间为&quot;+year+&quot; &quot;+month+&quot; &quot;+day+&quot; &quot;+hour+&quot; &quot;+minite+&quot; &quot;+miao+</span>
+<span class="nc" id="L532">			    				&quot; 类型&quot;+input+&quot; 类方法为&quot;+classfun+&quot; 具体操作为&quot;+infomation);</span>
+					}
+					
+<span class="nc" id="L535">					break;</span>
+				case 3:
+<span class="nc bnc" id="L537" title="All 2 branches missed.">					if(line.contains(input1))</span>
+					{
+<span class="nc" id="L539">						System.out.println(&quot;时间为&quot;+year+&quot; &quot;+month+&quot; &quot;+day+&quot; &quot;+hour+&quot; &quot;+minite+&quot; &quot;+miao+</span>
+<span class="nc" id="L540">			    				&quot; 类型&quot;+type+&quot; 类方法为&quot;+classfun+&quot; 具体操作为&quot;+infomation);</span>
+					}
+					
+<span class="nc" id="L543">					break;</span>
+				case 4:
+<span class="nc bnc" id="L545" title="All 2 branches missed.">					if(line.contains(input2))</span>
+					{
+<span class="nc" id="L547">						System.out.println(&quot;时间为&quot;+year+&quot; &quot;+month+&quot; &quot;+day+&quot; &quot;+hour+&quot; &quot;+minite+&quot; &quot;+miao+</span>
+<span class="nc" id="L548">			    				&quot; 类型&quot;+type+&quot; 类方法为&quot;+classfun+&quot; 具体操作为&quot;+infomation);</span>
+					}
+					
+<span class="nc" id="L551">					break;</span>
+				case 5:
+<span class="nc bnc" id="L553" title="All 2 branches missed.">					if(line.contains(input3))</span>
+					{
+<span class="nc" id="L555">						System.out.println(&quot;时间为&quot;+year+&quot; &quot;+month+&quot; &quot;+day+&quot; &quot;+hour+&quot; &quot;+minite+&quot; &quot;+miao+</span>
+<span class="nc" id="L556">			    				&quot; 类型&quot;+type+&quot; 类方法为&quot;+classfun+&quot; 具体操作为&quot;+infomation);</span>
+					}
+<span class="nc" id="L558">					break;</span>
+					
+				default:
+<span class="nc" id="L561">					System.out.println(&quot;输入不合法，返回主函数&quot;);</span>
+					break;
+				}
+			}
+			
+<span class="nc" id="L566">		}</span>
+<span class="nc" id="L567">		catch (IOException e) {</span>
+<span class="nc" id="L568">        errorinfile ex = new errorinfile();</span>
+<span class="nc" id="L569">        ex.errorinfile1();</span>
+    }
+		
+		
+				
+<span class="nc" id="L574">	}</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.2.201808211720</span>test (3) (2019-5-19 15:10:37)</div></body></html>

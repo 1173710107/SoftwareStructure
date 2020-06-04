@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="zh"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../../../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../../../jacoco-resources/report.gif" type="image/gif"/><title>ConcreteVerticesGraphTest.java</title><link rel="stylesheet" href="../../../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../../../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../../../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../../../index.html" class="el_report">test (3) (2019-5-19 15:10:37)</a> &gt; <a href="../../index.html" class="el_group">Lab4-1173710107</a> &gt; <a href="../index.html" class="el_bundle">test</a> &gt; <a href="index.source.html" class="el_package">circularOrbit</a> &gt; <span class="el_source">ConcreteVerticesGraphTest.java</span></div><h1>ConcreteVerticesGraphTest.java</h1><pre class="source lang-java linenums">/* Copyright (c) 2015-2016 MIT 6.005 course staff, all rights reserved.
+ * Redistribution of original or derived work requires permission of course staff.
+ */
+package circularOrbit;
+
+import static org.junit.Assert.*;
+
+import java.util.Arrays;
+
+import org.junit.Test;
+
+/**
+ * Tests for ConcreteVerticesGraph.
+ * 
+ * This class runs the GraphInstanceTest tests against ConcreteVerticesGraph, as
+ * well as tests for that particular implementation.
+ * 
+ * Tests against the Graph spec should be in GraphInstanceTest.
+ */
+<span class="fc" id="L20">public class ConcreteVerticesGraphTest {</span>
+    
+
+    @Test
+    public void Test()
+    {
+<span class="fc" id="L26">    	Graph&lt;String&gt; test = new ConcreteVerticesGraph();</span>
+<span class="fc" id="L27">		test.add(&quot;first&quot;);</span>
+<span class="fc" id="L28">		test.add(&quot;second&quot;);</span>
+<span class="fc" id="L29">		test.add(&quot;third&quot;);</span>
+<span class="fc" id="L30">		test.add(&quot;fourth&quot;);</span>
+<span class="fc" id="L31">		test.add(&quot;fourth&quot;);</span>
+<span class="fc" id="L32">		System.out.println(&quot;&gt;&gt;After add four things.&quot;);</span>
+<span class="fc" id="L33">		assertTrue(test.vertices().contains(&quot;third&quot;));</span>
+<span class="fc" id="L34">		test.set(&quot;first&quot;, &quot;second&quot;, 1);</span>
+<span class="fc" id="L35">		test.set(&quot;first&quot;, &quot;third&quot;, 3);</span>
+<span class="fc" id="L36">		test.set(&quot;first&quot;, &quot;fourth&quot;, 4);</span>
+<span class="fc" id="L37">		test.set(&quot;second&quot;, &quot;third&quot;, 2);</span>
+<span class="fc" id="L38">		test.set(&quot;second&quot;, &quot;third&quot;,1);</span>
+<span class="fc" id="L39">		System.out.println(&quot;&gt;&gt;After add four edges.&quot;);</span>
+<span class="fc" id="L40">		assertEquals(3,test.targets(&quot;first&quot;).size());</span>
+<span class="fc" id="L41">		test.remove(&quot;first&quot;);</span>
+<span class="fc" id="L42">		System.out.println(&quot;&gt;&gt;remove the first.&quot;);</span>
+<span class="fc" id="L43">		assertEquals(1,test.sources(&quot;third&quot;).size());</span>
+<span class="fc" id="L44">		test.set(&quot;fifth&quot;, &quot;sixth&quot;, 5);</span>
+<span class="fc" id="L45">		test.set(&quot;fifth&quot;, &quot;sixth&quot;, 6);</span>
+<span class="fc" id="L46">		System.out.println(&quot;&gt;&gt;Add two vertexs while add edge.&quot;);</span>
+<span class="fc" id="L47">		assertEquals(5,test.vertices().size());</span>
+<span class="fc" id="L48">		test.set(&quot;second&quot;, &quot;third&quot;, 0);</span>
+<span class="fc" id="L49">		test.set(&quot;seventh&quot;, &quot;eighth&quot;,1);</span>
+<span class="fc" id="L50">		System.out.println(&quot;&gt;&gt;Remove an edge using set.&quot;); </span>
+<span class="fc" id="L51">		assertEquals(1,test.targets(&quot;fifth&quot;).size());</span>
+<span class="fc" id="L52">		assertFalse(test.remove(&quot;tenth&quot;));</span>
+<span class="fc" id="L53">		System.out.println(test);</span>
+<span class="fc" id="L54">    }</span>
+    // Testing strategy for ConcreteVerticesGraph.toString()
+    //   TODO
+    
+    // TODO tests for ConcreteVerticesGraph.toString()
+    
+    /*
+     * Testing Vertex...
+     */
+    
+    // Testing strategy for Vertex
+    //   TODO
+    
+    // TODO tests for operations of Vertex
+    
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.2.201808211720</span>test (3) (2019-5-19 15:10:37)</div></body></html>

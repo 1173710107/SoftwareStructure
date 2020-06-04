@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="zh"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../../../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../../../jacoco-resources/report.gif" type="image/gif"/><title>FriendshipGraph.java</title><link rel="stylesheet" href="../../../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../../../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../../../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../../../index.html" class="el_report">test (3) (2019-5-19 15:10:37)</a> &gt; <a href="../../index.html" class="el_group">Lab4-1173710107</a> &gt; <a href="../index.html" class="el_bundle">src</a> &gt; <a href="index.source.html" class="el_package">circularOrbit</a> &gt; <span class="el_source">FriendshipGraph.java</span></div><h1>FriendshipGraph.java</h1><pre class="source lang-java linenums">package circularOrbit;
+
+import centralObject.Person;
+import java.util.ArrayList;
+import java.util.Map;
+<span class="fc" id="L6">public class FriendshipGraph&lt;T&gt; {</span>
+<span class="fc" id="L7">	ConcreteVerticesGraph&lt;T&gt; graph= new ConcreteVerticesGraph&lt;T&gt;();</span>
+<span class="fc" id="L8">	ArrayList&lt;T&gt; visited = new ArrayList&lt;&gt;();</span>
+<span class="fc" id="L9">	int count=4;</span>
+<span class="fc" id="L10">	int dis=0;</span>
+	 /**
+     * 增加边
+     * 
+     * @param a边的开头
+     * @param b边的结尾
+     * @return 正常添加，返回1
+     */
+	int addEdge(T a,T b)
+	{
+<span class="fc" id="L20">		graph.set(a, b, 1);</span>
+<span class="fc" id="L21">		return 1;</span>
+	}
+	 /**
+     * 增加一个物体
+     * 
+     * @param 要增加的物体
+     * @return 正常添加返回1，添加失败返回-1
+     */
+	int addVertex(T a) {
+<span class="pc bpc" id="L30" title="1 of 2 branches missed.">		for(T temp:graph.vertices())</span>
+		{
+<span class="nc bnc" id="L32" title="All 2 branches missed.">			if(temp.equals(a))</span>
+			{
+<span class="nc" id="L34">				  System.out.println(&quot;该名字已经存在!&quot;);</span>
+<span class="nc" id="L35">				  return -1;</span>
+			}
+<span class="nc" id="L37">			graph.add(a);</span>
+		}
+<span class="fc" id="L39">		return 1;</span>
+	}
+	 /**
+     * 增加边
+     * 
+     * @param a 边的开头
+     * @param b 边的结尾
+     * @param val边的权重
+     */
+   void addEdge(T a,T b,int val)
+   {
+<span class="fc" id="L50">	   graph.set(a, b, val);</span>
+<span class="fc" id="L51">   }</span>
+	 /**
+    * 删除掉边
+    * 
+    * @param a 边的开头
+    * @param b 边的结尾
+    */
+   void removeEdge(T a,T b)
+   {
+<span class="nc" id="L60">	   graph.set(a, b, 0);</span>
+<span class="nc" id="L61">   }</span>
+<span class="fc" id="L62">   boolean flag = false;</span>
+	 /**
+    * 获取两点之间的长度
+    * 
+    * @param a 起始点
+    * @param b 终结点
+    * @return 获取两点之间的距离，如果失败的话，返回-1
+    */
+    int getDistance(T a,T b)
+    {
+<span class="fc" id="L72">    	count=3;</span>
+<span class="fc" id="L73">    	flag = false;</span>
+<span class="fc" id="L74">    	dis=0;</span>
+<span class="fc" id="L75">    	DFS(a,b);</span>
+<span class="fc bfc" id="L76" title="All 2 branches covered.">    	if(flag == false)</span>
+<span class="fc" id="L77">    		count = -1;</span>
+<span class="fc" id="L78">    	return count;</span>
+    }
+	 /**
+     * 深度优先搜索算法
+     * 
+     * @param a 搜索起点
+     * @param b 搜索终点
+     */
+	void DFS(T a,T b)
+	{
+<span class="fc bfc" id="L88" title="All 2 branches covered.">		if(dis&gt;count)</span>
+<span class="fc" id="L89">			return;</span>
+<span class="fc bfc" id="L90" title="All 2 branches covered.">		if(count == 1)</span>
+<span class="fc" id="L91">			return;</span>
+<span class="fc bfc" id="L92" title="All 2 branches covered.">		if(a.equals(b))</span>
+		{
+<span class="pc bpc" id="L94" title="1 of 2 branches missed.">			if(dis&lt;=count)</span>
+			{
+<span class="fc" id="L96">				count = dis;</span>
+<span class="fc" id="L97">				flag = true;</span>
+			}
+<span class="fc" id="L99">			return;</span>
+		}
+<span class="fc bfc" id="L101" title="All 2 branches covered.">		for(Map.Entry&lt;T, Integer&gt; temp : graph.targets(a).entrySet())</span>
+		{
+<span class="fc bfc" id="L103" title="All 2 branches covered.">			if(visited.contains(temp.getKey())==false)</span>
+			{
+<span class="fc" id="L105">				visited.add(temp.getKey());</span>
+<span class="fc" id="L106">				dis++;</span>
+<span class="fc" id="L107">				DFS(temp.getKey(),b);</span>
+<span class="fc" id="L108">				dis--;</span>
+<span class="fc" id="L109">				visited.remove(temp.getKey());</span>
+			}
+		}
+<span class="fc" id="L112">	}</span>
+	@Override
+	public String toString()
+	{
+<span class="fc" id="L116">		return graph.toString();</span>
+	}
+  /* public static void main(String args[]) {
+	   FriendshipGraph&lt;Person&gt; graph = new FriendshipGraph&lt;Person&gt;();
+	   Person rachel = new Person(&quot;Rachel&quot;);
+	   Person ross = new Person(&quot;Ross&quot;);
+	   Person ben = new Person(&quot;Ben&quot;);
+	   Person kramer = new Person(&quot;Kramer&quot;);
+	   Person kramer2 = new Person(&quot;Kramer&quot;);
+	   graph.addVertex(rachel);
+	   graph.addVertex(ross);
+	   graph.addVertex(ben);
+	   graph.addVertex(kramer);
+	   graph.addVertex(kramer2);
+	   graph.addEdge(rachel, ross,2);
+	   graph.addEdge(ross, rachel,2);
+	   graph.addEdge(ross, ben,2);
+	   graph.addEdge(ben, ross,2);
+	   System.out.println(graph.toString());
+	   System.out.println(graph.getDistance(rachel, ross)); 
+	   System.out.println(graph.getDistance(rachel, ben)); 
+	  System.out.println(graph.getDistance(rachel, rachel)); 
+	   System.out.println(graph.getDistance(rachel, kramer)); 
+
+   }*/
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.2.201808211720</span>test (3) (2019-5-19 15:10:37)</div></body></html>

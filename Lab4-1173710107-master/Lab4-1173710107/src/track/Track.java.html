@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="zh"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../../../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../../../jacoco-resources/report.gif" type="image/gif"/><title>Track.java</title><link rel="stylesheet" href="../../../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../../../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../../../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../../../index.html" class="el_report">test (3) (2019-5-19 15:10:37)</a> &gt; <a href="../../index.html" class="el_group">Lab4-1173710107</a> &gt; <a href="../index.html" class="el_bundle">src</a> &gt; <a href="index.source.html" class="el_package">track</a> &gt; <span class="el_source">Track.java</span></div><h1>Track.java</h1><pre class="source lang-java linenums">package track;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+import java.util.TreeMap;
+
+import com.google.common.collect.ImmutableMap;
+
+public class Track&lt;E&gt;
+{
+<span class="fc" id="L12">	private Map&lt;Double,E&gt; objects = new TreeMap&lt;Double,E&gt;();</span>
+<span class="fc" id="L13">	private double defpos = -1;</span>
+<span class="fc" id="L14">	private double size = 0;</span>
+	private String name;
+	 /**
+     * 删除轨道上的所有物体
+     * AF:轨道物体清空
+     * RI:true
+     * immutable
+     */
+	public void emptyAll()
+	{
+<span class="fc" id="L24">		objects.clear();</span>
+<span class="fc" id="L25">	}</span>
+	 /**
+     * 构造器
+     * @param name轨道的名字
+     * @param size轨道的大小
+     * AF:新建track
+     * RI:size&gt;0
+     * immutable
+     */
+<span class="fc" id="L34">	public Track (String name,double size) {</span>
+<span class="fc" id="L35">		this.size = size;</span>
+<span class="fc" id="L36">		this.name = name;</span>
+<span class="fc" id="L37">	}</span>
+	 /**
+     * 判断是否包含该物体
+     * @param 判断该轨道是否包含的物体obj
+     * @return 如果包含返回true，不包含返回false
+     * AF:轨道是否包含，就是immutablemap是否包含
+     * RI:true
+     * immutable
+     */
+	public boolean contains(E obj)
+	{
+<span class="fc" id="L48">		return objects.values().contains(obj);</span>
+	}
+	 /**
+     * 判断该轨道有多少物体
+     * @return 返回该轨道上物体的数量
+     * AF:轨道物体数量，对应于immutablemap中的元素个数
+     * RI:true
+     * immutable
+     */
+	public int howMany()
+	{
+<span class="fc" id="L59">		return objects.size();</span>
+	}
+	 /**
+     * 判断该物体在轨道的那个角度
+     * @param 被判断的额物体obj
+     * @return 返回该轨道的角度，其他情况返回361
+     * AF:对应于寻找该物体在set中的key
+     * RI:true
+     * immutable
+     */
+	public double angleOf(E obj)
+	{
+<span class="fc" id="L71">        Set&lt;Double&gt; keys = objects.keySet();</span>
+<span class="pc bpc" id="L72" title="1 of 2 branches missed.">        for(Double a:keys)</span>
+        {
+<span class="pc bpc" id="L74" title="1 of 2 branches missed.">        	if(objects.get(a).equals(obj))</span>
+        	{
+<span class="fc" id="L76">        	   return a;</span>
+        	}
+        }
+<span class="nc" id="L79">        return 361.0;</span>
+	}
+	 /**
+     * 重新改变该轨道的大小
+     * 
+     * @param 该轨道的size
+     * AF:重置size
+     * RI:size&gt;0
+     * immutable
+     */
+	public void resize(double size)
+	{
+<span class="nc" id="L91">		this.size = size;</span>
+<span class="nc" id="L92">	}</span>
+	 /**
+     * 对该轨道进行重新命名
+     * @param 重新命名的名字name
+     * AF:重新赋值name
+     * RI:true
+     * immutable
+     */
+	public void rename(String name)
+	{
+<span class="fc" id="L102">		this.name = name;</span>
+<span class="fc" id="L103">	}</span>
+	 /**
+     * 轨道增加物体，但是不给坐标
+     * @param 增加的物体obj
+     * AF:objects添加
+     * RI:true
+     * immutable
+     */
+	public void add(E obj)
+	{
+<span class="fc" id="L113">		objects.put(defpos--,obj);</span>
+<span class="fc" id="L114">	}</span>
+	 /**
+     * 在轨道上增加物体和位置
+     * @param 增加的物体obj
+     * @param 物体的坐标位置pos
+     * AF:添加到objects中
+     * RI:pos&gt;0 pos&lt;361
+     * immutable
+     */
+	public void add(E obj,double pos)
+	{
+<span class="fc" id="L125">        Set&lt;Double&gt; keys = objects.keySet();</span>
+<span class="fc bfc" id="L126" title="All 2 branches covered.">        if(keys.contains(pos))</span>
+        {
+<span class="fc" id="L128">        	System.out.println(&quot;Already exists&quot;);</span>
+<span class="fc" id="L129">        	return;</span>
+        }
+<span class="fc" id="L131">		objects.put(pos,obj);</span>
+<span class="fc" id="L132">	}</span>
+	 /**
+     * 删除轨道上的物体
+     * @param 要删除的物体obj
+     * @return 如果删除成功，返回删除的物体，删除失败返回null
+     * AF:在objects中删除掉
+     * RI:true
+     * immutable
+     */
+	public E remove(E obj)
+	{
+<span class="fc" id="L143">		Double todispose = -1.0;</span>
+<span class="fc" id="L144">		boolean flag = false;</span>
+		E ret;
+<span class="fc" id="L146">        Set&lt;Double&gt; keys = objects.keySet();</span>
+<span class="pc bpc" id="L147" title="1 of 2 branches missed.">        for(Double a:keys)</span>
+        {
+<span class="fc bfc" id="L149" title="All 2 branches covered.">        	if(objects.get(a).equals(obj))</span>
+        	{
+<span class="fc" id="L151">        	todispose = a;</span>
+<span class="fc" id="L152">        	flag = true;</span>
+<span class="fc" id="L153">        	break;</span>
+        	}
+        }
+<span class="pc bpc" id="L156" title="1 of 2 branches missed.">        if(flag==true)</span>
+        {
+<span class="fc" id="L158">        	ret = objects.get(todispose);</span>
+<span class="fc" id="L159">        	objects.remove(todispose);</span>
+<span class="fc" id="L160">        	return ret;</span>
+        }
+<span class="nc" id="L162">        return null;</span>
+	}
+	 /**
+     * 获取该轨道的size
+     * @return 返回该轨道的size
+     * AF:返回size
+     * RI:true
+     * immutable
+     */
+	public double getsize()
+	{
+<span class="fc" id="L173">		return this.size;</span>
+	}
+	 /**
+     * 移动该轨道上的物体到另一个位置
+     * @param 被移动的物体obj
+     * @param 移动到的位置pos
+     * @return 成功的话，返回true，否则返回false
+     * AF:删除重新put到objects
+     * RI:pos&gt;0 pos&lt;361
+     * immutable
+     */
+	public boolean changePos(E obj,Double pos)
+	{
+<span class="fc" id="L186">		Double todispose = -1.0;</span>
+<span class="fc" id="L187">		boolean flag = false;</span>
+<span class="fc" id="L188">        Set&lt;Double&gt; keys = objects.keySet();</span>
+<span class="fc bfc" id="L189" title="All 2 branches covered.">        if(keys.contains(pos))</span>
+        {
+<span class="fc" id="L191">        	System.out.println(&quot;该轨道该位置上面已经存在物体！！！&quot;);</span>
+<span class="fc" id="L192">        	return false;</span>
+        }
+<span class="pc bpc" id="L194" title="1 of 2 branches missed.">        for(Double a:keys)</span>
+        {
+<span class="fc bfc" id="L196" title="All 2 branches covered.">          	if(objects.get(a).equals(obj))</span>
+          	{
+<span class="fc" id="L198">        	todispose = a;</span>
+<span class="fc" id="L199">        	flag = true;</span>
+<span class="fc" id="L200">        	break;</span>
+          	}
+        }
+<span class="pc bpc" id="L203" title="1 of 2 branches missed.">        if(flag==true)</span>
+        {
+<span class="fc" id="L205">        	objects.remove(todispose);</span>
+<span class="fc" id="L206">        	objects.put(pos, obj);</span>
+        }
+<span class="fc" id="L208">        return flag;</span>
+	}
+	 /**
+     * 获取一个包括该轨道上的所有元素的list
+     * @return 该轨道上的所有元素的list
+     * AF:返回list
+     * RI:true
+     * immutable
+     */
+	public ArrayList&lt;E&gt; allElements()
+	{
+<span class="fc" id="L219">		return new ArrayList&lt;E&gt;(this.objects.values());</span>
+	}
+	 /**
+     * 获取该轨道的name
+     * @return 返回该轨道的name
+     * AF:返回name
+     * RI:true
+     * immutable
+     */
+	public String getname()
+	{
+<span class="nc" id="L230">		return this.name;</span>
+	}
+	@Override
+	public int hashCode() {
+<span class="nc" id="L234">		final int prime = 31;</span>
+<span class="nc" id="L235">		int result = 1;</span>
+<span class="nc bnc" id="L236" title="All 2 branches missed.">		result = prime * result + ((name == null) ? 0 : name.hashCode());</span>
+<span class="nc" id="L237">		return result;</span>
+	}
+	@Override
+	public boolean equals(Object obj) {
+<span class="fc bfc" id="L241" title="All 2 branches covered.">		if (this == obj)</span>
+<span class="fc" id="L242">			return true;</span>
+<span class="pc bpc" id="L243" title="1 of 2 branches missed.">		if (obj == null)</span>
+<span class="nc" id="L244">			return false;</span>
+<span class="pc bpc" id="L245" title="1 of 2 branches missed.">		if (getClass() != obj.getClass())</span>
+<span class="nc" id="L246">			return false;</span>
+<span class="fc" id="L247">		Track other =  (Track)obj;</span>
+<span class="pc bpc" id="L248" title="1 of 2 branches missed.">		if (name == null) {</span>
+<span class="nc bnc" id="L249" title="All 2 branches missed.">			if (other.name != null)</span>
+<span class="nc" id="L250">				return false;</span>
+<span class="fc bfc" id="L251" title="All 2 branches covered.">		} else if (!name.equals(other.name))</span>
+<span class="fc" id="L252">			return false;</span>
+<span class="fc" id="L253">		return true;</span>
+	}
+	@Override
+	public String toString() {
+<span class="fc bfc" id="L257" title="All 2 branches covered.">		if(size!=0)</span>
+		{
+<span class="fc" id="L259">		StringBuilder a = new StringBuilder();</span>
+<span class="fc" id="L260">		a.append(&quot;-------------------------------------------------\n&quot;);</span>
+<span class="fc" id="L261">		a.append(&quot;NAME: &quot;+name+&quot; SIZE: &quot;+size+&quot;:\n&quot;);</span>
+<span class="fc" id="L262">		Set&lt;Double&gt; keys = objects.keySet();</span>
+<span class="fc bfc" id="L263" title="All 2 branches covered.">	        for(Double temp:keys)</span>
+	        {
+<span class="fc bfc" id="L265" title="All 2 branches covered.">	        	if(temp&lt;0)</span>
+	        	{
+<span class="fc" id="L267">	        		a.append(objects.get(temp)+&quot;\n&quot;);</span>
+<span class="fc" id="L268">	        	}</span>
+	        	else
+	        	{
+<span class="fc" id="L271">	        		a.append(objects.get(temp)+&quot; on &quot;+temp+&quot;\n&quot;);</span>
+	        	}
+	      }
+<span class="fc" id="L274">		return a.toString();</span>
+		}
+		else
+<span class="fc" id="L277">			return &quot;&quot;;</span>
+	}
+	 /**
+     * 获取该轨道的所有信息
+     * @return 一个包含轨道所有信息的string
+     */
+	public String singleLinetoString() {
+<span class="fc bfc" id="L284" title="All 2 branches covered.">		if(size!=0)</span>
+		{
+<span class="fc" id="L286">		StringBuilder a = new StringBuilder();</span>
+<span class="fc" id="L287">		a.append(&quot;\n&quot;);</span>
+<span class="fc" id="L288">		a.append(name);</span>
+<span class="fc" id="L289">		Set&lt;Double&gt; keys = objects.keySet();</span>
+<span class="fc bfc" id="L290" title="All 2 branches covered.">	        for(Double temp:keys)</span>
+	        {
+<span class="pc bpc" id="L292" title="1 of 2 branches missed.">	        	if(temp&lt;0)</span>
+	        	{
+<span class="fc" id="L294">	        		a.append(objects.get(temp)+&quot; &quot;);</span>
+<span class="fc" id="L295">	        	}</span>
+	        	else
+	        	{
+<span class="nc" id="L298">	        		a.append(objects.get(temp)+&quot; on &quot;+temp+&quot; &quot;);</span>
+	        	}
+	      }
+<span class="fc" id="L301">		return a.toString();</span>
+		}
+		else
+<span class="fc" id="L304">			return &quot;&quot;;</span>
+	}
+    /*public static void main(String[] args)
+    {
+    	Track&lt;String&gt; a = new Track&lt;String&gt;(&quot;default&quot;,10);
+    	a.add(&quot;thing1&quot;);
+    	a.add(&quot;thing2&quot;);
+    	a.add(&quot;thing20&quot;,20.22);
+    	a.add(&quot;thing5&quot;,5);
+    	a.add(&quot;thing14&quot;,14);
+    	a.add(&quot;thing100&quot;,100);
+    	a.add(&quot;thing18&quot;,18);
+    	System.out.println(a.contains(&quot;thing1&quot;));
+    	System.out.println(a.contains(&quot;thing11&quot;));
+    	System.out.println(a);
+    	a.remove(&quot;thing20&quot;);
+    	System.out.println(a);
+    	a.changePos(&quot;thing18&quot;, 14.0);
+    	a.changePos(&quot;thing14&quot;, 15.0);
+    	System.out.println(a);
+    	a.add(&quot;thing12&quot;,15.0);
+    	a.add(&quot;thing3&quot;);
+    	a.add(&quot;thing55&quot;);
+    	a.add(&quot;thing55&quot;, 25.0);
+    	
+    }*/
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.2.201808211720</span>test (3) (2019-5-19 15:10:37)</div></body></html>

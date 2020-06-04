@@ -1,0 +1,1135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.0.0-beta1" sequence="2" timestamp="1558250120257" analysisTimestamp="1558250100393" release="">
+  <Project projectName="Lab4-1173710107">
+    <Jar>D:\eclipse\Lab4-1173710107\bin</Jar>
+    <AuxClasspathEntry>D:\eclipse\Lab4-1173710107\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\&#26032;&#24314;&#25991;&#20214;&#22841;\eclipse-jee-oxygen-3-win32\eclipse\plugins\org.junit.jupiter.api_5.0.0.v20170910-2246.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\&#26032;&#24314;&#25991;&#20214;&#22841;\eclipse-jee-oxygen-3-win32\eclipse\plugins\org.junit.jupiter.engine_5.0.0.v20170910-2246.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\&#26032;&#24314;&#25991;&#20214;&#22841;\eclipse-jee-oxygen-3-win32\eclipse\plugins\org.junit.jupiter.migrationsupport_5.0.0.v20170910-2246.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\&#26032;&#24314;&#25991;&#20214;&#22841;\eclipse-jee-oxygen-3-win32\eclipse\plugins\org.junit.jupiter.params_5.0.0.v20170910-2246.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\&#26032;&#24314;&#25991;&#20214;&#22841;\eclipse-jee-oxygen-3-win32\eclipse\plugins\org.junit.platform.commons_1.0.0.v20170910-2246.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\&#26032;&#24314;&#25991;&#20214;&#22841;\eclipse-jee-oxygen-3-win32\eclipse\plugins\org.junit.platform.engine_1.0.0.v20170910-2246.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\&#26032;&#24314;&#25991;&#20214;&#22841;\eclipse-jee-oxygen-3-win32\eclipse\plugins\org.junit.platform.launcher_1.0.0.v20170910-2246.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\&#26032;&#24314;&#25991;&#20214;&#22841;\eclipse-jee-oxygen-3-win32\eclipse\plugins\org.junit.platform.runner_1.0.0.v20170910-2246.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\&#26032;&#24314;&#25991;&#20214;&#22841;\eclipse-jee-oxygen-3-win32\eclipse\plugins\org.junit.platform.suite.api_1.0.0.v20170910-2246.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\&#26032;&#24314;&#25991;&#20214;&#22841;\eclipse-jee-oxygen-3-win32\eclipse\plugins\org.junit.vintage.engine_4.12.0.v20170910-2246.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\&#26032;&#24314;&#25991;&#20214;&#22841;\eclipse-jee-oxygen-3-win32\eclipse\plugins\org.opentest4j_1.0.0.v20170910-2246.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\&#26032;&#24314;&#25991;&#20214;&#22841;\eclipse-jee-oxygen-3-win32\eclipse\plugins\org.apiguardian_1.0.0.v20170910-2246.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\&#26032;&#24314;&#25991;&#20214;&#22841;\eclipse-jee-oxygen-3-win32\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\&#26032;&#24314;&#25991;&#20214;&#22841;\eclipse-jee-oxygen-3-win32\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Administrator\Desktop\guava-18.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Administrator\Desktop\fb-contrib-7.4.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Administrator\Desktop\findsecbugs-plugin-1.9.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Administrator\Desktop\apache-log4j-1.2.17\log4j-1.2.17.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jre1.8.0_201\lib\rt.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jre1.8.0_201\lib\jce.jar</AuxClasspathEntry>
+    <SrcDir>D:\eclipse\Lab4-1173710107\src</SrcDir>
+    <SrcDir>D:\eclipse\Lab4-1173710107\test</SrcDir>
+  </Project>
+  <BugInstance type="S508C_NO_SETSIZE" priority="2" rank="7" abbrev="S508C" category="CORRECTNESS" first="1" last="1" removedByChange="true">
+    <Class classname="APIs.Picture">
+      <SourceLine classname="APIs.Picture" sourcefile="Picture.java" sourcepath="APIs/Picture.java"/>
+    </Class>
+    <Method classname="APIs.Picture" name="draw" signature="()V" isStatic="false">
+      <SourceLine classname="APIs.Picture" start="45" end="48" startBytecode="0" endBytecode="76" sourcefile="Picture.java" sourcepath="APIs/Picture.java"/>
+    </Method>
+    <SourceLine classname="APIs.Picture" start="46" end="46" startBytecode="14" endBytecode="14" sourcefile="Picture.java" sourcepath="APIs/Picture.java"/>
+  </BugInstance>
+  <BugInstance type="CC_CYCLOMATIC_COMPLEXITY" priority="2" rank="19" abbrev="CC" category="STYLE" first="1">
+    <Class classname="applications.Main">
+      <SourceLine classname="applications.Main" sourcefile="Main.java" sourcepath="applications/Main.java"/>
+    </Class>
+    <Method classname="applications.Main" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="applications.Main" start="24" end="291" startBytecode="0" endBytecode="3140" sourcefile="Main.java" sourcepath="applications/Main.java"/>
+    </Method>
+    <SourceLine classname="applications.Main" start="24" end="24" startBytecode="0" endBytecode="0" sourcefile="Main.java" sourcepath="applications/Main.java"/>
+    <Int value="67"/>
+  </BugInstance>
+  <BugInstance type="CC_CYCLOMATIC_COMPLEXITY" priority="2" rank="19" abbrev="CC" category="STYLE" first="1">
+    <Class classname="applications.Main">
+      <SourceLine classname="applications.Main" sourcefile="Main.java" sourcepath="applications/Main.java"/>
+    </Class>
+    <Method classname="applications.Main" name="searchlog" signature="()V" isStatic="true">
+      <SourceLine classname="applications.Main" start="295" end="574" startBytecode="0" endBytecode="3496" sourcefile="Main.java" sourcepath="applications/Main.java"/>
+    </Method>
+    <SourceLine classname="applications.Main" start="295" end="295" startBytecode="0" endBytecode="0" sourcefile="Main.java" sourcepath="applications/Main.java"/>
+    <Int value="58"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="applications.Main">
+      <SourceLine classname="applications.Main" sourcefile="Main.java" sourcepath="applications/Main.java"/>
+    </Class>
+    <Method classname="applications.Main" name="&lt;clinit&gt;" signature="()V" isStatic="true">
+      <SourceLine classname="applications.Main" start="22" end="22" startBytecode="0" endBytecode="45" sourcefile="Main.java" sourcepath="applications/Main.java"/>
+    </Method>
+    <Method classname="java.util.Scanner" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.Scanner"/>
+    </Method>
+    <SourceLine classname="applications.Main" start="22" end="22" startBytecode="7" endBytecode="7" sourcefile="Main.java" sourcepath="applications/Main.java"/>
+    <SourceLine classname="applications.Main" start="22" end="22" startBytecode="7" endBytecode="7" sourcefile="Main.java" sourcepath="applications/Main.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="applications.Main">
+      <SourceLine classname="applications.Main" sourcefile="Main.java" sourcepath="applications/Main.java"/>
+    </Class>
+    <Method classname="applications.Main" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="applications.Main" start="24" end="291" startBytecode="0" endBytecode="3140" sourcefile="Main.java" sourcepath="applications/Main.java"/>
+    </Method>
+    <Method classname="java.util.Scanner" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.Scanner"/>
+    </Method>
+    <SourceLine classname="applications.Main" start="210" end="210" startBytecode="1091" endBytecode="1091" sourcefile="Main.java" sourcepath="applications/Main.java"/>
+    <SourceLine classname="applications.Main" start="210" end="210" startBytecode="1091" endBytecode="1091" sourcefile="Main.java" sourcepath="applications/Main.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="applications.Main">
+      <SourceLine classname="applications.Main" sourcefile="Main.java" sourcepath="applications/Main.java"/>
+    </Class>
+    <Method classname="applications.Main" name="searchlog" signature="()V" isStatic="true">
+      <SourceLine classname="applications.Main" start="295" end="574" startBytecode="0" endBytecode="3496" sourcefile="Main.java" sourcepath="applications/Main.java"/>
+    </Method>
+    <Method classname="java.io.FileReader" name="&lt;init&gt;" signature="(Ljava/lang/String;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.FileReader"/>
+    </Method>
+    <SourceLine classname="applications.Main" start="303" end="303" startBytecode="56" endBytecode="56" sourcefile="Main.java" sourcepath="applications/Main.java"/>
+    <SourceLine classname="applications.Main" start="303" end="303" startBytecode="56" endBytecode="56" sourcefile="Main.java" sourcepath="applications/Main.java"/>
+  </BugInstance>
+  <BugInstance type="DM_STRING_CTOR" priority="2" rank="18" abbrev="Dm" category="PERFORMANCE" first="1">
+    <Class classname="applications.Main">
+      <SourceLine classname="applications.Main" sourcefile="Main.java" sourcepath="applications/Main.java"/>
+    </Class>
+    <Method classname="applications.Main" name="searchlog" signature="()V" isStatic="true">
+      <SourceLine classname="applications.Main" start="295" end="574" startBytecode="0" endBytecode="3496" sourcefile="Main.java" sourcepath="applications/Main.java"/>
+    </Method>
+    <SourceLine classname="applications.Main" start="490" end="490" startBytecode="894" endBytecode="894" sourcefile="Main.java" sourcepath="applications/Main.java"/>
+    <SourceLine classname="applications.Main" start="490" end="490" startBytecode="894" endBytecode="894" sourcefile="Main.java" sourcepath="applications/Main.java"/>
+  </BugInstance>
+  <BugInstance type="OS_OPEN_STREAM" priority="2" rank="16" abbrev="OS" category="BAD_PRACTICE" first="1">
+    <Class classname="applications.Main">
+      <SourceLine classname="applications.Main" sourcefile="Main.java" sourcepath="applications/Main.java"/>
+    </Class>
+    <Method classname="applications.Main" name="searchlog" signature="()V" isStatic="true">
+      <SourceLine classname="applications.Main" start="295" end="574" startBytecode="0" endBytecode="768" sourcefile="Main.java" sourcepath="applications/Main.java"/>
+    </Method>
+    <Type descriptor="Ljava/io/Reader;" role="TYPE_CLOSEIT">
+      <SourceLine classname="java.io.Reader"/>
+    </Type>
+    <SourceLine classname="applications.Main" start="303" end="303" startBytecode="45" endBytecode="45" sourcefile="Main.java" sourcepath="applications/Main.java"/>
+    <SourceLine classname="applications.Main" start="303" end="303" startBytecode="45" endBytecode="45" sourcefile="Main.java" sourcepath="applications/Main.java"/>
+  </BugInstance>
+  <BugInstance type="UCPM_USE_CHARACTER_PARAMETERIZED_METHOD" priority="2" rank="18" abbrev="UCPM" category="PERFORMANCE" first="1">
+    <Class classname="applications.Main">
+      <SourceLine classname="applications.Main" sourcefile="Main.java" sourcepath="applications/Main.java"/>
+    </Class>
+    <Method classname="applications.Main" name="searchlog" signature="()V" isStatic="true">
+      <SourceLine classname="applications.Main" start="295" end="574" startBytecode="0" endBytecode="3496" sourcefile="Main.java" sourcepath="applications/Main.java"/>
+    </Method>
+    <SourceLine classname="applications.Main" start="386" end="386" startBytecode="323" endBytecode="323" sourcefile="Main.java" sourcepath="applications/Main.java"/>
+  </BugInstance>
+  <BugInstance type="UCPM_USE_CHARACTER_PARAMETERIZED_METHOD" priority="2" rank="18" abbrev="UCPM" category="PERFORMANCE" first="1">
+    <Class classname="applications.Main">
+      <SourceLine classname="applications.Main" sourcefile="Main.java" sourcepath="applications/Main.java"/>
+    </Class>
+    <Method classname="applications.Main" name="searchlog" signature="()V" isStatic="true">
+      <SourceLine classname="applications.Main" start="295" end="574" startBytecode="0" endBytecode="3496" sourcefile="Main.java" sourcepath="applications/Main.java"/>
+    </Method>
+    <SourceLine classname="applications.Main" start="408" end="408" startBytecode="465" endBytecode="465" sourcefile="Main.java" sourcepath="applications/Main.java"/>
+  </BugInstance>
+  <BugInstance type="UCPM_USE_CHARACTER_PARAMETERIZED_METHOD" priority="2" rank="18" abbrev="UCPM" category="PERFORMANCE" first="1">
+    <Class classname="applications.Main">
+      <SourceLine classname="applications.Main" sourcefile="Main.java" sourcepath="applications/Main.java"/>
+    </Class>
+    <Method classname="applications.Main" name="searchlog" signature="()V" isStatic="true">
+      <SourceLine classname="applications.Main" start="295" end="574" startBytecode="0" endBytecode="3496" sourcefile="Main.java" sourcepath="applications/Main.java"/>
+    </Method>
+    <SourceLine classname="applications.Main" start="417" end="417" startBytecode="494" endBytecode="494" sourcefile="Main.java" sourcepath="applications/Main.java"/>
+  </BugInstance>
+  <BugInstance type="UCPM_USE_CHARACTER_PARAMETERIZED_METHOD" priority="2" rank="18" abbrev="UCPM" category="PERFORMANCE" first="1">
+    <Class classname="applications.Main">
+      <SourceLine classname="applications.Main" sourcefile="Main.java" sourcepath="applications/Main.java"/>
+    </Class>
+    <Method classname="applications.Main" name="searchlog" signature="()V" isStatic="true">
+      <SourceLine classname="applications.Main" start="295" end="574" startBytecode="0" endBytecode="3496" sourcefile="Main.java" sourcepath="applications/Main.java"/>
+    </Method>
+    <SourceLine classname="applications.Main" start="423" end="423" startBytecode="511" endBytecode="511" sourcefile="Main.java" sourcepath="applications/Main.java"/>
+  </BugInstance>
+  <BugInstance type="UCPM_USE_CHARACTER_PARAMETERIZED_METHOD" priority="2" rank="18" abbrev="UCPM" category="PERFORMANCE" first="1">
+    <Class classname="applications.Main">
+      <SourceLine classname="applications.Main" sourcefile="Main.java" sourcepath="applications/Main.java"/>
+    </Class>
+    <Method classname="applications.Main" name="searchlog" signature="()V" isStatic="true">
+      <SourceLine classname="applications.Main" start="295" end="574" startBytecode="0" endBytecode="3496" sourcefile="Main.java" sourcepath="applications/Main.java"/>
+    </Method>
+    <SourceLine classname="applications.Main" start="455" end="455" startBytecode="609" endBytecode="609" sourcefile="Main.java" sourcepath="applications/Main.java"/>
+  </BugInstance>
+  <BugInstance type="UCPM_USE_CHARACTER_PARAMETERIZED_METHOD" priority="2" rank="18" abbrev="UCPM" category="PERFORMANCE" first="1">
+    <Class classname="applications.Main">
+      <SourceLine classname="applications.Main" sourcefile="Main.java" sourcepath="applications/Main.java"/>
+    </Class>
+    <Method classname="applications.Main" name="searchlog" signature="()V" isStatic="true">
+      <SourceLine classname="applications.Main" start="295" end="574" startBytecode="0" endBytecode="3496" sourcefile="Main.java" sourcepath="applications/Main.java"/>
+    </Method>
+    <SourceLine classname="applications.Main" start="514" end="514" startBytecode="1256" endBytecode="1256" sourcefile="Main.java" sourcepath="applications/Main.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" first="1">
+    <Class classname="centralObject.Person">
+      <SourceLine classname="centralObject.Person" sourcefile="Person.java" sourcepath="centralObject/Person.java"/>
+    </Class>
+    <Field classname="centralObject.Person" name="Name" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="centralObject.Person" sourcefile="Person.java" sourcepath="centralObject/Person.java"/>
+    </Field>
+    <SourceLine classname="centralObject.Person" start="13" end="13" startBytecode="6" endBytecode="6" sourcefile="Person.java" sourcepath="centralObject/Person.java"/>
+  </BugInstance>
+  <BugInstance type="CC_CYCLOMATIC_COMPLEXITY" priority="2" rank="19" abbrev="CC" category="STYLE" first="1">
+    <Class classname="circularOrbit.AtomStructure">
+      <SourceLine classname="circularOrbit.AtomStructure" sourcefile="AtomStructure.java" sourcepath="circularOrbit/AtomStructure.java"/>
+    </Class>
+    <Method classname="circularOrbit.AtomStructure" name="Analysis" signature="()V" isStatic="false">
+      <SourceLine classname="circularOrbit.AtomStructure" start="93" end="390" startBytecode="0" endBytecode="3085" sourcefile="AtomStructure.java" sourcepath="circularOrbit/AtomStructure.java"/>
+    </Method>
+    <SourceLine classname="circularOrbit.AtomStructure" start="93" end="93" startBytecode="0" endBytecode="0" sourcefile="AtomStructure.java" sourcepath="circularOrbit/AtomStructure.java"/>
+    <Int value="74"/>
+  </BugInstance>
+  <BugInstance type="DM_BOXED_PRIMITIVE_FOR_PARSING" priority="1" rank="16" abbrev="Bx" category="PERFORMANCE" first="1">
+    <Class classname="circularOrbit.AtomStructure">
+      <SourceLine classname="circularOrbit.AtomStructure" sourcefile="AtomStructure.java" sourcepath="circularOrbit/AtomStructure.java"/>
+    </Class>
+    <Method classname="circularOrbit.AtomStructure" name="Analysis" signature="()V" isStatic="false">
+      <SourceLine classname="circularOrbit.AtomStructure" start="93" end="390" startBytecode="0" endBytecode="3085" sourcefile="AtomStructure.java" sourcepath="circularOrbit/AtomStructure.java"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="intValue" signature="()I" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.Integer"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="parseInt" signature="(Ljava/lang/String;)I" isStatic="true" role="SHOULD_CALL"/>
+    <SourceLine classname="circularOrbit.AtomStructure" start="107" end="107" startBytecode="78" endBytecode="78" sourcefile="AtomStructure.java" sourcepath="circularOrbit/AtomStructure.java"/>
+    <SourceLine classname="circularOrbit.AtomStructure" start="107" end="107" startBytecode="78" endBytecode="78" sourcefile="AtomStructure.java" sourcepath="circularOrbit/AtomStructure.java"/>
+  </BugInstance>
+  <BugInstance type="LSC_LITERAL_STRING_COMPARISON" priority="1" rank="17" abbrev="LSC" category="STYLE" first="1">
+    <Class classname="circularOrbit.AtomStructure">
+      <SourceLine classname="circularOrbit.AtomStructure" sourcefile="AtomStructure.java" sourcepath="circularOrbit/AtomStructure.java"/>
+    </Class>
+    <Method classname="circularOrbit.AtomStructure" name="Analysis" signature="()V" isStatic="false">
+      <SourceLine classname="circularOrbit.AtomStructure" start="93" end="390" startBytecode="0" endBytecode="3085" sourcefile="AtomStructure.java" sourcepath="circularOrbit/AtomStructure.java"/>
+    </Method>
+    <SourceLine classname="circularOrbit.AtomStructure" start="175" end="175" startBytecode="421" endBytecode="421" sourcefile="AtomStructure.java" sourcepath="circularOrbit/AtomStructure.java"/>
+  </BugInstance>
+  <BugInstance type="LSC_LITERAL_STRING_COMPARISON" priority="1" rank="17" abbrev="LSC" category="STYLE" first="1">
+    <Class classname="circularOrbit.AtomStructure">
+      <SourceLine classname="circularOrbit.AtomStructure" sourcefile="AtomStructure.java" sourcepath="circularOrbit/AtomStructure.java"/>
+    </Class>
+    <Method classname="circularOrbit.AtomStructure" name="Analysis" signature="()V" isStatic="false">
+      <SourceLine classname="circularOrbit.AtomStructure" start="93" end="390" startBytecode="0" endBytecode="3085" sourcefile="AtomStructure.java" sourcepath="circularOrbit/AtomStructure.java"/>
+    </Method>
+    <SourceLine classname="circularOrbit.AtomStructure" start="315" end="315" startBytecode="1122" endBytecode="1122" sourcefile="AtomStructure.java" sourcepath="circularOrbit/AtomStructure.java"/>
+  </BugInstance>
+  <BugInstance type="NAB_NEEDLESS_BOXING_PARSE" priority="2" rank="18" abbrev="NAB" category="PERFORMANCE" first="1">
+    <Class classname="circularOrbit.AtomStructure">
+      <SourceLine classname="circularOrbit.AtomStructure" sourcefile="AtomStructure.java" sourcepath="circularOrbit/AtomStructure.java"/>
+    </Class>
+    <Method classname="circularOrbit.AtomStructure" name="Analysis" signature="()V" isStatic="false">
+      <SourceLine classname="circularOrbit.AtomStructure" start="93" end="390" startBytecode="0" endBytecode="3085" sourcefile="AtomStructure.java" sourcepath="circularOrbit/AtomStructure.java"/>
+    </Method>
+    <SourceLine classname="circularOrbit.AtomStructure" start="107" end="107" startBytecode="78" endBytecode="78" sourcefile="AtomStructure.java" sourcepath="circularOrbit/AtomStructure.java"/>
+  </BugInstance>
+  <BugInstance type="NAB_NEEDLESS_BOXING_PARSE" priority="2" rank="18" abbrev="NAB" category="PERFORMANCE" first="1">
+    <Class classname="circularOrbit.AtomStructure">
+      <SourceLine classname="circularOrbit.AtomStructure" sourcefile="AtomStructure.java" sourcepath="circularOrbit/AtomStructure.java"/>
+    </Class>
+    <Method classname="circularOrbit.AtomStructure" name="Analysis" signature="()V" isStatic="false">
+      <SourceLine classname="circularOrbit.AtomStructure" start="93" end="390" startBytecode="0" endBytecode="3085" sourcefile="AtomStructure.java" sourcepath="circularOrbit/AtomStructure.java"/>
+    </Method>
+    <SourceLine classname="circularOrbit.AtomStructure" start="153" end="153" startBytecode="294" endBytecode="294" sourcefile="AtomStructure.java" sourcepath="circularOrbit/AtomStructure.java"/>
+  </BugInstance>
+  <BugInstance type="NAB_NEEDLESS_BOXING_PARSE" priority="2" rank="18" abbrev="NAB" category="PERFORMANCE" first="1">
+    <Class classname="circularOrbit.AtomStructure">
+      <SourceLine classname="circularOrbit.AtomStructure" sourcefile="AtomStructure.java" sourcepath="circularOrbit/AtomStructure.java"/>
+    </Class>
+    <Method classname="circularOrbit.AtomStructure" name="Analysis" signature="()V" isStatic="false">
+      <SourceLine classname="circularOrbit.AtomStructure" start="93" end="390" startBytecode="0" endBytecode="3085" sourcefile="AtomStructure.java" sourcepath="circularOrbit/AtomStructure.java"/>
+    </Method>
+    <SourceLine classname="circularOrbit.AtomStructure" start="159" end="159" startBytecode="337" endBytecode="337" sourcefile="AtomStructure.java" sourcepath="circularOrbit/AtomStructure.java"/>
+  </BugInstance>
+  <BugInstance type="NM_METHOD_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" first="1">
+    <Class classname="circularOrbit.AtomStructure">
+      <SourceLine classname="circularOrbit.AtomStructure" sourcefile="AtomStructure.java" sourcepath="circularOrbit/AtomStructure.java"/>
+    </Class>
+    <Method classname="circularOrbit.AtomStructure" name="Analysis" signature="()V" isStatic="false">
+      <SourceLine classname="circularOrbit.AtomStructure" start="93" end="390" startBytecode="0" endBytecode="3085" sourcefile="AtomStructure.java" sourcepath="circularOrbit/AtomStructure.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="UCPM_USE_CHARACTER_PARAMETERIZED_METHOD" priority="2" rank="18" abbrev="UCPM" category="PERFORMANCE" first="1">
+    <Class classname="circularOrbit.AtomStructure">
+      <SourceLine classname="circularOrbit.AtomStructure" sourcefile="AtomStructure.java" sourcepath="circularOrbit/AtomStructure.java"/>
+    </Class>
+    <Method classname="circularOrbit.AtomStructure" name="toString" signature="()Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="circularOrbit.AtomStructure" start="415" end="423" startBytecode="0" endBytecode="245" sourcefile="AtomStructure.java" sourcepath="circularOrbit/AtomStructure.java"/>
+    </Method>
+    <SourceLine classname="circularOrbit.AtomStructure" start="418" end="418" startBytecode="62" endBytecode="62" sourcefile="AtomStructure.java" sourcepath="circularOrbit/AtomStructure.java"/>
+  </BugInstance>
+  <BugInstance type="NPMC_NON_PRODUCTIVE_METHOD_CALL" priority="2" rank="7" abbrev="NPMC" category="CORRECTNESS" first="1">
+    <Class classname="circularOrbit.AtomStructureTest">
+      <SourceLine classname="circularOrbit.AtomStructureTest" sourcefile="AtomStructureTest.java" sourcepath="circularOrbit/AtomStructureTest.java"/>
+    </Class>
+    <Method classname="circularOrbit.AtomStructureTest" name="test" signature="()V" isStatic="false">
+      <SourceLine classname="circularOrbit.AtomStructureTest" start="13" end="26" startBytecode="0" endBytecode="224" sourcefile="AtomStructureTest.java" sourcepath="circularOrbit/AtomStructureTest.java"/>
+    </Method>
+    <SourceLine classname="circularOrbit.AtomStructureTest" start="24" end="24" startBytecode="95" endBytecode="95" sourcefile="AtomStructureTest.java" sourcepath="circularOrbit/AtomStructureTest.java"/>
+    <String value="circularOrbit/AtomStructure@toString()Ljava/lang/String;"/>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED_NO_SIDE_EFFECT" priority="2" rank="17" abbrev="RV" category="STYLE" first="1">
+    <Class classname="circularOrbit.AtomStructureTest">
+      <SourceLine classname="circularOrbit.AtomStructureTest" sourcefile="AtomStructureTest.java" sourcepath="circularOrbit/AtomStructureTest.java"/>
+    </Class>
+    <Method classname="circularOrbit.AtomStructureTest" name="test" signature="()V" isStatic="false">
+      <SourceLine classname="circularOrbit.AtomStructureTest" start="13" end="26" startBytecode="0" endBytecode="224" sourcefile="AtomStructureTest.java" sourcepath="circularOrbit/AtomStructureTest.java"/>
+    </Method>
+    <Method classname="circularOrbit.AtomStructure" name="toString" signature="()Ljava/lang/String;" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="circularOrbit.AtomStructure" start="415" end="423" startBytecode="0" endBytecode="245" sourcefile="AtomStructure.java" sourcepath="circularOrbit/AtomStructure.java"/>
+    </Method>
+    <SourceLine classname="circularOrbit.AtomStructureTest" start="24" end="24" startBytecode="92" endBytecode="92" sourcefile="AtomStructureTest.java" sourcepath="circularOrbit/AtomStructureTest.java"/>
+    <SourceLine classname="circularOrbit.AtomStructureTest" start="24" end="24" startBytecode="92" endBytecode="92" sourcefile="AtomStructureTest.java" sourcepath="circularOrbit/AtomStructureTest.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="circularOrbit.ConcreteCircularOrbit">
+      <SourceLine classname="circularOrbit.ConcreteCircularOrbit" sourcefile="ConcreteCircularOrbit.java" sourcepath="circularOrbit/ConcreteCircularOrbit.java"/>
+    </Class>
+    <Method classname="circularOrbit.ConcreteCircularOrbit" name="readFile" signature="(Ljava/lang/String;)Ljava/util/ArrayList;" isStatic="true">
+      <SourceLine classname="circularOrbit.ConcreteCircularOrbit" start="204" end="224" startBytecode="0" endBytecode="470" sourcefile="ConcreteCircularOrbit.java" sourcepath="circularOrbit/ConcreteCircularOrbit.java"/>
+    </Method>
+    <Method classname="java.io.FileReader" name="&lt;init&gt;" signature="(Ljava/io/File;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.FileReader"/>
+    </Method>
+    <SourceLine classname="circularOrbit.ConcreteCircularOrbit" start="208" end="208" startBytecode="28" endBytecode="28" sourcefile="ConcreteCircularOrbit.java" sourcepath="circularOrbit/ConcreteCircularOrbit.java"/>
+    <SourceLine classname="circularOrbit.ConcreteCircularOrbit" start="208" end="208" startBytecode="28" endBytecode="28" sourcefile="ConcreteCircularOrbit.java" sourcepath="circularOrbit/ConcreteCircularOrbit.java"/>
+  </BugInstance>
+  <BugInstance type="IMC_IMMATURE_CLASS_PRINTSTACKTRACE" priority="2" rank="17" abbrev="IMC" category="STYLE" first="1">
+    <Class classname="circularOrbit.ConcreteCircularOrbit">
+      <SourceLine classname="circularOrbit.ConcreteCircularOrbit" sourcefile="ConcreteCircularOrbit.java" sourcepath="circularOrbit/ConcreteCircularOrbit.java"/>
+    </Class>
+    <Method classname="circularOrbit.ConcreteCircularOrbit" name="readFile" signature="(Ljava/lang/String;)Ljava/util/ArrayList;" isStatic="true">
+      <SourceLine classname="circularOrbit.ConcreteCircularOrbit" start="204" end="224" startBytecode="0" endBytecode="470" sourcefile="ConcreteCircularOrbit.java" sourcepath="circularOrbit/ConcreteCircularOrbit.java"/>
+    </Method>
+    <SourceLine classname="circularOrbit.ConcreteCircularOrbit" start="215" end="215" startBytecode="69" endBytecode="69" sourcefile="ConcreteCircularOrbit.java" sourcepath="circularOrbit/ConcreteCircularOrbit.java"/>
+  </BugInstance>
+  <BugInstance type="NM_METHOD_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" first="1">
+    <Class classname="circularOrbit.ConcreteCircularOrbit">
+      <SourceLine classname="circularOrbit.ConcreteCircularOrbit" sourcefile="ConcreteCircularOrbit.java" sourcepath="circularOrbit/ConcreteCircularOrbit.java"/>
+    </Class>
+    <Method classname="circularOrbit.ConcreteCircularOrbit" name="Analysis" signature="()V" isStatic="false">
+      <SourceLine classname="circularOrbit.ConcreteCircularOrbit" start="29" end="29" startBytecode="0" endBytecode="60" sourcefile="ConcreteCircularOrbit.java" sourcepath="circularOrbit/ConcreteCircularOrbit.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="PSC_PRESIZE_COLLECTIONS" priority="2" rank="18" abbrev="PSC" category="PERFORMANCE" first="1">
+    <Class classname="circularOrbit.ConcreteVerticesGraph">
+      <SourceLine classname="circularOrbit.ConcreteVerticesGraph" sourcefile="ConcreteVerticesGraph.java" sourcepath="circularOrbit/ConcreteVerticesGraph.java"/>
+    </Class>
+    <Method classname="circularOrbit.ConcreteVerticesGraph" name="vertices" signature="()Ljava/util/Set;" isStatic="false">
+      <SourceLine classname="circularOrbit.ConcreteVerticesGraph" start="112" end="117" startBytecode="0" endBytecode="194" sourcefile="ConcreteVerticesGraph.java" sourcepath="circularOrbit/ConcreteVerticesGraph.java"/>
+    </Method>
+    <SourceLine classname="circularOrbit.ConcreteVerticesGraph" start="115" end="115" startBytecode="36" endBytecode="36" sourcefile="ConcreteVerticesGraph.java" sourcepath="circularOrbit/ConcreteVerticesGraph.java"/>
+  </BugInstance>
+  <BugInstance type="UCPM_USE_CHARACTER_PARAMETERIZED_METHOD" priority="2" rank="18" abbrev="UCPM" category="PERFORMANCE" first="1">
+    <Class classname="circularOrbit.ConcreteVerticesGraph">
+      <SourceLine classname="circularOrbit.ConcreteVerticesGraph" sourcefile="ConcreteVerticesGraph.java" sourcepath="circularOrbit/ConcreteVerticesGraph.java"/>
+    </Class>
+    <Method classname="circularOrbit.ConcreteVerticesGraph" name="toString" signature="()Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="circularOrbit.ConcreteVerticesGraph" start="146" end="153" startBytecode="0" endBytecode="227" sourcefile="ConcreteVerticesGraph.java" sourcepath="circularOrbit/ConcreteVerticesGraph.java"/>
+    </Method>
+    <SourceLine classname="circularOrbit.ConcreteVerticesGraph" start="151" end="151" startBytecode="70" endBytecode="70" sourcefile="ConcreteVerticesGraph.java" sourcepath="circularOrbit/ConcreteVerticesGraph.java"/>
+  </BugInstance>
+  <BugInstance type="CE_CLASS_ENVY" priority="2" rank="19" abbrev="CE" category="STYLE" first="1">
+    <Class classname="circularOrbit.ConcreteVerticesGraphTest">
+      <SourceLine classname="circularOrbit.ConcreteVerticesGraphTest" sourcefile="ConcreteVerticesGraphTest.java" sourcepath="circularOrbit/ConcreteVerticesGraphTest.java"/>
+    </Class>
+    <Method classname="circularOrbit.ConcreteVerticesGraphTest" name="Test" signature="()V" isStatic="false">
+      <SourceLine classname="circularOrbit.ConcreteVerticesGraphTest" start="26" end="54" startBytecode="0" endBytecode="501" sourcefile="ConcreteVerticesGraphTest.java" sourcepath="circularOrbit/ConcreteVerticesGraphTest.java"/>
+    </Method>
+    <SourceLine classname="circularOrbit.ConcreteVerticesGraphTest" start="26" end="54" startBytecode="0" endBytecode="319" sourcefile="ConcreteVerticesGraphTest.java" sourcepath="circularOrbit/ConcreteVerticesGraphTest.java"/>
+    <String value="circularOrbit.ConcreteVerticesGraph"/>
+  </BugInstance>
+  <BugInstance type="NM_METHOD_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" first="1">
+    <Class classname="circularOrbit.ConcreteVerticesGraphTest">
+      <SourceLine classname="circularOrbit.ConcreteVerticesGraphTest" sourcefile="ConcreteVerticesGraphTest.java" sourcepath="circularOrbit/ConcreteVerticesGraphTest.java"/>
+    </Class>
+    <Method classname="circularOrbit.ConcreteVerticesGraphTest" name="Test" signature="()V" isStatic="false">
+      <SourceLine classname="circularOrbit.ConcreteVerticesGraphTest" start="26" end="54" startBytecode="0" endBytecode="501" sourcefile="ConcreteVerticesGraphTest.java" sourcepath="circularOrbit/ConcreteVerticesGraphTest.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="CE_CLASS_ENVY" priority="2" rank="19" abbrev="CE" category="STYLE" first="1">
+    <Class classname="circularOrbit.FriendshipGraphTest">
+      <SourceLine classname="circularOrbit.FriendshipGraphTest" sourcefile="FriendshipGraphTest.java" sourcepath="circularOrbit/FriendshipGraphTest.java"/>
+    </Class>
+    <Method classname="circularOrbit.FriendshipGraphTest" name="test" signature="()V" isStatic="false">
+      <SourceLine classname="circularOrbit.FriendshipGraphTest" start="11" end="37" startBytecode="0" endBytecode="388" sourcefile="FriendshipGraphTest.java" sourcepath="circularOrbit/FriendshipGraphTest.java"/>
+    </Method>
+    <SourceLine classname="circularOrbit.FriendshipGraphTest" start="11" end="37" startBytecode="0" endBytecode="184" sourcefile="FriendshipGraphTest.java" sourcepath="circularOrbit/FriendshipGraphTest.java"/>
+    <String value="circularOrbit.FriendshipGraph"/>
+  </BugInstance>
+  <BugInstance type="CC_CYCLOMATIC_COMPLEXITY" priority="2" rank="19" abbrev="CC" category="STYLE" first="1">
+    <Class classname="circularOrbit.SocialNetworkCircle">
+      <SourceLine classname="circularOrbit.SocialNetworkCircle" sourcefile="SocialNetworkCircle.java" sourcepath="circularOrbit/SocialNetworkCircle.java"/>
+    </Class>
+    <Method classname="circularOrbit.SocialNetworkCircle" name="Analysis" signature="()V" isStatic="false">
+      <SourceLine classname="circularOrbit.SocialNetworkCircle" start="212" end="546" startBytecode="0" endBytecode="3499" sourcefile="SocialNetworkCircle.java" sourcepath="circularOrbit/SocialNetworkCircle.java"/>
+    </Method>
+    <SourceLine classname="circularOrbit.SocialNetworkCircle" start="212" end="212" startBytecode="0" endBytecode="0" sourcefile="SocialNetworkCircle.java" sourcepath="circularOrbit/SocialNetworkCircle.java"/>
+    <Int value="72"/>
+  </BugInstance>
+  <BugInstance type="DM_BOXED_PRIMITIVE_FOR_PARSING" priority="1" rank="16" abbrev="Bx" category="PERFORMANCE" first="1">
+    <Class classname="circularOrbit.SocialNetworkCircle">
+      <SourceLine classname="circularOrbit.SocialNetworkCircle" sourcefile="SocialNetworkCircle.java" sourcepath="circularOrbit/SocialNetworkCircle.java"/>
+    </Class>
+    <Method classname="circularOrbit.SocialNetworkCircle" name="Analysis" signature="()V" isStatic="false">
+      <SourceLine classname="circularOrbit.SocialNetworkCircle" start="212" end="546" startBytecode="0" endBytecode="3499" sourcefile="SocialNetworkCircle.java" sourcepath="circularOrbit/SocialNetworkCircle.java"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="intValue" signature="()I" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.Integer"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="parseInt" signature="(Ljava/lang/String;)I" isStatic="true" role="SHOULD_CALL"/>
+    <SourceLine classname="circularOrbit.SocialNetworkCircle" start="226" end="226" startBytecode="100" endBytecode="100" sourcefile="SocialNetworkCircle.java" sourcepath="circularOrbit/SocialNetworkCircle.java"/>
+    <SourceLine classname="circularOrbit.SocialNetworkCircle" start="226" end="226" startBytecode="100" endBytecode="100" sourcefile="SocialNetworkCircle.java" sourcepath="circularOrbit/SocialNetworkCircle.java"/>
+  </BugInstance>
+  <BugInstance type="LSC_LITERAL_STRING_COMPARISON" priority="1" rank="17" abbrev="LSC" category="STYLE" first="1">
+    <Class classname="circularOrbit.SocialNetworkCircle">
+      <SourceLine classname="circularOrbit.SocialNetworkCircle" sourcefile="SocialNetworkCircle.java" sourcepath="circularOrbit/SocialNetworkCircle.java"/>
+    </Class>
+    <Method classname="circularOrbit.SocialNetworkCircle" name="Analysis" signature="()V" isStatic="false">
+      <SourceLine classname="circularOrbit.SocialNetworkCircle" start="212" end="546" startBytecode="0" endBytecode="3499" sourcefile="SocialNetworkCircle.java" sourcepath="circularOrbit/SocialNetworkCircle.java"/>
+    </Method>
+    <SourceLine classname="circularOrbit.SocialNetworkCircle" start="276" end="276" startBytecode="450" endBytecode="450" sourcefile="SocialNetworkCircle.java" sourcepath="circularOrbit/SocialNetworkCircle.java"/>
+  </BugInstance>
+  <BugInstance type="LSC_LITERAL_STRING_COMPARISON" priority="1" rank="17" abbrev="LSC" category="STYLE" first="1">
+    <Class classname="circularOrbit.SocialNetworkCircle">
+      <SourceLine classname="circularOrbit.SocialNetworkCircle" sourcefile="SocialNetworkCircle.java" sourcepath="circularOrbit/SocialNetworkCircle.java"/>
+    </Class>
+    <Method classname="circularOrbit.SocialNetworkCircle" name="Analysis" signature="()V" isStatic="false">
+      <SourceLine classname="circularOrbit.SocialNetworkCircle" start="212" end="546" startBytecode="0" endBytecode="3499" sourcefile="SocialNetworkCircle.java" sourcepath="circularOrbit/SocialNetworkCircle.java"/>
+    </Method>
+    <SourceLine classname="circularOrbit.SocialNetworkCircle" start="303" end="303" startBytecode="624" endBytecode="624" sourcefile="SocialNetworkCircle.java" sourcepath="circularOrbit/SocialNetworkCircle.java"/>
+  </BugInstance>
+  <BugInstance type="LSC_LITERAL_STRING_COMPARISON" priority="1" rank="17" abbrev="LSC" category="STYLE" first="1">
+    <Class classname="circularOrbit.SocialNetworkCircle">
+      <SourceLine classname="circularOrbit.SocialNetworkCircle" sourcefile="SocialNetworkCircle.java" sourcepath="circularOrbit/SocialNetworkCircle.java"/>
+    </Class>
+    <Method classname="circularOrbit.SocialNetworkCircle" name="Analysis" signature="()V" isStatic="false">
+      <SourceLine classname="circularOrbit.SocialNetworkCircle" start="212" end="546" startBytecode="0" endBytecode="3499" sourcefile="SocialNetworkCircle.java" sourcepath="circularOrbit/SocialNetworkCircle.java"/>
+    </Method>
+    <SourceLine classname="circularOrbit.SocialNetworkCircle" start="307" end="307" startBytecode="637" endBytecode="637" sourcefile="SocialNetworkCircle.java" sourcepath="circularOrbit/SocialNetworkCircle.java"/>
+  </BugInstance>
+  <BugInstance type="LSC_LITERAL_STRING_COMPARISON" priority="1" rank="17" abbrev="LSC" category="STYLE" first="1">
+    <Class classname="circularOrbit.SocialNetworkCircle">
+      <SourceLine classname="circularOrbit.SocialNetworkCircle" sourcefile="SocialNetworkCircle.java" sourcepath="circularOrbit/SocialNetworkCircle.java"/>
+    </Class>
+    <Method classname="circularOrbit.SocialNetworkCircle" name="Analysis" signature="()V" isStatic="false">
+      <SourceLine classname="circularOrbit.SocialNetworkCircle" start="212" end="546" startBytecode="0" endBytecode="3499" sourcefile="SocialNetworkCircle.java" sourcepath="circularOrbit/SocialNetworkCircle.java"/>
+    </Method>
+    <SourceLine classname="circularOrbit.SocialNetworkCircle" start="337" end="337" startBytecode="722" endBytecode="722" sourcefile="SocialNetworkCircle.java" sourcepath="circularOrbit/SocialNetworkCircle.java"/>
+  </BugInstance>
+  <BugInstance type="LSC_LITERAL_STRING_COMPARISON" priority="1" rank="17" abbrev="LSC" category="STYLE" first="1">
+    <Class classname="circularOrbit.SocialNetworkCircle">
+      <SourceLine classname="circularOrbit.SocialNetworkCircle" sourcefile="SocialNetworkCircle.java" sourcepath="circularOrbit/SocialNetworkCircle.java"/>
+    </Class>
+    <Method classname="circularOrbit.SocialNetworkCircle" name="Analysis" signature="()V" isStatic="false">
+      <SourceLine classname="circularOrbit.SocialNetworkCircle" start="212" end="546" startBytecode="0" endBytecode="3499" sourcefile="SocialNetworkCircle.java" sourcepath="circularOrbit/SocialNetworkCircle.java"/>
+    </Method>
+    <SourceLine classname="circularOrbit.SocialNetworkCircle" start="357" end="357" startBytecode="842" endBytecode="842" sourcefile="SocialNetworkCircle.java" sourcepath="circularOrbit/SocialNetworkCircle.java"/>
+  </BugInstance>
+  <BugInstance type="LSC_LITERAL_STRING_COMPARISON" priority="1" rank="17" abbrev="LSC" category="STYLE" first="1">
+    <Class classname="circularOrbit.SocialNetworkCircle">
+      <SourceLine classname="circularOrbit.SocialNetworkCircle" sourcefile="SocialNetworkCircle.java" sourcepath="circularOrbit/SocialNetworkCircle.java"/>
+    </Class>
+    <Method classname="circularOrbit.SocialNetworkCircle" name="Analysis" signature="()V" isStatic="false">
+      <SourceLine classname="circularOrbit.SocialNetworkCircle" start="212" end="546" startBytecode="0" endBytecode="3499" sourcefile="SocialNetworkCircle.java" sourcepath="circularOrbit/SocialNetworkCircle.java"/>
+    </Method>
+    <SourceLine classname="circularOrbit.SocialNetworkCircle" start="361" end="361" startBytecode="855" endBytecode="855" sourcefile="SocialNetworkCircle.java" sourcepath="circularOrbit/SocialNetworkCircle.java"/>
+  </BugInstance>
+  <BugInstance type="LSC_LITERAL_STRING_COMPARISON" priority="1" rank="17" abbrev="LSC" category="STYLE" first="1">
+    <Class classname="circularOrbit.SocialNetworkCircle">
+      <SourceLine classname="circularOrbit.SocialNetworkCircle" sourcefile="SocialNetworkCircle.java" sourcepath="circularOrbit/SocialNetworkCircle.java"/>
+    </Class>
+    <Method classname="circularOrbit.SocialNetworkCircle" name="Analysis" signature="()V" isStatic="false">
+      <SourceLine classname="circularOrbit.SocialNetworkCircle" start="212" end="546" startBytecode="0" endBytecode="3499" sourcefile="SocialNetworkCircle.java" sourcepath="circularOrbit/SocialNetworkCircle.java"/>
+    </Method>
+    <SourceLine classname="circularOrbit.SocialNetworkCircle" start="390" end="390" startBytecode="940" endBytecode="940" sourcefile="SocialNetworkCircle.java" sourcepath="circularOrbit/SocialNetworkCircle.java"/>
+  </BugInstance>
+  <BugInstance type="NAB_NEEDLESS_BOXING_PARSE" priority="2" rank="18" abbrev="NAB" category="PERFORMANCE" first="1">
+    <Class classname="circularOrbit.SocialNetworkCircle">
+      <SourceLine classname="circularOrbit.SocialNetworkCircle" sourcefile="SocialNetworkCircle.java" sourcepath="circularOrbit/SocialNetworkCircle.java"/>
+    </Class>
+    <Method classname="circularOrbit.SocialNetworkCircle" name="Analysis" signature="()V" isStatic="false">
+      <SourceLine classname="circularOrbit.SocialNetworkCircle" start="212" end="546" startBytecode="0" endBytecode="3499" sourcefile="SocialNetworkCircle.java" sourcepath="circularOrbit/SocialNetworkCircle.java"/>
+    </Method>
+    <SourceLine classname="circularOrbit.SocialNetworkCircle" start="226" end="226" startBytecode="100" endBytecode="100" sourcefile="SocialNetworkCircle.java" sourcepath="circularOrbit/SocialNetworkCircle.java"/>
+  </BugInstance>
+  <BugInstance type="NAB_NEEDLESS_BOXING_PARSE" priority="2" rank="18" abbrev="NAB" category="PERFORMANCE" first="1">
+    <Class classname="circularOrbit.SocialNetworkCircle">
+      <SourceLine classname="circularOrbit.SocialNetworkCircle" sourcefile="SocialNetworkCircle.java" sourcepath="circularOrbit/SocialNetworkCircle.java"/>
+    </Class>
+    <Method classname="circularOrbit.SocialNetworkCircle" name="Analysis" signature="()V" isStatic="false">
+      <SourceLine classname="circularOrbit.SocialNetworkCircle" start="212" end="546" startBytecode="0" endBytecode="3499" sourcefile="SocialNetworkCircle.java" sourcepath="circularOrbit/SocialNetworkCircle.java"/>
+    </Method>
+    <SourceLine classname="circularOrbit.SocialNetworkCircle" start="242" end="242" startBytecode="209" endBytecode="209" sourcefile="SocialNetworkCircle.java" sourcepath="circularOrbit/SocialNetworkCircle.java"/>
+  </BugInstance>
+  <BugInstance type="NAB_NEEDLESS_BOXING_PARSE" priority="2" rank="18" abbrev="NAB" category="PERFORMANCE" first="1">
+    <Class classname="circularOrbit.SocialNetworkCircle">
+      <SourceLine classname="circularOrbit.SocialNetworkCircle" sourcefile="SocialNetworkCircle.java" sourcepath="circularOrbit/SocialNetworkCircle.java"/>
+    </Class>
+    <Method classname="circularOrbit.SocialNetworkCircle" name="Analysis" signature="()V" isStatic="false">
+      <SourceLine classname="circularOrbit.SocialNetworkCircle" start="212" end="546" startBytecode="0" endBytecode="3499" sourcefile="SocialNetworkCircle.java" sourcepath="circularOrbit/SocialNetworkCircle.java"/>
+    </Method>
+    <SourceLine classname="circularOrbit.SocialNetworkCircle" start="257" end="257" startBytecode="326" endBytecode="326" sourcefile="SocialNetworkCircle.java" sourcepath="circularOrbit/SocialNetworkCircle.java"/>
+  </BugInstance>
+  <BugInstance type="NAB_NEEDLESS_BOXING_PARSE" priority="2" rank="18" abbrev="NAB" category="PERFORMANCE" first="1">
+    <Class classname="circularOrbit.SocialNetworkCircle">
+      <SourceLine classname="circularOrbit.SocialNetworkCircle" sourcefile="SocialNetworkCircle.java" sourcepath="circularOrbit/SocialNetworkCircle.java"/>
+    </Class>
+    <Method classname="circularOrbit.SocialNetworkCircle" name="Analysis" signature="()V" isStatic="false">
+      <SourceLine classname="circularOrbit.SocialNetworkCircle" start="212" end="546" startBytecode="0" endBytecode="3499" sourcefile="SocialNetworkCircle.java" sourcepath="circularOrbit/SocialNetworkCircle.java"/>
+    </Method>
+    <SourceLine classname="circularOrbit.SocialNetworkCircle" start="442" end="442" startBytecode="1511" endBytecode="1511" sourcefile="SocialNetworkCircle.java" sourcepath="circularOrbit/SocialNetworkCircle.java"/>
+  </BugInstance>
+  <BugInstance type="NM_METHOD_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" first="1">
+    <Class classname="circularOrbit.SocialNetworkCircle">
+      <SourceLine classname="circularOrbit.SocialNetworkCircle" sourcefile="SocialNetworkCircle.java" sourcepath="circularOrbit/SocialNetworkCircle.java"/>
+    </Class>
+    <Method classname="circularOrbit.SocialNetworkCircle" name="Analysis" signature="()V" isStatic="false">
+      <SourceLine classname="circularOrbit.SocialNetworkCircle" start="212" end="546" startBytecode="0" endBytecode="3499" sourcefile="SocialNetworkCircle.java" sourcepath="circularOrbit/SocialNetworkCircle.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="CC_CYCLOMATIC_COMPLEXITY" priority="2" rank="19" abbrev="CC" category="STYLE" first="1">
+    <Class classname="circularOrbit.TrackGame">
+      <SourceLine classname="circularOrbit.TrackGame" sourcefile="TrackGame.java" sourcepath="circularOrbit/TrackGame.java"/>
+    </Class>
+    <Method classname="circularOrbit.TrackGame" name="Analysis" signature="()V" isStatic="false">
+      <SourceLine classname="circularOrbit.TrackGame" start="68" end="407" startBytecode="0" endBytecode="3910" sourcefile="TrackGame.java" sourcepath="circularOrbit/TrackGame.java"/>
+    </Method>
+    <SourceLine classname="circularOrbit.TrackGame" start="68" end="68" startBytecode="0" endBytecode="0" sourcefile="TrackGame.java" sourcepath="circularOrbit/TrackGame.java"/>
+    <Int value="83"/>
+  </BugInstance>
+  <BugInstance type="DMI_USING_REMOVEALL_TO_CLEAR_COLLECTION" priority="2" rank="16" abbrev="DMI" category="BAD_PRACTICE" first="1">
+    <Class classname="circularOrbit.TrackGame">
+      <SourceLine classname="circularOrbit.TrackGame" sourcefile="TrackGame.java" sourcepath="circularOrbit/TrackGame.java"/>
+    </Class>
+    <Method classname="circularOrbit.TrackGame" name="initarraylist" signature="()V" isStatic="false">
+      <SourceLine classname="circularOrbit.TrackGame" start="31" end="32" startBytecode="0" endBytecode="6" sourcefile="TrackGame.java" sourcepath="circularOrbit/TrackGame.java"/>
+    </Method>
+    <Method classname="java.util.ArrayList" name="removeAll" signature="(Ljava/util/Collection;)Z" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.ArrayList"/>
+    </Method>
+    <Field classname="circularOrbit.TrackGame" name="athletes" signature="Ljava/util/ArrayList;" sourceSignature="Ljava/util/ArrayList&lt;LphysicalObject/Athlete;&gt;;" isStatic="false" role="FIELD_INVOKED_ON">
+      <SourceLine classname="circularOrbit.TrackGame" sourcefile="TrackGame.java" sourcepath="circularOrbit/TrackGame.java"/>
+    </Field>
+    <SourceLine classname="circularOrbit.TrackGame" start="31" end="31" startBytecode="8" endBytecode="8" sourcefile="TrackGame.java" sourcepath="circularOrbit/TrackGame.java"/>
+    <SourceLine classname="circularOrbit.TrackGame" start="31" end="31" startBytecode="8" endBytecode="8" sourcefile="TrackGame.java" sourcepath="circularOrbit/TrackGame.java"/>
+  </BugInstance>
+  <BugInstance type="DM_BOXED_PRIMITIVE_FOR_PARSING" priority="1" rank="16" abbrev="Bx" category="PERFORMANCE" first="1">
+    <Class classname="circularOrbit.TrackGame">
+      <SourceLine classname="circularOrbit.TrackGame" sourcefile="TrackGame.java" sourcepath="circularOrbit/TrackGame.java"/>
+    </Class>
+    <Method classname="circularOrbit.TrackGame" name="Analysis" signature="()V" isStatic="false">
+      <SourceLine classname="circularOrbit.TrackGame" start="68" end="407" startBytecode="0" endBytecode="3910" sourcefile="TrackGame.java" sourcepath="circularOrbit/TrackGame.java"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="intValue" signature="()I" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.Integer"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="parseInt" signature="(Ljava/lang/String;)I" isStatic="true" role="SHOULD_CALL"/>
+    <SourceLine classname="circularOrbit.TrackGame" start="80" end="80" startBytecode="76" endBytecode="76" sourcefile="TrackGame.java" sourcepath="circularOrbit/TrackGame.java"/>
+    <SourceLine classname="circularOrbit.TrackGame" start="80" end="80" startBytecode="76" endBytecode="76" sourcefile="TrackGame.java" sourcepath="circularOrbit/TrackGame.java"/>
+  </BugInstance>
+  <BugInstance type="LSC_LITERAL_STRING_COMPARISON" priority="1" rank="17" abbrev="LSC" category="STYLE" first="1">
+    <Class classname="circularOrbit.TrackGame">
+      <SourceLine classname="circularOrbit.TrackGame" sourcefile="TrackGame.java" sourcepath="circularOrbit/TrackGame.java"/>
+    </Class>
+    <Method classname="circularOrbit.TrackGame" name="Analysis" signature="()V" isStatic="false">
+      <SourceLine classname="circularOrbit.TrackGame" start="68" end="407" startBytecode="0" endBytecode="3910" sourcefile="TrackGame.java" sourcepath="circularOrbit/TrackGame.java"/>
+    </Method>
+    <SourceLine classname="circularOrbit.TrackGame" start="137" end="137" startBytecode="487" endBytecode="487" sourcefile="TrackGame.java" sourcepath="circularOrbit/TrackGame.java"/>
+  </BugInstance>
+  <BugInstance type="LSC_LITERAL_STRING_COMPARISON" priority="1" rank="17" abbrev="LSC" category="STYLE" first="1">
+    <Class classname="circularOrbit.TrackGame">
+      <SourceLine classname="circularOrbit.TrackGame" sourcefile="TrackGame.java" sourcepath="circularOrbit/TrackGame.java"/>
+    </Class>
+    <Method classname="circularOrbit.TrackGame" name="Analysis" signature="()V" isStatic="false">
+      <SourceLine classname="circularOrbit.TrackGame" start="68" end="407" startBytecode="0" endBytecode="3910" sourcefile="TrackGame.java" sourcepath="circularOrbit/TrackGame.java"/>
+    </Method>
+    <SourceLine classname="circularOrbit.TrackGame" start="280" end="280" startBytecode="1463" endBytecode="1463" sourcefile="TrackGame.java" sourcepath="circularOrbit/TrackGame.java"/>
+  </BugInstance>
+  <BugInstance type="LSC_LITERAL_STRING_COMPARISON" priority="1" rank="17" abbrev="LSC" category="STYLE" first="1">
+    <Class classname="circularOrbit.TrackGame">
+      <SourceLine classname="circularOrbit.TrackGame" sourcefile="TrackGame.java" sourcepath="circularOrbit/TrackGame.java"/>
+    </Class>
+    <Method classname="circularOrbit.TrackGame" name="Analysis" signature="()V" isStatic="false">
+      <SourceLine classname="circularOrbit.TrackGame" start="68" end="407" startBytecode="0" endBytecode="3910" sourcefile="TrackGame.java" sourcepath="circularOrbit/TrackGame.java"/>
+    </Method>
+    <SourceLine classname="circularOrbit.TrackGame" start="338" end="338" startBytecode="1732" endBytecode="1732" sourcefile="TrackGame.java" sourcepath="circularOrbit/TrackGame.java"/>
+  </BugInstance>
+  <BugInstance type="NAB_NEEDLESS_BOXING_PARSE" priority="2" rank="18" abbrev="NAB" category="PERFORMANCE" first="1">
+    <Class classname="circularOrbit.TrackGame">
+      <SourceLine classname="circularOrbit.TrackGame" sourcefile="TrackGame.java" sourcepath="circularOrbit/TrackGame.java"/>
+    </Class>
+    <Method classname="circularOrbit.TrackGame" name="Analysis" signature="()V" isStatic="false">
+      <SourceLine classname="circularOrbit.TrackGame" start="68" end="407" startBytecode="0" endBytecode="3910" sourcefile="TrackGame.java" sourcepath="circularOrbit/TrackGame.java"/>
+    </Method>
+    <SourceLine classname="circularOrbit.TrackGame" start="80" end="80" startBytecode="76" endBytecode="76" sourcefile="TrackGame.java" sourcepath="circularOrbit/TrackGame.java"/>
+  </BugInstance>
+  <BugInstance type="NAB_NEEDLESS_BOXING_PARSE" priority="2" rank="18" abbrev="NAB" category="PERFORMANCE" first="1">
+    <Class classname="circularOrbit.TrackGame">
+      <SourceLine classname="circularOrbit.TrackGame" sourcefile="TrackGame.java" sourcepath="circularOrbit/TrackGame.java"/>
+    </Class>
+    <Method classname="circularOrbit.TrackGame" name="Analysis" signature="()V" isStatic="false">
+      <SourceLine classname="circularOrbit.TrackGame" start="68" end="407" startBytecode="0" endBytecode="3910" sourcefile="TrackGame.java" sourcepath="circularOrbit/TrackGame.java"/>
+    </Method>
+    <SourceLine classname="circularOrbit.TrackGame" start="89" end="89" startBytecode="146" endBytecode="146" sourcefile="TrackGame.java" sourcepath="circularOrbit/TrackGame.java"/>
+  </BugInstance>
+  <BugInstance type="NAB_NEEDLESS_BOXING_PARSE" priority="2" rank="18" abbrev="NAB" category="PERFORMANCE" first="1">
+    <Class classname="circularOrbit.TrackGame">
+      <SourceLine classname="circularOrbit.TrackGame" sourcefile="TrackGame.java" sourcepath="circularOrbit/TrackGame.java"/>
+    </Class>
+    <Method classname="circularOrbit.TrackGame" name="Analysis" signature="()V" isStatic="false">
+      <SourceLine classname="circularOrbit.TrackGame" start="68" end="407" startBytecode="0" endBytecode="3910" sourcefile="TrackGame.java" sourcepath="circularOrbit/TrackGame.java"/>
+    </Method>
+    <SourceLine classname="circularOrbit.TrackGame" start="123" end="123" startBytecode="401" endBytecode="401" sourcefile="TrackGame.java" sourcepath="circularOrbit/TrackGame.java"/>
+  </BugInstance>
+  <BugInstance type="NAB_NEEDLESS_BOXING_PARSE" priority="2" rank="18" abbrev="NAB" category="PERFORMANCE" first="1">
+    <Class classname="circularOrbit.TrackGame">
+      <SourceLine classname="circularOrbit.TrackGame" sourcefile="TrackGame.java" sourcepath="circularOrbit/TrackGame.java"/>
+    </Class>
+    <Method classname="circularOrbit.TrackGame" name="Analysis" signature="()V" isStatic="false">
+      <SourceLine classname="circularOrbit.TrackGame" start="68" end="407" startBytecode="0" endBytecode="3910" sourcefile="TrackGame.java" sourcepath="circularOrbit/TrackGame.java"/>
+    </Method>
+    <SourceLine classname="circularOrbit.TrackGame" start="225" end="225" startBytecode="1059" endBytecode="1059" sourcefile="TrackGame.java" sourcepath="circularOrbit/TrackGame.java"/>
+  </BugInstance>
+  <BugInstance type="NAB_NEEDLESS_BOXING_PARSE" priority="2" rank="18" abbrev="NAB" category="PERFORMANCE" first="1">
+    <Class classname="circularOrbit.TrackGame">
+      <SourceLine classname="circularOrbit.TrackGame" sourcefile="TrackGame.java" sourcepath="circularOrbit/TrackGame.java"/>
+    </Class>
+    <Method classname="circularOrbit.TrackGame" name="Analysis" signature="()V" isStatic="false">
+      <SourceLine classname="circularOrbit.TrackGame" start="68" end="407" startBytecode="0" endBytecode="3910" sourcefile="TrackGame.java" sourcepath="circularOrbit/TrackGame.java"/>
+    </Method>
+    <SourceLine classname="circularOrbit.TrackGame" start="252" end="252" startBytecode="1347" endBytecode="1347" sourcefile="TrackGame.java" sourcepath="circularOrbit/TrackGame.java"/>
+  </BugInstance>
+  <BugInstance type="NAB_NEEDLESS_BOXING_PARSE" priority="2" rank="18" abbrev="NAB" category="PERFORMANCE" first="1">
+    <Class classname="circularOrbit.TrackGame">
+      <SourceLine classname="circularOrbit.TrackGame" sourcefile="TrackGame.java" sourcepath="circularOrbit/TrackGame.java"/>
+    </Class>
+    <Method classname="circularOrbit.TrackGame" name="Analysis" signature="()V" isStatic="false">
+      <SourceLine classname="circularOrbit.TrackGame" start="68" end="407" startBytecode="0" endBytecode="3910" sourcefile="TrackGame.java" sourcepath="circularOrbit/TrackGame.java"/>
+    </Method>
+    <SourceLine classname="circularOrbit.TrackGame" start="296" end="296" startBytecode="1559" endBytecode="1559" sourcefile="TrackGame.java" sourcepath="circularOrbit/TrackGame.java"/>
+  </BugInstance>
+  <BugInstance type="NAB_NEEDLESS_BOXING_PARSE" priority="2" rank="18" abbrev="NAB" category="PERFORMANCE" first="1">
+    <Class classname="circularOrbit.TrackGame">
+      <SourceLine classname="circularOrbit.TrackGame" sourcefile="TrackGame.java" sourcepath="circularOrbit/TrackGame.java"/>
+    </Class>
+    <Method classname="circularOrbit.TrackGame" name="Analysis" signature="()V" isStatic="false">
+      <SourceLine classname="circularOrbit.TrackGame" start="68" end="407" startBytecode="0" endBytecode="3910" sourcefile="TrackGame.java" sourcepath="circularOrbit/TrackGame.java"/>
+    </Method>
+    <SourceLine classname="circularOrbit.TrackGame" start="317" end="317" startBytecode="1650" endBytecode="1650" sourcefile="TrackGame.java" sourcepath="circularOrbit/TrackGame.java"/>
+  </BugInstance>
+  <BugInstance type="NM_METHOD_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" first="1">
+    <Class classname="circularOrbit.TrackGame">
+      <SourceLine classname="circularOrbit.TrackGame" sourcefile="TrackGame.java" sourcepath="circularOrbit/TrackGame.java"/>
+    </Class>
+    <Method classname="circularOrbit.TrackGame" name="Analysis" signature="()V" isStatic="false">
+      <SourceLine classname="circularOrbit.TrackGame" start="68" end="407" startBytecode="0" endBytecode="3910" sourcefile="TrackGame.java" sourcepath="circularOrbit/TrackGame.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="IM_AVERAGE_COMPUTATION_COULD_OVERFLOW" priority="2" rank="17" abbrev="IM" category="STYLE" first="1">
+    <Class classname="debug.FindMedianSortedArrays">
+      <SourceLine classname="debug.FindMedianSortedArrays" sourcefile="FindMedianSortedArrays.java" sourcepath="debug/FindMedianSortedArrays.java"/>
+    </Class>
+    <Method classname="debug.FindMedianSortedArrays" name="findMedianSortedArrays" signature="([I[I)D" isStatic="false">
+      <SourceLine classname="debug.FindMedianSortedArrays" start="30" end="71" startBytecode="0" endBytecode="626" sourcefile="FindMedianSortedArrays.java" sourcepath="debug/FindMedianSortedArrays.java"/>
+    </Method>
+    <SourceLine classname="debug.FindMedianSortedArrays" start="42" end="42" startBytecode="54" endBytecode="54" sourcefile="FindMedianSortedArrays.java" sourcepath="debug/FindMedianSortedArrays.java"/>
+    <SourceLine classname="debug.FindMedianSortedArrays" start="42" end="42" startBytecode="54" endBytecode="54" sourcefile="FindMedianSortedArrays.java" sourcepath="debug/FindMedianSortedArrays.java"/>
+  </BugInstance>
+  <BugInstance type="SACM_STATIC_ARRAY_CREATED_IN_METHOD" priority="1" rank="16" abbrev="SACM" category="PERFORMANCE" first="1">
+    <Class classname="debug.RemoveCommentsTest">
+      <SourceLine classname="debug.RemoveCommentsTest" sourcefile="RemoveCommentsTest.java" sourcepath="debug/RemoveCommentsTest.java"/>
+    </Class>
+    <Method classname="debug.RemoveCommentsTest" name="test1" signature="()V" isStatic="false">
+      <SourceLine classname="debug.RemoveCommentsTest" start="18" end="28" startBytecode="0" endBytecode="275" sourcefile="RemoveCommentsTest.java" sourcepath="debug/RemoveCommentsTest.java"/>
+    </Method>
+    <SourceLine classname="debug.RemoveCommentsTest" start="19" end="19" startBytecode="73" endBytecode="73" sourcefile="RemoveCommentsTest.java" sourcepath="debug/RemoveCommentsTest.java"/>
+  </BugInstance>
+  <BugInstance type="SACM_STATIC_ARRAY_CREATED_IN_METHOD" priority="2" rank="18" abbrev="SACM" category="PERFORMANCE" first="1">
+    <Class classname="debug.RemoveCommentsTest">
+      <SourceLine classname="debug.RemoveCommentsTest" sourcefile="RemoveCommentsTest.java" sourcepath="debug/RemoveCommentsTest.java"/>
+    </Class>
+    <Method classname="debug.RemoveCommentsTest" name="test2" signature="()V" isStatic="false">
+      <SourceLine classname="debug.RemoveCommentsTest" start="31" end="36" startBytecode="0" endBytecode="164" sourcefile="RemoveCommentsTest.java" sourcepath="debug/RemoveCommentsTest.java"/>
+    </Method>
+    <SourceLine classname="debug.RemoveCommentsTest" start="32" end="32" startBytecode="27" endBytecode="27" sourcefile="RemoveCommentsTest.java" sourcepath="debug/RemoveCommentsTest.java"/>
+  </BugInstance>
+  <BugInstance type="PSC_PRESIZE_COLLECTIONS" priority="2" rank="18" abbrev="PSC" category="PERFORMANCE" first="1">
+    <Class classname="debug.TopVotedCandidate">
+      <SourceLine classname="debug.TopVotedCandidate" sourcefile="TopVotedCandidate.java" sourcepath="debug/TopVotedCandidate.java"/>
+    </Class>
+    <Method classname="debug.TopVotedCandidate" name="&lt;init&gt;" signature="([I[I)V" isStatic="false">
+      <SourceLine classname="debug.TopVotedCandidate" start="47" end="59" startBytecode="0" endBytecode="379" sourcefile="TopVotedCandidate.java" sourcepath="debug/TopVotedCandidate.java"/>
+    </Method>
+    <SourceLine classname="debug.TopVotedCandidate" start="54" end="54" startBytecode="78" endBytecode="78" sourcefile="TopVotedCandidate.java" sourcepath="debug/TopVotedCandidate.java"/>
+  </BugInstance>
+  <BugInstance type="CE_CLASS_ENVY" priority="2" rank="19" abbrev="CE" category="STYLE" first="1">
+    <Class classname="debug.TopVotedCandidateTest">
+      <SourceLine classname="debug.TopVotedCandidateTest" sourcefile="TopVotedCandidateTest.java" sourcepath="debug/TopVotedCandidateTest.java"/>
+    </Class>
+    <Method classname="debug.TopVotedCandidateTest" name="test" signature="()V" isStatic="false">
+      <SourceLine classname="debug.TopVotedCandidateTest" start="18" end="30" startBytecode="0" endBytecode="280" sourcefile="TopVotedCandidateTest.java" sourcepath="debug/TopVotedCandidateTest.java"/>
+    </Method>
+    <SourceLine classname="debug.TopVotedCandidateTest" start="18" end="30" startBytecode="0" endBytecode="160" sourcefile="TopVotedCandidateTest.java" sourcepath="debug/TopVotedCandidateTest.java"/>
+    <String value="debug.TopVotedCandidate"/>
+  </BugInstance>
+  <BugInstance type="DM_EXIT" priority="2" rank="16" abbrev="Dm" category="BAD_PRACTICE" first="1">
+    <Class classname="exception.errorinfile">
+      <SourceLine classname="exception.errorinfile" sourcefile="errorinfile.java" sourcepath="exception/errorinfile.java"/>
+    </Class>
+    <Method classname="exception.errorinfile" name="errorinfile1" signature="()V" isStatic="false">
+      <SourceLine classname="exception.errorinfile" start="8" end="10" startBytecode="0" endBytecode="60" sourcefile="errorinfile.java" sourcepath="exception/errorinfile.java"/>
+    </Method>
+    <SourceLine classname="exception.errorinfile" start="9" end="9" startBytecode="7" endBytecode="7" sourcefile="errorinfile.java" sourcepath="exception/errorinfile.java"/>
+    <SourceLine classname="exception.errorinfile" start="9" end="9" startBytecode="7" endBytecode="7" sourcefile="errorinfile.java" sourcepath="exception/errorinfile.java"/>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" first="1">
+    <Class classname="exception.errorinfile">
+      <SourceLine classname="exception.errorinfile" start="5" end="10" sourcefile="errorinfile.java" sourcepath="exception/errorinfile.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" first="1">
+    <Class classname="exception.errorordertag">
+      <SourceLine classname="exception.errorordertag" start="6" end="9" sourcefile="errorordertag.java" sourcepath="exception/errorordertag.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" first="1">
+    <Class classname="exception.lacktag">
+      <SourceLine classname="exception.lacktag" start="5" end="9" sourcefile="lacktag.java" sourcepath="exception/lacktag.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="exception.newfile1">
+      <SourceLine classname="exception.newfile1" sourcefile="newfile1.java" sourcepath="exception/newfile1.java"/>
+    </Class>
+    <Method classname="exception.newfile1" name="newfile2" signature="(LcircularOrbit/ConcreteCircularOrbit;I)V" isStatic="false">
+      <SourceLine classname="exception.newfile1" start="14" end="88" startBytecode="0" endBytecode="711" sourcefile="newfile1.java" sourcepath="exception/newfile1.java"/>
+    </Method>
+    <Method classname="java.util.Scanner" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.Scanner"/>
+    </Method>
+    <SourceLine classname="exception.newfile1" start="19" end="19" startBytecode="28" endBytecode="28" sourcefile="newfile1.java" sourcepath="exception/newfile1.java"/>
+    <SourceLine classname="exception.newfile1" start="19" end="19" startBytecode="28" endBytecode="28" sourcefile="newfile1.java" sourcepath="exception/newfile1.java"/>
+  </BugInstance>
+  <BugInstance type="DM_EXIT" priority="2" rank="16" abbrev="Dm" category="BAD_PRACTICE" first="1">
+    <Class classname="exception.newfile1">
+      <SourceLine classname="exception.newfile1" sourcefile="newfile1.java" sourcepath="exception/newfile1.java"/>
+    </Class>
+    <Method classname="exception.newfile1" name="newfile2" signature="(LcircularOrbit/ConcreteCircularOrbit;I)V" isStatic="false">
+      <SourceLine classname="exception.newfile1" start="14" end="88" startBytecode="0" endBytecode="711" sourcefile="newfile1.java" sourcepath="exception/newfile1.java"/>
+    </Method>
+    <SourceLine classname="exception.newfile1" start="32" end="32" startBytecode="81" endBytecode="81" sourcefile="newfile1.java" sourcepath="exception/newfile1.java"/>
+    <SourceLine classname="exception.newfile1" start="32" end="32" startBytecode="81" endBytecode="81" sourcefile="newfile1.java" sourcepath="exception/newfile1.java"/>
+  </BugInstance>
+  <BugInstance type="LSC_LITERAL_STRING_COMPARISON" priority="1" rank="17" abbrev="LSC" category="STYLE" first="1">
+    <Class classname="exception.newfile1">
+      <SourceLine classname="exception.newfile1" sourcefile="newfile1.java" sourcepath="exception/newfile1.java"/>
+    </Class>
+    <Method classname="exception.newfile1" name="newfile2" signature="(LcircularOrbit/ConcreteCircularOrbit;I)V" isStatic="false">
+      <SourceLine classname="exception.newfile1" start="14" end="88" startBytecode="0" endBytecode="711" sourcefile="newfile1.java" sourcepath="exception/newfile1.java"/>
+    </Method>
+    <SourceLine classname="exception.newfile1" start="22" end="22" startBytecode="42" endBytecode="42" sourcefile="newfile1.java" sourcepath="exception/newfile1.java"/>
+  </BugInstance>
+  <BugInstance type="LSC_LITERAL_STRING_COMPARISON" priority="1" rank="17" abbrev="LSC" category="STYLE" first="1">
+    <Class classname="exception.newfile1">
+      <SourceLine classname="exception.newfile1" sourcefile="newfile1.java" sourcepath="exception/newfile1.java"/>
+    </Class>
+    <Method classname="exception.newfile1" name="newfile2" signature="(LcircularOrbit/ConcreteCircularOrbit;I)V" isStatic="false">
+      <SourceLine classname="exception.newfile1" start="14" end="88" startBytecode="0" endBytecode="711" sourcefile="newfile1.java" sourcepath="exception/newfile1.java"/>
+    </Method>
+    <SourceLine classname="exception.newfile1" start="44" end="44" startBytecode="129" endBytecode="129" sourcefile="newfile1.java" sourcepath="exception/newfile1.java"/>
+  </BugInstance>
+  <BugInstance type="LSC_LITERAL_STRING_COMPARISON" priority="1" rank="17" abbrev="LSC" category="STYLE" first="1">
+    <Class classname="exception.newfile1">
+      <SourceLine classname="exception.newfile1" sourcefile="newfile1.java" sourcepath="exception/newfile1.java"/>
+    </Class>
+    <Method classname="exception.newfile1" name="newfile2" signature="(LcircularOrbit/ConcreteCircularOrbit;I)V" isStatic="false">
+      <SourceLine classname="exception.newfile1" start="14" end="88" startBytecode="0" endBytecode="711" sourcefile="newfile1.java" sourcepath="exception/newfile1.java"/>
+    </Method>
+    <SourceLine classname="exception.newfile1" start="65" end="65" startBytecode="216" endBytecode="216" sourcefile="newfile1.java" sourcepath="exception/newfile1.java"/>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" first="1">
+    <Class classname="exception.newfile1">
+      <SourceLine classname="exception.newfile1" start="8" end="88" sourcefile="newfile1.java" sourcepath="exception/newfile1.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" first="1">
+    <Class classname="exception.notfoundnewfile">
+      <SourceLine classname="exception.notfoundnewfile" start="5" end="10" sourcefile="notfoundnewfile.java" sourcepath="exception/notfoundnewfile.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" first="1">
+    <Class classname="exception.sameele">
+      <SourceLine classname="exception.sameele" start="6" end="9" sourcefile="sameele.java" sourcepath="exception/sameele.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" first="1">
+    <Class classname="exception.sametag">
+      <SourceLine classname="exception.sametag" start="6" end="10" sourcefile="sametag.java" sourcepath="exception/sametag.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" first="1">
+    <Class classname="exception.wrongformat">
+      <SourceLine classname="exception.wrongformat" start="6" end="9" sourcefile="wrongformat.java" sourcepath="exception/wrongformat.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" first="1">
+    <Class classname="exception.wrongrely">
+      <SourceLine classname="exception.wrongrely" start="5" end="13" sourcefile="wrongrely.java" sourcepath="exception/wrongrely.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="CO_COMPARETO_INCORRECT_FLOATING" priority="2" rank="16" abbrev="Co" category="BAD_PRACTICE" first="1">
+    <Class classname="physicalObject.Athlete">
+      <SourceLine classname="physicalObject.Athlete" sourcefile="Athlete.java" sourcepath="physicalObject/Athlete.java"/>
+    </Class>
+    <Method classname="physicalObject.Athlete" name="compareTo" signature="(LphysicalObject/Athlete;)I" isStatic="false">
+      <SourceLine classname="physicalObject.Athlete" start="76" end="86" startBytecode="0" endBytecode="107" sourcefile="Athlete.java" sourcepath="physicalObject/Athlete.java"/>
+    </Method>
+    <Type descriptor="D"/>
+    <Method classname="java.lang.Double" name="compare" signature="(DD)I" isStatic="true" role="SHOULD_CALL">
+      <SourceLine classname="java.lang.Double"/>
+    </Method>
+    <Field classname="physicalObject.Athlete" name="grade" signature="D" isStatic="false" role="FIELD_VALUE_OF">
+      <SourceLine classname="physicalObject.Athlete" sourcefile="Athlete.java" sourcepath="physicalObject/Athlete.java"/>
+    </Field>
+    <Field classname="physicalObject.Athlete" name="grade" signature="D" isStatic="false" role="FIELD_VALUE_OF">
+      <SourceLine classname="physicalObject.Athlete" sourcefile="Athlete.java" sourcepath="physicalObject/Athlete.java"/>
+    </Field>
+    <SourceLine classname="physicalObject.Athlete" start="80" end="80" startBytecode="22" endBytecode="22" sourcefile="Athlete.java" sourcepath="physicalObject/Athlete.java"/>
+    <SourceLine classname="physicalObject.Athlete" start="80" end="80" startBytecode="22" endBytecode="22" sourcefile="Athlete.java" sourcepath="physicalObject/Athlete.java"/>
+  </BugInstance>
+  <BugInstance type="USBR_UNNECESSARY_STORE_BEFORE_RETURN" priority="2" rank="17" abbrev="USBR" category="STYLE" first="1">
+    <Class classname="physicalObject.Athlete">
+      <SourceLine classname="physicalObject.Athlete" sourcefile="Athlete.java" sourcepath="physicalObject/Athlete.java"/>
+    </Class>
+    <Method classname="physicalObject.Athlete" name="hashCode" signature="()I" isStatic="false">
+      <SourceLine classname="physicalObject.Athlete" start="19" end="22" startBytecode="0" endBytecode="139" sourcefile="Athlete.java" sourcepath="physicalObject/Athlete.java"/>
+    </Method>
+    <SourceLine classname="physicalObject.Athlete" start="22" end="22" startBytecode="30" endBytecode="30" sourcefile="Athlete.java" sourcepath="physicalObject/Athlete.java"/>
+  </BugInstance>
+  <BugInstance type="USBR_UNNECESSARY_STORE_BEFORE_RETURN" priority="2" rank="17" abbrev="USBR" category="STYLE" first="1">
+    <Class classname="physicalObject.Electron">
+      <SourceLine classname="physicalObject.Electron" sourcefile="Electron.java" sourcepath="physicalObject/Electron.java"/>
+    </Class>
+    <Method classname="physicalObject.Electron" name="hashCode" signature="()I" isStatic="false">
+      <SourceLine classname="physicalObject.Electron" start="25" end="28" startBytecode="0" endBytecode="90" sourcefile="Electron.java" sourcepath="physicalObject/Electron.java"/>
+    </Method>
+    <SourceLine classname="physicalObject.Electron" start="28" end="28" startBytecode="16" endBytecode="16" sourcefile="Electron.java" sourcepath="physicalObject/Electron.java"/>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" first="1">
+    <Class classname="testLog4j.testLog4j">
+      <SourceLine classname="testLog4j.testLog4j" start="7" end="23" sourcefile="testLog4j.java" sourcepath="testLog4j/testLog4j.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="BL_BURYING_LOGIC" priority="2" rank="17" abbrev="BL" category="STYLE" first="1">
+    <Class classname="track.Track">
+      <SourceLine classname="track.Track" sourcefile="Track.java" sourcepath="track/Track.java"/>
+    </Class>
+    <Method classname="track.Track" name="singleLinetoString" signature="()Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="track.Track" start="284" end="304" startBytecode="0" endBytecode="397" sourcefile="Track.java" sourcepath="track/Track.java"/>
+    </Method>
+    <SourceLine classname="track.Track" start="286" end="304" startBytecode="9" endBytecode="167" sourcefile="Track.java" sourcepath="track/Track.java"/>
+  </BugInstance>
+  <BugInstance type="BL_BURYING_LOGIC" priority="2" rank="17" abbrev="BL" category="STYLE" first="1">
+    <Class classname="track.Track">
+      <SourceLine classname="track.Track" sourcefile="Track.java" sourcepath="track/Track.java"/>
+    </Class>
+    <Method classname="track.Track" name="toString" signature="()Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="track.Track" start="257" end="277" startBytecode="0" endBytecode="429" sourcefile="Track.java" sourcepath="track/Track.java"/>
+    </Method>
+    <SourceLine classname="track.Track" start="259" end="277" startBytecode="9" endBytecode="199" sourcefile="Track.java" sourcepath="track/Track.java"/>
+  </BugInstance>
+  <BugInstance type="ISB_INEFFICIENT_STRING_BUFFERING" priority="2" rank="18" abbrev="ISB" category="PERFORMANCE" first="1">
+    <Class classname="track.Track">
+      <SourceLine classname="track.Track" sourcefile="Track.java" sourcepath="track/Track.java"/>
+    </Class>
+    <Method classname="track.Track" name="singleLinetoString" signature="()Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="track.Track" start="284" end="304" startBytecode="0" endBytecode="397" sourcefile="Track.java" sourcepath="track/Track.java"/>
+    </Method>
+    <SourceLine classname="track.Track" start="294" end="294" startBytecode="103" endBytecode="103" sourcefile="Track.java" sourcepath="track/Track.java"/>
+  </BugInstance>
+  <BugInstance type="ISB_INEFFICIENT_STRING_BUFFERING" priority="2" rank="18" abbrev="ISB" category="PERFORMANCE" first="1">
+    <Class classname="track.Track">
+      <SourceLine classname="track.Track" sourcefile="Track.java" sourcepath="track/Track.java"/>
+    </Class>
+    <Method classname="track.Track" name="singleLinetoString" signature="()Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="track.Track" start="284" end="304" startBytecode="0" endBytecode="397" sourcefile="Track.java" sourcepath="track/Track.java"/>
+    </Method>
+    <SourceLine classname="track.Track" start="298" end="298" startBytecode="148" endBytecode="148" sourcefile="Track.java" sourcepath="track/Track.java"/>
+  </BugInstance>
+  <BugInstance type="MUI_GET_BEFORE_REMOVE" priority="2" rank="7" abbrev="MUI" category="CORRECTNESS" first="1">
+    <Class classname="track.Track">
+      <SourceLine classname="track.Track" sourcefile="Track.java" sourcepath="track/Track.java"/>
+    </Class>
+    <Method classname="track.Track" name="remove" signature="(Ljava/lang/Object;)Ljava/lang/Object;" isStatic="false">
+      <SourceLine classname="track.Track" start="143" end="162" startBytecode="0" endBytecode="369" sourcefile="Track.java" sourcepath="track/Track.java"/>
+    </Method>
+    <SourceLine classname="track.Track" start="159" end="159" startBytecode="101" endBytecode="101" sourcefile="Track.java" sourcepath="track/Track.java"/>
+  </BugInstance>
+  <BugInstance type="UCPM_USE_CHARACTER_PARAMETERIZED_METHOD" priority="2" rank="18" abbrev="UCPM" category="PERFORMANCE" first="1">
+    <Class classname="track.Track">
+      <SourceLine classname="track.Track" sourcefile="Track.java" sourcepath="track/Track.java"/>
+    </Class>
+    <Method classname="track.Track" name="singleLinetoString" signature="()Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="track.Track" start="284" end="304" startBytecode="0" endBytecode="397" sourcefile="Track.java" sourcepath="track/Track.java"/>
+    </Method>
+    <SourceLine classname="track.Track" start="287" end="287" startBytecode="20" endBytecode="20" sourcefile="Track.java" sourcepath="track/Track.java"/>
+  </BugInstance>
+  <BugInstance type="USBR_UNNECESSARY_STORE_BEFORE_RETURN" priority="2" rank="17" abbrev="USBR" category="STYLE" first="1">
+    <Class classname="track.Track">
+      <SourceLine classname="track.Track" sourcefile="Track.java" sourcepath="track/Track.java"/>
+    </Class>
+    <Method classname="track.Track" name="hashCode" signature="()I" isStatic="false">
+      <SourceLine classname="track.Track" start="234" end="237" startBytecode="0" endBytecode="157" sourcefile="Track.java" sourcepath="track/Track.java"/>
+    </Method>
+    <SourceLine classname="track.Track" start="237" end="237" startBytecode="30" endBytecode="30" sourcefile="Track.java" sourcepath="track/Track.java"/>
+  </BugInstance>
+  <BugInstance type="WMI_WRONG_MAP_ITERATOR" priority="2" rank="18" abbrev="WMI" category="PERFORMANCE" first="1">
+    <Class classname="track.Track">
+      <SourceLine classname="track.Track" sourcefile="Track.java" sourcepath="track/Track.java"/>
+    </Class>
+    <Method classname="track.Track" name="angleOf" signature="(Ljava/lang/Object;)D" isStatic="false">
+      <SourceLine classname="track.Track" start="71" end="79" startBytecode="0" endBytecode="226" sourcefile="Track.java" sourcepath="track/Track.java"/>
+    </Method>
+    <Field classname="track.Track" name="objects" signature="Ljava/util/Map;" isStatic="false">
+      <SourceLine classname="track.Track" sourcefile="Track.java" sourcepath="track/Track.java"/>
+    </Field>
+    <SourceLine classname="track.Track" start="74" end="74" startBytecode="37" endBytecode="37" sourcefile="Track.java" sourcepath="track/Track.java"/>
+    <SourceLine classname="track.Track" start="74" end="74" startBytecode="37" endBytecode="37" sourcefile="Track.java" sourcepath="track/Track.java"/>
+  </BugInstance>
+  <BugInstance type="WMI_WRONG_MAP_ITERATOR" priority="2" rank="18" abbrev="WMI" category="PERFORMANCE" first="1">
+    <Class classname="track.Track">
+      <SourceLine classname="track.Track" sourcefile="Track.java" sourcepath="track/Track.java"/>
+    </Class>
+    <Method classname="track.Track" name="changePos" signature="(Ljava/lang/Object;Ljava/lang/Double;)Z" isStatic="false">
+      <SourceLine classname="track.Track" start="186" end="208" startBytecode="0" endBytecode="403" sourcefile="Track.java" sourcepath="track/Track.java"/>
+    </Method>
+    <Field classname="track.Track" name="objects" signature="Ljava/util/Map;" isStatic="false">
+      <SourceLine classname="track.Track" sourcefile="Track.java" sourcepath="track/Track.java"/>
+    </Field>
+    <SourceLine classname="track.Track" start="196" end="196" startBytecode="72" endBytecode="72" sourcefile="Track.java" sourcepath="track/Track.java"/>
+    <SourceLine classname="track.Track" start="196" end="196" startBytecode="72" endBytecode="72" sourcefile="Track.java" sourcepath="track/Track.java"/>
+  </BugInstance>
+  <BugInstance type="WMI_WRONG_MAP_ITERATOR" priority="2" rank="18" abbrev="WMI" category="PERFORMANCE" first="1">
+    <Class classname="track.Track">
+      <SourceLine classname="track.Track" sourcefile="Track.java" sourcepath="track/Track.java"/>
+    </Class>
+    <Method classname="track.Track" name="remove" signature="(Ljava/lang/Object;)Ljava/lang/Object;" isStatic="false">
+      <SourceLine classname="track.Track" start="143" end="162" startBytecode="0" endBytecode="369" sourcefile="Track.java" sourcepath="track/Track.java"/>
+    </Method>
+    <Field classname="track.Track" name="objects" signature="Ljava/util/Map;" isStatic="false">
+      <SourceLine classname="track.Track" sourcefile="Track.java" sourcepath="track/Track.java"/>
+    </Field>
+    <SourceLine classname="track.Track" start="149" end="149" startBytecode="50" endBytecode="50" sourcefile="Track.java" sourcepath="track/Track.java"/>
+    <SourceLine classname="track.Track" start="149" end="149" startBytecode="50" endBytecode="50" sourcefile="Track.java" sourcepath="track/Track.java"/>
+  </BugInstance>
+  <BugInstance type="WMI_WRONG_MAP_ITERATOR" priority="2" rank="18" abbrev="WMI" category="PERFORMANCE" first="1">
+    <Class classname="track.Track">
+      <SourceLine classname="track.Track" sourcefile="Track.java" sourcepath="track/Track.java"/>
+    </Class>
+    <Method classname="track.Track" name="singleLinetoString" signature="()Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="track.Track" start="284" end="304" startBytecode="0" endBytecode="397" sourcefile="Track.java" sourcepath="track/Track.java"/>
+    </Method>
+    <Field classname="track.Track" name="objects" signature="Ljava/util/Map;" isStatic="false">
+      <SourceLine classname="track.Track" sourcefile="Track.java" sourcepath="track/Track.java"/>
+    </Field>
+    <SourceLine classname="track.Track" start="294" end="294" startBytecode="87" endBytecode="87" sourcefile="Track.java" sourcepath="track/Track.java"/>
+    <SourceLine classname="track.Track" start="294" end="294" startBytecode="87" endBytecode="87" sourcefile="Track.java" sourcepath="track/Track.java"/>
+  </BugInstance>
+  <BugInstance type="WMI_WRONG_MAP_ITERATOR" priority="2" rank="18" abbrev="WMI" category="PERFORMANCE" first="1">
+    <Class classname="track.Track">
+      <SourceLine classname="track.Track" sourcefile="Track.java" sourcepath="track/Track.java"/>
+    </Class>
+    <Method classname="track.Track" name="toString" signature="()Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="track.Track" start="257" end="277" startBytecode="0" endBytecode="429" sourcefile="Track.java" sourcepath="track/Track.java"/>
+    </Method>
+    <Field classname="track.Track" name="objects" signature="Ljava/util/Map;" isStatic="false">
+      <SourceLine classname="track.Track" sourcefile="Track.java" sourcepath="track/Track.java"/>
+    </Field>
+    <SourceLine classname="track.Track" start="267" end="267" startBytecode="119" endBytecode="119" sourcefile="Track.java" sourcepath="track/Track.java"/>
+    <SourceLine classname="track.Track" start="267" end="267" startBytecode="119" endBytecode="119" sourcefile="Track.java" sourcepath="track/Track.java"/>
+  </BugInstance>
+  <BugInstance type="CE_CLASS_ENVY" priority="2" rank="19" abbrev="CE" category="STYLE" first="1">
+    <Class classname="track.TrackTest">
+      <SourceLine classname="track.TrackTest" sourcefile="TrackTest.java" sourcepath="track/TrackTest.java"/>
+    </Class>
+    <Method classname="track.TrackTest" name="testmain" signature="()V" isStatic="false">
+      <SourceLine classname="track.TrackTest" start="30" end="52" startBytecode="0" endBytecode="303" sourcefile="TrackTest.java" sourcepath="track/TrackTest.java"/>
+    </Method>
+    <SourceLine classname="track.TrackTest" start="30" end="52" startBytecode="0" endBytecode="165" sourcefile="TrackTest.java" sourcepath="track/TrackTest.java"/>
+    <String value="track.Track"/>
+  </BugInstance>
+  <BugInstance type="CE_CLASS_ENVY" priority="2" rank="19" abbrev="CE" category="STYLE" first="1">
+    <Class classname="track.TrackTest">
+      <SourceLine classname="track.TrackTest" sourcefile="TrackTest.java" sourcepath="track/TrackTest.java"/>
+    </Class>
+    <Method classname="track.TrackTest" name="testmethods" signature="()V" isStatic="false">
+      <SourceLine classname="track.TrackTest" start="11" end="18" startBytecode="0" endBytecode="157" sourcefile="TrackTest.java" sourcepath="track/TrackTest.java"/>
+    </Method>
+    <SourceLine classname="track.TrackTest" start="11" end="18" startBytecode="0" endBytecode="59" sourcefile="TrackTest.java" sourcepath="track/TrackTest.java"/>
+    <String value="track.Track"/>
+  </BugInstance>
+  <BugInstance type="NAB_NEEDLESS_BOOLEAN_CONSTANT_CONVERSION" priority="2" rank="18" abbrev="NAB" category="PERFORMANCE" first="1">
+    <Class classname="track.TrackTest">
+      <SourceLine classname="track.TrackTest" sourcefile="TrackTest.java" sourcepath="track/TrackTest.java"/>
+    </Class>
+    <Method classname="track.TrackTest" name="testmain" signature="()V" isStatic="false">
+      <SourceLine classname="track.TrackTest" start="30" end="52" startBytecode="0" endBytecode="303" sourcefile="TrackTest.java" sourcepath="track/TrackTest.java"/>
+    </Method>
+    <SourceLine classname="track.TrackTest" start="41" end="41" startBytecode="71" endBytecode="71" sourcefile="TrackTest.java" sourcepath="track/TrackTest.java"/>
+  </BugInstance>
+  <BugInstance type="NAB_NEEDLESS_BOOLEAN_CONSTANT_CONVERSION" priority="2" rank="18" abbrev="NAB" category="PERFORMANCE" first="1">
+    <Class classname="track.TrackTest">
+      <SourceLine classname="track.TrackTest" sourcefile="TrackTest.java" sourcepath="track/TrackTest.java"/>
+    </Class>
+    <Method classname="track.TrackTest" name="testmain" signature="()V" isStatic="false">
+      <SourceLine classname="track.TrackTest" start="30" end="52" startBytecode="0" endBytecode="303" sourcefile="TrackTest.java" sourcepath="track/TrackTest.java"/>
+    </Method>
+    <SourceLine classname="track.TrackTest" start="42" end="42" startBytecode="87" endBytecode="87" sourcefile="TrackTest.java" sourcepath="track/TrackTest.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Sun, 19 May 2019 15:03:14 +0800" total_classes="57" referenced_classes="407" total_bugs="101" total_size="2362" num_packages="9" java_version="1.8.0_201" vm_version="25.201-b09" cpu_seconds="38.06" clock_seconds="262.40" peak_mbytes="596.70" alloc_mbytes="1024.00" gc_seconds="1.32" priority_2="77" priority_1="24">
+    <PackageStats package="APIs" total_bugs="0" total_types="11" total_size="209">
+      <ClassStats class="APIs.Circle" sourceFile="Circle.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="APIs.CircularOrbitAPIs" sourceFile="CircularOrbitAPIs.java" interface="false" size="37" bugs="0"/>
+      <ClassStats class="APIs.CircularOrbitHelper" sourceFile="CircularOrbitHelper.java" interface="false" size="53" bugs="0"/>
+      <ClassStats class="APIs.CircularOrbitHelper$1position" sourceFile="CircularOrbitHelper.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="APIs.Line" sourceFile="Line.java" interface="false" size="15" bugs="0"/>
+      <ClassStats class="APIs.MyPic" sourceFile="MyPic.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="APIs.Picture" sourceFile="Picture.java" interface="false" size="21" bugs="0"/>
+      <ClassStats class="APIs.Picture$ShapesPanel" sourceFile="Picture.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="APIs.Rectangle" sourceFile="Rectangle.java" interface="false" size="15" bugs="0"/>
+      <ClassStats class="APIs.Shape" sourceFile="Shape.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="APIs.Triangle" sourceFile="Triangle.java" interface="false" size="13" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="applications" total_bugs="13" total_types="1" total_size="371" priority_2="10" priority_1="3">
+      <ClassStats class="applications.Main" sourceFile="Main.java" interface="false" size="371" bugs="13" priority_2="10" priority_1="3"/>
+    </PackageStats>
+    <PackageStats package="centralObject" total_bugs="1" total_types="2" total_size="14" priority_2="1">
+      <ClassStats class="centralObject.Nucleus" sourceFile="Nucleus.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="centralObject.Person" sourceFile="Person.java" interface="false" size="6" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <PackageStats package="circularOrbit" total_bugs="47" total_types="17" total_size="1194" priority_2="31" priority_1="16">
+      <ClassStats class="circularOrbit.AtomStructure" sourceFile="AtomStructure.java" interface="false" size="220" bugs="9" priority_2="6" priority_1="3"/>
+      <ClassStats class="circularOrbit.AtomStructureTest" sourceFile="AtomStructureTest.java" interface="false" size="17" bugs="2" priority_2="2"/>
+      <ClassStats class="circularOrbit.CircularOrbit" sourceFile="CircularOrbit.java" interface="true" size="16" bugs="0"/>
+      <ClassStats class="circularOrbit.ConcreteCircularOrbit" sourceFile="ConcreteCircularOrbit.java" interface="false" size="125" bugs="3" priority_2="2" priority_1="1"/>
+      <ClassStats class="circularOrbit.ConcreteCircularOrbit$iterator" sourceFile="ConcreteCircularOrbit.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="circularOrbit.ConcreteCircularOrbitTest" sourceFile="ConcreteCircularOrbitTest.java" interface="false" size="30" bugs="0"/>
+      <ClassStats class="circularOrbit.ConcreteVerticesGraph" sourceFile="ConcreteVerticesGraph.java" interface="false" size="78" bugs="2" priority_2="2"/>
+      <ClassStats class="circularOrbit.ConcreteVerticesGraphTest" sourceFile="ConcreteVerticesGraphTest.java" interface="false" size="33" bugs="2" priority_2="2"/>
+      <ClassStats class="circularOrbit.FriendshipGraph" sourceFile="FriendshipGraph.java" interface="false" size="57" bugs="0"/>
+      <ClassStats class="circularOrbit.FriendshipGraphTest" sourceFile="FriendshipGraphTest.java" interface="false" size="26" bugs="1" priority_2="1"/>
+      <ClassStats class="circularOrbit.Graph" sourceFile="Graph.java" interface="true" size="9" bugs="0"/>
+      <ClassStats class="circularOrbit.Pair" sourceFile="Pair.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="circularOrbit.SocialNetworkCircle" sourceFile="SocialNetworkCircle.java" interface="false" size="266" bugs="14" priority_2="6" priority_1="8"/>
+      <ClassStats class="circularOrbit.SocialNetworkCircleTest" sourceFile="SocialNetworkCircleTest.java" interface="false" size="16" bugs="0"/>
+      <ClassStats class="circularOrbit.TrackGame" sourceFile="TrackGame.java" interface="false" size="235" bugs="14" priority_2="10" priority_1="4"/>
+      <ClassStats class="circularOrbit.TrackGameTest" sourceFile="TrackGameTest.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="circularOrbit.Vertex" sourceFile="ConcreteVerticesGraph.java" interface="false" size="23" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="debug" total_bugs="5" total_types="7" total_size="187" priority_2="4" priority_1="1">
+      <ClassStats class="debug.FindMedianSortedArrays" sourceFile="FindMedianSortedArrays.java" interface="false" size="40" bugs="1" priority_2="1"/>
+      <ClassStats class="debug.FindMedianSortedArraysTest" sourceFile="FindMedianSortedArraysTest.java" interface="false" size="27" bugs="0"/>
+      <ClassStats class="debug.RemoveComments" sourceFile="RemoveComments.java" interface="false" size="26" bugs="0"/>
+      <ClassStats class="debug.RemoveCommentsTest" sourceFile="RemoveCommentsTest.java" interface="false" size="22" bugs="2" priority_2="1" priority_1="1"/>
+      <ClassStats class="debug.TopVotedCandidate" sourceFile="TopVotedCandidate.java" interface="false" size="47" bugs="1" priority_2="1"/>
+      <ClassStats class="debug.TopVotedCandidateTest" sourceFile="TopVotedCandidateTest.java" interface="false" size="17" bugs="1" priority_2="1"/>
+      <ClassStats class="debug.Vote" sourceFile="TopVotedCandidate.java" interface="false" size="8" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="exception" total_bugs="15" total_types="13" total_size="126" priority_2="11" priority_1="4">
+      <ClassStats class="exception.InvalidTag" sourceFile="InvalidTag.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="exception.NumOrder" sourceFile="NumOrder.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="exception.SyntaxSpec" sourceFile="SyntaxSpec.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="exception.errorinfile" sourceFile="errorinfile.java" interface="false" size="7" bugs="2" priority_2="2"/>
+      <ClassStats class="exception.errorordertag" sourceFile="errorordertag.java" interface="false" size="5" bugs="1" priority_2="1"/>
+      <ClassStats class="exception.lacktag" sourceFile="lacktag.java" interface="false" size="6" bugs="1" priority_2="1"/>
+      <ClassStats class="exception.newfile" sourceFile="newfile.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="exception.newfile1" sourceFile="newfile1.java" interface="false" size="50" bugs="6" priority_2="2" priority_1="4"/>
+      <ClassStats class="exception.notfoundnewfile" sourceFile="notfoundnewfile.java" interface="false" size="7" bugs="1" priority_2="1"/>
+      <ClassStats class="exception.sameele" sourceFile="sameele.java" interface="false" size="5" bugs="1" priority_2="1"/>
+      <ClassStats class="exception.sametag" sourceFile="sametag.java" interface="false" size="5" bugs="1" priority_2="1"/>
+      <ClassStats class="exception.wrongformat" sourceFile="wrongformat.java" interface="false" size="5" bugs="1" priority_2="1"/>
+      <ClassStats class="exception.wrongrely" sourceFile="wrongrely.java" interface="false" size="9" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <PackageStats package="physicalObject" total_bugs="3" total_types="3" total_size="88" priority_2="3">
+      <ClassStats class="physicalObject.Account" sourceFile="Account.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="physicalObject.Athlete" sourceFile="Athlete.java" interface="false" size="46" bugs="2" priority_2="2"/>
+      <ClassStats class="physicalObject.Electron" sourceFile="Electron.java" interface="false" size="28" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <PackageStats package="testLog4j" total_bugs="1" total_types="1" total_size="12" priority_2="1">
+      <ClassStats class="testLog4j.testLog4j" sourceFile="testLog4j.java" interface="false" size="12" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <PackageStats package="track" total_bugs="16" total_types="2" total_size="161" priority_2="16">
+      <ClassStats class="track.Track" sourceFile="Track.java" interface="false" size="123" bugs="12" priority_2="12"/>
+      <ClassStats class="track.TrackTest" sourceFile="TrackTest.java" interface="false" size="38" bugs="4" priority_2="4"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="com.h3xstream.findsecbugs.taintanalysis.TaintDataflowEngine" totalMilliseconds="3412" invocations="218" avgMicrosecondsPerInvocation="15654" maxMicrosecondsPerInvocation="1679567" standardDeviationMicrosecondsPerInvocation="124785"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="1288" invocations="234" avgMicrosecondsPerInvocation="5505" maxMicrosecondsPerInvocation="351703" standardDeviationMicrosecondsPerInvocation="32632"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.StreamResourceTracker" totalMilliseconds="907" invocations="149" avgMicrosecondsPerInvocation="6091" maxMicrosecondsPerInvocation="72222" standardDeviationMicrosecondsPerInvocation="7681"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="860" invocations="229" avgMicrosecondsPerInvocation="3758" maxMicrosecondsPerInvocation="191180" standardDeviationMicrosecondsPerInvocation="19308"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="661" invocations="1845" avgMicrosecondsPerInvocation="358" maxMicrosecondsPerInvocation="10074" standardDeviationMicrosecondsPerInvocation="742"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="647" invocations="2" avgMicrosecondsPerInvocation="323921" maxMicrosecondsPerInvocation="432936" standardDeviationMicrosecondsPerInvocation="109015"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="597" invocations="218" avgMicrosecondsPerInvocation="2740" maxMicrosecondsPerInvocation="119207" standardDeviationMicrosecondsPerInvocation="13255"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="507" invocations="241" avgMicrosecondsPerInvocation="2107" maxMicrosecondsPerInvocation="306732" standardDeviationMicrosecondsPerInvocation="20445"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="467" invocations="217" avgMicrosecondsPerInvocation="2156" maxMicrosecondsPerInvocation="161401" standardDeviationMicrosecondsPerInvocation="12774"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="425" invocations="218" avgMicrosecondsPerInvocation="1951" maxMicrosecondsPerInvocation="113515" standardDeviationMicrosecondsPerInvocation="10734"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="405" invocations="196" avgMicrosecondsPerInvocation="2070" maxMicrosecondsPerInvocation="92401" standardDeviationMicrosecondsPerInvocation="9341"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="401" invocations="407" avgMicrosecondsPerInvocation="986" maxMicrosecondsPerInvocation="19684" standardDeviationMicrosecondsPerInvocation="2059"/>
+      <ClassProfile name="com.mebigfatguy.fbcontrib.collect.CollectStatistics" totalMilliseconds="381" invocations="407" avgMicrosecondsPerInvocation="936" maxMicrosecondsPerInvocation="17586" standardDeviationMicrosecondsPerInvocation="1805"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="379" invocations="407" avgMicrosecondsPerInvocation="932" maxMicrosecondsPerInvocation="21032" standardDeviationMicrosecondsPerInvocation="1895"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="309" invocations="1102" avgMicrosecondsPerInvocation="280" maxMicrosecondsPerInvocation="8750" standardDeviationMicrosecondsPerInvocation="522"/>
+      <ClassProfile name="com.mebigfatguy.fbcontrib.collect.CollectNullableMethodStatus" totalMilliseconds="277" invocations="407" avgMicrosecondsPerInvocation="681" maxMicrosecondsPerInvocation="114326" standardDeviationMicrosecondsPerInvocation="5701"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="261" invocations="1867" avgMicrosecondsPerInvocation="140" maxMicrosecondsPerInvocation="668" standardDeviationMicrosecondsPerInvocation="49"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ConstantDataflowFactory" totalMilliseconds="194" invocations="218" avgMicrosecondsPerInvocation="894" maxMicrosecondsPerInvocation="76412" standardDeviationMicrosecondsPerInvocation="5741"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.script.OgnlInjectionDetector" totalMilliseconds="187" invocations="57" avgMicrosecondsPerInvocation="3287" maxMicrosecondsPerInvocation="152170" standardDeviationMicrosecondsPerInvocation="19936"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.password.HardcodedPasswordEqualsDetector" totalMilliseconds="175" invocations="57" avgMicrosecondsPerInvocation="3078" maxMicrosecondsPerInvocation="103208" standardDeviationMicrosecondsPerInvocation="14656"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="168" invocations="407" avgMicrosecondsPerInvocation="413" maxMicrosecondsPerInvocation="79746" standardDeviationMicrosecondsPerInvocation="3959"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindOpenStream" totalMilliseconds="142" invocations="57" avgMicrosecondsPerInvocation="2492" maxMicrosecondsPerInvocation="88354" standardDeviationMicrosecondsPerInvocation="11708"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="136" invocations="407" avgMicrosecondsPerInvocation="335" maxMicrosecondsPerInvocation="5945" standardDeviationMicrosecondsPerInvocation="621"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="90" invocations="805" avgMicrosecondsPerInvocation="113" maxMicrosecondsPerInvocation="3152" standardDeviationMicrosecondsPerInvocation="210"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.scala.ScalaSensitiveDataExposureDetector" totalMilliseconds="90" invocations="57" avgMicrosecondsPerInvocation="1587" maxMicrosecondsPerInvocation="57133" standardDeviationMicrosecondsPerInvocation="7533"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="86" invocations="407" avgMicrosecondsPerInvocation="211" maxMicrosecondsPerInvocation="2654" standardDeviationMicrosecondsPerInvocation="345"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ExplicitSerialization" totalMilliseconds="82" invocations="407" avgMicrosecondsPerInvocation="202" maxMicrosecondsPerInvocation="14613" standardDeviationMicrosecondsPerInvocation="1156"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="79" invocations="1796" avgMicrosecondsPerInvocation="44" maxMicrosecondsPerInvocation="2044" standardDeviationMicrosecondsPerInvocation="94"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="70" invocations="407" avgMicrosecondsPerInvocation="173" maxMicrosecondsPerInvocation="2439" standardDeviationMicrosecondsPerInvocation="317"/>
+      <ClassProfile name="com.mebigfatguy.fbcontrib.detect.BloatedAssignmentScope" totalMilliseconds="69" invocations="57" avgMicrosecondsPerInvocation="1213" maxMicrosecondsPerInvocation="16847" standardDeviationMicrosecondsPerInvocation="2843"/>
+      <ClassProfile name="com.mebigfatguy.fbcontrib.detect.MapUsageIssues" totalMilliseconds="65" invocations="57" avgMicrosecondsPerInvocation="1141" maxMicrosecondsPerInvocation="46917" standardDeviationMicrosecondsPerInvocation="6158"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ReflectiveClasses" totalMilliseconds="64" invocations="407" avgMicrosecondsPerInvocation="158" maxMicrosecondsPerInvocation="3652" standardDeviationMicrosecondsPerInvocation="317"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.scala.SSRFDetector" totalMilliseconds="62" invocations="57" avgMicrosecondsPerInvocation="1099" maxMicrosecondsPerInvocation="26228" standardDeviationMicrosecondsPerInvocation="3728"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildStringPassthruGraph" totalMilliseconds="61" invocations="407" avgMicrosecondsPerInvocation="151" maxMicrosecondsPerInvocation="3735" standardDeviationMicrosecondsPerInvocation="374"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.xml.StdXmlTransformDetector" totalMilliseconds="59" invocations="57" avgMicrosecondsPerInvocation="1045" maxMicrosecondsPerInvocation="23903" standardDeviationMicrosecondsPerInvocation="3333"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="58" invocations="407" avgMicrosecondsPerInvocation="144" maxMicrosecondsPerInvocation="2952" standardDeviationMicrosecondsPerInvocation="268"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueRangeAnalysisFactory" totalMilliseconds="57" invocations="241" avgMicrosecondsPerInvocation="239" maxMicrosecondsPerInvocation="19489" standardDeviationMicrosecondsPerInvocation="1641"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.LiveLocalStoreDataflowFactory" totalMilliseconds="57" invocations="215" avgMicrosecondsPerInvocation="266" maxMicrosecondsPerInvocation="6939" standardDeviationMicrosecondsPerInvocation="937"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.file.PathTraversalDetector" totalMilliseconds="52" invocations="57" avgMicrosecondsPerInvocation="915" maxMicrosecondsPerInvocation="10435" standardDeviationMicrosecondsPerInvocation="1840"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.obl.ObligationAnalysis" totalMilliseconds="52" invocations="30" avgMicrosecondsPerInvocation="1738" maxMicrosecondsPerInvocation="15503" standardDeviationMicrosecondsPerInvocation="3504"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.aws.AwsQueryInjectionDetector" totalMilliseconds="51" invocations="57" avgMicrosecondsPerInvocation="910" maxMicrosecondsPerInvocation="16780" standardDeviationMicrosecondsPerInvocation="2479"/>
+      <ClassProfile name="com.mebigfatguy.fbcontrib.collect.CollectMethodsReturningImmutableCollections" totalMilliseconds="51" invocations="407" avgMicrosecondsPerInvocation="127" maxMicrosecondsPerInvocation="1766" standardDeviationMicrosecondsPerInvocation="237"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.redirect.UnvalidatedRedirectDetector" totalMilliseconds="50" invocations="57" avgMicrosecondsPerInvocation="892" maxMicrosecondsPerInvocation="13999" standardDeviationMicrosecondsPerInvocation="2168"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.ldap.LdapInjectionDetector" totalMilliseconds="49" invocations="57" avgMicrosecondsPerInvocation="860" maxMicrosecondsPerInvocation="12166" standardDeviationMicrosecondsPerInvocation="1972"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.smtp.SmtpHeaderInjectionDetector" totalMilliseconds="47" invocations="57" avgMicrosecondsPerInvocation="825" maxMicrosecondsPerInvocation="11444" standardDeviationMicrosecondsPerInvocation="1943"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.beans.BeanInjectionDetector" totalMilliseconds="46" invocations="57" avgMicrosecondsPerInvocation="820" maxMicrosecondsPerInvocation="12541" standardDeviationMicrosecondsPerInvocation="2001"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.formatter.FormatStringManipulationDetector" totalMilliseconds="46" invocations="57" avgMicrosecondsPerInvocation="820" maxMicrosecondsPerInvocation="12386" standardDeviationMicrosecondsPerInvocation="1972"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.fileDisclosure.FileDisclosureDetector" totalMilliseconds="46" invocations="57" avgMicrosecondsPerInvocation="817" maxMicrosecondsPerInvocation="12844" standardDeviationMicrosecondsPerInvocation="2018"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.http.HttpParameterPollutionDetector" totalMilliseconds="46" invocations="57" avgMicrosecondsPerInvocation="813" maxMicrosecondsPerInvocation="13029" standardDeviationMicrosecondsPerInvocation="2053"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.DumbMethods" totalMilliseconds="45" invocations="57" avgMicrosecondsPerInvocation="799" maxMicrosecondsPerInvocation="9062" standardDeviationMicrosecondsPerInvocation="1533"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.script.ScriptInjectionDetector" totalMilliseconds="45" invocations="57" avgMicrosecondsPerInvocation="798" maxMicrosecondsPerInvocation="11097" standardDeviationMicrosecondsPerInvocation="1879"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1558247767719" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1558247767719" release="" codeSize="2363" numClasses="57"/>
+  </History>
+</BugCollection>

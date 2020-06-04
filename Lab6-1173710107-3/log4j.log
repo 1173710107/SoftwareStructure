@@ -1,0 +1,565 @@
+[2019-06-18 22:20:28,611] INFO956736[Thread-566] - lab6.monkey.run(monkey.java:144) - 猴子 267 在等待在 
+ [2019-06-18 22:20:28,611] INFO956736[Thread-566] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:28,611] INFO956736[Thread-566] - lab6.monkey.run(monkey.java:153) - 906 秒过去出生后
+ [2019-06-18 22:20:28,611] INFO956736[Thread-578] - lab6.monkey.run(monkey.java:144) - 猴子 279 在等待在 
+ [2019-06-18 22:20:28,611] INFO956736[Thread-578] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:28,611] INFO956736[Thread-578] - lab6.monkey.run(monkey.java:153) - 901 秒过去出生后
+ [2019-06-18 22:20:28,611] INFO956736[Thread-416] - lab6.monkey.run(monkey.java:144) - 猴子 117 在等待在 
+ [2019-06-18 22:20:28,611] INFO956736[Thread-416] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:28,611] INFO956736[Thread-416] - lab6.monkey.run(monkey.java:153) - 931 秒过去出生后
+ [2019-06-18 22:20:28,611] INFO956736[Thread-378] - lab6.monkey.run(monkey.java:144) - 猴子 79 在等待在 
+ [2019-06-18 22:20:28,611] INFO956736[Thread-378] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:28,611] INFO956736[Thread-378] - lab6.monkey.run(monkey.java:153) - 936 秒过去出生后
+ [2019-06-18 22:20:28,611] INFO956736[Thread-454] - lab6.monkey.run(monkey.java:144) - 猴子 155 在等待在 
+ [2019-06-18 22:20:28,611] INFO956736[Thread-454] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:28,611] INFO956736[Thread-454] - lab6.monkey.run(monkey.java:153) - 921 秒过去出生后
+ [2019-06-18 22:20:28,611] INFO956736[Thread-428] - lab6.monkey.run(monkey.java:144) - 猴子 129 在等待在 
+ [2019-06-18 22:20:28,611] INFO956736[Thread-428] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:28,611] INFO956736[Thread-428] - lab6.monkey.run(monkey.java:153) - 926 秒过去出生后
+ [2019-06-18 22:20:28,611] INFO956736[Thread-340] - lab6.monkey.run(monkey.java:144) - 猴子 41 在等待在 
+ [2019-06-18 22:20:28,611] INFO956736[Thread-340] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:28,611] INFO956736[Thread-340] - lab6.monkey.run(monkey.java:153) - 941 秒过去出生后
+ [2019-06-18 22:20:28,611] INFO956736[Thread-554] - lab6.monkey.run(monkey.java:144) - 猴子 255 在等待在 
+ [2019-06-18 22:20:28,611] INFO956736[Thread-554] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:28,611] INFO956736[Thread-554] - lab6.monkey.run(monkey.java:153) - 906 秒过去出生后
+ [2019-06-18 22:20:28,611] INFO956736[Thread-532] - lab6.monkey.run(monkey.java:144) - 猴子 233 在等待在 
+ [2019-06-18 22:20:28,611] INFO956736[Thread-532] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:28,611] INFO956736[Thread-532] - lab6.monkey.run(monkey.java:153) - 911 秒过去出生后
+ [2019-06-18 22:20:28,611] INFO956736[Thread-564] - lab6.monkey.run(monkey.java:144) - 猴子 265 在等待在 
+ [2019-06-18 22:20:28,611] INFO956736[Thread-564] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:28,611] INFO956736[Thread-564] - lab6.monkey.run(monkey.java:153) - 906 秒过去出生后
+ [2019-06-18 22:20:28,611] INFO956736[Thread-582] - lab6.monkey.run(monkey.java:144) - 猴子 283 在等待在 
+ [2019-06-18 22:20:28,611] INFO956736[Thread-582] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:28,611] INFO956736[Thread-582] - lab6.monkey.run(monkey.java:153) - 901 秒过去出生后
+ [2019-06-18 22:20:28,611] INFO956736[Thread-562] - lab6.monkey.run(monkey.java:144) - 猴子 263 在等待在 
+ [2019-06-18 22:20:28,611] INFO956736[Thread-562] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:28,611] INFO956736[Thread-562] - lab6.monkey.run(monkey.java:153) - 906 秒过去出生后
+ [2019-06-18 22:20:28,611] INFO956736[Thread-468] - lab6.monkey.run(monkey.java:144) - 猴子 169 在等待在 
+ [2019-06-18 22:20:28,611] INFO956736[Thread-468] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:28,611] INFO956736[Thread-468] - lab6.monkey.run(monkey.java:153) - 921 秒过去出生后
+ [2019-06-18 22:20:28,611] INFO956736[Thread-560] - lab6.monkey.run(monkey.java:144) - 猴子 261 在等待在 
+ [2019-06-18 22:20:28,611] INFO956736[Thread-560] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:28,611] INFO956736[Thread-560] - lab6.monkey.run(monkey.java:153) - 906 秒过去出生后
+ [2019-06-18 22:20:28,611] INFO956736[Thread-376] - lab6.monkey.run(monkey.java:144) - 猴子 77 在等待在 
+ [2019-06-18 22:20:28,611] INFO956736[Thread-376] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:28,611] INFO956736[Thread-376] - lab6.monkey.run(monkey.java:153) - 936 秒过去出生后
+ [2019-06-18 22:20:28,611] INFO956736[Thread-556] - lab6.monkey.run(monkey.java:144) - 猴子 257 在等待在 
+ [2019-06-18 22:20:28,611] INFO956736[Thread-556] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:28,611] INFO956736[Thread-556] - lab6.monkey.run(monkey.java:153) - 906 秒过去出生后
+ [2019-06-18 22:20:28,642] INFO956767[Thread-414] - lab6.monkey.run(monkey.java:144) - 猴子 115 在等待在 
+ [2019-06-18 22:20:28,642] INFO956767[Thread-414] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:28,642] INFO956767[Thread-414] - lab6.monkey.run(monkey.java:153) - 931 秒过去出生后
+ [2019-06-18 22:20:28,658] INFO956783[Thread-533] - lab6.monkey.run(monkey.java:144) - 猴子 234 在等待在 
+ [2019-06-18 22:20:28,658] INFO956783[Thread-533] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:28,658] INFO956783[Thread-533] - lab6.monkey.run(monkey.java:153) - 911 秒过去出生后
+ [2019-06-18 22:20:28,704] INFO956829[Thread-551] - lab6.monkey.run(monkey.java:144) - 猴子 252 在等待在 
+ [2019-06-18 22:20:28,704] INFO956829[Thread-551] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:28,704] INFO956829[Thread-551] - lab6.monkey.run(monkey.java:153) - 906 秒过去出生后
+ [2019-06-18 22:20:28,704] INFO956829[Thread-541] - lab6.monkey.run(monkey.java:144) - 猴子 242 在等待在 
+ [2019-06-18 22:20:28,704] INFO956829[Thread-541] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:28,704] INFO956829[Thread-541] - lab6.monkey.run(monkey.java:153) - 906 秒过去出生后
+ [2019-06-18 22:20:28,736] INFO956861[Thread-517] - lab6.monkey.run(monkey.java:144) - 猴子 218 在等待在 
+ [2019-06-18 22:20:28,736] INFO956861[Thread-517] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:28,736] INFO956861[Thread-517] - lab6.monkey.run(monkey.java:153) - 911 秒过去出生后
+ [2019-06-18 22:20:28,736] INFO956861[Thread-565] - lab6.monkey.run(monkey.java:144) - 猴子 266 在等待在 
+ [2019-06-18 22:20:28,736] INFO956861[Thread-565] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:28,736] INFO956861[Thread-565] - lab6.monkey.run(monkey.java:153) - 906 秒过去出生后
+ [2019-06-18 22:20:28,736] INFO956861[Thread-391] - lab6.monkey.run(monkey.java:144) - 猴子 92 在等待在 
+ [2019-06-18 22:20:28,736] INFO956861[Thread-391] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:28,736] INFO956861[Thread-391] - lab6.monkey.run(monkey.java:153) - 931 秒过去出生后
+ [2019-06-18 22:20:28,736] INFO956861[Thread-435] - lab6.monkey.run(monkey.java:144) - 猴子 136 在等待在 
+ [2019-06-18 22:20:28,736] INFO956861[Thread-435] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:28,736] INFO956861[Thread-435] - lab6.monkey.run(monkey.java:153) - 926 秒过去出生后
+ [2019-06-18 22:20:28,736] INFO956861[Thread-467] - lab6.monkey.run(monkey.java:144) - 猴子 168 在等待在 
+ [2019-06-18 22:20:28,736] INFO956861[Thread-467] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:28,736] INFO956861[Thread-467] - lab6.monkey.run(monkey.java:153) - 921 秒过去出生后
+ [2019-06-18 22:20:28,736] INFO956861[Thread-563] - lab6.monkey.run(monkey.java:144) - 猴子 264 在等待在 
+ [2019-06-18 22:20:28,736] INFO956861[Thread-563] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:28,736] INFO956861[Thread-563] - lab6.monkey.run(monkey.java:153) - 906 秒过去出生后
+ [2019-06-18 22:20:28,736] INFO956861[Thread-561] - lab6.monkey.run(monkey.java:144) - 猴子 262 在等待在 
+ [2019-06-18 22:20:28,736] INFO956861[Thread-561] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:28,736] INFO956861[Thread-561] - lab6.monkey.run(monkey.java:153) - 906 秒过去出生后
+ [2019-06-18 22:20:28,736] INFO956861[Thread-401] - lab6.monkey.run(monkey.java:144) - 猴子 102 在等待在 
+ [2019-06-18 22:20:28,736] INFO956861[Thread-401] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:28,736] INFO956861[Thread-401] - lab6.monkey.run(monkey.java:153) - 931 秒过去出生后
+ [2019-06-18 22:20:28,736] INFO956861[Thread-483] - lab6.monkey.run(monkey.java:144) - 猴子 184 在等待在 
+ [2019-06-18 22:20:28,736] INFO956861[Thread-483] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:28,736] INFO956861[Thread-483] - lab6.monkey.run(monkey.java:153) - 916 秒过去出生后
+ [2019-06-18 22:20:28,736] INFO956861[Thread-441] - lab6.monkey.run(monkey.java:144) - 猴子 142 在等待在 
+ [2019-06-18 22:20:28,736] INFO956861[Thread-441] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:28,736] INFO956861[Thread-441] - lab6.monkey.run(monkey.java:153) - 926 秒过去出生后
+ [2019-06-18 22:20:28,736] INFO956861[Thread-425] - lab6.monkey.run(monkey.java:144) - 猴子 126 在等待在 
+ [2019-06-18 22:20:28,736] INFO956861[Thread-425] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:28,736] INFO956861[Thread-425] - lab6.monkey.run(monkey.java:153) - 926 秒过去出生后
+ [2019-06-18 22:20:28,798] INFO956923[Thread-423] - lab6.monkey.run(monkey.java:144) - 猴子 124 在等待在 
+ [2019-06-18 22:20:28,798] INFO956923[Thread-423] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:28,798] INFO956923[Thread-423] - lab6.monkey.run(monkey.java:153) - 926 秒过去出生后
+ [2019-06-18 22:20:28,798] INFO956923[Thread-568] - lab6.monkey.run(monkey.java:144) - 猴子 269 在等待在 
+ [2019-06-18 22:20:28,798] INFO956923[Thread-568] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:28,798] INFO956923[Thread-568] - lab6.monkey.run(monkey.java:153) - 906 秒过去出生后
+ [2019-06-18 22:20:28,798] INFO956923[Thread-538] - lab6.monkey.run(monkey.java:144) - 猴子 239 在等待在 
+ [2019-06-18 22:20:28,798] INFO956923[Thread-538] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:28,798] INFO956923[Thread-538] - lab6.monkey.run(monkey.java:153) - 911 秒过去出生后
+ [2019-06-18 22:20:28,798] INFO956923[Thread-438] - lab6.monkey.run(monkey.java:144) - 猴子 139 在等待在 
+ [2019-06-18 22:20:28,798] INFO956923[Thread-438] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:28,798] INFO956923[Thread-438] - lab6.monkey.run(monkey.java:153) - 926 秒过去出生后
+ [2019-06-18 22:20:28,798] INFO956923[Thread-442] - lab6.monkey.run(monkey.java:144) - 猴子 143 在等待在 
+ [2019-06-18 22:20:28,798] INFO956923[Thread-442] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:28,798] INFO956923[Thread-442] - lab6.monkey.run(monkey.java:153) - 926 秒过去出生后
+ [2019-06-18 22:20:28,798] INFO956923[Thread-338] - lab6.monkey.run(monkey.java:144) - 猴子 39 在等待在 
+ [2019-06-18 22:20:28,798] INFO956923[Thread-338] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:28,798] INFO956923[Thread-338] - lab6.monkey.run(monkey.java:153) - 941 秒过去出生后
+ [2019-06-18 22:20:28,798] INFO956923[Thread-519] - lab6.monkey.run(monkey.java:144) - 猴子 220 在等待在 
+ [2019-06-18 22:20:28,798] INFO956923[Thread-519] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:28,798] INFO956923[Thread-519] - lab6.monkey.run(monkey.java:153) - 911 秒过去出生后
+ [2019-06-18 22:20:28,798] INFO956923[Thread-536] - lab6.monkey.run(monkey.java:144) - 猴子 237 在等待在 
+ [2019-06-18 22:20:28,798] INFO956923[Thread-536] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:28,798] INFO956923[Thread-536] - lab6.monkey.run(monkey.java:153) - 911 秒过去出生后
+ [2019-06-18 22:20:28,876] INFO957001[Thread-404] - lab6.monkey.run(monkey.java:144) - 猴子 105 在等待在 
+ [2019-06-18 22:20:28,876] INFO957001[Thread-404] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:28,876] INFO957001[Thread-404] - lab6.monkey.run(monkey.java:153) - 931 秒过去出生后
+ [2019-06-18 22:20:28,876] INFO957001[Thread-466] - lab6.monkey.run(monkey.java:144) - 猴子 167 在等待在 
+ [2019-06-18 22:20:28,876] INFO957001[Thread-466] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:28,876] INFO957001[Thread-466] - lab6.monkey.run(monkey.java:153) - 921 秒过去出生后
+ [2019-06-18 22:20:28,876] INFO957001[Thread-496] - lab6.monkey.run(monkey.java:144) - 猴子 197 在等待在 
+ [2019-06-18 22:20:28,876] INFO957001[Thread-496] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:28,876] INFO957001[Thread-496] - lab6.monkey.run(monkey.java:153) - 916 秒过去出生后
+ [2019-06-18 22:20:28,876] INFO957001[Thread-544] - lab6.monkey.run(monkey.java:144) - 猴子 245 在等待在 
+ [2019-06-18 22:20:28,876] INFO957001[Thread-544] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:28,876] INFO957001[Thread-544] - lab6.monkey.run(monkey.java:153) - 906 秒过去出生后
+ [2019-06-18 22:20:28,876] INFO957001[Thread-368] - lab6.monkey.run(monkey.java:144) - 猴子 69 在等待在 
+ [2019-06-18 22:20:28,876] INFO957001[Thread-368] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:28,876] INFO957001[Thread-368] - lab6.monkey.run(monkey.java:153) - 936 秒过去出生后
+ [2019-06-18 22:20:28,876] INFO957001[Thread-486] - lab6.monkey.run(monkey.java:144) - 猴子 187 在等待在 
+ [2019-06-18 22:20:28,876] INFO957001[Thread-486] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:28,876] INFO957001[Thread-486] - lab6.monkey.run(monkey.java:153) - 916 秒过去出生后
+ [2019-06-18 22:20:28,876] INFO957001[Thread-390] - lab6.monkey.run(monkey.java:144) - 猴子 91 在等待在 
+ [2019-06-18 22:20:28,876] INFO957001[Thread-390] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:28,876] INFO957001[Thread-390] - lab6.monkey.run(monkey.java:153) - 931 秒过去出生后
+ [2019-06-18 22:20:28,876] INFO957001[Thread-494] - lab6.monkey.run(monkey.java:144) - 猴子 195 在等待在 
+ [2019-06-18 22:20:28,876] INFO957001[Thread-494] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:28,876] INFO957001[Thread-494] - lab6.monkey.run(monkey.java:153) - 916 秒过去出生后
+ [2019-06-18 22:20:28,876] INFO957001[Thread-372] - lab6.monkey.run(monkey.java:144) - 猴子 73 在等待在 
+ [2019-06-18 22:20:28,876] INFO957001[Thread-372] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:28,876] INFO957001[Thread-372] - lab6.monkey.run(monkey.java:153) - 936 秒过去出生后
+ [2019-06-18 22:20:28,876] INFO957001[Thread-306] - lab6.monkey.run(monkey.java:144) - 猴子 7 在等待在 
+ [2019-06-18 22:20:28,876] INFO957001[Thread-306] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:28,876] INFO957001[Thread-306] - lab6.monkey.run(monkey.java:153) - 946 秒过去出生后
+ [2019-06-18 22:20:28,876] INFO957001[Thread-512] - lab6.monkey.run(monkey.java:144) - 猴子 213 在等待在 
+ [2019-06-18 22:20:28,876] INFO957001[Thread-512] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:28,876] INFO957001[Thread-512] - lab6.monkey.run(monkey.java:153) - 911 秒过去出生后
+ [2019-06-18 22:20:28,876] INFO957001[Thread-444] - lab6.monkey.run(monkey.java:144) - 猴子 145 在等待在 
+ [2019-06-18 22:20:28,876] INFO957001[Thread-444] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:28,876] INFO957001[Thread-444] - lab6.monkey.run(monkey.java:153) - 926 秒过去出生后
+ [2019-06-18 22:20:28,876] INFO957001[Thread-542] - lab6.monkey.run(monkey.java:144) - 猴子 243 在等待在 
+ [2019-06-18 22:20:28,876] INFO957001[Thread-542] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:28,876] INFO957001[Thread-542] - lab6.monkey.run(monkey.java:153) - 906 秒过去出生后
+ [2019-06-18 22:20:28,876] INFO957001[Thread-382] - lab6.monkey.run(monkey.java:144) - 猴子 83 在等待在 
+ [2019-06-18 22:20:28,876] INFO957001[Thread-382] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:28,876] INFO957001[Thread-382] - lab6.monkey.run(monkey.java:153) - 936 秒过去出生后
+ [2019-06-18 22:20:28,876] INFO957001[Thread-488] - lab6.monkey.run(monkey.java:144) - 猴子 189 在等待在 
+ [2019-06-18 22:20:28,876] INFO957001[Thread-488] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:28,876] INFO957001[Thread-488] - lab6.monkey.run(monkey.java:153) - 916 秒过去出生后
+ [2019-06-18 22:20:28,876] INFO957001[Thread-470] - lab6.monkey.run(monkey.java:144) - 猴子 171 在等待在 
+ [2019-06-18 22:20:28,876] INFO957001[Thread-470] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:28,876] INFO957001[Thread-470] - lab6.monkey.run(monkey.java:153) - 921 秒过去出生后
+ [2019-06-18 22:20:28,892] INFO957017[Thread-398] - lab6.monkey.run(monkey.java:144) - 猴子 99 在等待在 
+ [2019-06-18 22:20:28,892] INFO957017[Thread-398] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:28,892] INFO957017[Thread-398] - lab6.monkey.run(monkey.java:153) - 931 秒过去出生后
+ [2019-06-18 22:20:28,923] INFO957048[Thread-366] - lab6.monkey.run(monkey.java:144) - 猴子 67 在等待在 
+ [2019-06-18 22:20:28,923] INFO957048[Thread-366] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:28,923] INFO957048[Thread-366] - lab6.monkey.run(monkey.java:153) - 936 秒过去出生后
+ [2019-06-18 22:20:28,923] INFO957048[Thread-480] - lab6.monkey.run(monkey.java:144) - 猴子 181 在等待在 
+ [2019-06-18 22:20:28,923] INFO957048[Thread-480] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:28,923] INFO957048[Thread-480] - lab6.monkey.run(monkey.java:153) - 916 秒过去出生后
+ [2019-06-18 22:20:28,923] INFO957048[Thread-540] - lab6.monkey.run(monkey.java:144) - 猴子 241 在等待在 
+ [2019-06-18 22:20:28,923] INFO957048[Thread-540] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:28,923] INFO957048[Thread-540] - lab6.monkey.run(monkey.java:153) - 906 秒过去出生后
+ [2019-06-18 22:20:28,923] INFO957048[Thread-508] - lab6.monkey.run(monkey.java:144) - 猴子 209 在等待在 
+ [2019-06-18 22:20:28,923] INFO957048[Thread-508] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:28,923] INFO957048[Thread-508] - lab6.monkey.run(monkey.java:153) - 916 秒过去出生后
+ [2019-06-18 22:20:28,923] INFO957048[Thread-548] - lab6.monkey.run(monkey.java:144) - 猴子 249 在等待在 
+ [2019-06-18 22:20:28,923] INFO957048[Thread-548] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:28,923] INFO957048[Thread-548] - lab6.monkey.run(monkey.java:153) - 906 秒过去出生后
+ [2019-06-18 22:20:28,985] INFO957110[Thread-342] - lab6.monkey.run(monkey.java:144) - 猴子 43 在等待在 
+ [2019-06-18 22:20:28,985] INFO957110[Thread-342] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:28,985] INFO957110[Thread-342] - lab6.monkey.run(monkey.java:153) - 941 秒过去出生后
+ [2019-06-18 22:20:28,985] INFO957110[Thread-504] - lab6.monkey.run(monkey.java:144) - 猴子 205 在等待在 
+ [2019-06-18 22:20:28,985] INFO957110[Thread-504] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:28,985] INFO957110[Thread-504] - lab6.monkey.run(monkey.java:153) - 916 秒过去出生后
+ [2019-06-18 22:20:28,985] INFO957110[Thread-384] - lab6.monkey.run(monkey.java:144) - 猴子 85 在等待在 
+ [2019-06-18 22:20:28,985] INFO957110[Thread-384] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:28,985] INFO957110[Thread-384] - lab6.monkey.run(monkey.java:153) - 936 秒过去出生后
+ [2019-06-18 22:20:28,985] INFO957110[Thread-302] - lab6.monkey.run(monkey.java:144) - 猴子 3 在等待在 
+ [2019-06-18 22:20:28,985] INFO957110[Thread-302] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:28,985] INFO957110[Thread-302] - lab6.monkey.run(monkey.java:153) - 946 秒过去出生后
+ [2019-06-18 22:20:28,985] INFO957110[Thread-500] - lab6.monkey.run(monkey.java:144) - 猴子 201 在等待在 
+ [2019-06-18 22:20:28,985] INFO957110[Thread-500] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:28,985] INFO957110[Thread-500] - lab6.monkey.run(monkey.java:153) - 916 秒过去出生后
+ [2019-06-18 22:20:28,985] INFO957110[Thread-386] - lab6.monkey.run(monkey.java:144) - 猴子 87 在等待在 
+ [2019-06-18 22:20:28,985] INFO957110[Thread-386] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:28,985] INFO957110[Thread-386] - lab6.monkey.run(monkey.java:153) - 936 秒过去出生后
+ [2019-06-18 22:20:28,985] INFO957110[Thread-348] - lab6.monkey.run(monkey.java:144) - 猴子 49 在等待在 
+ [2019-06-18 22:20:28,985] INFO957110[Thread-348] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:28,985] INFO957110[Thread-348] - lab6.monkey.run(monkey.java:153) - 941 秒过去出生后
+ [2019-06-18 22:20:28,985] INFO957110[Thread-336] - lab6.monkey.run(monkey.java:144) - 猴子 37 在等待在 
+ [2019-06-18 22:20:28,985] INFO957110[Thread-336] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:28,985] INFO957110[Thread-336] - lab6.monkey.run(monkey.java:153) - 941 秒过去出生后
+ [2019-06-18 22:20:28,985] INFO957110[Thread-370] - lab6.monkey.run(monkey.java:144) - 猴子 71 在等待在 
+ [2019-06-18 22:20:28,985] INFO957110[Thread-370] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:28,985] INFO957110[Thread-370] - lab6.monkey.run(monkey.java:153) - 936 秒过去出生后
+ [2019-06-18 22:20:29,063] INFO957188[Thread-408] - lab6.monkey.run(monkey.java:144) - 猴子 109 在等待在 
+ [2019-06-18 22:20:29,063] INFO957188[Thread-408] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,063] INFO957188[Thread-408] - lab6.monkey.run(monkey.java:153) - 931 秒过去出生后
+ [2019-06-18 22:20:29,094] INFO957219[Thread-312] - lab6.monkey.run(monkey.java:144) - 猴子 13 在等待在 
+ [2019-06-18 22:20:29,094] INFO957219[Thread-312] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:29,094] INFO957219[Thread-312] - lab6.monkey.run(monkey.java:153) - 946 秒过去出生后
+ [2019-06-18 22:20:29,094] INFO957219[Thread-367] - lab6.monkey.run(monkey.java:144) - 猴子 68 在等待在 
+ [2019-06-18 22:20:29,094] INFO957219[Thread-367] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:29,094] INFO957219[Thread-367] - lab6.monkey.run(monkey.java:153) - 936 秒过去出生后
+ [2019-06-18 22:20:29,094] INFO957219[Thread-411] - lab6.monkey.run(monkey.java:144) - 猴子 112 在等待在 
+ [2019-06-18 22:20:29,094] INFO957219[Thread-411] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:29,094] INFO957219[Thread-411] - lab6.monkey.run(monkey.java:153) - 931 秒过去出生后
+ [2019-06-18 22:20:29,094] INFO957219[Thread-399] - lab6.monkey.run(monkey.java:144) - 猴子 100 在等待在 
+ [2019-06-18 22:20:29,094] INFO957219[Thread-399] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:29,094] INFO957219[Thread-399] - lab6.monkey.run(monkey.java:153) - 931 秒过去出生后
+ [2019-06-18 22:20:29,094] INFO957219[Thread-477] - lab6.monkey.run(monkey.java:144) - 猴子 178 在等待在 
+ [2019-06-18 22:20:29,094] INFO957219[Thread-477] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:29,094] INFO957219[Thread-477] - lab6.monkey.run(monkey.java:153) - 921 秒过去出生后
+ [2019-06-18 22:20:29,094] INFO957219[Thread-415] - lab6.monkey.run(monkey.java:144) - 猴子 116 在等待在 
+ [2019-06-18 22:20:29,094] INFO957219[Thread-415] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,094] INFO957219[Thread-415] - lab6.monkey.run(monkey.java:153) - 931 秒过去出生后
+ [2019-06-18 22:20:29,126] INFO957251[Thread-314] - lab6.monkey.run(monkey.java:144) - 猴子 15 在等待在 
+ [2019-06-18 22:20:29,126] INFO957251[Thread-314] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:29,126] INFO957251[Thread-314] - lab6.monkey.run(monkey.java:153) - 946 秒过去出生后
+ [2019-06-18 22:20:29,266] INFO957391[Thread-434] - lab6.monkey.run(monkey.java:144) - 猴子 135 在等待在 
+ [2019-06-18 22:20:29,266] INFO957391[Thread-434] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:29,266] INFO957391[Thread-434] - lab6.monkey.run(monkey.java:153) - 926 秒过去出生后
+ [2019-06-18 22:20:29,266] INFO957391[Thread-490] - lab6.monkey.run(monkey.java:144) - 猴子 191 在等待在 
+ [2019-06-18 22:20:29,266] INFO957391[Thread-490] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,266] INFO957391[Thread-490] - lab6.monkey.run(monkey.java:153) - 916 秒过去出生后
+ [2019-06-18 22:20:29,266] INFO957391[Thread-528] - lab6.monkey.run(monkey.java:144) - 猴子 229 在等待在 
+ [2019-06-18 22:20:29,266] INFO957391[Thread-528] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:29,266] INFO957391[Thread-528] - lab6.monkey.run(monkey.java:153) - 911 秒过去出生后
+ [2019-06-18 22:20:29,266] INFO957391[Thread-452] - lab6.monkey.run(monkey.java:144) - 猴子 153 在等待在 
+ [2019-06-18 22:20:29,266] INFO957391[Thread-452] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:29,266] INFO957391[Thread-452] - lab6.monkey.run(monkey.java:153) - 921 秒过去出生后
+ [2019-06-18 22:20:29,266] INFO957391[Thread-492] - lab6.monkey.run(monkey.java:144) - 猴子 193 在等待在 
+ [2019-06-18 22:20:29,266] INFO957391[Thread-492] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,266] INFO957391[Thread-492] - lab6.monkey.run(monkey.java:153) - 916 秒过去出生后
+ [2019-06-18 22:20:29,266] INFO957391[Thread-464] - lab6.monkey.run(monkey.java:144) - 猴子 165 在等待在 
+ [2019-06-18 22:20:29,266] INFO957391[Thread-464] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,266] INFO957391[Thread-464] - lab6.monkey.run(monkey.java:153) - 921 秒过去出生后
+ [2019-06-18 22:20:29,266] INFO957391[Thread-396] - lab6.monkey.run(monkey.java:144) - 猴子 97 在等待在 
+ [2019-06-18 22:20:29,266] INFO957391[Thread-396] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,266] INFO957391[Thread-396] - lab6.monkey.run(monkey.java:153) - 931 秒过去出生后
+ [2019-06-18 22:20:29,266] INFO957391[Thread-364] - lab6.monkey.run(monkey.java:144) - 猴子 65 在等待在 
+ [2019-06-18 22:20:29,266] INFO957391[Thread-364] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:29,266] INFO957391[Thread-364] - lab6.monkey.run(monkey.java:153) - 936 秒过去出生后
+ [2019-06-18 22:20:29,266] INFO957391[Thread-352] - lab6.monkey.run(monkey.java:144) - 猴子 53 在等待在 
+ [2019-06-18 22:20:29,266] INFO957391[Thread-352] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:29,266] INFO957391[Thread-352] - lab6.monkey.run(monkey.java:153) - 941 秒过去出生后
+ [2019-06-18 22:20:29,266] INFO957391[Thread-520] - lab6.monkey.run(monkey.java:144) - 猴子 221 在等待在 
+ [2019-06-18 22:20:29,266] INFO957391[Thread-520] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,266] INFO957391[Thread-520] - lab6.monkey.run(monkey.java:153) - 911 秒过去出生后
+ [2019-06-18 22:20:29,266] INFO957391[Thread-482] - lab6.monkey.run(monkey.java:144) - 猴子 183 在等待在 
+ [2019-06-18 22:20:29,266] INFO957391[Thread-482] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,266] INFO957391[Thread-482] - lab6.monkey.run(monkey.java:153) - 916 秒过去出生后
+ [2019-06-18 22:20:29,282] INFO957407[Thread-461] - lab6.monkey.run(monkey.java:144) - 猴子 162 在等待在 
+ [2019-06-18 22:20:29,282] INFO957407[Thread-461] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:29,282] INFO957407[Thread-461] - lab6.monkey.run(monkey.java:153) - 921 秒过去出生后
+ [2019-06-18 22:20:29,282] INFO957407[Thread-459] - lab6.monkey.run(monkey.java:144) - 猴子 160 在等待在 
+ [2019-06-18 22:20:29,282] INFO957407[Thread-459] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:29,282] INFO957407[Thread-459] - lab6.monkey.run(monkey.java:153) - 921 秒过去出生后
+ [2019-06-18 22:20:29,282] INFO957407[Thread-498] - lab6.monkey.run(monkey.java:144) - 猴子 199 在等待在 
+ [2019-06-18 22:20:29,282] INFO957407[Thread-498] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,282] INFO957407[Thread-498] - lab6.monkey.run(monkey.java:153) - 916 秒过去出生后
+ [2019-06-18 22:20:29,282] INFO957407[Thread-472] - lab6.monkey.run(monkey.java:144) - 猴子 173 在等待在 
+ [2019-06-18 22:20:29,282] INFO957407[Thread-472] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,282] INFO957407[Thread-472] - lab6.monkey.run(monkey.java:153) - 921 秒过去出生后
+ [2019-06-18 22:20:29,282] INFO957407[Thread-354] - lab6.monkey.run(monkey.java:144) - 猴子 55 在等待在 
+ [2019-06-18 22:20:29,282] INFO957407[Thread-354] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,282] INFO957407[Thread-354] - lab6.monkey.run(monkey.java:153) - 941 秒过去出生后
+ [2019-06-18 22:20:29,282] INFO957407[Thread-577] - lab6.monkey.run(monkey.java:144) - 猴子 278 在等待在 
+ [2019-06-18 22:20:29,282] INFO957407[Thread-345] - lab6.monkey.run(monkey.java:144) - 猴子 46 在等待在 
+ [2019-06-18 22:20:29,282] INFO957407[Thread-345] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:29,282] INFO957407[Thread-345] - lab6.monkey.run(monkey.java:153) - 941 秒过去出生后
+ [2019-06-18 22:20:29,282] INFO957407[Thread-577] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,282] INFO957407[Thread-577] - lab6.monkey.run(monkey.java:153) - 902 秒过去出生后
+ [2019-06-18 22:20:29,297] INFO957422[Thread-505] - lab6.monkey.run(monkey.java:144) - 猴子 206 在等待在 
+ [2019-06-18 22:20:29,297] INFO957422[Thread-505] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,297] INFO957422[Thread-505] - lab6.monkey.run(monkey.java:153) - 916 秒过去出生后
+ [2019-06-18 22:20:29,297] INFO957422[Thread-353] - lab6.monkey.run(monkey.java:144) - 猴子 54 在等待在 
+ [2019-06-18 22:20:29,297] INFO957422[Thread-353] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:29,297] INFO957422[Thread-353] - lab6.monkey.run(monkey.java:153) - 941 秒过去出生后
+ [2019-06-18 22:20:29,297] INFO957422[Thread-523] - lab6.monkey.run(monkey.java:144) - 猴子 224 在等待在 
+ [2019-06-18 22:20:29,297] INFO957422[Thread-523] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,297] INFO957422[Thread-523] - lab6.monkey.run(monkey.java:153) - 911 秒过去出生后
+ [2019-06-18 22:20:29,297] INFO957422[Thread-439] - lab6.monkey.run(monkey.java:144) - 猴子 140 在等待在 
+ [2019-06-18 22:20:29,297] INFO957422[Thread-439] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:29,297] INFO957422[Thread-439] - lab6.monkey.run(monkey.java:153) - 926 秒过去出生后
+ [2019-06-18 22:20:29,297] INFO957422[Thread-395] - lab6.monkey.run(monkey.java:144) - 猴子 96 在等待在 
+ [2019-06-18 22:20:29,297] INFO957422[Thread-395] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:29,297] INFO957422[Thread-395] - lab6.monkey.run(monkey.java:153) - 931 秒过去出生后
+ [2019-06-18 22:20:29,297] INFO957422[Thread-549] - lab6.monkey.run(monkey.java:144) - 猴子 250 在等待在 
+ [2019-06-18 22:20:29,298] INFO957423[Thread-549] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:29,298] INFO957423[Thread-549] - lab6.monkey.run(monkey.java:153) - 906 秒过去出生后
+ [2019-06-18 22:20:29,297] INFO957422[Thread-389] - lab6.monkey.run(monkey.java:144) - 猴子 90 在等待在 
+ [2019-06-18 22:20:29,298] INFO957423[Thread-389] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:29,298] INFO957423[Thread-389] - lab6.monkey.run(monkey.java:153) - 936 秒过去出生后
+ [2019-06-18 22:20:29,297] INFO957422[Thread-489] - lab6.monkey.run(monkey.java:144) - 猴子 190 在等待在 
+ [2019-06-18 22:20:29,298] INFO957423[Thread-489] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:29,298] INFO957423[Thread-489] - lab6.monkey.run(monkey.java:153) - 916 秒过去出生后
+ [2019-06-18 22:20:29,297] INFO957422[Thread-559] - lab6.monkey.run(monkey.java:144) - 猴子 260 在等待在 
+ [2019-06-18 22:20:29,298] INFO957423[Thread-559] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:29,298] INFO957423[Thread-559] - lab6.monkey.run(monkey.java:153) - 906 秒过去出生后
+ [2019-06-18 22:20:29,297] INFO957422[Thread-527] - lab6.monkey.run(monkey.java:144) - 猴子 228 在等待在 
+ [2019-06-18 22:20:29,298] INFO957423[Thread-527] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,298] INFO957423[Thread-527] - lab6.monkey.run(monkey.java:153) - 911 秒过去出生后
+ [2019-06-18 22:20:29,297] INFO957422[Thread-579] - lab6.monkey.run(monkey.java:144) - 猴子 280 在等待在 
+ [2019-06-18 22:20:29,298] INFO957423[Thread-579] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,298] INFO957423[Thread-579] - lab6.monkey.run(monkey.java:153) - 902 秒过去出生后
+ [2019-06-18 22:20:29,297] INFO957422[Thread-453] - lab6.monkey.run(monkey.java:144) - 猴子 154 在等待在 
+ [2019-06-18 22:20:29,298] INFO957423[Thread-453] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:29,298] INFO957423[Thread-453] - lab6.monkey.run(monkey.java:153) - 921 秒过去出生后
+ [2019-06-18 22:20:29,297] INFO957422[Thread-575] - lab6.monkey.run(monkey.java:144) - 猴子 276 在等待在 
+ [2019-06-18 22:20:29,298] INFO957423[Thread-575] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,298] INFO957423[Thread-575] - lab6.monkey.run(monkey.java:153) - 902 秒过去出生后
+ [2019-06-18 22:20:29,297] INFO957422[Thread-413] - lab6.monkey.run(monkey.java:144) - 猴子 114 在等待在 
+ [2019-06-18 22:20:29,298] INFO957423[Thread-413] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,298] INFO957423[Thread-413] - lab6.monkey.run(monkey.java:153) - 931 秒过去出生后
+ [2019-06-18 22:20:29,297] INFO957422[Thread-497] - lab6.monkey.run(monkey.java:144) - 猴子 198 在等待在 
+ [2019-06-18 22:20:29,298] INFO957423[Thread-497] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,298] INFO957423[Thread-497] - lab6.monkey.run(monkey.java:153) - 916 秒过去出生后
+ [2019-06-18 22:20:29,297] INFO957422[Thread-475] - lab6.monkey.run(monkey.java:144) - 猴子 176 在等待在 
+ [2019-06-18 22:20:29,298] INFO957423[Thread-475] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:29,298] INFO957423[Thread-475] - lab6.monkey.run(monkey.java:153) - 921 秒过去出生后
+ [2019-06-18 22:20:29,297] INFO957422[Thread-537] - lab6.monkey.run(monkey.java:144) - 猴子 238 在等待在 
+ [2019-06-18 22:20:29,298] INFO957423[Thread-537] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,298] INFO957423[Thread-537] - lab6.monkey.run(monkey.java:153) - 911 秒过去出生后
+ [2019-06-18 22:20:29,297] INFO957422[Thread-419] - lab6.monkey.run(monkey.java:144) - 猴子 120 在等待在 
+ [2019-06-18 22:20:29,298] INFO957423[Thread-419] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,298] INFO957423[Thread-419] - lab6.monkey.run(monkey.java:153) - 931 秒过去出生后
+ [2019-06-18 22:20:29,345] INFO957470[Thread-473] - lab6.monkey.run(monkey.java:144) - 猴子 174 在等待在 
+ [2019-06-18 22:20:29,345] INFO957470[Thread-473] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:29,345] INFO957470[Thread-473] - lab6.monkey.run(monkey.java:153) - 921 秒过去出生后
+ [2019-06-18 22:20:29,345] INFO957470[Thread-447] - lab6.monkey.run(monkey.java:144) - 猴子 148 在等待在 
+ [2019-06-18 22:20:29,345] INFO957470[Thread-447] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,345] INFO957470[Thread-447] - lab6.monkey.run(monkey.java:153) - 926 秒过去出生后
+ [2019-06-18 22:20:29,345] INFO957470[Thread-535] - lab6.monkey.run(monkey.java:144) - 猴子 236 在等待在 
+ [2019-06-18 22:20:29,345] INFO957470[Thread-535] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:29,345] INFO957470[Thread-535] - lab6.monkey.run(monkey.java:153) - 911 秒过去出生后
+ [2019-06-18 22:20:29,345] INFO957470[Thread-409] - lab6.monkey.run(monkey.java:144) - 猴子 110 在等待在 
+ [2019-06-18 22:20:29,345] INFO957470[Thread-409] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:29,345] INFO957470[Thread-409] - lab6.monkey.run(monkey.java:153) - 931 秒过去出生后
+ [2019-06-18 22:20:29,345] INFO957470[Thread-347] - lab6.monkey.run(monkey.java:144) - 猴子 48 在等待在 
+ [2019-06-18 22:20:29,345] INFO957470[Thread-347] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,345] INFO957470[Thread-347] - lab6.monkey.run(monkey.java:153) - 941 秒过去出生后
+ [2019-06-18 22:20:29,345] INFO957470[Thread-555] - lab6.monkey.run(monkey.java:144) - 猴子 256 在等待在 
+ [2019-06-18 22:20:29,345] INFO957470[Thread-555] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,345] INFO957470[Thread-555] - lab6.monkey.run(monkey.java:153) - 906 秒过去出生后
+ [2019-06-18 22:20:29,345] INFO957470[Thread-557] - lab6.monkey.run(monkey.java:144) - 猴子 258 在等待在 
+ [2019-06-18 22:20:29,345] INFO957470[Thread-557] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:29,345] INFO957470[Thread-557] - lab6.monkey.run(monkey.java:153) - 906 秒过去出生后
+ [2019-06-18 22:20:29,345] INFO957470[Thread-481] - lab6.monkey.run(monkey.java:144) - 猴子 182 在等待在 
+ [2019-06-18 22:20:29,345] INFO957470[Thread-481] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:29,345] INFO957470[Thread-481] - lab6.monkey.run(monkey.java:153) - 916 秒过去出生后
+ [2019-06-18 22:20:29,345] INFO957470[Thread-373] - lab6.monkey.run(monkey.java:144) - 猴子 74 在等待在 
+ [2019-06-18 22:20:29,345] INFO957470[Thread-373] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:29,345] INFO957470[Thread-373] - lab6.monkey.run(monkey.java:153) - 936 秒过去出生后
+ [2019-06-18 22:20:29,345] INFO957470[Thread-515] - lab6.monkey.run(monkey.java:144) - 猴子 216 在等待在 
+ [2019-06-18 22:20:29,345] INFO957470[Thread-515] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,345] INFO957470[Thread-515] - lab6.monkey.run(monkey.java:153) - 911 秒过去出生后
+ [2019-06-18 22:20:29,345] INFO957470[Thread-511] - lab6.monkey.run(monkey.java:144) - 猴子 212 在等待在 
+ [2019-06-18 22:20:29,345] INFO957470[Thread-511] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:29,345] INFO957470[Thread-511] - lab6.monkey.run(monkey.java:153) - 911 秒过去出生后
+ [2019-06-18 22:20:29,345] INFO957470[Thread-487] - lab6.monkey.run(monkey.java:144) - 猴子 188 在等待在 
+ [2019-06-18 22:20:29,345] INFO957470[Thread-487] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:29,345] INFO957470[Thread-487] - lab6.monkey.run(monkey.java:153) - 916 秒过去出生后
+ [2019-06-18 22:20:29,345] INFO957470[Thread-507] - lab6.monkey.run(monkey.java:144) - 猴子 208 在等待在 
+ [2019-06-18 22:20:29,345] INFO957470[Thread-507] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:29,345] INFO957470[Thread-507] - lab6.monkey.run(monkey.java:153) - 916 秒过去出生后
+ [2019-06-18 22:20:29,345] INFO957470[Thread-525] - lab6.monkey.run(monkey.java:144) - 猴子 226 在等待在 
+ [2019-06-18 22:20:29,345] INFO957470[Thread-525] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,345] INFO957470[Thread-525] - lab6.monkey.run(monkey.java:153) - 911 秒过去出生后
+ [2019-06-18 22:20:29,345] INFO957470[Thread-493] - lab6.monkey.run(monkey.java:144) - 猴子 194 在等待在 
+ [2019-06-18 22:20:29,345] INFO957470[Thread-493] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,345] INFO957470[Thread-493] - lab6.monkey.run(monkey.java:153) - 916 秒过去出生后
+ [2019-06-18 22:20:29,345] INFO957470[Thread-393] - lab6.monkey.run(monkey.java:144) - 猴子 94 在等待在 
+ [2019-06-18 22:20:29,345] INFO957470[Thread-393] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,345] INFO957470[Thread-393] - lab6.monkey.run(monkey.java:153) - 931 秒过去出生后
+ [2019-06-18 22:20:29,345] INFO957470[Thread-433] - lab6.monkey.run(monkey.java:144) - 猴子 134 在等待在 
+ [2019-06-18 22:20:29,345] INFO957470[Thread-433] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,345] INFO957470[Thread-433] - lab6.monkey.run(monkey.java:153) - 926 秒过去出生后
+ [2019-06-18 22:20:29,345] INFO957470[Thread-599] - lab6.monkey.run(monkey.java:144) - 猴子 300 在等待在 
+ [2019-06-18 22:20:29,345] INFO957470[Thread-599] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,345] INFO957470[Thread-599] - lab6.monkey.run(monkey.java:153) - 902 秒过去出生后
+ [2019-06-18 22:20:29,345] INFO957470[Thread-387] - lab6.monkey.run(monkey.java:144) - 猴子 88 在等待在 
+ [2019-06-18 22:20:29,345] INFO957470[Thread-387] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:29,345] INFO957470[Thread-387] - lab6.monkey.run(monkey.java:153) - 936 秒过去出生后
+ [2019-06-18 22:20:29,345] INFO957470[Thread-351] - lab6.monkey.run(monkey.java:144) - 猴子 52 在等待在 
+ [2019-06-18 22:20:29,345] INFO957470[Thread-351] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,345] INFO957470[Thread-351] - lab6.monkey.run(monkey.java:153) - 941 秒过去出生后
+ [2019-06-18 22:20:29,345] INFO957470[Thread-449] - lab6.monkey.run(monkey.java:144) - 猴子 150 在等待在 
+ [2019-06-18 22:20:29,345] INFO957470[Thread-449] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:29,345] INFO957470[Thread-449] - lab6.monkey.run(monkey.java:153) - 926 秒过去出生后
+ [2019-06-18 22:20:29,345] INFO957470[Thread-539] - lab6.monkey.run(monkey.java:144) - 猴子 240 在等待在 
+ [2019-06-18 22:20:29,345] INFO957470[Thread-539] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,345] INFO957470[Thread-539] - lab6.monkey.run(monkey.java:153) - 911 秒过去出生后
+ [2019-06-18 22:20:29,345] INFO957470[Thread-309] - lab6.monkey.run(monkey.java:144) - 猴子 10 在等待在 
+ [2019-06-18 22:20:29,345] INFO957470[Thread-309] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,345] INFO957470[Thread-309] - lab6.monkey.run(monkey.java:153) - 946 秒过去出生后
+ [2019-06-18 22:20:29,345] INFO957470[Thread-455] - lab6.monkey.run(monkey.java:144) - 猴子 156 在等待在 
+ [2019-06-18 22:20:29,345] INFO957470[Thread-455] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:29,345] INFO957470[Thread-455] - lab6.monkey.run(monkey.java:153) - 921 秒过去出生后
+ [2019-06-18 22:20:29,345] INFO957470[Thread-503] - lab6.monkey.run(monkey.java:144) - 猴子 204 在等待在 
+ [2019-06-18 22:20:29,345] INFO957470[Thread-503] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:29,345] INFO957470[Thread-503] - lab6.monkey.run(monkey.java:153) - 916 秒过去出生后
+ [2019-06-18 22:20:29,345] INFO957470[Thread-357] - lab6.monkey.run(monkey.java:144) - 猴子 58 在等待在 
+ [2019-06-18 22:20:29,345] INFO957470[Thread-357] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:29,345] INFO957470[Thread-357] - lab6.monkey.run(monkey.java:153) - 941 秒过去出生后
+ [2019-06-18 22:20:29,345] INFO957470[Thread-417] - lab6.monkey.run(monkey.java:144) - 猴子 118 在等待在 
+ [2019-06-18 22:20:29,345] INFO957470[Thread-417] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,345] INFO957470[Thread-417] - lab6.monkey.run(monkey.java:153) - 931 秒过去出生后
+ [2019-06-18 22:20:29,345] INFO957470[Thread-385] - lab6.monkey.run(monkey.java:144) - 猴子 86 在等待在 
+ [2019-06-18 22:20:29,345] INFO957470[Thread-385] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:29,345] INFO957470[Thread-385] - lab6.monkey.run(monkey.java:153) - 936 秒过去出生后
+ [2019-06-18 22:20:29,345] INFO957470[Thread-311] - lab6.monkey.run(monkey.java:144) - 猴子 12 在等待在 
+ [2019-06-18 22:20:29,345] INFO957470[Thread-311] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,345] INFO957470[Thread-311] - lab6.monkey.run(monkey.java:153) - 946 秒过去出生后
+ [2019-06-18 22:20:29,345] INFO957470[Thread-377] - lab6.monkey.run(monkey.java:144) - 猴子 78 在等待在 
+ [2019-06-18 22:20:29,345] INFO957470[Thread-377] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,345] INFO957470[Thread-377] - lab6.monkey.run(monkey.java:153) - 936 秒过去出生后
+ [2019-06-18 22:20:29,345] INFO957470[Thread-374] - lab6.monkey.run(monkey.java:144) - 猴子 75 在等待在 
+ [2019-06-18 22:20:29,345] INFO957470[Thread-374] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:29,345] INFO957470[Thread-374] - lab6.monkey.run(monkey.java:153) - 936 秒过去出生后
+ [2019-06-18 22:20:29,345] INFO957470[Thread-310] - lab6.monkey.run(monkey.java:144) - 猴子 11 在等待在 
+ [2019-06-18 22:20:29,345] INFO957470[Thread-310] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:29,345] INFO957470[Thread-310] - lab6.monkey.run(monkey.java:153) - 946 秒过去出生后
+ [2019-06-18 22:20:29,345] INFO957470[Thread-440] - lab6.monkey.run(monkey.java:144) - 猴子 141 在等待在 
+ [2019-06-18 22:20:29,345] INFO957470[Thread-440] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,345] INFO957470[Thread-440] - lab6.monkey.run(monkey.java:153) - 926 秒过去出生后
+ [2019-06-18 22:20:29,345] INFO957470[Thread-318] - lab6.monkey.run(monkey.java:144) - 猴子 19 在等待在 
+ [2019-06-18 22:20:29,345] INFO957470[Thread-318] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,345] INFO957470[Thread-318] - lab6.monkey.run(monkey.java:153) - 946 秒过去出生后
+ [2019-06-18 22:20:29,345] INFO957470[Thread-450] - lab6.monkey.run(monkey.java:144) - 猴子 151 在等待在 
+ [2019-06-18 22:20:29,345] INFO957470[Thread-450] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:29,345] INFO957470[Thread-450] - lab6.monkey.run(monkey.java:153) - 921 秒过去出生后
+ [2019-06-18 22:20:29,345] INFO957470[Thread-570] - lab6.monkey.run(monkey.java:144) - 猴子 271 在等待在 
+ [2019-06-18 22:20:29,345] INFO957470[Thread-570] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,345] INFO957470[Thread-570] - lab6.monkey.run(monkey.java:153) - 902 秒过去出生后
+ [2019-06-18 22:20:29,345] INFO957470[Thread-524] - lab6.monkey.run(monkey.java:144) - 猴子 225 在等待在 
+ [2019-06-18 22:20:29,345] INFO957470[Thread-524] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,345] INFO957470[Thread-524] - lab6.monkey.run(monkey.java:153) - 911 秒过去出生后
+ [2019-06-18 22:20:29,345] INFO957470[Thread-446] - lab6.monkey.run(monkey.java:144) - 猴子 147 在等待在 
+ [2019-06-18 22:20:29,345] INFO957470[Thread-446] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,345] INFO957470[Thread-446] - lab6.monkey.run(monkey.java:153) - 926 秒过去出生后
+ [2019-06-18 22:20:29,345] INFO957470[Thread-344] - lab6.monkey.run(monkey.java:144) - 猴子 45 在等待在 
+ [2019-06-18 22:20:29,345] INFO957470[Thread-344] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:29,345] INFO957470[Thread-344] - lab6.monkey.run(monkey.java:153) - 941 秒过去出生后
+ [2019-06-18 22:20:29,345] INFO957470[Thread-530] - lab6.monkey.run(monkey.java:144) - 猴子 231 在等待在 
+ [2019-06-18 22:20:29,345] INFO957470[Thread-530] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,345] INFO957470[Thread-530] - lab6.monkey.run(monkey.java:153) - 911 秒过去出生后
+ [2019-06-18 22:20:29,361] INFO957486[Thread-451] - lab6.monkey.run(monkey.java:144) - 猴子 152 在等待在 
+ [2019-06-18 22:20:29,361] INFO957486[Thread-451] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,361] INFO957486[Thread-451] - lab6.monkey.run(monkey.java:153) - 921 秒过去出生后
+ [2019-06-18 22:20:29,361] INFO957486[Thread-362] - lab6.monkey.run(monkey.java:144) - 猴子 63 在等待在 
+ [2019-06-18 22:20:29,361] INFO957486[Thread-362] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,361] INFO957486[Thread-362] - lab6.monkey.run(monkey.java:153) - 936 秒过去出生后
+ [2019-06-18 22:20:29,361] INFO957486[Thread-320] - lab6.monkey.run(monkey.java:144) - 猴子 21 在等待在 
+ [2019-06-18 22:20:29,361] INFO957486[Thread-320] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,361] INFO957486[Thread-320] - lab6.monkey.run(monkey.java:153) - 946 秒过去出生后
+ [2019-06-18 22:20:29,361] INFO957486[Thread-402] - lab6.monkey.run(monkey.java:144) - 猴子 103 在等待在 
+ [2019-06-18 22:20:29,361] INFO957486[Thread-402] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,361] INFO957486[Thread-402] - lab6.monkey.run(monkey.java:153) - 931 秒过去出生后
+ [2019-06-18 22:20:29,361] INFO957486[Thread-420] - lab6.monkey.run(monkey.java:144) - 猴子 121 在等待在 
+ [2019-06-18 22:20:29,361] INFO957486[Thread-420] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:29,361] INFO957486[Thread-420] - lab6.monkey.run(monkey.java:153) - 926 秒过去出生后
+ [2019-06-18 22:20:29,361] INFO957486[Thread-510] - lab6.monkey.run(monkey.java:144) - 猴子 211 在等待在 
+ [2019-06-18 22:20:29,361] INFO957486[Thread-510] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,361] INFO957486[Thread-510] - lab6.monkey.run(monkey.java:153) - 911 秒过去出生后
+ [2019-06-18 22:20:29,361] INFO957486[Thread-324] - lab6.monkey.run(monkey.java:144) - 猴子 25 在等待在 
+ [2019-06-18 22:20:29,361] INFO957486[Thread-324] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:29,361] INFO957486[Thread-324] - lab6.monkey.run(monkey.java:153) - 946 秒过去出生后
+ [2019-06-18 22:20:29,361] INFO957486[Thread-552] - lab6.monkey.run(monkey.java:144) - 猴子 253 在等待在 
+ [2019-06-18 22:20:29,361] INFO957486[Thread-552] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:29,361] INFO957486[Thread-552] - lab6.monkey.run(monkey.java:153) - 906 秒过去出生后
+ [2019-06-18 22:20:29,361] INFO957486[Thread-485] - lab6.monkey.run(monkey.java:144) - 猴子 186 在等待在 
+ [2019-06-18 22:20:29,361] INFO957486[Thread-485] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,361] INFO957486[Thread-485] - lab6.monkey.run(monkey.java:153) - 916 秒过去出生后
+ [2019-06-18 22:20:29,361] INFO957486[Thread-397] - lab6.monkey.run(monkey.java:144) - 猴子 98 在等待在 
+ [2019-06-18 22:20:29,361] INFO957486[Thread-397] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,361] INFO957486[Thread-397] - lab6.monkey.run(monkey.java:153) - 931 秒过去出生后
+ [2019-06-18 22:20:29,361] INFO957486[Thread-583] - lab6.monkey.run(monkey.java:144) - 猴子 284 在等待在 
+ [2019-06-18 22:20:29,361] INFO957486[Thread-583] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,361] INFO957486[Thread-583] - lab6.monkey.run(monkey.java:153) - 902 秒过去出生后
+ [2019-06-18 22:20:29,361] INFO957486[Thread-355] - lab6.monkey.run(monkey.java:144) - 猴子 56 在等待在 
+ [2019-06-18 22:20:29,361] INFO957486[Thread-355] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,361] INFO957486[Thread-355] - lab6.monkey.run(monkey.java:153) - 941 秒过去出生后
+ [2019-06-18 22:20:29,361] INFO957486[Thread-521] - lab6.monkey.run(monkey.java:144) - 猴子 222 在等待在 
+ [2019-06-18 22:20:29,361] INFO957486[Thread-521] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,361] INFO957486[Thread-521] - lab6.monkey.run(monkey.java:153) - 911 秒过去出生后
+ [2019-06-18 22:20:29,361] INFO957486[Thread-421] - lab6.monkey.run(monkey.java:144) - 猴子 122 在等待在 
+ [2019-06-18 22:20:29,361] INFO957486[Thread-421] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,361] INFO957486[Thread-421] - lab6.monkey.run(monkey.java:153) - 926 秒过去出生后
+ [2019-06-18 22:20:29,361] INFO957486[Thread-321] - lab6.monkey.run(monkey.java:144) - 猴子 22 在等待在 
+ [2019-06-18 22:20:29,361] INFO957486[Thread-321] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:29,361] INFO957486[Thread-321] - lab6.monkey.run(monkey.java:153) - 946 秒过去出生后
+ [2019-06-18 22:20:29,361] INFO957486[Thread-430] - lab6.monkey.run(monkey.java:144) - 猴子 131 在等待在 
+ [2019-06-18 22:20:29,361] INFO957486[Thread-430] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,361] INFO957486[Thread-430] - lab6.monkey.run(monkey.java:153) - 926 秒过去出生后
+ [2019-06-18 22:20:29,361] INFO957486[Thread-569] - lab6.monkey.run(monkey.java:144) - 猴子 270 在等待在 
+ [2019-06-18 22:20:29,361] INFO957486[Thread-569] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:29,361] INFO957486[Thread-569] - lab6.monkey.run(monkey.java:153) - 906 秒过去出生后
+ [2019-06-18 22:20:29,361] INFO957486[Thread-531] - lab6.monkey.run(monkey.java:144) - 猴子 232 在等待在 
+ [2019-06-18 22:20:29,361] INFO957486[Thread-531] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,361] INFO957486[Thread-531] - lab6.monkey.run(monkey.java:153) - 911 秒过去出生后
+ [2019-06-18 22:20:29,423] INFO957548[Thread-588] - lab6.monkey.run(monkey.java:144) - 猴子 289 在等待在 
+ [2019-06-18 22:20:29,423] INFO957548[Thread-588] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,423] INFO957548[Thread-588] - lab6.monkey.run(monkey.java:153) - 902 秒过去出生后
+ [2019-06-18 22:20:29,423] INFO957548[Thread-474] - lab6.monkey.run(monkey.java:144) - 猴子 175 在等待在 
+ [2019-06-18 22:20:29,423] INFO957548[Thread-474] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,423] INFO957548[Thread-474] - lab6.monkey.run(monkey.java:153) - 921 秒过去出生后
+ [2019-06-18 22:20:29,423] INFO957548[Thread-346] - lab6.monkey.run(monkey.java:144) - 猴子 47 在等待在 
+ [2019-06-18 22:20:29,423] INFO957548[Thread-346] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:29,423] INFO957548[Thread-346] - lab6.monkey.run(monkey.java:153) - 941 秒过去出生后
+ [2019-06-18 22:20:29,423] INFO957548[Thread-502] - lab6.monkey.run(monkey.java:144) - 猴子 203 在等待在 
+ [2019-06-18 22:20:29,423] INFO957548[Thread-502] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,423] INFO957548[Thread-502] - lab6.monkey.run(monkey.java:153) - 916 秒过去出生后
+ [2019-06-18 22:20:29,423] INFO957548[Thread-484] - lab6.monkey.run(monkey.java:144) - 猴子 185 在等待在 
+ [2019-06-18 22:20:29,423] INFO957548[Thread-484] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,423] INFO957548[Thread-484] - lab6.monkey.run(monkey.java:153) - 916 秒过去出生后
+ [2019-06-18 22:20:29,423] INFO957548[Thread-514] - lab6.monkey.run(monkey.java:144) - 猴子 215 在等待在 
+ [2019-06-18 22:20:29,423] INFO957548[Thread-514] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:29,423] INFO957548[Thread-514] - lab6.monkey.run(monkey.java:153) - 911 秒过去出生后
+ [2019-06-18 22:20:29,423] INFO957548[Thread-308] - lab6.monkey.run(monkey.java:144) - 猴子 9 在等待在 
+ [2019-06-18 22:20:29,423] INFO957548[Thread-308] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:29,423] INFO957548[Thread-308] - lab6.monkey.run(monkey.java:153) - 946 秒过去出生后
+ [2019-06-18 22:20:29,423] INFO957548[Thread-586] - lab6.monkey.run(monkey.java:144) - 猴子 287 在等待在 
+ [2019-06-18 22:20:29,423] INFO957548[Thread-586] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:29,423] INFO957548[Thread-586] - lab6.monkey.run(monkey.java:153) - 902 秒过去出生后
+ [2019-06-18 22:20:29,423] INFO957548[Thread-328] - lab6.monkey.run(monkey.java:144) - 猴子 29 在等待在 
+ [2019-06-18 22:20:29,423] INFO957548[Thread-328] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,423] INFO957548[Thread-328] - lab6.monkey.run(monkey.java:153) - 946 秒过去出生后
+ [2019-06-18 22:20:29,423] INFO957548[Thread-388] - lab6.monkey.run(monkey.java:144) - 猴子 89 在等待在 
+ [2019-06-18 22:20:29,423] INFO957548[Thread-388] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:29,423] INFO957548[Thread-388] - lab6.monkey.run(monkey.java:153) - 936 秒过去出生后
+ [2019-06-18 22:20:29,423] INFO957548[Thread-322] - lab6.monkey.run(monkey.java:144) - 猴子 23 在等待在 
+ [2019-06-18 22:20:29,423] INFO957548[Thread-322] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,423] INFO957548[Thread-322] - lab6.monkey.run(monkey.java:153) - 946 秒过去出生后
+ [2019-06-18 22:20:29,423] INFO957548[Thread-427] - lab6.monkey.run(monkey.java:144) - 猴子 128 在等待在 
+ [2019-06-18 22:20:29,423] INFO957548[Thread-427] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:29,423] INFO957548[Thread-427] - lab6.monkey.run(monkey.java:153) - 927 秒过去出生后
+ [2019-06-18 22:20:29,423] INFO957548[Thread-529] - lab6.monkey.run(monkey.java:144) - 猴子 230 在等待在 
+ [2019-06-18 22:20:29,423] INFO957548[Thread-529] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,423] INFO957548[Thread-529] - lab6.monkey.run(monkey.java:153) - 911 秒过去出生后
+ [2019-06-18 22:20:29,423] INFO957548[Thread-463] - lab6.monkey.run(monkey.java:144) - 猴子 164 在等待在 
+ [2019-06-18 22:20:29,423] INFO957548[Thread-463] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:29,423] INFO957548[Thread-463] - lab6.monkey.run(monkey.java:153) - 921 秒过去出生后
+ [2019-06-18 22:20:29,423] INFO957548[Thread-553] - lab6.monkey.run(monkey.java:144) - 猴子 254 在等待在 
+ [2019-06-18 22:20:29,423] INFO957548[Thread-553] - lab6.monkey.run(monkey.java:146) - 左边
+ [2019-06-18 22:20:29,423] INFO957548[Thread-553] - lab6.monkey.run(monkey.java:153) - 906 秒过去出生后
+ [2019-06-18 22:20:29,454] INFO957579[Thread-360] - lab6.monkey.run(monkey.java:144) - 猴子 61 在等待在 
+ [2019-06-18 22:20:29,454] INFO957579[Thread-360] - lab6.monkey.run(monkey.java:148) - 右边
+ [2019-06-18 22:20:29,454] INFO957579[Thread-360] - lab6.monkey.run(monkey.java:153) - 936 秒过去出生后
+ 

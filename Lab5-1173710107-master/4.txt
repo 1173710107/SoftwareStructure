@@ -1,0 +1,5 @@
+Java HotSpot(TM) Client VM (25.201-b09) for windows-x86 JRE (1.8.0_201-b09), built on Dec 16 2018 00:13:48 by "java_re" with MS VC++ 10.0 (VS2010)
+Memory: 4k page, physical 3376960k(1173092k free), swap 6752244k(2985608k free)
+CommandLine flags: -XX:InitialHeapSize=16777216 -XX:MaxHeapSize=268435456 -XX:+PrintGC -XX:+PrintGCTimeStamps -XX:-UseLargePagesIndividualAllocation 
+0.292: [GC (Allocation Failure)  4416K->1606K(15872K), 0.2238031 secs]
+6.089: [GC (Allocation Failure)  6022K->2908K(15872K), 0.0129736 secs]
